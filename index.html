@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuaderno de Química - 2º Bachillerato</title>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <style>
+        /* --- ESTILOS GENERALES Y LAYOUT --- */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            color: #2c3e50;
+            background-color: #f0f4f8;
+            overflow: hidden; 
+        }
+
+        .pagina-completa {
+            display: flex;
+            flex-direction: column;
+            height: 100vh; 
+        }
+
+        /* --- ZONA SUPERIOR: EL MENÚ --- */
+        .zona-menu {
+            flex: 0 0 auto; 
+            background-color: #ffffff; 
+            padding: 15px 3%; 
+            border-bottom: 1px solid #d1d8e0;
+            z-index: 1000; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            margin: 0 0 12px 0; 
+            text-align: center;
+            font-size: 24px; 
+            color: #34495e;
+        }
+
+        /* FILA SUPERIOR: BOTONES DE TEMAS */
+        .fila-temas {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .btn-tema {
+            flex: 0 0 auto;
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: 1px solid #73899f;
+            background-color: #73899f;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s ease;
+        }
+
+        .btn-tema:hover:not(:disabled) {
+            background-color: #34495e;
+            border-color: #1a252f;
+        }
+
+        .btn-tema.activo {
+            background-color: #3498db;
+            color: #ffffff;
+            border-color: #2980b9;
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+        }
+
+        /* ESTILO PARA BOTÓN DESHABILITADO */
+        .btn-tema:disabled {
+            background-color: #e2e8f0;
+            border-color: #cbd5e1;
+            color: #94a3b8;
+            cursor: not-allowed;
+            opacity: 0.7;
+            box-shadow: none;
+        }
+
+        /* FILA INFERIOR: SECCIONES Y BOTONES DE IMPRESIÓN */
+        .fila-controles-tema {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 15px;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px dashed #d1d8e0;
+            overflow-x: auto;
+        }
+
+        .contenedor-secciones-wrapper {
+            display: flex;
+            gap: 8px;
+            flex: 1 1 auto;
+            overflow-x: auto;
+        }
+
+        .contenedor-impresion-wrapper {
+            display: flex;
+            gap: 8px;
+            flex: 0 0 auto;
+        }
+
+        .menu-desplegable {
+            flex: 0 0 auto;
+            width: auto; 
+            padding: 8px 12px; 
+            border-radius: 8px;
+            border: 1px solid #ced4da;
+            font-size: 14px; 
+            font-weight: 600;
+            color: #495057;
+            background-color: #f8f9fa;
+            cursor: pointer;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .menu-desplegable:hover {
+            border-color: #3498db;
+            background-color: #ffffff;
+        }
+
+        .menu-desplegable.menu-activo {
+            background-color: #e8f4fc;
+            color: #2980b9;
+            border-color: #3498db;
+        }
+
+        /* --- ZONA INFERIOR --- */
+        .zona-lectura {
+            flex: 1 1 auto; 
+            overflow-y: auto; 
+            padding: 10px 5%; 
+            background-color: #f1f3f5; 
+        }
+
+        #caja-visor {
+            background: #ffffff;
+            padding: 50px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-top: 6px solid #3498db; 
+            min-height: 80%; 
+        }
+
+        #mensaje-inicial {
+            text-align: center;
+            color: #95a5a6;
+            font-size: 20px; 
+            margin-top: 50px;
+        }
+
+        #contenido-problema { display: none; }
+        #titulo-visor { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 15px; margin-top: 0; }
+        #texto-visor { font-size: 20px; line-height: 1.8; margin-top: 25px; } 
+        
+        .controles-solucion { display: flex; justify-content: center; margin-top: 40px; }
+        #btn-solucion { display: none; padding: 15px 35px; background-color: #27ae60; color: white; border: none; border-radius: 6px; font-size: 18px; cursor: pointer; font-weight: bold; transition: 0.2s; }
+        #btn-solucion:hover { filter: brightness(1.1); }
+        
+        #caja-solucion { display: none; margin-top: 35px; padding: 30px; background-color: #fdfdfd; border: 1px solid #e9ecef; border-left: 6px solid #27ae60; color: #2c3e50; font-size: 19px; line-height: 1.8; }
+        
+        #caja-solucion .paso {
+            display: none; 
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            animation: aparecer 0.4s ease-out;
+        }
+
+        #caja-solucion .paso.visible { display: block; }
+
+        @keyframes aparecer {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .btn-imprimir {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #27ae60;
+            background-color: #2ecc71;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 13px;
+            white-space: nowrap;
+            transition: 0.2s;
+        }
+
+        .btn-imprimir:hover { background-color: #27ae60; }
+
+        .btn-imprimir.btn-soluciones {
+            border-color: #2980b9;
+            background-color: #3498db;
+        }
+
+        .btn-imprimir.btn-soluciones:hover { background-color: #2980b9; }
+    </style>
+</head>
+<body>
+
+    <div class="pagina-completa">
+        <header class="zona-menu">
+            <h1 id="titulo-encabezado">👨‍🏫 Cuaderno de Química - 2º Bachillerato</h1>
+            
+            <!-- Fila Superior: Botones de cada tema -->
+            <div class="fila-temas" id="contenedor-botones-temas"></div>
+
+            <!-- Fila Inferior: Secciones del tema activo + Botones de impresión -->
+            <div class="fila-controles-tema" id="fila-controles" style="display: none;">
+                <div class="contenedor-secciones-wrapper" id="contenedor-secciones"></div>
+                <div class="contenedor-impresion-wrapper">
+                    <button class="btn-imprimir" onclick="imprimirProblemas(false)">🖨️ Imprimir Enunciados</button>
+                    <button class="btn-imprimir btn-soluciones" onclick="imprimirProblemas(true)">📄 Imprimir Enunciados + Solución</button>            
+                </div>
+            </div>
+        </header>
+
+        <main class="zona-lectura">
+            <div id="caja-visor">
+                <div id="mensaje-inicial"><p>Selecciona un tema y una sección para comenzar.</p></div>
+                <div id="contenido-problema">
+                    <h2 id="titulo-visor"></h2>
+                    <div id="texto-visor"></div>
+                    <div class="controles-solucion">
+                        <button id="btn-solucion" onclick="toggleSolucion()">Ver Solución</button>
+                        <button id="btn-siguiente-paso" onclick="revelarSiguientePaso()" style="display: none; padding: 15px 35px; background-color: #3498db; color: white; border: none; border-radius: 6px; font-size: 18px; cursor: pointer; font-weight: bold; transition: 0.2s; margin-left: 15px;">Siguiente Paso ⬇️</button>
+                    </div>
+                    <div id="caja-solucion"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts de Temas -->
+    <script src="datos/tema1_estructura.js"></script>
+    <script src="datos/tema2_enlace.js"></script>
+    <script src="datos/tema3_organica.js"></script>
+    <script src="datos/tema4_termoquimica.js"></script>
+    <script src="datos/tema5_cinetica.js"></script>
+    <script src="datos/tema6_equilibrio.js"></script>
+    <script src="datos/tema7_acido_base.js"></script>
+    <script src="datos/tema8_redox.js"></script>
+    
+
+    <!-- Módulo independiente de impresión -->
+    <script src="print.js"></script>
+
+    <script>
+        let temaActualKey = "";
+
+        function ajustarAnchoSoloTitulo(select) {
+            const textoTitulo = select.options[0].text;
+            const font = window.getComputedStyle(select).font;
+            const canvas = document.createElement("canvas");
+            const context = canvas.getContext("2d");
+            context.font = font;
+            const width = context.measureText(textoTitulo).width;
+            select.style.width = (width + 45) + "px";
+        }
+
+        function inicializarTemas() {
+            if (typeof baseDatosTemas === 'undefined' || Object.keys(baseDatosTemas).length === 0) return;
+
+            const contenedorBotones = document.getElementById('contenedor-botones-temas');
+            contenedorBotones.innerHTML = "";
+
+            let primerTemaHabilitadoKey = null;
+
+            // Generar un botón por cada tema en baseDatosTemas
+            for (const key in baseDatosTemas) {
+                const temaObj = baseDatosTemas[key];
+                const btn = document.createElement('button');
+                btn.className = 'btn-tema';
+                btn.id = `btn-tema-${key}`;
+                
+                // Si está marcado como deshabilitado
+                if (temaObj.deshabilitado === true) {
+                    btn.disabled = true;
+                    btn.innerText = `${temaObj.titulo}`;
+                    btn.title = "Este tema aún no tiene problemas disponibles.";
+                } else {
+                    btn.innerText = temaObj.titulo;
+                    btn.onclick = () => cambiarTema(key);
+
+                    // Guardamos la clave del primer tema que esté habilitado
+                    if (!primerTemaHabilitadoKey) {
+                        primerTemaHabilitadoKey = key;
+                    }
+                }
+
+                contenedorBotones.appendChild(btn);
+            }
+
+            // Cargar automáticamente el primer tema que NO esté deshabilitado
+            if (primerTemaHabilitadoKey) {
+                cambiarTema(primerTemaHabilitadoKey);
+            }
+        }
+
+        function cambiarTema(keyTema) {
+            temaActualKey = keyTema;
+            const temaObj = baseDatosTemas[keyTema];
+
+            // Si por alguna razón intenta cargarse un tema deshabilitado, abortamos
+            if (temaObj.deshabilitado === true) return;
+
+            // Resaltar el botón del tema seleccionado
+            document.querySelectorAll('.btn-tema').forEach(btn => btn.classList.remove('activo'));
+            const btnActivo = document.getElementById(`btn-tema-${keyTema}`);
+            if (btnActivo) btnActivo.classList.add('activo');
+            
+            document.getElementById('titulo-encabezado').innerText = `👨‍🏫 ${temaObj.titulo}`;
+            
+            // Mostrar la fila inferior de controles
+            document.getElementById('fila-controles').style.display = 'flex';
+
+            // Ocultar pantalla de problemas al cambiar de tema
+            document.getElementById('contenido-problema').style.display = 'none';
+            document.getElementById('mensaje-inicial').style.display = 'block';
+
+            const contenedorSecciones = document.getElementById('contenedor-secciones');
+            contenedorSecciones.innerHTML = "";
+
+            // Generar menús desplegables para las secciones del tema activo
+            for (const secKey in temaObj.secciones) {
+                const seccion = temaObj.secciones[secKey];
+
+                const selectMenu = document.createElement('select');
+                selectMenu.className = 'menu-desplegable';
+                selectMenu.id = `menu-${secKey}`;
+
+                const optHead = document.createElement('option');
+                optHead.value = "";
+                optHead.disabled = true;
+                optHead.selected = true;
+                optHead.text = seccion.nombre;
+                selectMenu.appendChild(optHead);
+
+                seccion.problemas.forEach((prob, index) => {
+                    const opcion = document.createElement('option');
+                    opcion.value = index;
+                    opcion.text = `${index + 1}. ${prob.titulo}`;
+                    selectMenu.appendChild(opcion);
+                });
+
+                selectMenu.addEventListener('change', function() {
+                    if (this.value !== "") {
+                        const prob = seccion.problemas[this.value];
+                        const tituloConNumero = `${parseInt(this.value) + 1}. ${prob.titulo}`;
+                        mostrarEnunciado(tituloConNumero, prob.enunciado, prob.solucion);
+                        
+                        this.selectedIndex = 0; 
+                        document.querySelectorAll('.menu-desplegable').forEach(m => m.classList.remove('menu-activo'));
+                        this.classList.add('menu-activo');
+                    }
+                });
+
+                contenedorSecciones.appendChild(selectMenu);
+                ajustarAnchoSoloTitulo(selectMenu);
+            }
+        }
+
+        function mostrarEnunciado(titulo, texto, solucionHTML) {
+            document.getElementById('mensaje-inicial').style.display = 'none';
+            document.getElementById('contenido-problema').style.display = 'block';
+            document.getElementById('caja-solucion').style.display = 'none';
+            
+            const btnSiguiente = document.getElementById('btn-siguiente-paso');
+            if(btnSiguiente) btnSiguiente.style.display = 'none';
+
+            document.getElementById('titulo-visor').innerText = titulo;
+            document.getElementById('texto-visor').innerHTML = texto;
+            
+            const btn = document.getElementById('btn-solucion');
+            if (solucionHTML) {
+                document.getElementById('caja-solucion').innerHTML = solucionHTML;
+                btn.style.display = 'inline-block';
+                btn.innerText = 'Ver Solución';
+            } else {
+                btn.style.display = 'none';
+            }
+            
+            MathJax.typesetPromise();
+            document.querySelector('.zona-lectura').scrollTop = 0;
+        }
+
+        function toggleSolucion() {
+            const caja = document.getElementById('caja-solucion');
+            const btn = document.getElementById('btn-solucion');
+            const btnSiguiente = document.getElementById('btn-siguiente-paso');
+
+            if (caja.style.display === 'none') {
+                caja.style.display = 'block';
+                btn.innerText = 'Ocultar Solución';
+                btnSiguiente.style.display = 'inline-block';
+                btnSiguiente.innerText = "Mostrar primer paso ⬇️";
+                btnSiguiente.disabled = false;
+                btnSiguiente.style.backgroundColor = "#3498db";
+                btnSiguiente.style.cursor = "pointer";
+                document.querySelectorAll('#caja-solucion .paso').forEach(p => p.classList.remove('visible'));
+                MathJax.typesetPromise();
+            } else {
+                caja.style.display = 'none';
+                btn.innerText = 'Ver Solución';
+                btnSiguiente.style.display = 'none';
+            }
+        }
+
+        function revelarSiguientePaso() {
+            const contenedor = document.getElementById('caja-solucion');
+            const boton = document.getElementById('btn-siguiente-paso');
+            const siguientePaso = contenedor.querySelector('.paso:not(.visible)');
+            if (siguientePaso) {
+                siguientePaso.classList.add('visible'); 
+                boton.innerText = "Siguiente paso ⬇️";
+                const pasosRestantes = contenedor.querySelector('.paso:not(.visible)');
+                if (!pasosRestantes) {
+                    boton.innerText = "¡Solución completada!";
+                    boton.disabled = true;
+                    boton.style.backgroundColor = "#95a5a6";
+                    boton.style.cursor = "default";
+                }
+            }
+        }
+
+        window.onload = inicializarTemas;
+    </script>
+</body>
+</html>

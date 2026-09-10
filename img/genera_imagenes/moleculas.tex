@@ -1,0 +1,211 @@
+\documentclass{article}
+\usepackage{chemfig}
+\usepackage{mhchem}
+\usepackage{tikz}
+\usepackage[active,tightpage]{preview}
+\setlength\PreviewBorder{3pt}
+
+% --- NUEVO: Exportar nombres a un archivo auxiliar ---
+\newwrite\svgnames
+\immediate\openout\svgnames=\jobname.names
+\newcommand{\svgname}[1]{\immediate\write\svgnames{#1}}
+% -----------------------------------------------------
+
+\begin{document}
+
+Enlace ionico
+
+1. Ciclo de Born-Haber para el CaCl2
+
+\svgname{Born_Haber_CaCl2}
+\begin{preview} 
+\begin{tikzpicture}[thick, scale=0.6]
+
+\node at (0,0) {Ca (s)};
+\node at (1.5,0) {+};
+\node at (3,0) {\ce{Cl2 (g)}};
+\node at (7.25,0) {$\ce{CaCl2 (s)}$};
+\draw[->, >=latex] (4.25,0) -- (6,0);
+
+\node at (0,-2) {Ca (g)};
+\node at (2.5,-2) {2 Cl (g)};
+\draw[->, >=latex] (0.25,-0.5) -- (0.25,-1.5);
+\draw[->, >=latex] (3,-0.5) -- (3,-1.5);
+
+\node at (0,-4) {\ce{Ca^{+2} (g)}};
+\node at (1.5,-4) {+};
+\node at (3,-4) {\ce{2 Cl- (g)}};
+\draw[->, >=latex] (0.25,-2.5) -- (0.25,-3.5);
+\draw[->, >=latex] (3,-2.5) -- (3,-3.5);
+
+\draw[->, >=latex] (4,-3.8) -- (6.75,-0.5);
+
+\node at (-0.6,-1) {\ce{$\Delta$H_S}};
+\node at (2,-1) {\ce{$\Delta$H_D}};
+\node at (-1.75,-2.75) {\ce{$\Delta$H_{1 EI + 2 EI}}};
+\node at (2,-2.75) {\ce{2*AE}};
+\node at (6,-2.5) {\ce{U_R}};
+\node at (5,0.5) {\ce{$\Delta$H^0_f}};
+
+
+\end{tikzpicture}
+\end{preview} 
+
+Junio 2005 - Ciclo de Born-Haber del NaF
+
+\svgname{Born_Haber_NaF} 
+\begin{preview}
+\begin{tikzpicture}[thick, scale=0.6]
+
+\node at (0,0) {Na (s)};
+\node at (1.5,0) {+};
+\node at (3,0) {\ce{1/2 \; F2 (g)}};
+\node at (7,0) {$\ce{NaF (s)}$};
+\draw[->, >=latex] (4.25,0) -- (6,0);
+
+\node at (0,-2) {Na (g)};
+\node at (2.5,-2) {F (g)};
+\draw[->, >=latex] (0.25,-0.5) -- (0.25,-1.5);
+\draw[->, >=latex] (3,-0.5) -- (3,-1.5);
+
+\node at (0,-4) {\ce{Na+ (g)}};
+\node at (1.5,-4) {+};
+\node at (3,-4) {\ce{F- (g)}};
+\draw[->, >=latex] (0.25,-2.5) -- (0.25,-3.5);
+\draw[->, >=latex] (3,-2.5) -- (3,-3.5);
+
+\draw[->, >=latex] (4,-3.8) -- (6.75,-0.5);
+
+\node at (-0.25,-1) {1};
+\node at (2.4,-1) {2};
+\node at (-0.25,-2.75) {3};
+\node at (2.4,-2.75) {4};
+\node at (5,-2) {5};
+\node at (5,0.5) {6};
+
+
+\end{tikzpicture}
+\end{preview} 
+
+Junio 2014
+
+\svgname{junio14_lewis_OF2} 
+\begin{preview}
+\chemfig{[,0.6] \charge{90=\:,270=\:}{O}(-[:180]\charge{90=\:,180=\:,270=\:}{F})(-[:0]\charge{0=\:,90=\:,270=\:}{F})} 
+\end{preview} 
+
+\svgname{junio14_lewis_CO}
+\begin{preview} 
+\chemfig{[,0.6] \charge{180=\:}{C} ~ \charge{0=\:}{O}} 
+\end{preview}
+
+\svgname{junio14_lewis_CH3OH}
+\begin{preview} 
+\chemfig{[,0.6] C(-[:270]H)(-[:180]H)(-[:90]H)(-[:0]\charge{90=\:,270=\:}{O}-H)} 
+\end{preview}
+
+Julio 2019 
+
+\svgname{julio19_lewis_BF3}
+\begin{preview} 
+\chemfig{[,0.6] \charge{90=\:,180=\:,270=\:}{F} - B (-[:90]\charge{0=\:,90=\:,180=\:}{F}) - \charge{0=\:,90=\:,270=\:}{F}} 
+\end{preview}
+
+\svgname{julio19_lewis_CH3Cl} 
+\begin{preview} 
+\chemfig{[,0.6] C(-[:270]H)(-[:180]H)(-[:90]H)(-[:0]\charge{0=\:,90=\:,270=\:}{Cl})} 
+\end{preview}
+
+Julio 2021
+
+\svgname{julio21_lewis_NCl3}
+\begin{preview} 
+\chemfig{[,0.6] \charge{270=\:}{N}(-[:180]\charge{90=\:,180=\:,270=\:}{Cl})(-[:90]\charge{0=\:,90=\:,180=\:}{Cl})(-[:0]\charge{0=\:,90=\:,270=\:}{Cl})} 
+\end{preview} 
+
+
+\svgname{julio21_lewis_AlCl3}
+\begin{preview} 
+\chemfig{[,0.6] Al(-[:180]\charge{90=\:,180=\:,270=\:}{Cl})(-[:90]\charge{0=\:,90=\:,180=\:}{Cl})(-[:0]\charge{0=\:,90=\:,270=\:}{Cl})} 
+\end{preview} 
+
+Julio 2022
+
+\svgname{julio22_lewis_Cl2}
+\begin{preview} 
+\chemfig{[,0.6] \charge{90=\:,180=\:,270=\:}{Cl} - \charge{0=\:,90=\:,270=\:}{Cl}}
+\end{preview} 
+
+\svgname{julio22_lewis_HBr}
+\begin{preview} 
+\hspace{2cm} \chemfig{[,0.6] H (-[:0]\charge{0=\:,90=\:,270=\:}{Br})}
+\end{preview} 
+
+Julio 2023
+
+\svgname{julio23_lewis_NH3}
+\begin{preview} 
+\chemfig{[,0.8] \charge{90=\|}{N}(-[:225]{H})(<[:305]{H})(<:[:15]{H})} 
+\end{preview}
+
+\svgname{julio23_lewis_SH2}
+\begin{preview} 
+\chemfig{[,0.6] \charge{135=\|,45=\|}{S} (-[:225]{H}) (-[:305]{H})} 
+\end{preview}
+
+Junio 2024
+
+\svgname{junio24_lewis_PF3}
+\begin{preview} 
+\chemfig{[,0.6] \charge{90=\|}{P}(-[:180]\charge{90=\|,180=\|,270=\|}{F})(-[:0]\charge{90=\|,0=\|,270=\|}{F})(-[:-90]\charge{0=\|,180=\|,270=\|}{F})} 
+\end{preview} 
+
+\svgname{junio24_lewis_OCS}
+\begin{preview} 
+\chemfig{[,0.6] {C} (=[:0]\charge{45=\|,315=\|}{S}) (=[:180]\charge{135=\|,225=\|}{O})} 
+\end{preview} 
+
+\svgname{junio24_lewis_PF3_2}
+\begin{preview} 
+\chemfig{[,0.8] \charge{90=\|}{P}(-[:215]{F})(<[:295]{F})(<:[:-15]{F})} 
+\end{preview} 
+
+\svgname{junio24_lewis_OCS_2} 
+\begin{preview} 
+\chemfig{[,0.6] {C} (=[:0]{S}) (=[:180]{O})} 
+\end{preview}
+
+Julio 2024
+
+\svgname{julio24_lewis_PF3_3}
+\begin{preview} 
+\chemfig{[,0.8] \charge{90=\|}{P}(-[:215]{F})(<[:295]{F})(<:[:-15]{F})} 
+\end{preview}
+
+\svgname{julio24_lewis_BCl3}
+\begin{preview} 
+\chemfig{[,0.8] B(-[:90]{Cl})(<[:225]{Cl})(<:[:315]{Cl})} 
+\end{preview} 
+
+Junio 2025 
+
+Julio 2025 
+
+Septiembre 2017
+\svgname{septiembre17_lewis_BF3}
+\begin{preview} 
+\chemfig{[,0.6] B(-[:270]\charge{0=\:,180=\:,270=\:}{F})(-[:180]\charge{90=\:,180=\:,270=\:}{F})(-[:0]\charge{0=\:,90=\:,270=\:}{F})} 
+\end{preview} 
+
+\svgname{septiembre17_lewis_PF3}
+\begin{preview} 
+\chemfig{[,0.6] \charge{90=\:}{P}(-[:270]\charge{0=\:,180=\:,270=\:}{F})(-[:180]\charge{90=\:,180=\:,270=\:}{F})(-[:0]\charge{0=\:,90=\:,270=\:}{F})}
+\end{preview} 
+
+\svgname{septiembre17_lewis_CF4}
+\begin{preview} 
+\chemfig{[,0.6] C(-[:270]\charge{0=\:,180=\:,270=\:}{F})(-[:180]\charge{90=\:,180=\:,270=\:}{F})(-[:90]\charge{0=\:,90=\:,180=\:}{F})(-[:0]\charge{0=\:,90=\:,270=\:}{F})}
+\end{preview} 
+
+
+\end{document}
