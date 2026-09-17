@@ -45,7 +45,7 @@ baseDatosTemas["tema1"] = {
                 Por lo tanto, el trabajo de extracción es:<br>
                 \\[ W_0 = 6,63 \\cdot 10^{-19} - 1,2 \\cdot 10^{-19} \\approx 5,43 \\cdot 10^{-19} \\, \\text{J} \\]<br>
                 El trabajo de extracción en eV será:
-                \\[ 5,43 \\cdot 10^{-19} \\text{J} \\cdot \\dfrac {\\ce{1 eV}}{\\ce{1,6 \\cdot 10^{-19}} \\text{J} } \\approx 3,39 \\, \\ce{eV} \\]<br>
+                \\[ 5,43 \\cdot 10^{-19} \\text{J} \\cdot \\dfrac {\\ce{1 eV}}{\\ce{1,6 \\cdot 10^{-19}} \\text{J} } \\approx 3,39 \\, \\text{eV} \\]<br>
 
                 </div>
                 <div class='paso'>
