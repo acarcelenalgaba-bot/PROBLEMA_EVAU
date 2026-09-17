@@ -38,18 +38,20 @@ baseDatosTemas["tema1"] = {
                     solucion: `
                 <div class='paso'>
                 <strong>a) Trabajo de extracción:</strong><br>
-                El trabajo de extracción se calcula como la ecuación de Einstein del efecto fotoeléctrico: \\( W_0 = E_{cinética} + hf \\), donde \\( hf \\) es la energía del fotón incidente. <br>
+                El trabajo de extracción se calcula como la ecuación de Einstein del efecto fotoeléctrico: \\( W_0 = hf - E_{cinética} \\), donde \\( hf \\) es la energía del fotón incidente. <br>
 
-                La energía del fotón incidente se calcula mediante la relación \\( E = \\frac{hc}{\\lambda} \\):<br>
+                La energía del fotón incidente se calcula mediante la relación \\( E = \\dfrac{hc}{\\lambda} \\):<br>
                 \\[ E_{fotón} = \\frac{6,63 \\cdot 10^{-34} \\, \\text{J·s} \\cdot 3,0 \\cdot 10^8 \\, \\text{m/s}}{300 \\cdot 10^{-9} \\, \\text{m}} \\approx 6,63 \\cdot 10^{-19} \\, \\text{J} \\]<br>
                 Por lo tanto, el trabajo de extracción es:<br>
-                \\[ W_0 = 6,63 \\cdot 10^{-19} + 1,2 \\cdot 10^{-19} \\approx 7,83 \\cdot 10^{-19} \\, \\text{J} \\]<br>
+                \\[ W_0 = 6,63 \\cdot 10^{-19} - 1,2 \\cdot 10^{-19} \\approx 5,43 \\cdot 10^{-19} \\, \\text{J} \\]<br>
+                El trabajo de extracción en eV será:
+                \\[ 5,43 \\cdot 10^{-19} \\text{J} \\cdot \\dfrac {\\ce{1 eV}}{\\ce{1,6 \\cdot 10^{-19}} \\text{J} } \\approx 3,39 \\, \\ce{eV} \\]<br>
 
                 </div>
                 <div class='paso'>
                     <strong>b) Frecuencia umbral:</strong><br>
                     La frecuencia umbral se calcula a partir de la ecuación \\( W_0 = hf_0 \\), donde \\( f_0 \\) es la frecuencia umbral.    <br>
-                    \\[ f_0 = \\frac{W_0}{h} = \\frac{7,83 \\cdot 10^{-19}}{6,63 \\cdot 10^{-34}} \\approx 1,18 \\cdot 10^{15} \\, \\text{Hz} \\]
+                    \\[ f_0 = \\frac{W_0}{h} = \\frac{5,43 \\cdot 10^{-19}}{6,63 \\cdot 10^{-34}} \\approx 8,19 \\cdot 10^{14} \\, \\text{Hz} \\]
                 </div>
                 
             `
