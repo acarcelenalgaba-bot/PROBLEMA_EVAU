@@ -5,14 +5,14 @@ if (typeof baseDatosTemas === 'undefined') {
 baseDatosTemas["tema2"] = {
     id: "tema2",
     titulo: "Tema 2: Enlace Químico",
-    deshabilitado: true,
+    deshabilitado: false,
     secciones: {
         "enlace_ionico": {
             nombre: "Enlace iónico",
             problemas: [
                 {
                     titulo: "Ciclo de Born-Haber para el CaCl₂",
-                    enunciado: "Haz un esquema del ciclo de Born-Haber para el \\(\\ce{CaCl2}\\) y calcula \\(\\Delta H^0_f\\) por mol del \\(\\ce{CaCl2 (s)}\\) utilizando los valores de las energías de los procesos:<br><br>- sublimación del calcio: \\(+178,2 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- disociación de la molécula de cloro: \\(+243,2 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- 1ª energía de ionización del calcio: \\(+590 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- 2ª energía de ionización del calcio: \\(+1145 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- afinidad electrónica del cloro: \\(-348,0 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- energía de red del \\(\\ce{CaCl2}\\): \\(-2223 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)",
+                    enunciado: "Haz un esquema del ciclo de Born-Haber para el cloruro de calcio y calcula \\(\\Delta H^0_f\\) por mol del cloruro de calcio utilizando los valores de las energías de los procesos:<br><br>- sublimación del calcio: \\(+178,2 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- disociación de la molécula de cloro: \\(+243,2 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- 1ª energía de ionización del calcio: \\(+590 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- 2ª energía de ionización del calcio: \\(+1145 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- afinidad electrónica del cloro: \\(-348,0 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- energía de red del \\(\\ce{CaCl2}\\): \\(-2223 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)",
                     solucion: `
                         < div class= 'paso' >
 
@@ -257,7 +257,7 @@ baseDatosTemas["tema2"] = {
             problemas: [
                 {
                     titulo: "Junio 2014",
-                    enunciado: "Con los datos recogidos en la tabla adjunta conteste razonadamente a las siguientes preguntas:<br> <table border='1' style='border-collapse: collapse; text-align: center; margin: 10px auto; width: 80%;'><tr><th>Sustancia</th><th>H<sub>2</sub>O</th><th>HF</th><th>HCl</th><th>Cl<sub>2</sub></th></tr><tr><td><strong>T. ebullición (°C)</strong></td><td>100</td><td>20</td><td>-85</td><td>-34</td></tr></table> a) ¿Por qué la temperatura de ebullición normal de HF es mayor que la del HCl?<br> b) ¿Por qué la temperatura de ebullición normal de H<sub>2</sub>O es mayor que la del Cl<sub>2</sub>?<br> c) ¿Por qué la temperatura de ebullición normal de HCl es menor que la del Cl<sub>2</sub>?<br> d) ¿Cuál de las sustancias de la tabla presentará menor punto de fusión?",
+                    enunciado: "Con los datos recogidos en la tabla adjunta conteste razonadamente a las siguientes preguntas:<br><table border='1' style='border-collapse: collapse; text-align: center; margin: 10px auto; width: fit-content;'><tr><th style='padding: 6px 12px;'>Sustancia</th><th style='padding: 6px 12px;'>H<sub>2</sub>O</th> <th style='padding: 6px 12px;'>HF</th> <th style='padding: 6px 12px;'>HCl</th> <th style='padding: 6px 12px;'>Cl<sub>2</sub></th> </tr> <tr> <td style='padding: 6px 12px;'><strong>T. ebullición (°C)</strong></td> <td style='padding: 6px 12px;'>100</td><td style='padding: 6px 12px;'>20</td><td style='padding: 6px 12px;'>-85</td><td style='padding: 6px 12px;'>-34</td></tr> </table>a) ¿Por qué la temperatura de ebullición normal de HF es mayor que la del HCl?<br> b) ¿Por qué la temperatura de ebullición normal de H<sub>2</sub>O es mayor que la del Cl<sub>2</sub>?<br> c) ¿Por qué la temperatura de ebullición normal de HCl es menor que la del Cl<sub>2</sub>?<br> d) ¿Cuál de las sustancias de la tabla presentará menor punto de fusión?",
                     solucion: `
                     <div class='paso'>a) El HF tiene mayor temperatura de ebullición que el HCl ya que las fuerzas intermoleculares son mayores al presentar enlace por puente de hidrógeno, que no está presente en HCl, que tiene fuerzas intermoleculares asociadas a ser una molécula polar.</div>
                     <div class='paso'>b) El H<sub>2</sub>O tiene mayor temperatura de ebullición que el Cl<sub>2</sub> ya que las fuerzas intermoleculares son mayores al presentar enlace por puente de hidrógeno, que no está presente en Cl<sub>2</sub>, que tiene fuerzas intermoleculares asociadas a ser una molécula apolar.</div>
