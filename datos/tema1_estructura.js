@@ -518,7 +518,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2017",
-                    enunciado: "Responda justificadamente las siguientes preguntas:b) Para cada uno de los elementos X (Z = 17), Y (Z = 19) y Z (Z = 35) indique cuál es su ion más estable y explique cuál de esos iones tiene menor radio.",
+                    enunciado: "Responda justificadamente las siguientes preguntas:<br>b) Para cada uno de los elementos X (Z = 17), Y (Z = 19) y Z (Z = 35) indique cuál es su ion más estable y explique cuál de esos iones tiene menor radio.",
                     solucion: `
                     <div class='paso'>
                         <strong>b) Iones más estables y radio:</strong><br>
