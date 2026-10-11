@@ -4,7 +4,7 @@ if (typeof baseDatosTemas === 'undefined') { var baseDatosTemas = {};
 baseDatosTemas["tema6"] = {
     id: "tema6",
     titulo: "Tema 6: Equilibrio Químico",
-    deshabilitado: true,
+    deshabilitado: false,
     secciones: {
         "equilibrio": {
             nombre: "1. Equilibrio Químico",

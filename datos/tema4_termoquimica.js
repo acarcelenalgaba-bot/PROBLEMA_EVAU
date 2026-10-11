@@ -4,7 +4,7 @@ if (typeof baseDatosTemas === 'undefined') { var baseDatosTemas = {};
 baseDatosTemas["tema4"] = {
     id: "tema4",
     titulo: "Tema 4: Termoquímica",
-    deshabilitado: true,
+    deshabilitado: false,
     secciones: {
         "primer_principio": {
             nombre: "1. Enthalpías y Ley de Hess",

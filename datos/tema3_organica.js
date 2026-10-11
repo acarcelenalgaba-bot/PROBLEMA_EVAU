@@ -2,9 +2,9 @@ if (typeof baseDatosTemas === 'undefined') {
     var baseDatosTemas = {};
 }
 
-baseDatosTemas["tema8"] = {
-    id: "tema8",
-    titulo: "Tema 8: Química Orgánica",
+baseDatosTemas["tema3"] = {
+    id: "tema3",
+    titulo: "Tema 3: Química Orgánica",
     deshabilitado: false,
     secciones: {
         "reacciones_organicas": {
