@@ -7,353 +7,6 @@ baseDatosTemas["tema3"] = {
     titulo: "Tema 3: Química Orgánica",
     deshabilitado: false,
     secciones: {
-        "reacciones_organicas": {
-            nombre: "Reacciones Orgánicas y Síntesis",
-            problemas: [
-                {
-                    titulo: "Junio 2019 - Reacciones Orgánicas I",
-                    enunciado: "Formule las reacciones propuestas, indicando de qué tipo son y nombrando los productos mayoritarios obtenidos:<br>a) 2-metilbut-2-eno + HBr →<br>b) Etanol + \\(\\ce{H2SO4}\\) / calor →<br>c) Butan-1-ol + HCl →<br>d) Ácido etanoico + Propan-1-ol →",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) 2-metilbut-2-eno + HBr:</strong><br>
-                            Reacción de <strong>adición electrófila</strong> al doble enlace. Sigue la regla de Markovnikov, adiccionando el protón al carbono del doble enlace con más hidrógenos (C3) y el bromo al más sustituido (C2):<br><br>
-                            \\[\\ce{CH3-C(CH3)=CH-CH3 + HBr -> CH3-C(Br)(CH3)-CH2-CH3}\\]<br>
-                            Producto mayoritario: <strong>2-bromo-2-metilbutano</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Etanol + \\(\\ce{H2SO4}\\) / calor:</strong><br>
-                            Reacción de <strong>eliminación (deshidratación intramolecular)</strong> catalizada por ácido:<br><br>
-                            \\[\\ce{CH3-CH2-OH ->[H2SO4, \\Delta] CH2=CH2 + H2O}\\]<br>
-                            Producto mayoritario: <strong>eteno</strong> (y agua).
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Butan-1-ol + HCl:</strong><br>
-                            Reacción de <strong>sustitución nucleófila</strong> del grupo hidroxilo por el halógeno:<br><br>
-                            \\[\\ce{CH3-CH2-CH2-CH2-OH + HCl -> CH3-CH2-CH2-CH2-Cl + H2O}\\]<br>
-                            Producto mayoritario: <strong>1-clorobutano</strong> (y agua).
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Ácido etanoico + Propan-1-ol:</strong><br>
-                            Reacción de <strong>esterificación (condensación/sustitución en acilo)</strong> catalizada por ácido:<br><br>
-                            \\[\\ce{CH3-COOH + CH3-CH2-CH2-OH <=> CH3-COO-CH2-CH2-CH3 + H2O}\\]<br>
-                            Producto mayoritario: <strong>etanoato de propilo</strong> (y agua).
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Junio 2019 - Reacciones Orgánicas II",
-                    enunciado: "Formule y nombre los productos mayoritarios de las siguientes reacciones. Indique el tipo de reacción en cada caso:<br>a) \\(\\ce{CH3-CHOH-CH2-CH3 + H2SO4/calor}\\)<br>b) \\(\\ce{CH3-CH2-OH + KMnO4 ->}\\)<br>c) \\(\\ce{CH3-CH=C(CH3)-CH2-CH2-CH3 + HCl ->}\\)<br>d) \\(\\ce{CH3-CH2-CO-CH3 + LiAlH4 \\text{ (reductor)} ->}\\)",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Deshidratación de butan-2-ol:</strong><br>
-                            Reacción de <strong>eliminación</strong>. Según la regla de Zaítsev, se abstrae preferentemente el hidrógeno del carbono adyacente menos hidrogenado (C3):<br><br>
-                            \\[\\ce{CH3-CHOH-CH2-CH3 ->[H2SO4, \\Delta] CH3-CH=CH-CH3 + H2O}\\]<br>
-                            Producto mayoritario: <strong>but-2-eno</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Oxidación de etanol:</strong><br>
-                            Reacción de <strong>oxidación</strong> con un oxidante fuerte (\\(\\ce{KMnO4}\\)), transformando el alcohol primario directamente en ácido carboxílico:<br><br>
-                            \\[\\ce{CH3-CH2-OH + KMnO4 -> CH3-COOH}\\]<br>
-                            Producto mayoritario: <strong>ácido etanoico</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Adición de HCl a 2-metilhex-2-eno:</strong><br>
-                            Reacción de <strong>adición electrófila</strong>. Aplicando la regla de Markovnikov, el \\(\\ce{H+}\\) se une a C2 (1 H) y el \\(\\ce{Cl-}\\) a C3 (0 H):<br><br>
-                            \\[\\ce{CH3-CH=C(CH3)-CH2-CH2-CH3 + HCl -> CH3-CH2-C(Cl)(CH3)-CH2-CH2-CH3}\\]<br>
-                            Producto mayoritario: <strong>3-cloro-3-metilhexano</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Reducción de butanona:</strong><br>
-                            Reacción de <strong>reducción</strong>. El hidruro de litio y aluminio reduce la cetona a un alcohol secundario:<br><br>
-                            \\[\\ce{CH3-CH2-CO-CH3 + LiAlH4 -> CH3-CH2-CHOH-CH3}\\]<br>
-                            Producto mayoritario: <strong>butan-2-ol</strong>.
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Julio 2019 - Reacciones Orgánicas III",
-                    enunciado: "Formule la reacción química, nombre todos los productos orgánicos e indique el tipo de reacción:<br>a) Ácido benzoico + etanol (en medio ácido) →<br>b) Propeno + HCl →<br>c) 3-Metilbutan-2-ol + \\(\\ce{H2SO4}\\) (caliente) →<br>d) 1-Bromobutano + NaOH →",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Ácido benzoico + etanol:</strong><br>
-                            Reacción de <strong>esterificación (condensación)</strong>:<br><br>
-                            \\[\\ce{C6H5-COOH + CH3-CH2-OH <=> C6H5-COO-CH2-CH3 + H2O}\\]<br>
-                            Producto orgánico: <strong>benzoato de etilo</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Propeno + HCl:</strong><br>
-                            Reacción de <strong>adición electrófila</strong> (Regla de Markovnikov):<br><br>
-                            \\[\\ce{CH3-CH=CH2 + HCl -> CH3-CH(Cl)-CH3}\\]<br>
-                            Producto orgánico: <strong>2-cloropropano</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Deshidratación de 3-metilbutan-2-ol:</strong><br>
-                            Reacción de <strong>eliminación</strong> (Regla de Zaítsev, produciendo el alqueno más sustituido):<br><br>
-                            \\[\\ce{CH3-CH(CH3)-CHOH-CH3 ->[H2SO4, \\Delta] CH3-C(CH3)=CH-CH3 + H2O}\\]<br>
-                            Producto orgánico mayoritario: <strong>2-metilbut-2-eno</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>d) 1-Bromobutano + NaOH:</strong><br>
-                            Reacción de <strong>sustitución nucleófila</strong>:<br><br>
-                            \\[\\ce{CH3-CH2-CH2-CH2-Br + NaOH -> CH3-CH2-CH2-CH2-OH + NaBr}\\]<br>
-                            Producto orgánico: <strong>butan-1-ol</strong>.
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Julio 2020 - Reacciones Orgánicas A.3",
-                    enunciado: "Formule las reacciones propuestas, indique de qué tipo son y nombre los productos orgánicos obtenidos:<br>a) But-2-eno + \\(\\ce{H2}\\)/catalizador →<br>b) Pentan-1-ol + \\(\\ce{KMnO4}\\) (oxidante fuerte) →<br>c) 2-clorobutano + hidróxido de sodio (medio acuoso) →<br>d) Ácido propanoico + metanol (medio ácido) →",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) But-2-eno + \\(\\ce{H2}\\)/catalizador:</strong><br>
-                            Reacción de <strong>adición (hidrogenación catalítica)</strong>:<br><br>
-                            \\[\\ce{CH3-CH=CH-CH3 + H2 ->[Ni/Pt] CH3-CH2-CH2-CH3}\\]<br>
-                            Producto orgánico: <strong>butano</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Pentan-1-ol + \\(\\ce{KMnO4}\\):</strong><br>
-                            Reacción de <strong>oxidación</strong> fuerte de alcohol primario a ácido carboxílico:<br><br>
-                            \\[\\ce{CH3-CH2-CH2-CH2-CH2-OH + KMnO4 -> CH3-CH2-CH2-CH2-COOH}\\]<br>
-                            Producto orgánico: <strong>ácido pentanoico</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) 2-clorobutano + NaOH(ac):</strong><br>
-                            Reacción de <strong>sustitución nucleófila</strong>:<br><br>
-                            \\[\\ce{CH3-CH(Cl)-CH2-CH3 + NaOH -> CH3-CH(OH)-CH2-CH3 + NaCl}\\]<br>
-                            Producto orgánico: <strong>butan-2-ol</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Ácido propanoico + metanol:</strong><br>
-                            Reacción de <strong>esterificación (condensación)</strong>:<br><br>
-                            \\[\\ce{CH3-CH2-COOH + CH3-OH <=> CH3-CH2-COO-CH3 + H2O}\\]<br>
-                            Producto orgánico: <strong>propanoato de metilo</strong>.
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Julio 2020 - Reacciones Orgánicas B.2",
-                    enunciado: "Formule y nombre los reactivos y todos los productos orgánicos de las siguientes reacciones:<br>a) Deshidratación de pentan-2-ol con ácido sulfúrico y calor.<br>b) Reducción de propanona.<br>c) \\(\\ce{CH3-CHOH-CH3 + CH3-COOH ->}\\)<br>d) \\(\\ce{CH3-CH=C(CH3)-CH2-CH3 + HCl ->}\\)",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Deshidratación de pentan-2-ol:</strong><br>
-                            Reacción de <strong>eliminación</strong>. Reactivo: pentan-2-ol (\\(\\ce{CH3-CHOH-CH2-CH2-CH3}\\)).<br>
-                            Sigue la regla de Zaítsev obteniéndose como producto mayoritario el <strong>pent-2-eno</strong> (\\(\\ce{CH3-CH=CH-CH2-CH3}\\)) y como minoritario el <strong>pent-1-eno</strong> (\\(\\ce{CH2=CH-CH2-CH2-CH3}\\)).
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Reducción de propanona:</strong><br>
-                            Reacción de <strong>reducción</strong>. Reactivo: propanona (\\(\\ce{CH3-CO-CH3}\\)).<br>
-                            Producto orgánico: <strong>propan-2-ol</strong> (\\(\\ce{CH3-CHOH-CH3}\\)).
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Esterificación de propan-2-ol con ácido etanoico:</strong><br>
-                            Reacción de <strong>esterificación</strong>. Reactivos: propan-2-ol y ácido etanoico (ácido acético).<br>
-                            Producto orgánico: <strong>etanoato de isopropilo</strong> (o etanoato de 1-metiletilo, \\(\\ce{CH3-COO-CH(CH3)2}\\)).
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Adición de HCl a 3-metilpent-2-eno:</strong><br>
-                            Reacción de <strong>adición electrófila</strong>. Reactivos: 3-metilpent-2-eno (\\(\\ce{CH3-CH=C(CH3)-CH2-CH3}\\)) y cloruro de hidrógeno (\\(\\ce{HCl}\\)).<br>
-                            Por regla de Markovnikov, el producto mayoritario es el <strong>3-cloro-3-metilpentano</strong> (\\(\\ce{CH3-CH2-C(Cl)(CH3)-CH2-CH3}\\)).
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Junio 2021 - Reacciones Orgánicas A.5 (b, c, d)",
-                    enunciado: "Formule la reacción, indique de qué tipo es, y nombre los compuestos orgánicos implicados:<br>b) propan-2-ol + \\(\\ce{H2SO4}\\)/calor →<br>c) pent-2-eno + \\(\\ce{H2O/H+} ->\\)<br>d) 3-metilpentan-1-ol + HBr →",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>b) Deshidratación de propan-2-ol:</strong><br>
-                            Reacción de <strong>eliminación</strong>:<br><br>
-                            \\[\\ce{CH3-CHOH-CH3 ->[H2SO4, \\Delta] CH3-CH=CH2 + H2O}\\]<br>
-                            Reactivo: propan-2-ol. Producto orgánico: <strong>propeno</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Hidratación de pent-2-eno:</strong><br>
-                            Reacción de <strong>adición electrófila</strong>:<br><br>
-                            \\[\\ce{CH3-CH=CH-CH2-CH3 + H2O ->[H+] CH3-CHOH-CH2-CH2-CH3 + CH3-CH2-CHOH-CH2-CH3}\\]<br>
-                            Reactivo: pent-2-eno. Productos orgánicos (en proporción similar por estabilidad iónica simétrica): <strong>pentan-2-ol</strong> y <strong>pentan-3-ol</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Bromación de 3-metilpentan-1-ol:</strong><br>
-                            Reacción de <strong>sustitución nucleófila</strong>:<br><br>
-                            \\[\\ce{CH3-CH2-CH(CH3)-CH2-CH2-OH + HBr -> CH3-CH2-CH(CH3)-CH2-CH2-Br + H2O}\\]<br>
-                            Reactivo: 3-metilpentan-1-ol. Producto orgánico: <strong>1-bromo-3-metilpentano</strong>.
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Junio 2022 - Reacciones Orgánicas Generales B.2",
-                    enunciado: "Complete y ajuste las siguientes reacciones, formule y nombre todos los compuestos orgánicos que intervienen e indique el tipo de reacción:<br>a) Propano + oxígeno →<br>b) Ácido butanoico + propan-1-amina →<br>c) n \\(\\ce{CH2=CH2}\\) + catalizador →<br>d) \\(\\ce{CH3-CHOH-CH3 + H2SO4 \\text{ (concentrado)} ->}\\)",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Combustión del propano:</strong><br>
-                            Reacción de <strong>combustión (oxidación total)</strong>:<br><br>
-                            \\[\\ce{C3H8 + 5 O2 -> 3 CO2 + 4 H2O}\\]<br>
-                            Reactivo orgánico: propano (\\(\\ce{CH3-CH2-CH3}\\)).
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Ácido propanoico + propan-1-amina:</strong><br>
-                            Reacción de <strong>condensación (amidación)</strong>:<br><br>
-                            \\[\\ce{CH3-CH2-CH2-COOH + CH3-CH2-CH2-NH2 -> CH3-CH2-CH2-CO-NH-CH2-CH2-CH3 + H2O}\\]<br>
-                            Reactivos: ácido butanoico y propan-1-amina. Producto orgánico: <strong>N-propilbutanamida</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Polimerización del eteno:</strong><br>
-                            Reacción de <strong>polimerización por adición</strong>:<br><br>
-                            \\[\\ce{n CH2=CH2 ->[cat] -[CH2-CH2]_n-}\\]<br>
-                            Reactivo: eteno (o etileno). Producto: <strong>polietileno</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Deshidratación del propan-2-ol:</strong><br>
-                            Reacción de <strong>eliminación</strong>:<br><br>
-                            \\[\\ce{CH3-CHOH-CH3 ->[H2SO4, \\Delta] CH3-CH=CH2 + H2O}\\]<br>
-                            Reactivo: propan-2-ol. Producto orgánico: <strong>propeno</strong>.
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Julio 2022 - Productos y Tipos de Reacciones B.2",
-                    enunciado: "Escriba todos los productos de las siguientes reacciones orgánicas, indique el tipo de reacción y nombre los compuestos orgánicos implicados:<br>a) \\(\\ce{CH3-CH2-CH2-CH2-Cl + NaOH ->}\\)<br>b) \\(\\ce{CH3-CHO + H2 ->}\\)<br>c) \\(\\ce{CH3-COOH + CH3-CH2-OH ->}\\)<br>d) \\(\\ce{CH3-C(OH)(CH3)-CH2-CH2-CH3 + H2SO4/calor ->}\\)",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) 1-clorobutano + NaOH:</strong><br>
-                            Reacción de <strong>sustitución nucleófila</strong>. Reactivo: 1-clorobutano. Productos: <strong>butan-1-ol</strong> (\\(\\ce{CH3-CH2-CH2-CH2-OH}\\)) y \\(\\ce{NaCl}\\).
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Hidrogenación de etanal:</strong><br>
-                            Reacción de <strong>reducción (o adición)</strong>. Reactivo: etanal. Producto orgánico: <strong>etanol</strong> (\\(\\ce{CH3-CH2-OH}\\)).
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Ácido etanoico + etanol:</strong><br>
-                            Reacción de <strong>esterificación (condensación)</strong>. Reactivos: ácido etanoico y etanol. Productos: <strong>etanoato de etilo</strong> (\\(\\ce{CH3-COO-CH2-CH3}\\)) y agua.
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Deshidratación de 2-metilpentan-2-ol:</strong><br>
-                            Reacción de <strong>eliminación</strong>. Reactivo: 2-metilpentan-2-ol.<br>
-                            Por regla de Zaítsev, los productos orgánicos son: mayoritario <strong>2-metilpent-2-eno</strong> (\\(\\ce{CH3-C(CH3)=CH-CH2-CH3}\\)), minoritario 2-metilpent-1-eno y agua.
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Junio 2023 - Deducción de Esquema Reaccional A.2",
-                    enunciado: "A, B, C, D y E son compuestos orgánicos que reaccionan de acuerdo a los siguientes procesos:<br>i) A + HBr → 2-bromopropano<br>ii) B + C → propanoato de etilo + agua<br>iii) D + oxidante → propanona<br>iv) E + \\(\\ce{H2SO4}\\) (concentrado) → but-2-eno<br>a) Escriba las fórmulas semidesarrolladas de los productos orgánicos de cada reacción.<br>b) Identifique, con sus fórmulas semidesarrolladas y su nombre, los compuestos A, B, C, D y E.<br>c) Indique de qué tipo es cada reacción.<br>d) Diga si en alguna de estas reacciones se puede obtener más de un producto.",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Productos orgánicos:</strong><br>
-                            - i) 2-bromopropano: \\(\\ce{CH3-CH(Br)-CH3}\\)<br>
-                            - ii) propanoato de etilo: \\(\\ce{CH3-CH2-COO-CH2-CH3}\\)<br>
-                            - iii) propanona: \\(\\ce{CH3-CO-CH3}\\)<br>
-                            - iv) but-2-eno: \\(\\ce{CH3-CH=CH-CH3}\\)
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Identificación de A, B, C, D y E:</strong><br>
-                            - <strong>A:</strong> propeno (\\(\\ce{CH3-CH=CH2}\\))<br>
-                            - <strong>B y C:</strong> ácido propanoico (\\(\\ce{CH3-CH2-COOH}\\)) y etanol (\\(\\ce{CH3-CH2-OH}\\))<br>
-                            - <strong>D:</strong> propan-2-ol (\\(\\ce{CH3-CHOH-CH3}\\))<br>
-                            - <strong>E:</strong> butan-2-ol (\\(\\ce{CH3-CHOH-CH2-CH3}\\))
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Tipo de reacción:</strong><br>
-                            - i) Adición electrófila.<br>
-                            - ii) Condensación / Esterificación.<br>
-                            - iii) Oxidación.<br>
-                            - iv) Eliminación (deshidratación).
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Formación de mezclas de productos:</strong><br>
-                            Sí, en la reacción iv) (deshidratación del butan-2-ol) se aplica la regla de Zaítsev, obteniéndose dos productos regioselectivos:<br>
-                            - Producto mayoritario: <strong>but-2-eno</strong> (\\(\\ce{CH3-CH=CH-CH3}\\))<br>
-                            - Producto minoritario: <strong>but-1-eno</strong> (\\(\\ce{CH2=CH-CH2-CH3}\\))<br>
-                            <em>(Nota: En la adición i) también se forma como minoritario el 1-bromopropano).</em>
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Julio 2023 - Reacciones con Reglas de Markovnikov y Zaítsev B.2",
-                    enunciado: "Formule los reactivos y el producto mayoritario de las siguientes reacciones. Indique el tipo de reacción, la regla que sigue si es el caso, y nombre los productos:<br>a) 3-metilpent-2-eno + HCl →<br>b) 3-metilpentan-2-ol + \\(\\ce{H2SO4}\\) (concentrado) →<br>c) Ácido pentanoico + etanol →",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Adición de HCl a 3-metilpent-2-eno:</strong><br>
-                            Reacción de <strong>adición electrófila</strong>. Sigue la <strong>regla de Markovnikov</strong> (el \\(\\ce{H+}\\) se adiciona al C2 que tiene 1 H, y el \\(\\ce{Cl-}\\) al C3 que no tiene ningún H):<br><br>
-                            \\[\\ce{CH3-CH=C(CH3)-CH2-CH3 + HCl -> CH3-CH2-C(Cl)(CH3)-CH2-CH3}\\]<br>
-                            Producto mayoritario: <strong>3-cloro-3-metilpentano</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Deshidratación de 3-metilpentan-2-ol:</strong><br>
-                            Reacción de <strong>eliminación</strong>. Sigue la <strong>regla de Zaítsev</strong> (se elimina el H del C3 por ser el carbono adyacente menos hidrogenado, dando el alqueno más sustituido):<br><br>
-                            \\[\\ce{CH3-CHOH-CH(CH3)-CH2-CH3 ->[H2SO4, \\Delta] CH3-CH=C(CH3)-CH2-CH3 + H2O}\\]<br>
-                            Producto mayoritario: <strong>3-metilpent-2-eno</strong> (y agua).
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Ácido pentanoico + etanol:</strong><br>
-                            Reacción de <strong>esterificación (condensación/sustitución en acilo)</strong>:<br><br>
-                            \\[\\ce{CH3-CH2-CH2-CH2-COOH + CH3-CH2-OH <=> CH3-(CH2)3-COO-CH2-CH3 + H2O}\\]<br>
-                            Producto orgánico: <strong>pentanoato de etilo</strong> (y agua).
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Julio 2024 - Secuencia de Reacciones Orgánicas A.2",
-                    enunciado: "Se lleva a cabo la siguiente secuencia de reacciones:<br>2-bromopropano + KOH/EtOH → A (alqueno); A + \\(\\ce{H2O/H+} ->\\) B; B + oxidante (\\(\\ce{Cr2O7^2-}\\))/\\(\\ce{H+} ->\\) C<br>a) Formule y nombre los compuestos orgánicos mayoritarios A, B y C, indique el tipo de reacción y la regla aplicable.<br>b) ¿Son isómeros B y C? ¿A podría presentar isomería geométrica? Justifique.<br>c) Formule y nombre la reacción en medio ácido: B + ácido etanoico →",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Identificación de la secuencia reaccional:</strong><br>
-                            - <strong>1ª reacción (Eliminación / deshidrohalogenación):</strong><br>
-                              \\(\\ce{CH3-CH(Br)-CH3 + KOH ->[EtOH] CH3-CH=CH2 + KBr + H2O}\\)<br>
-                              <strong>A:</strong> <strong>propeno</strong>.<br>
-                            - <strong>2ª reacción (Adición electrófila / hidratación):</strong><br>
-                              \\(\\ce{CH3-CH=CH2 + H2O ->[H+] CH3-CHOH-CH3}\\)<br>
-                              Sigue la <strong>regla de Markovnikov</strong> (el \\(\\ce{H+}\\) al C1 y el \\(\\ce{-OH}\\) al C2).<br>
-                              <strong>B:</strong> <strong>propan-2-ol</strong>.<br>
-                            - <strong>3ª reacción (Oxidación):</strong><br>
-                              \\(\\ce{CH3-CHOH-CH3 + Cr2O7^2-/H+ -> CH3-CO-CH3}\\)<br>
-                              <strong>C:</strong> <strong>propanona</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Isomería:</strong><br>
-                            - <strong>B y C:</strong> No son isómeros. B (propan-2-ol) tiene fórmula \\(\\ce{C3H8O}\\) y C (propanona) \\(\\ce{C3H6O}\\) (difieren en dos hidrógenos).<br>
-                            - <strong>A (propeno):</strong> No presenta isomería geométrica porque el C1 tiene dos átomos de H idénticos.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Reacción de B + ácido etanoico:</strong><br>
-                            Reacción de <strong>esterificación (condensación)</strong>:<br><br>
-                            \\[\\ce{CH3-COOH + CH3-CHOH-CH3 <=> CH3-COO-CH(CH3)2 + H2O}\\]<br>
-                            Reactivos: ácido etanoico y propan-2-ol. Productos: <strong>etanoato de isopropilo</strong> y agua.
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Julio 2025 - Reacciones Generales 3A",
-                    enunciado: "Complete las siguientes reacciones. Formule y nombre todos los compuestos orgánicos. Indique el tipo de reacción y, si procede, el producto mayoritario y la regla que sigue. Dibuje los posibles isómeros geométricos que se formen:<br>a) Metilbutano + \\(\\ce{O2}\\) →<br>b) Ácido propanoico + NaOH (ac) →<br>c) Metilpropeno + HBr →<br>d) Pentan-2-ol + \\(\\ce{H2SO4}\\)/calor →",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Combustión del metilbutano:</strong><br>
-                            Reacción de <strong>combustión (oxidación total)</strong>:<br><br>
-                            \\[\\ce{C5H12 + 8 O2 -> 5 CO2 + 6 H2O}\\]<br>
-                            Reactivo orgánico: metilbutano (\\(\\ce{CH3-CH(CH3)-CH2-CH3}\\)).
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Ácido propanoico + NaOH(ac):</strong><br>
-                            Reacción de <strong>neutralización (ácido-base)</strong>:<br><br>
-                            \\[\\ce{CH3-CH2-COOH + NaOH -> CH3-CH2-COONa + H2O}\\]<br>
-                            Reactivo: ácido propanoico. Producto orgánico: <strong>propanoato de sodio</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Metilpropeno + HBr:</strong><br>
-                            Reacción de <strong>adición electrófila</strong>. Sigue la <strong>regla de Markovnikov</strong>:<br><br>
-                            \\[\\ce{CH2=C(CH3)2 + HBr -> CH3-C(Br)(CH3)2}\\]<br>
-                            Producto mayoritario: <strong>2-bromo-2-metilpropano</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Deshidratación de pentan-2-ol:</strong><br>
-                            Reacción de <strong>eliminación</strong>. Sigue la <strong>regla de Zaítsev</strong>:<br><br>
-                            \\[\\ce{CH3-CHOH-CH2-CH2-CH3 ->[H2SO4, \\Delta] CH3-CH=CH-CH2-CH3 + H2O}\\]<br>
-                            Producto mayoritario: <strong>pent-2-eno</strong>.<br>
-                            Presenta isomería geométrica con dos estereoisómeros: <strong><em>cis</em>-pent-2-eno</strong> y <strong><em>trans</em>-pent-2-eno</strong>.
-                        </div>
-                    `
-                }
-            ]
-        },
         "formulacion_isomeria": {
             nombre: "Formulación, Nomenclatura e Isomería",
             problemas: [
@@ -749,6 +402,370 @@ baseDatosTemas["tema3"] = {
                 }
             ]
         },
+        "reacciones_organicas": {
+            nombre: "Reacciones Orgánicas y Síntesis",
+            problemas: [
+                {
+                    titulo: "Junio 2019 - Reacciones Orgánicas I",
+                    enunciado: "Formule las reacciones propuestas, indicando de qué tipo son y nombrando los productos mayoritarios obtenidos:<br>a) 2-metilbut-2-eno + HBr →<br>b) Etanol + \\(\\ce{H2SO4}\\) / calor →<br>c) Butan-1-ol + HCl →<br>d) Ácido etanoico + Propan-1-ol →",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) 2-metilbut-2-eno + HBr:</strong><br>
+                            Reacción de <strong>adición electrófila</strong> al doble enlace. Sigue la regla de Markovnikov, adiccionando el protón al carbono del doble enlace con más hidrógenos (C3) y el bromo al más sustituido (C2):<br><br>
+                            \\[\\ce{CH3-C(CH3)=CH-CH3 + HBr -> CH3-C(Br)(CH3)-CH2-CH3}\\]<br>
+                            Producto mayoritario: <strong>2-bromo-2-metilbutano</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Etanol + \\(\\ce{H2SO4}\\) / calor:</strong><br>
+                            Reacción de <strong>eliminación (deshidratación intramolecular)</strong> catalizada por ácido:<br><br>
+                            \\[\\ce{CH3-CH2-OH ->[H2SO4, \\Delta] CH2=CH2 + H2O}\\]<br>
+                            Producto mayoritario: <strong>eteno</strong> (y agua).
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Butan-1-ol + HCl:</strong><br>
+                            Reacción de <strong>sustitución nucleófila</strong> del grupo hidroxilo por el halógeno:<br><br>
+                            \\[\\ce{CH3-CH2-CH2-CH2-OH + HCl -> CH3-CH2-CH2-CH2-Cl + H2O}\\]<br>
+                            Producto mayoritario: <strong>1-clorobutano</strong> (y agua).
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Ácido etanoico + Propan-1-ol:</strong><br>
+                            Reacción de <strong>esterificación (condensación/sustitución en acilo)</strong> catalizada por ácido:<br><br>
+                            \\[\\ce{CH3-COOH + CH3-CH2-CH2-OH <=> CH3-COO-CH2-CH2-CH3 + H2O}\\]<br>
+                            Producto mayoritario: <strong>etanoato de propilo</strong> (y agua).
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2019 - Reacciones Orgánicas II",
+                    enunciado: "Formule y nombre los productos mayoritarios de las siguientes reacciones. Indique el tipo de reacción en cada caso:<br>a) \\(\\ce{CH3-CHOH-CH2-CH3 + H2SO4/calor}\\)<br>b) \\(\\ce{CH3-CH2-OH + KMnO4 ->}\\)<br>c) \\(\\ce{CH3-CH=C(CH3)-CH2-CH2-CH3 + HCl ->}\\)<br>d) \\(\\ce{CH3-CH2-CO-CH3 + LiAlH4 \\text{ (reductor)} ->}\\)",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Deshidratación de butan-2-ol:</strong><br>
+                            Reacción de <strong>eliminación</strong>. Según la regla de Zaítsev, se abstrae preferentemente el hidrógeno del carbono adyacente menos hidrogenado (C3):<br><br>
+                            \\[\\ce{CH3-CHOH-CH2-CH3 ->[H2SO4, \\Delta] CH3-CH=CH-CH3 + H2O}\\]<br>
+                            Producto mayoritario: <strong>but-2-eno</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Oxidación de etanol:</strong><br>
+                            Reacción de <strong>oxidación</strong> con un oxidante fuerte (\\(\\ce{KMnO4}\\)), transformando el alcohol primario directamente en ácido carboxílico:<br><br>
+                            \\[\\ce{CH3-CH2-OH + KMnO4 -> CH3-COOH}\\]<br>
+                            Producto mayoritario: <strong>ácido etanoico</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Adición de HCl a 2-metilhex-2-eno:</strong><br>
+                            Reacción de <strong>adición electrófila</strong>. Aplicando la regla de Markovnikov, el \\(\\ce{H+}\\) se une a C2 (1 H) y el \\(\\ce{Cl-}\\) a C3 (0 H):<br><br>
+                            \\[\\ce{CH3-CH=C(CH3)-CH2-CH2-CH3 + HCl -> CH3-CH2-C(Cl)(CH3)-CH2-CH2-CH3}\\]<br>
+                            Producto mayoritario: <strong>3-cloro-3-metilhexano</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Reducción de butanona:</strong><br>
+                            Reacción de <strong>reducción</strong>. El hidruro de litio y aluminio reduce la cetona a un alcohol secundario:<br><br>
+                            \\[\\ce{CH3-CH2-CO-CH3 + LiAlH4 -> CH3-CH2-CHOH-CH3}\\]<br>
+                            Producto mayoritario: <strong>butan-2-ol</strong>.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2019 - Reacciones Orgánicas III",
+                    enunciado: "Formule la reacción química, nombre todos los productos orgánicos e indique el tipo de reacción:<br>a) Ácido benzoico + etanol (en medio ácido) →<br>b) Propeno + HCl →<br>c) 3-Metilbutan-2-ol + \\(\\ce{H2SO4}\\) (caliente) →<br>d) 1-Bromobutano + NaOH →",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Ácido benzoico + etanol:</strong><br>
+                            Reacción de <strong>esterificación (condensación)</strong>:<br><br>
+                            \\[\\ce{C6H5-COOH + CH3-CH2-OH <=> C6H5-COO-CH2-CH3 + H2O}\\]<br>
+                            Producto orgánico: <strong>benzoato de etilo</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Propeno + HCl:</strong><br>
+                            Reacción de <strong>adición electrófila</strong> (Regla de Markovnikov):<br><br>
+                            \\[\\ce{CH3-CH=CH2 + HCl -> CH3-CH(Cl)-CH3}\\]<br>
+                            Producto orgánico: <strong>2-cloropropano</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Deshidratación de 3-metilbutan-2-ol:</strong><br>
+                            Reacción de <strong>eliminación</strong> (Regla de Zaítsev, produciendo el alqueno más sustituido):<br><br>
+                            \\[\\ce{CH3-CH(CH3)-CHOH-CH3 ->[H2SO4, \\Delta] CH3-C(CH3)=CH-CH3 + H2O}\\]<br>
+                            Producto orgánico mayoritario: <strong>2-metilbut-2-eno</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>d) 1-Bromobutano + NaOH:</strong><br>
+                            Reacción de <strong>sustitución nucleófila</strong>:<br><br>
+                            \\[\\ce{CH3-CH2-CH2-CH2-Br + NaOH -> CH3-CH2-CH2-CH2-OH + NaBr}\\]<br>
+                            Producto orgánico: <strong>butan-1-ol</strong>.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2020 - Reacciones Orgánicas A.3",
+                    enunciado: "Formule las reacciones propuestas, indique de qué tipo son y nombre los productos orgánicos obtenidos:<br>a) But-2-eno + \\(\\ce{H2}\\)/catalizador →<br>b) Pentan-1-ol + \\(\\ce{KMnO4}\\) (oxidante fuerte) →<br>c) 2-clorobutano + hidróxido de sodio (medio acuoso) →<br>d) Ácido propanoico + metanol (medio ácido) →",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) But-2-eno + \\(\\ce{H2}\\)/catalizador:</strong><br>
+                            Reacción de <strong>adición (hidrogenación catalítica)</strong>:<br><br>
+                            \\[\\ce{CH3-CH=CH-CH3 + H2 ->[Ni/Pt] CH3-CH2-CH2-CH3}\\]<br>
+                            Producto orgánico: <strong>butano</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Pentan-1-ol + \\(\\ce{KMnO4}\\):</strong><br>
+                            Reacción de <strong>oxidación</strong> fuerte de alcohol primario a ácido carboxílico:<br><br>
+                            \\[\\ce{CH3-CH2-CH2-CH2-CH2-OH + KMnO4 -> CH3-CH2-CH2-CH2-COOH}\\]<br>
+                            Producto orgánico: <strong>ácido pentanoico</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) 2-clorobutano + NaOH(ac):</strong><br>
+                            Reacción de <strong>sustitución nucleófila</strong>:<br><br>
+                            \\[\\ce{CH3-CH(Cl)-CH2-CH3 + NaOH -> CH3-CH(OH)-CH2-CH3 + NaCl}\\]<br>
+                            Producto orgánico: <strong>butan-2-ol</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Ácido propanoico + metanol:</strong><br>
+                            Reacción de <strong>esterificación (condensación)</strong>:<br><br>
+                            \\[\\ce{CH3-CH2-COOH + CH3-OH <=> CH3-CH2-COO-CH3 + H2O}\\]<br>
+                            Producto orgánico: <strong>propanoato de metilo</strong>.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2020 - Reacciones Orgánicas B.2",
+                    enunciado: "Formule y nombre los reactivos y todos los productos orgánicos de las siguientes reacciones:<br>a) Deshidratación de pentan-2-ol con ácido sulfúrico y calor.<br>b) Reducción de propanona.<br>c) \\(\\ce{CH3-CHOH-CH3 + CH3-COOH ->}\\)<br>d) \\(\\ce{CH3-CH=C(CH3)-CH2-CH3 + HCl ->}\\)",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Deshidratación de pentan-2-ol:</strong><br>
+                            Reacción de <strong>eliminación</strong>. Reactivo: pentan-2-ol (\\(\\ce{CH3-CHOH-CH2-CH2-CH3}\\)).<br>
+                            Sigue la regla de Zaítsev obteniéndose como producto mayoritario el <strong>pent-2-eno</strong> (\\(\\ce{CH3-CH=CH-CH2-CH3}\\)) y como minoritario el <strong>pent-1-eno</strong> (\\(\\ce{CH2=CH-CH2-CH2-CH3}\\)).
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Reducción de propanona:</strong><br>
+                            Reacción de <strong>reducción</strong>. Reactivo: propanona (\\(\\ce{CH3-CO-CH3}\\)).<br>
+                            Producto orgánico: <strong>propan-2-ol</strong> (\\(\\ce{CH3-CHOH-CH3}\\)).
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Esterificación de propan-2-ol con ácido etanoico:</strong><br>
+                            Reacción de <strong>esterificación</strong>. Reactivos: propan-2-ol y ácido etanoico (ácido acético).<br>
+                            Producto orgánico: <strong>etanoato de isopropilo</strong> (o etanoato de 1-metiletilo, \\(\\ce{CH3-COO-CH(CH3)2}\\)).
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Adición de HCl a 3-metilpent-2-eno:</strong><br>
+                            Reacción de <strong>adición electrófila</strong>. Reactivos: 3-metilpent-2-eno (\\(\\ce{CH3-CH=C(CH3)-CH2-CH3}\\)) y cloruro de hidrógeno (\\(\\ce{HCl}\\)).<br>
+                            Por regla de Markovnikov, el producto mayoritario es el <strong>3-cloro-3-metilpentano</strong> (\\(\\ce{CH3-CH2-C(Cl)(CH3)-CH2-CH3}\\)).
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2021 - Reacciones Orgánicas A.5 (b, c, d)",
+                    enunciado: "Formule la reacción, indique de qué tipo es, y nombre los compuestos orgánicos implicados:<br>b) propan-2-ol + \\(\\ce{H2SO4}\\)/calor →<br>c) pent-2-eno + \\(\\ce{H2O/H+} ->\\)<br>d) 3-metilpentan-1-ol + HBr →",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>b) Deshidratación de propan-2-ol:</strong><br>
+                            Reacción de <strong>eliminación</strong>:<br><br>
+                            \\[\\ce{CH3-CHOH-CH3 ->[H2SO4, \\Delta] CH3-CH=CH2 + H2O}\\]<br>
+                            Reactivo: propan-2-ol. Producto orgánico: <strong>propeno</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Hidratación de pent-2-eno:</strong><br>
+                            Reacción de <strong>adición electrófila</strong>:<br><br>
+                            \\[\\ce{CH3-CH=CH-CH2-CH3 + H2O ->[H+] CH3-CHOH-CH2-CH2-CH3 + CH3-CH2-CHOH-CH2-CH3}\\]<br>
+                            Reactivo: pent-2-eno. Productos orgánicos (en proporción similar por estabilidad iónica simétrica): <strong>pentan-2-ol</strong> y <strong>pentan-3-ol</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Bromación de 3-metilpentan-1-ol:</strong><br>
+                            Reacción de <strong>sustitución nucleófila</strong>:<br><br>
+                            \\[\\ce{CH3-CH2-CH(CH3)-CH2-CH2-OH + HBr -> CH3-CH2-CH(CH3)-CH2-CH2-Br + H2O}\\]<br>
+                            Reactivo: 3-metilpentan-1-ol. Producto orgánico: <strong>1-bromo-3-metilpentano</strong>.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2022 - Reacciones Orgánicas Generales B.2",
+                    enunciado: "Complete y ajuste las siguientes reacciones, formule y nombre todos los compuestos orgánicos que intervienen e indique el tipo de reacción:<br>a) Propano + oxígeno →<br>b) Ácido butanoico + propan-1-amina →<br>c) n \\(\\ce{CH2=CH2}\\) + catalizador →<br>d) \\(\\ce{CH3-CHOH-CH3 + H2SO4 \\text{ (concentrado)} ->}\\)",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Combustión del propano:</strong><br>
+                            Reacción de <strong>combustión (oxidación total)</strong>:<br><br>
+                            \\[\\ce{C3H8 + 5 O2 -> 3 CO2 + 4 H2O}\\]<br>
+                            Reactivo orgánico: propano (\\(\\ce{CH3-CH2-CH3}\\)).
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Ácido propanoico + propan-1-amina:</strong><br>
+                            Reacción de <strong>condensación (amidación)</strong>:<br><br>
+                            \\[\\ce{CH3-CH2-CH2-COOH + CH3-CH2-CH2-NH2 -> CH3-CH2-CH2-CO-NH-CH2-CH2-CH3 + H2O}\\]<br>
+                            Reactivos: ácido butanoico y propan-1-amina. Producto orgánico: <strong>N-propilbutanamida</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Polimerización del eteno:</strong><br>
+                            Reacción de <strong>polimerización por adición</strong>:<br><br>
+                            \\[\\ce{n CH2=CH2 ->[cat] -[CH2-CH2]_n-}\\]<br>
+                            Reactivo: eteno (o etileno). Producto: <strong>polietileno</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Deshidratación del propan-2-ol:</strong><br>
+                            Reacción de <strong>eliminación</strong>:<br><br>
+                            \\[\\ce{CH3-CHOH-CH3 ->[H2SO4, \\Delta] CH3-CH=CH2 + H2O}\\]<br>
+                            Reactivo: propan-2-ol. Producto orgánico: <strong>propeno</strong>.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2022 - Productos y Tipos de Reacciones B.2",
+                    enunciado: "Escriba todos los productos de las siguientes reacciones orgánicas, indique el tipo de reacción y nombre los compuestos orgánicos implicados:<br>a) \\(\\ce{CH3-CH2-CH2-CH2-Cl + NaOH ->}\\)<br>b) \\(\\ce{CH3-CHO + H2 ->}\\)<br>c) \\(\\ce{CH3-COOH + CH3-CH2-OH ->}\\)<br>d) \\(\\ce{CH3-C(OH)(CH3)-CH2-CH2-CH3 + H2SO4/calor ->}\\)",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) 1-clorobutano + NaOH:</strong><br>
+                            Reacción de <strong>sustitución nucleófila</strong>. Reactivo: 1-clorobutano. Productos: <strong>butan-1-ol</strong> (\\(\\ce{CH3-CH2-CH2-CH2-OH}\\)) y \\(\\ce{NaCl}\\).
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Hidrogenación de etanal:</strong><br>
+                            Reacción de <strong>reducción (o adición)</strong>. Reactivo: etanal. Producto orgánico: <strong>etanol</strong> (\\(\\ce{CH3-CH2-OH}\\)).
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Ácido etanoico + etanol:</strong><br>
+                            Reacción de <strong>esterificación (condensación)</strong>. Reactivos: ácido etanoico y etanol. Productos: <strong>etanoato de etilo</strong> (\\(\\ce{CH3-COO-CH2-CH3}\\)) y agua.
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Deshidratación de 2-metilpentan-2-ol:</strong><br>
+                            Reacción de <strong>eliminación</strong>. Reactivo: 2-metilpentan-2-ol.<br>
+                            Por regla de Zaítsev, los productos orgánicos son: mayoritario <strong>2-metilpent-2-eno</strong> (\\(\\ce{CH3-C(CH3)=CH-CH2-CH3}\\)), minoritario 2-metilpent-1-eno y agua.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2023 - Deducción de Esquema Reaccional A.2",
+                    enunciado: "A, B, C, D y E son compuestos orgánicos que reaccionan de acuerdo a los siguientes procesos:<br>i) A + HBr → 2-bromopropano<br>ii) B + C → propanoato de etilo + agua<br>iii) D + oxidante → propanona<br>iv) E + \\(\\ce{H2SO4}\\) (concentrado) → but-2-eno<br>a) Escriba las fórmulas semidesarrolladas de los productos orgánicos de cada reacción.<br>b) Identifique, con sus fórmulas semidesarrolladas y su nombre, los compuestos A, B, C, D y E.<br>c) Indique de qué tipo es cada reacción.<br>d) Diga si en alguna de estas reacciones se puede obtener más de un producto.",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Productos orgánicos:</strong><br>
+                            - i) 2-bromopropano: \\(\\ce{CH3-CH(Br)-CH3}\\)<br>
+                            - ii) propanoato de etilo: \\(\\ce{CH3-CH2-COO-CH2-CH3}\\)<br>
+                            - iii) propanona: \\(\\ce{CH3-CO-CH3}\\)<br>
+                            - iv) but-2-eno: \\(\\ce{CH3-CH=CH-CH3}\\)
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Identificación de A, B, C, D y E:</strong><br>
+                            - <strong>A:</strong> propeno (\\(\\ce{CH3-CH=CH2}\\))<br>
+                            - <strong>B y C:</strong> ácido propanoico (\\(\\ce{CH3-CH2-COOH}\\)) y etanol (\\(\\ce{CH3-CH2-OH}\\))<br>
+                            - <strong>D:</strong> propan-2-ol (\\(\\ce{CH3-CHOH-CH3}\\))<br>
+                            - <strong>E:</strong> butan-2-ol (\\(\\ce{CH3-CHOH-CH2-CH3}\\))
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Tipo de reacción:</strong><br>
+                            - i) Adición electrófila.<br>
+                            - ii) Condensación / Esterificación.<br>
+                            - iii) Oxidación.<br>
+                            - iv) Eliminación (deshidratación).
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Formación de mezclas de productos:</strong><br>
+                            Sí, en la reacción iv) (deshidratación del butan-2-ol) se aplica la regla de Zaítsev, obteniéndose dos productos regioselectivos:<br>
+                            - Producto mayoritario: <strong>but-2-eno</strong> (\\(\\ce{CH3-CH=CH-CH3}\\))<br>
+                            - Producto minoritario: <strong>but-1-eno</strong> (\\(\\ce{CH2=CH-CH2-CH3}\\))<br>
+                            <em>(Nota: En la adición i) también se forma como minoritario el 1-bromopropano).</em>
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2023 - Reacciones con Reglas de Markovnikov y Zaítsev B.2",
+                    enunciado: "Formule los reactivos y el producto mayoritario de las siguientes reacciones. Indique el tipo de reacción, la regla que sigue si es el caso, y nombre los productos:<br>a) 3-metilpent-2-eno + HCl →<br>b) 3-metilpentan-2-ol + \\(\\ce{H2SO4}\\) (concentrado) →<br>c) Ácido pentanoico + etanol →",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Adición de HCl a 3-metilpent-2-eno:</strong><br>
+                            Reacción de <strong>adición electrófila</strong>. Sigue la <strong>regla de Markovnikov</strong> (el \\(\\ce{H+}\\) se adiciona al C2 que tiene 1 H, y el \\(\\ce{Cl-}\\) al C3 que no tiene ningún H):<br><br>
+                            \\[\\ce{CH3-CH=C(CH3)-CH2-CH3 + HCl -> CH3-CH2-C(Cl)(CH3)-CH2-CH3}\\]<br>
+                            Producto mayoritario: <strong>3-cloro-3-metilpentano</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Deshidratación de 3-metilpentan-2-ol:</strong><br>
+                            Reacción de <strong>eliminación</strong>. Sigue la <strong>regla de Zaítsev</strong> (se elimina el H del C3 por ser el carbono adyacente menos hidrogenado, dando el alqueno más sustituido):<br><br>
+                            \\[\\ce{CH3-CHOH-CH(CH3)-CH2-CH3 ->[H2SO4, \\Delta] CH3-CH=C(CH3)-CH2-CH3 + H2O}\\]<br>
+                            Producto mayoritario: <strong>3-metilpent-2-eno</strong> (y agua).
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Ácido pentanoico + etanol:</strong><br>
+                            Reacción de <strong>esterificación (condensación/sustitución en acilo)</strong>:<br><br>
+                            \\[\\ce{CH3-CH2-CH2-CH2-COOH + CH3-CH2-OH <=> CH3-(CH2)3-COO-CH2-CH3 + H2O}\\]<br>
+                            Producto orgánico: <strong>pentanoato de etilo</strong> (y agua).
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2024 - Secuencia de Reacciones Orgánicas A.2",
+                    enunciado: "Se lleva a cabo la siguiente secuencia de reacciones:<br>2-bromopropano + KOH/EtOH → A (alqueno); A + \\(\\ce{H2O/H+} ->\\) B; B + oxidante (\\(\\ce{Cr2O7^2-}\\))/\\(\\ce{H+} ->\\) C<br>a) Formule y nombre los compuestos orgánicos mayoritarios A, B y C, indique el tipo de reacción y la regla aplicable.<br>b) ¿Son isómeros B y C? ¿A podría presentar isomería geométrica? Justifique.<br>c) Formule y nombre la reacción en medio ácido: B + ácido etanoico →",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Identificación de la secuencia reaccional:</strong><br>
+                            - <strong>1ª reacción (Eliminación / deshidrohalogenación):</strong><br>
+                              \\(\\ce{CH3-CH(Br)-CH3 + KOH ->[EtOH] CH3-CH=CH2 + KBr + H2O}\\)<br>
+                              <strong>A:</strong> <strong>propeno</strong>.<br>
+                            - <strong>2ª reacción (Adición electrófila / hidratación):</strong><br>
+                              \\(\\ce{CH3-CH=CH2 + H2O ->[H+] CH3-CHOH-CH3}\\)<br>
+                              Sigue la <strong>regla de Markovnikov</strong> (el \\(\\ce{H+}\\) al C1 y el \\(\\ce{-OH}\\) al C2).<br>
+                              <strong>B:</strong> <strong>propan-2-ol</strong>.<br>
+                            - <strong>3ª reacción (Oxidación):</strong><br>
+                              \\(\\ce{CH3-CHOH-CH3 + Cr2O7^2-/H+ -> CH3-CO-CH3}\\)<br>
+                              <strong>C:</strong> <strong>propanona</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Isomería:</strong><br>
+                            - <strong>B y C:</strong> No son isómeros. B (propan-2-ol) tiene fórmula \\(\\ce{C3H8O}\\) y C (propanona) \\(\\ce{C3H6O}\\) (difieren en dos hidrógenos).<br>
+                            - <strong>A (propeno):</strong> No presenta isomería geométrica porque el C1 tiene dos átomos de H idénticos.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Reacción de B + ácido etanoico:</strong><br>
+                            Reacción de <strong>esterificación (condensación)</strong>:<br><br>
+                            \\[\\ce{CH3-COOH + CH3-CHOH-CH3 <=> CH3-COO-CH(CH3)2 + H2O}\\]<br>
+                            Reactivos: ácido etanoico y propan-2-ol. Productos: <strong>etanoato de isopropilo</strong> y agua.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2025 - Reacciones Generales 3A",
+                    enunciado: "Complete las siguientes reacciones. Formule y nombre todos los compuestos orgánicos. Indique el tipo de reacción y, si procede, el producto mayoritario y la regla que sigue. Dibuje los posibles isómeros geométricos que se formen:<br>a) Metilbutano + \\(\\ce{O2}\\) →<br>b) Ácido propanoico + NaOH (ac) →<br>c) Metilpropeno + HBr →<br>d) Pentan-2-ol + \\(\\ce{H2SO4}\\)/calor →",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Combustión del metilbutano:</strong><br>
+                            Reacción de <strong>combustión (oxidación total)</strong>:<br><br>
+                            \\[\\ce{C5H12 + 8 O2 -> 5 CO2 + 6 H2O}\\]<br>
+                            Reactivo orgánico: metilbutano (\\(\\ce{CH3-CH(CH3)-CH2-CH3}\\)).
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Ácido propanoico + NaOH(ac):</strong><br>
+                            Reacción de <strong>neutralización (ácido-base)</strong>:<br><br>
+                            \\[\\ce{CH3-CH2-COOH + NaOH -> CH3-CH2-COONa + H2O}\\]<br>
+                            Reactivo: ácido propanoico. Producto orgánico: <strong>propanoato de sodio</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Metilpropeno + HBr:</strong><br>
+                            Reacción de <strong>adición electrófila</strong>. Sigue la <strong>regla de Markovnikov</strong>:<br><br>
+                            \\[\\ce{CH2=C(CH3)2 + HBr -> CH3-C(Br)(CH3)2}\\]<br>
+                            Producto mayoritario: <strong>2-bromo-2-metilpropano</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Deshidratación de pentan-2-ol:</strong><br>
+                            Reacción de <strong>eliminación</strong>. Sigue la <strong>regla de Zaítsev</strong>:<br><br>
+                            \\[\\ce{CH3-CHOH-CH2-CH2-CH3 ->[H2SO4, \\Delta] CH3-CH=CH-CH2-CH3 + H2O}\\]<br>
+                            Producto mayoritario: <strong>pent-2-eno</strong>.<br>
+                            Presenta isomería geométrica con dos estereoisómeros: <strong><em>cis</em>-pent-2-eno</strong> y <strong><em>trans</em>-pent-2-eno</strong>.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2026 - Isomería y Reacciones 3A",
+                    enunciado: "Conteste de forma razonada las siguientes cuestiones: <br>a) Nombre los siguientes compuestos e identifique el grupo funcional principal.<br> \\(\\ce{\\quad (1) CH3-CH2-CH2OH \\quad \\quad (2) (CH3)3-N \\quad \\quad (3) CH3-COO-CH3 \\quad \\quad (4) CH3-CH=CH2 \\quad \\quad (5) CH3-CH2-CHO} \\)<br>b) Escriba las reacciones correspondientes a los procesos siguientes:<br> &emsp;&emsp; i) Obtención del compuesto (1) a partir de un aldehído.<br> &emsp;&emsp; ii) Obtención del compuesto (4) a partir de un alcohol primario. <br> &emsp;&emsp; iii) Obtención del compuesto (3). <br>c) Formule y nombre los dos isómeros geométricos cis y trans con la misma fórmula molecular que la del compuesto (5).",
+                    solucion: `
+                        <div class='paso'>
+                        </div>
+                        `
+                },
+                {
+                    titulo: "Junio 2026 - Reacciones Generales 3B",
+                    enunciado: "Responda a las siguientes cuestiones: <br> b) Complete las siguientes reacciones con el producto mayoritario, formulando los compuestos de partida, y nombrando y formulando los compuestos orgánicos A, B, C, D y E.:<br>i) \\(\\ce{Propan-1-ol \\quad ->[oxidación] \\quad  A ->[oxidación] \\quad  B}\\)<br>ii)  \\(\\ce{Etanol + B \\quad -> \\quad  C }\\) <br>iii) \\(\\ce{Butan-2-ol \\quad  ->[H2SO4 conc/calor] \\quad  D \\quad ->[HBr] \\quad  E }\\)",
+                    solucion: `
+                        <div class='paso'>
+                           
+                        </div>
+                    `
+                }
+            ]
+        },
         "polimeros_propiedades": {
             nombre: "Polímeros y Propiedades Físicas",
             problemas: [
@@ -801,6 +818,23 @@ baseDatosTemas["tema3"] = {
                             <strong>d) Falso.</strong> El PVC (policloruro de vinilo) se obtiene mediante una polimerización por <strong>adición</strong> del monómero cloroeteno, sin pérdida de moléculas pequeñas.
                         </div>
                     `
+                },
+                {
+                    titulo: "Junio 2026 - Reacciones Generales 3B",
+                    enunciado: "Responda a las siguientes cuestiones: <br>a) Escriba la reacción de polimerización del alqueno obtenido en la reacción entre el etino y el HCl. Nombre el monómero y el polímero.",
+                    solucion: `
+                        <div class='paso'>
+                           
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2026 - Polímeros 3A",
+                    enunciado: "Conteste de forma razonada las siguientes cuestiones: <br>a) Nombre los siguientes compuestos e identifique el grupo funcional principal.<br> \\(\\ce{\\quad (1) CH3-CH2-CH2OH \\quad \\quad (2) (CH3)3-N \\quad \\quad (3) CH3-COO-CH3 \\quad \\quad (4) CH3-CH=CH2 \\quad \\quad (5) CH3-CH2-CHO} \\)<br>b) Escriba las reacciones correspondientes a los procesos siguientes:<br> &emsp;&emsp; iv) Obtención de un polímero a partir del compuesto (4).",
+                    solucion: `
+                        <div class='paso'>
+                        </div>
+                        `
                 }
             ]
         }
