@@ -399,6 +399,14 @@ baseDatosTemas["tema3"] = {
                             - <strong>Etanol (\\(\\ce{CH3-CH2-OH}\\), 78,5 °C):</strong> Molécula polar con un enlace \\(\\ce{O-H}\\) capaz de formar intensos <strong>enlaces de hidrógeno</strong> intermoleculares, requiriendo mucha más energía térmica para pasar al estado gaseoso.
                         </div>
                     `
+                },
+                {
+                    titulo: "Julio 2026 - Isomería 3A",
+                    enunciado: "Responda a las siguientes cuestiones: <br>a) Nombre los siguientes compuestos y escriba su fórmula molecular. Justifique si son isómeros y, en su caso, el tipo de isomería que presentan:<br> \\( \\ce{CH2Br-CH2-COO-CH2-CH3 \\quad y \\quad CH3-(CH2)2-CHBr-COOH.}\\)",
+                    solucion: `
+                        <div class='paso'>
+                        </div>
+                    `
                 }
             ]
         },
@@ -758,6 +766,24 @@ baseDatosTemas["tema3"] = {
                 {
                     titulo: "Junio 2026 - Reacciones Generales 3B",
                     enunciado: "Responda a las siguientes cuestiones: <br> b) Complete las siguientes reacciones con el producto mayoritario, formulando los compuestos de partida, y nombrando y formulando los compuestos orgánicos A, B, C, D y E.:<br>i) \\(\\ce{Propan-1-ol \\quad ->[oxidación] \\quad  A ->[oxidación] \\quad  B}\\)<br>ii)  \\(\\ce{Etanol + B \\quad -> \\quad  C }\\) <br>iii) \\(\\ce{Butan-2-ol \\quad  ->[H2SO4 conc/calor] \\quad  D \\quad ->[HBr] \\quad  E }\\)",
+                    solucion: `
+                        <div class='paso'>
+                           
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2026 - Reacciones Generales 3A",
+                    enunciado: "Responda a las siguientes cuestiones: <br> b) Complete las siguientes reacciones, formule y nombre todos los compuestos orgánicos indicando el producto mayoritario cuando proceda, y especifique la regla que sigue y el tipo de reacción: <br> &emsp;&emsp; i) \\(\\ce{ \\quad propeno + HBr -> }\\) <br> &emsp;&emsp; ii) \\(\\ce{ \\quad CH3-CH(CH3)-CHOH-CH3 + KMnO4 (oxidante) -> }\\) <br>c) Formule y ajuste la reacción de hidrogenación del cis-pent-2-eno.",
+                    solucion: `
+                        <div class='paso'>
+                           
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2026 - Reacciones Generales 3B",
+                    enunciado: "Responda a las siguientes cuestiones: <br>a) Formule las siguientes reacciones, escriba el nombre de todos los reactivos y productos orgánicos e indique el tipo de reacción.<br> &emsp;&emsp; i) \\(\\quad \\) Formación de \\(\\ce{CH3-CH(CH3)-(CH2)2-COO-CH3}\\) a partir de la reacción de un ácido con otro reactivo. <br> &emsp;&emsp; ii) \\(\\ce{\\quad CH3-(CH2)4-CHO + oxidante -> } \\) <br> b) Escriba la fórmula semidesarrollada de los siguientes compuestos orgánicos: <br> &emsp;&emsp; i) \\(\\quad\\)  2,3,3-trimetilbutanal. <br> &emsp;&emsp; ii) \\(\\quad\\) trans-4-metilpent-2-eno. <br> c) Formule la reacción de adición de \\(\\ce{Cl2}\\) a \\(\\ce{CH3-CH=CH2}\\). Nombre todos los compuestos orgánicos. <br>Razone cómo afecta un aumento de temperatura a la velocidad de la reacción.",
                     solucion: `
                         <div class='paso'>
                            
