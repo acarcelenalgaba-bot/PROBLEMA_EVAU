@@ -62,73 +62,6 @@ baseDatosTemas["tema3"] = {
                     `
                 },
                 {
-                    titulo: "Septiembre 2020 - Compuestos Oxigenados A.5",
-                    enunciado: "Considere los compuestos propan-2-ol, propanal, etil metil éter y ácido propanoico:<br>a) Formúlelos con su fórmula semidesarrollada.<br>b) Escriba la reacción de formación de un éster a partir de compuesto(s) del enunciado y nombre el producto.<br>c) Escriba la reacción de formación de un alqueno a partir de un compuesto del enunciado y \\(\\ce{H2SO4}\\) en caliente. Nombre el alqueno y el tipo de reacción.<br>d) Indique cuáles son isómeros de función.",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Fórmulas semidesarrolladas:</strong><br>
-                            - propan-2-ol: \\(\\ce{CH3-CHOH-CH3}\\)<br>
-                            - propanal: \\(\\ce{CH3-CH2-CHO}\\)<br>
-                            - etil metil éter: \\(\\ce{CH3-O-CH2-CH3}\\)<br>
-                            - ácido propanoico: \\(\\ce{CH3-CH2-COOH}\\)
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Formación de un éster:</strong><br>
-                            Reacción de esterificación entre el ácido propanoico y el propan-2-ol:<br><br>
-                            \\[\\ce{CH3-CH2-COOH + CH3-CHOH-CH3 <=> CH3-CH2-COO-CH(CH3)2 + H2O}\\]<br>
-                            Producto: <strong>propanoato de isopropilo</strong> (o propanoato de 1-metiletilo).
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Formación de un alqueno:</strong><br>
-                            Deshidratación del propan-2-ol (reacción de <strong>eliminación</strong>):<br><br>
-                            \\[\\ce{CH3-CHOH-CH3 ->[H2SO4, \\Delta] CH3-CH=CH2 + H2O}\\]<br>
-                            Alqueno formado: <strong>propeno</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Isómeros de función:</strong><br>
-                            El <strong>propan-2-ol</strong> y el <strong>etil metil éter</strong> tienen ambos fórmula molecular \\(\\ce{C3H8O}\\), constituyendo un par de isómeros de función (alcohol y éter).
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Septiembre 2020 - Formulación y Reacciones B.5",
-                    enunciado: "a) Formule o nombre los compuestos: \\(\\ce{CH3-CHOH-C\\equiv C-CH3}\\); 1,3-pentanodiamina; ácido propanodioico.<br>b) Formule la reacción, indique tipo y nombre compuestos: \\(\\ce{CH3-CH2-CHO + \\text{oxidante} ->}\\)<br>c) Formule la reacción, indique tipo y nombre compuestos: \\(\\ce{CH3-CH2-CH2OH + CH3-COOH \\text{ (medio ácido)} ->}\\)",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Nomenclatura y formulación:</strong><br>
-                            - \\(\\ce{CH3-CHOH-C\\equiv C-CH3}\\): <strong>pent-3-in-2-ol</strong>.<br>
-                            - 1,3-pentanodiamina: \\(\\ce{H2N-CH2-CH2-CH(NH2)-CH2-CH3}\\).<br>
-                            - ácido propanodioico: \\(\\ce{HOOC-CH2-COOH}\\).
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Oxidación de propanal:</strong><br>
-                            Reacción de <strong>oxidación</strong>:<br><br>
-                            \\[\\ce{CH3-CH2-CHO + \\text{oxidante} -> CH3-CH2-COOH}\\]<br>
-                            Reactivo: propanal. Producto: <strong>ácido propanoico</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Esterificación de propan-1-ol y ácido etanoico:</strong><br>
-                            Reacción de <strong>esterificación (condensación)</strong>:<br><br>
-                            \\[\\ce{CH3-CH2-CH2-OH + CH3-COOH <=> CH3-COO-CH2-CH2-CH3 + H2O}\\]<br>
-                            Reactivos: propan-1-ol y ácido etanoico. Productos: <strong>etanoato de propilo</strong> y agua.
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Junio 2021 - Isómeros de Fórmula C₄H₈O₂ B.5",
-                    enunciado: "La fórmula molecular \\(\\ce{C4H8O2}\\), ¿a qué sustancia o sustancias de las propuestas a continuación corresponde? Justifique la respuesta escribiendo en cada caso su fórmula semidesarrollada y molecular:<br>a) Ácido butanoico.<br>b) Butanodial.<br>c) Propanoato de metilo.<br>d) Ácido metilpropanoico.",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>Análisis de fórmulas moleculares:</strong><br>
-                            - <strong>a) Ácido butanoico:</strong> \\(\\ce{CH3-CH2-CH2-COOH}\\). Fórmula molecular: \\(\\ce{C4H8O2}\\). <strong>Sí corresponde.</strong><br>
-                            - <strong>b) Butanodial:</strong> \\(\\ce{OHC-CH2-CH2-CHO}\\). Fórmula molecular: \\(\\ce{C4H6O2}\\). <strong>No corresponde</strong> (presenta dos insaturaciones aldehídicas).<br>
-                            - <strong>c) Propanoato de metilo:</strong> \\(\\ce{CH3-CH2-COO-CH3}\\). Fórmula molecular: \\(\\ce{C4H8O2}\\). <strong>Sí corresponde.</strong><br>
-                            - <strong>d) Ácido metilpropanoico:</strong> \\(\\ce{CH3-CH(CH3)-COOH}\\). Fórmula molecular: \\(\\ce{C4H8O2}\\). <strong>Sí corresponde.</strong><br><br>
-                            Por tanto, corresponde a las sustancias <strong>a), c) y d)</strong>.
-                        </div>
-                    `
-                },
-                {
                     titulo: "Julio 2021 - Cuestiones V/F en Orgánica A.4",
                     enunciado: "Justifique si las siguientes afirmaciones son verdaderas o falsas:<br>a) El propanoato de metilo se obtiene mediante una reacción de esterificación a partir de ácido propanoico y etanol.<br>b) En la reacción de eliminación del compuesto butan-2-ol se obtiene como producto mayoritario but-1-eno.<br>c) El compuesto prop-2-en-1-ol es un isómero de función de la propanona.<br>d) El compuesto pent-2-eno en presencia de \\(\\ce{Br2}\\) da lugar a 2,3-dibromopentano.",
                     solucion: `
@@ -269,37 +202,6 @@ baseDatosTemas["tema3"] = {
                     `
                 },
                 {
-                    titulo: "Junio 2024 - Esterificación y Estequiometría de Gases B.2",
-                    enunciado: "a) Formule: i) Ácido etanodioico ii) 2-Metilbutanoato de propilo iii) 2,3,3-Trimetilpentanal.<br>b) Formule la esterificación para obtener 2-metilbutanoato de propilo.<br>c) Formule la combustión de etanol. Determine la riqueza en etanol de una muestra de 17 g sabiendo que al reaccionar con exceso de \\(\\ce{O2}\\) produce 14,2 L de \\(\\ce{CO2}\\) medidos a 25 °C y 785 mmHg.<br><em>Datos: \\(R=0,082 \\text{ atm}\\cdot\\text{L}\\cdot\\text{mol}^{-1}\\cdot\\text{K}^{-1}\\); M.A.(u): H=1,0; C=12,0; O=16,0.</em>",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Formulación:</strong><br>
-                            - i) Ácido etanodioico: \\(\\ce{HOOC-COOH}\\)<br>
-                            - ii) 2-Metilbutanoato de propilo: \\(\\ce{CH3-CH2-CH(CH3)-COO-CH2-CH2-CH3}\\)<br>
-                            - iii) 2,3,3-Trimetilpentanal: \\(\\ce{CH3-CH2-C(CH3)2-CH(CH3)-CHO}\\)
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Reacción de esterificación:</strong><br>
-                            \\[\\ce{CH3-CH2-CH(CH3)-COOH + CH3-CH2-CH2-OH <=> CH3-CH2-CH(CH3)-COO-CH2-CH2-CH3 + H2O}\\]<br>
-                            Reactivos: <strong>ácido 2-metilbutanoico</strong> y <strong>propan-1-ol</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Reacción de combustión y cálculo de riqueza:</strong><br>
-                            Ecuación ajustada de la combustión del etanol:<br>
-                            \\[\\ce{CH3-CH2-OH + 3 O2 -> 2 CO2 + 3 H2O}\\]<br>
-                            Cálculo de moles de \\(\\ce{CO2}\\) formados (<br>
-                            \\(P = \\frac{785}{760} = 1,0329 \\text{ atm}\\); \\(T = 298,15 \\text{ K}\\)):<br>
-                            \\[ n_{\\ce{CO2}} = \\frac{P \\cdot V}{R \\cdot T} = \\frac{1,0329 \\text{ atm} \\cdot 14,2 \\text{ L}}{0,082 \\cdot 298,15 \\text{ K}} = 0,600 \\text{ mol de CO}_2 \\]<br><br>
-                            Por estequiometría (1 mol etanol : 2 mol \\(\\ce{CO2}\\)):<br>
-                            \\[ n_{\\text{etanol}} = \\frac{0,600}{2} = 0,300 \\text{ mol de } \\ce{C2H6O} \\]<br>
-                            Masa de etanol puro (M = 46,0 g/mol):<br>
-                            \\[ m_{\\text{etanol}} = 0,300 \\text{ mol} \\cdot 46,0 \\text{ g/mol} = 13,8 \\text{ g} \\]<br>
-                            Porcentaje de riqueza de la muestra:<br>
-                            \\[ \\text{Riqueza} = \\frac{13,8 \\text{ g}}{17 \\text{ g}} \\cdot 100 = \\boxed{81,2\\%} \\]
-                        </div>
-                    `
-                },
-                {
                     titulo: "Julio 2024 - Isómeros C₂H₆O, Cis/Trans y Derivados del Eteno B.2",
                     enunciado: "a) Formule y nombre los isómeros de fórmula \\(\\ce{C2H6O}\\).<br>b) De los compuestos 1,2-dicloroeteno y 1,1-dicloroeteno, indique cuál presenta isomería geométrica e identifíquelos.<br>c) Indique a partir de qué compuesto pueden obtenerse etanol, 1,2-dibromoetano, cloroetano y etano, escribiendo sus reacciones.",
                     solucion: `
@@ -328,7 +230,7 @@ baseDatosTemas["tema3"] = {
                 },
                 {
                     titulo: "Junio 2025 - Formulación, Nomenclatura e Isomería 3A",
-                    enunciado: "a) Nombre los compuestos y tipo: i) \\(\\ce{CH3-CH(CH3)-CH2-C(CH2CH3)(CH3)-CH2-CHO}\\) ii) \\(\\ce{CH2=CH-O-CH2-CH3}\\)<br>b) Escriba la fórmula semidesarrollada e indique el grupo funcional de: i) 3-etil-3,5-dimetilhexan-2-ol ii) ácido 4-etenilhept-2-enoico iii) 4-etilhexan-3-ona iv) 3-etil-4-metilheptanamida.<br>c) Formule y nombre dos isómeros de cadena no cíclicos del hexano.",
+                    enunciado: "a) Nombre los compuestos y tipo: <br> \\(\\quad\\) i) \\(\\ce{CH3-CH(CH3)-CH2-C(CH2CH3)(CH3)-CH2-CHO}\\) <br> \\(\\quad\\) ii) \\(\\ce{CH2=CH-O-CH2-CH3}\\)<br>b) Escriba la fórmula semidesarrollada e indique el grupo funcional de: <br> \\(\\quad\\) i) 3-etil-3,5-dimetilhexan-2-ol <br> \\(\\quad\\) ii) ácido 4-etenilhept-2-enoico iii) 4-etilhexan-3-ona iv) 3-etil-4-metilheptanamida.<br>c) Formule y nombre dos isómeros de cadena no cíclicos del hexano.",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Nomenclatura y tipo de compuesto:</strong><br>
@@ -351,7 +253,7 @@ baseDatosTemas["tema3"] = {
                 },
                 {
                     titulo: "Junio 2025 - Propiedades, Hibridación y Síntesis de Alcohol 3B",
-                    enunciado: "a) Para el \\(\\ce{CH3-CH2-CHOH-CH3}\\), razone V/F: i) Con \\(\\ce{H2SO4}\\) conc. da dos isómeros geométricos ii) Puede adicionar agua para dar butano.<br>b) Formule: i) Aldehído de 3 carbonos con hibridación sp ii) Amina secundaria de 3 carbonos unida a carbonos \\(sp^3\\) y \\(sp^2\\).<br>c) Dados propan-2-ol y propano: i) Justifique cuál tiene mayor Tfusión ii) Formule la obtención del alcohol a partir del alqueno indicando condiciones.",
+                    enunciado: "a) Para el \\(\\ce{CH3-CH2-CHOH-CH3}\\), razone V/F: <br> \\(\\quad\\) i) Con \\(\\ce{H2SO4}\\) conc. da dos isómeros geométricos. <br> \\(\\quad\\) ii) Puede adicionar agua para dar butano.<br>b) Formule: <br> \\(\\quad\\)i) Aldehído de 3 carbonos con hibridación sp. <br> \\(\\quad\\) ii) Amina secundaria de 3 carbonos unida a carbonos \\(\\ce{sp^3}\\) y \\(\\ce{sp^2}\\).<br>c) Dados propan-2-ol y propano: i) Justifique cuál tiene mayor Tfusión ii) Formule la obtención del alcohol a partir del alqueno indicando condiciones.",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Justificación V/F para el butan-2-ol:</strong><br>
@@ -402,7 +304,7 @@ baseDatosTemas["tema3"] = {
                 },
                 {
                     titulo: "Julio 2026 - Isomería 3A",
-                    enunciado: "Responda a las siguientes cuestiones: <br>a) Nombre los siguientes compuestos y escriba su fórmula molecular. Justifique si son isómeros y, en su caso, el tipo de isomería que presentan:<br> \\( \\ce{CH2Br-CH2-COO-CH2-CH3 \\quad y \\quad CH3-(CH2)2-CHBr-COOH.}\\)",
+                    enunciado: "Responda a las siguientes cuestiones: <br>a) Nombre los siguientes compuestos y escriba su fórmula molecular. Justifique si son isómeros y, en su caso, el tipo de isomería que presentan:<br> \\( \\ce{CH2Br-CH2-COO-CH2-CH3 \\quad y \\quad CH3-(CH2)2-CHBr-COOH}\\)",
                     solucion: `
                         <div class='paso'>
                         </div>
@@ -500,6 +402,35 @@ baseDatosTemas["tema3"] = {
                             Reacción de <strong>sustitución nucleófila</strong>:<br><br>
                             \\[\\ce{CH3-CH2-CH2-CH2-Br + NaOH -> CH3-CH2-CH2-CH2-OH + NaBr}\\]<br>
                             Producto orgánico: <strong>butan-1-ol</strong>.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Septiembre 2020 - Compuestos Oxigenados A.5",
+                    enunciado: "Considere los compuestos propan-2-ol, propanal, etil metil éter y ácido propanoico:<br>a) Formúlelos con su fórmula semidesarrollada.<br>b) Escriba la reacción de formación de un éster a partir de compuesto(s) del enunciado y nombre el producto.<br>c) Escriba la reacción de formación de un alqueno a partir de un compuesto del enunciado y \\(\\ce{H2SO4}\\) en caliente. Nombre el alqueno y el tipo de reacción.<br>d) Indique cuáles son isómeros de función.",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Fórmulas semidesarrolladas:</strong><br>
+                            - propan-2-ol: \\(\\ce{CH3-CHOH-CH3}\\)<br>
+                            - propanal: \\(\\ce{CH3-CH2-CHO}\\)<br>
+                            - etil metil éter: \\(\\ce{CH3-O-CH2-CH3}\\)<br>
+                            - ácido propanoico: \\(\\ce{CH3-CH2-COOH}\\)
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Formación de un éster:</strong><br>
+                            Reacción de esterificación entre el ácido propanoico y el propan-2-ol:<br><br>
+                            \\[\\ce{CH3-CH2-COOH + CH3-CHOH-CH3 <=> CH3-CH2-COO-CH(CH3)2 + H2O}\\]<br>
+                            Producto: <strong>propanoato de isopropilo</strong> (o propanoato de 1-metiletilo).
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Formación de un alqueno:</strong><br>
+                            Deshidratación del propan-2-ol (reacción de <strong>eliminación</strong>):<br><br>
+                            \\[\\ce{CH3-CHOH-CH3 ->[H2SO4, \\Delta] CH3-CH=CH2 + H2O}\\]<br>
+                            Alqueno formado: <strong>propeno</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Isómeros de función:</strong><br>
+                            El <strong>propan-2-ol</strong> y el <strong>etil metil éter</strong> tienen ambos fórmula molecular \\(\\ce{C3H8O}\\), constituyendo un par de isómeros de función (alcohol y éter).
                         </div>
                     `
                 },
@@ -691,6 +622,37 @@ baseDatosTemas["tema3"] = {
                             Reacción de <strong>esterificación (condensación/sustitución en acilo)</strong>:<br><br>
                             \\[\\ce{CH3-CH2-CH2-CH2-COOH + CH3-CH2-OH <=> CH3-(CH2)3-COO-CH2-CH3 + H2O}\\]<br>
                             Producto orgánico: <strong>pentanoato de etilo</strong> (y agua).
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2024 - Esterificación y Estequiometría de Gases B.2",
+                    enunciado: "a) Formule: i) Ácido etanodioico ii) 2-Metilbutanoato de propilo iii) 2,3,3-Trimetilpentanal.<br>b) Formule la esterificación para obtener 2-metilbutanoato de propilo.<br>c) Formule la combustión de etanol. Determine la riqueza en etanol de una muestra de 17 g sabiendo que al reaccionar con exceso de \\(\\ce{O2}\\) produce 14,2 L de \\(\\ce{CO2}\\) medidos a 25 °C y 785 mmHg.<br><em>Datos: \\(\\ce{R=0,082 \\text{ atm}\\cdot\\text{L}\\cdot\\text{mol}^{-1}\\cdot\\text{K}^{-1}}\\); M.A.(u): H=1,0; C=12,0; O=16,0.</em>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Formulación:</strong><br>
+                            - i) Ácido etanodioico: \\(\\ce{HOOC-COOH}\\)<br>
+                            - ii) 2-Metilbutanoato de propilo: \\(\\ce{CH3-CH2-CH(CH3)-COO-CH2-CH2-CH3}\\)<br>
+                            - iii) 2,3,3-Trimetilpentanal: \\(\\ce{CH3-CH2-C(CH3)2-CH(CH3)-CHO}\\)
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Reacción de esterificación:</strong><br>
+                            \\[\\ce{CH3-CH2-CH(CH3)-COOH + CH3-CH2-CH2-OH <=> CH3-CH2-CH(CH3)-COO-CH2-CH2-CH3 + H2O}\\]<br>
+                            Reactivos: <strong>ácido 2-metilbutanoico</strong> y <strong>propan-1-ol</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Reacción de combustión y cálculo de riqueza:</strong><br>
+                            Ecuación ajustada de la combustión del etanol:<br>
+                            \\[\\ce{CH3-CH2-OH + 3 O2 -> 2 CO2 + 3 H2O}\\]<br>
+                            Cálculo de moles de \\(\\ce{CO2}\\) formados (<br>
+                            \\(P = \\frac{785}{760} = 1,0329 \\text{ atm}\\); \\(T = 298,15 \\text{ K}\\)):<br>
+                            \\[ n_{\\ce{CO2}} = \\frac{P \\cdot V}{R \\cdot T} = \\frac{1,0329 \\text{ atm} \\cdot 14,2 \\text{ L}}{0,082 \\cdot 298,15 \\text{ K}} = 0,600 \\text{ mol de CO}_2 \\]<br><br>
+                            Por estequiometría (1 mol etanol : 2 mol \\(\\ce{CO2}\\)):<br>
+                            \\[ n_{\\text{etanol}} = \\frac{0,600}{2} = 0,300 \\text{ mol de } \\ce{C2H6O} \\]<br>
+                            Masa de etanol puro (M = 46,0 g/mol):<br>
+                            \\[ m_{\\text{etanol}} = 0,300 \\text{ mol} \\cdot 46,0 \\text{ g/mol} = 13,8 \\text{ g} \\]<br>
+                            Porcentaje de riqueza de la muestra:<br>
+                            \\[ \\text{Riqueza} = \\frac{13,8 \\text{ g}}{17 \\text{ g}} \\cdot 100 = \\boxed{81,2\\%} \\]
                         </div>
                     `
                 },
