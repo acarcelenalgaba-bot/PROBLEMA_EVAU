@@ -11,32 +11,6 @@ baseDatosTemas["tema3"] = {
             nombre: "Formulación, Nomenclatura e Isomería",
             problemas: [
                 {
-                    titulo: "Junio 2019 - Cloropropano e Isómeros de Posición",
-                    enunciado: "Responda las siguientes cuestiones:<br>a) Formule el 1-cloropropano y nombre los isómeros de posición posibles.<br>b) Escriba la reacción de sustitución de cada uno de los isómeros del apartado a) con NaOH. Nombre los productos obtenidos.<br>c) Escriba las fórmulas semidesarrolladas de los compuestos orgánicos: 2-metilbutilamina, etanoato de metilo y ácido 2,3-dihidroxibutanoico.",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Formulación e isomería de posición:</strong><br>
-                            - 1-cloropropano: \\(\\ce{CH3-CH2-CH2-Cl}\\)<br>
-                            - Isómero de posición: <strong>2-cloropropano</strong> (\\(\\ce{CH3-CH(Cl)-CH3}\\)).
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Reacciones de sustitución con NaOH(ac):</strong><br>
-                            - Con 1-cloropropano:<br>
-                              \\[\\ce{CH3-CH2-CH2-Cl + NaOH -> CH3-CH2-CH2-OH + NaCl}\\]<br>
-                              Producto obtenido: <strong>propan-1-ol</strong>.<br><br>
-                            - Con 2-cloropropano:<br>
-                              \\[\\ce{CH3-CH(Cl)-CH3 + NaOH -> CH3-CH(OH)-CH3 + NaCl}\\]<br>
-                              Producto obtenido: <strong>propan-2-ol</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Fórmulas semidesarrolladas:</strong><br>
-                            - 2-metilbutilamina: \\(\\ce{CH3-CH2-CH(CH3)-CH2-NH2}\\)<br>
-                            - etanoato de metilo: \\(\\ce{CH3-COO-CH3}\\)<br>
-                            - ácido 2,3-dihidroxibutanoico: \\(\\ce{CH3-CH(OH)-CH(OH)-COOH}\\)
-                        </div>
-                    `
-                },
-                {
                     titulo: "Julio 2019 - Isomería de Diversas Familias",
                     enunciado: "Formule y nombre los siguientes compuestos orgánicos:<br>a) Dos hidrocarburos saturados, isómeros de cadena, de fórmula molecular \\(\\ce{C4H10}\\).<br>b) Dos aminas primarias, isómeras de posición, de fórmula molecular \\(\\ce{C3H9N}\\).<br>c) Dos compuestos, isómeros de función (monofuncional), de fórmula molecular \\(\\ce{C3H6O2}\\).<br>d) Un hidrocarburo aromático de fórmula molecular \\(\\ce{C7H8}\\).",
                     solucion: `
@@ -58,26 +32,6 @@ baseDatosTemas["tema3"] = {
                         <div class='paso'>
                             <strong>d) Hidrocarburo aromático de \\(\\ce{C7H8}\\):</strong><br>
                             - <strong>Metilbenceno</strong> (tolueno): \\(\\ce{C6H5-CH3}\\)
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Julio 2021 - Cuestiones V/F en Orgánica A.4",
-                    enunciado: "Justifique si las siguientes afirmaciones son verdaderas o falsas:<br>a) El propanoato de metilo se obtiene mediante una reacción de esterificación a partir de ácido propanoico y etanol.<br>b) En la reacción de eliminación del compuesto butan-2-ol se obtiene como producto mayoritario but-1-eno.<br>c) El compuesto prop-2-en-1-ol es un isómero de función de la propanona.<br>d) El compuesto pent-2-eno en presencia de \\(\\ce{Br2}\\) da lugar a 2,3-dibromopentano.",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Falso.</strong> El propanoato de metilo se obtiene a partir de ácido propanoico y <strong>metanol</strong> (\\(\\ce{CH3OH}\\)). La reacción con etanol produciría propanoato de etilo.
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Falso.</strong> Según la regla de Zaítsev, en la deshidratación del butan-2-ol se abstrae preferentemente el hidrógeno del carbono adyacente menos hidrogenado (C3), dando como producto mayoritario el <strong>but-2-eno</strong>.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Verdadero.</strong> Ambos poseen la misma fórmula molecular (\\(\\ce{C3H6O}\\)). El prop-2-en-1-ol (\\(\\ce{CH2=CH-CH2OH}\\)) es un alcohol insaturado y la propanona (\\(\\ce{CH3-CO-CH3}\\)) una cetona, por lo que son isómeros de función.
-                        </div>
-                        <div class='paso'>
-                            <strong>d) Verdadero.</strong> Es una reacción de adición de halógeno al doble enlace:<br><br>
-                            \\[\\ce{CH3-CH=CH-CH2-CH3 + Br2 -> CH3-CH(Br)-CH(Br)-CH2-CH3}\\]<br>
-                            Obteniéndose 2,3-dibromopentano.
                         </div>
                     `
                 },
@@ -105,7 +59,7 @@ baseDatosTemas["tema3"] = {
                 },
                 {
                     titulo: "Junio 2022 - Isomería y Síntesis de 3-bromohexano A.2",
-                    enunciado: "a) Nombre los compuestos, escriba su fórmula molecular e indique los tipos de isomería entre ellos:<br>a1) \\(\\ce{CH3-CO-CH2-CH(CH3)2}\\)<br>a2) \\(\\ce{CH3-CHOH-CH(CH3)-CH2-CH3}\\)<br>a3) \\(\\ce{CH3-C(CH3)2-CH2-CHO}\\)<br>a4) \\(\\ce{CH3-(CH2)2-O-(CH2)2-CH3}\\)<br>b) Se quiere sintetizar 3-bromohexano como único producto a partir de un alqueno. Formule la reacción, tipo, regla y nombre el alqueno.",
+                    enunciado: "a) Nombre los compuestos, escriba su fórmula molecular e indique los tipos de isomería entre ellos:<br>a1) \\(\\ce{CH3-CO-CH2-CH(CH3)2}\\)<br>a2) \\(\\ce{CH3-CHOH-CH(CH3)-CH2-CH3}\\)<br>a3) \\(\\ce{CH3-C(CH3)2-CH2-CHO}\\)<br>a4) \\(\\ce{CH3-(CH2)2-O-(CH2)2-CH3}\\)",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Nomenclatura e Isomería:</strong><br>
@@ -117,18 +71,11 @@ baseDatosTemas["tema3"] = {
                             - <strong>a1 y a3</strong> son <strong>isómeros de función</strong> (cetona y aldehído) y de cadena.<br>
                             - <strong>a2 y a4</strong> son <strong>isómeros de función</strong> (alcohol y éter).
                         </div>
-                        <div class='paso'>
-                            <strong>b) Síntesis regioselectiva de 3-bromohexano:</strong><br>
-                            Para obtener únicamente 3-bromohexano sin mezcla de regioselectividad se debe emplear un alqueno simétrico, el <strong>hex-3-eno</strong>.<br>
-                            Reacción de <strong>adición electrófila</strong>:<br><br>
-                            \\[\\ce{CH3-CH2-CH=CH-CH2-CH3 + HBr -> CH3-CH2-CH(Br)-CH2-CH2-CH3}\\]<br>
-                            Al ser un alqueno simétrico, la adición por ambos carbonos del doble enlace da lugar al mismo compuesto (3-bromohexano).
-                        </div>
                     `
                 },
                 {
                     titulo: "Junio 2023 - Pares de Compuestos e Isomería B.2",
-                    enunciado: "Considere los pares de compuestos siguientes:<br>(i) etanoato de etilo y ácido butanoico;<br>(ii) pent-1-eno y ciclopentano;<br>(iii) but-1-eno y but-2-ino.<br>a) Escriba sus fórmulas semidesarrolladas.<br>b) Razone si corresponden a compuestos isómeros e indique el tipo.<br>c) Indique si los compuestos del par (ii) reaccionan con agua en medio ácido y formule el producto mayoritario.",
+                    enunciado: "Considere los pares de compuestos siguientes:<br>&emsp; &emsp; (i) etanoato de etilo y ácido butanoico;&emsp;&emsp;&emsp; (ii) pent-1-eno y ciclopentano;&emsp; &emsp; &emsp; (iii) but-1-eno y but-2-ino.<br>a) Escriba sus fórmulas semidesarrolladas.<br>b) Razone si corresponden a compuestos isómeros e indique el tipo.",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Fórmulas semidesarrolladas:</strong><br>
@@ -142,16 +89,11 @@ baseDatosTemas["tema3"] = {
                             - <strong>Par (ii):</strong> Ambos corresponden a \\(\\ce{C5H10}\\). Son <strong>isómeros de función</strong> (alqueno y cicloalcano).<br>
                             - <strong>Par (iii):</strong> But-1-eno (\\(\\ce{C4H8}\\)) y but-2-ino (\\(\\ce{C4H6}\\)). <strong>No son isómeros</strong> (tienen distinta fórmula molecular).
                         </div>
-                        <div class='paso'>
-                            <strong>c) Reacción de hidratación (par ii):</strong><br>
-                            - <strong>pent-1-eno:</strong> Sí reacciona mediante adición electrófila. Por regla de Markovnikov forma <strong>pentan-2-ol</strong> (\\(\\ce{CH3-CHOH-CH2-CH2-CH3}\\)).<br>
-                            - <strong>ciclopentano:</strong> No reacciona por ser un alcano cíclico saturado con alta estabilidad en sus enlaces C-C y C-H.
-                        </div>
                     `
                 },
                 {
                     titulo: "Julio 2023 - Isomería, Éteres y Combustión A.2",
-                    enunciado: "a) Formule el 3-bromo-4-metilpentanal y un isómero de función.<br>b) Formule y nombre dos isómeros de posición del éter con fórmula \\(\\ce{C4H10O}\\).<br>c) Escriba y ajuste la reacción de combustión del etino.<br>d) Escriba la reacción de obtención del ácido 2-metilbutanoico a partir del aldehído correspondiente, indicando el tipo de reacción.",
+                    enunciado: "a) Formule el 3-bromo-4-metilpentanal y un isómero de función.<br>b) Formule y nombre dos isómeros de posición del éter con fórmula \\(\\ce{C4H10O}\\).<br>c) Escriba y ajuste la reacción de combustión del etino.",
                     solucion: `
                         <div class='paso'>
                             <strong>a) 3-bromo-4-metilpentanal e isómero de función:</strong><br>
@@ -167,16 +109,11 @@ baseDatosTemas["tema3"] = {
                             <strong>c) Combustión del etino:</strong><br>
                             \\[\\ce{2 C2H2 + 5 O2 -> 4 CO2 + 2 H2O}\\]
                         </div>
-                        <div class='paso'>
-                            <strong>d) Obtención de ácido 2-metilbutanoico:</strong><br>
-                            Reacción de <strong>oxidación</strong> del aldehído <strong>2-metilbutanal</strong>:<br><br>
-                            \\[\\ce{CH3-CH2-CH(CH3)-CHO + [O] -> CH3-CH2-CH(CH3)-COOH}\\]
-                        </div>
                     `
                 },
                 {
                     titulo: "Junio 2024 - Isomería Geométrica y Reacciones A.2",
-                    enunciado: "a) Indique cuál de los compuestos presenta isomería geométrica y dibuje los isómeros: i) Propeno ii) But-1-eno iii) Pent-2-eno iv) Propen-2-ol.<br>b) Complete y nombre: i) Hex-1-eno + HCl → ii) Propan-2-ol + oxidante →<br>c) Nombre e indique el grupo principal de: i) \\(\\ce{CH3-CH=CH-CHO}\\) ii) \\(\\ce{H-COO-CH(CH3)-CH2-CH3}\\)",
+                    enunciado: "a) Indique cuál de los compuestos presenta isomería geométrica y dibuje los isómeros: <br>&emsp; i) Propeno &emsp;ii) But-1-eno &emsp;iii) Pent-2-eno &emsp;iv) Propen-2-ol.<br>c) Nombre e indique el grupo principal de: <br> &emsp; i) \\(\\ce{CH3-CH=CH-CHO}\\) &emsp;&emsp;ii) \\(\\ce{H-COO-CH(CH3)-CH2-CH3}\\)",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Isomería geométrica:</strong><br>
@@ -184,15 +121,6 @@ baseDatosTemas["tema3"] = {
                             - <strong><em>cis</em>-pent-2-eno</strong> (o (Z)-pent-2-eno)<br>
                             - <strong><em>trans</em>-pent-2-eno</strong> (o (E)-pent-2-eno)<br>
                             <em>(Los demás tienen dos hidrógenos sobre el C1 terminal, impidiendo esta isomería).</em>
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Reacciones químicas:</strong><br>
-                            - i) Adición electrófila (Markovnikov):<br>
-                              \\[\\ce{CH2=CH-CH2-CH2-CH2-CH3 + HCl -> CH3-CH(Cl)-CH2-CH2-CH2-CH3}\\]<br>
-                              Producto: <strong>2-clorohexano</strong>.<br><br>
-                            - ii) Reacción de oxidación:<br>
-                              \\[\\ce{CH3-CHOH-CH3 + [O] -> CH3-CO-CH3}\\]<br>
-                              Producto: <strong>propanona</strong>.
                         </div>
                         <div class='paso'>
                             <strong>c) Nomenclatura y grupos funcionales:</strong><br>
@@ -203,7 +131,7 @@ baseDatosTemas["tema3"] = {
                 },
                 {
                     titulo: "Julio 2024 - Isómeros C₂H₆O, Cis/Trans y Derivados del Eteno B.2",
-                    enunciado: "a) Formule y nombre los isómeros de fórmula \\(\\ce{C2H6O}\\).<br>b) De los compuestos 1,2-dicloroeteno y 1,1-dicloroeteno, indique cuál presenta isomería geométrica e identifíquelos.<br>c) Indique a partir de qué compuesto pueden obtenerse etanol, 1,2-dibromoetano, cloroetano y etano, escribiendo sus reacciones.",
+                    enunciado: "a) Formule y nombre los isómeros de fórmula \\(\\ce{C2H6O}\\).<br>b) De los compuestos 1,2-dicloroeteno y 1,1-dicloroeteno, indique cuál presenta isomería geométrica e identifíquelos.",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Isómeros de fórmula \\(\\ce{C2H6O}\\):</strong><br>
@@ -217,14 +145,6 @@ baseDatosTemas["tema3"] = {
                             - <strong>1,2-dicloroeteno (\\(\\ce{CHCl=CHCl}\\)):</strong> Sí presenta isomería geométrica al poseer un H y un Cl en cada carbono del doble enlace:<br>
                               - <strong><em>cis</em>-1,2-dicloroeteno</strong> (o (Z)-1,2-dicloroeteno)<br>
                               - <strong><em>trans</em>-1,2-dicloroeteno</strong> (o (E)-1,2-dicloroeteno)
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Compuesto de partida y síntesis:</strong><br>
-                            El compuesto de partida es el <strong>eteno (\\(\\ce{CH2=CH2}\\))</strong>.<br>
-                            1. <strong>Etanol:</strong> Adición (hidratación en medio ácido): \\(\\ce{CH2=CH2 + H2O ->[H+] CH3-CH2-OH}\\)<br>
-                            2. <strong>1,2-dibromoetano:</strong> Adición de halógeno: \\(\\ce{CH2=CH2 + Br2 -> CH2Br-CH2Br}\\)<br>
-                            3. <strong>Cloroetano:</strong> Adición de hidrácido: \\(\\ce{CH2=CH2 + HCl -> CH3-CH2-Cl}\\)<br>
-                            4. <strong>Etano:</strong> Adición (hidrogenación catalítica): \\(\\ce{CH2=CH2 + H2 ->[Ni/Pt] CH3-CH3}\\)
                         </div>
                     `
                 },
@@ -252,14 +172,9 @@ baseDatosTemas["tema3"] = {
                     `
                 },
                 {
-                    titulo: "Junio 2025 - Propiedades, Hibridación y Síntesis de Alcohol 3B",
-                    enunciado: "a) Para el \\(\\ce{CH3-CH2-CHOH-CH3}\\), razone V/F: <br> \\(\\quad\\) i) Con \\(\\ce{H2SO4}\\) conc. da dos isómeros geométricos. <br> \\(\\quad\\) ii) Puede adicionar agua para dar butano.<br>b) Formule: <br> \\(\\quad\\)i) Aldehído de 3 carbonos con hibridación sp. <br> \\(\\quad\\) ii) Amina secundaria de 3 carbonos unida a carbonos \\(\\ce{sp^3}\\) y \\(\\ce{sp^2}\\).<br>c) Dados propan-2-ol y propano: i) Justifique cuál tiene mayor Tfusión ii) Formule la obtención del alcohol a partir del alqueno indicando condiciones.",
+                    titulo: "Junio 2025 - Propiedades e Hibridación",
+                    enunciado: "b) Formule: <br> &emsp; i) Aldehído de 3 carbonos con hibridación sp. <br> &emsp; ii) Amina secundaria de 3 carbonos unida a carbonos \\(\\ce{sp^3}\\) y \\(\\ce{sp^2}\\).<br>c) Dados propan-2-ol y propano: <br> &emsp;i) Justifique cuál tiene mayor T<sub>fusión</sub>.",
                     solucion: `
-                        <div class='paso'>
-                            <strong>a) Justificación V/F para el butan-2-ol:</strong><br>
-                            - i) <strong>Verdadero.</strong> La deshidratación con \\(\\ce{H2SO4}\\) (eliminación) sigue la regla de Zaítsev produciendo mayoritariamente <strong>but-2-eno</strong>, el cual posee dos isómeros geométricos: <strong><em>cis</em>-but-2-eno</strong> y <strong><em>trans</em>-but-2-eno</strong>.<br>
-                            - ii) <strong>Falso.</strong> Un alcohol saturado no sufre reacciones de adición de agua; además, la adición a una insaturación daría dioles o alcoholes, nunca alcanos.
-                        </div>
                         <div class='paso'>
                             <strong>b) Formulación según hibridación:</strong><br>
                             - i) <strong>Propinanal</strong> (o prop-2-inal): \\(\\ce{HC\\equiv C-CHO}\\) (3 carbonos, grupo aldehído y carbonos del triple enlace con hibridación \\(sp\\)).<br>
@@ -267,32 +182,17 @@ baseDatosTemas["tema3"] = {
                         </div>
                         <div class='paso'>
                             <strong>c) Propiedades y síntesis de propan-2-ol:</strong><br>
-                            - i) El <strong>propan-2-ol</strong> tiene mayor temperatura de fusión que el propano. Presenta enlaces de hidrógeno intermoleculares por su grupo \\(\\ce{-OH}\\), mientras que el propano sólo interactúa por fuerzas de dispersión de London débiles.<br>
-                            - ii) Obtención de propan-2-ol a partir de <strong>propeno</strong> mediante <strong>adición electrófila</strong> (hidratación en medio ácido):<br><br>
-                              \\[\\ce{CH3-CH=CH2 + H2O ->[H+] CH3-CHOH-CH3}\\]<br>
-                              Sigue la <strong>regla de Markovnikov</strong> constituyendo el producto mayoritario.
+                            - i) El <strong>propan-2-ol</strong> tiene mayor temperatura de fusión que el propano. Presenta enlaces de hidrógeno intermoleculares por su grupo \\(\\ce{-OH}\\), mientras que el propano sólo interactúa por fuerzas de dispersión de London débiles.
                         </div>
                     `
                 },
                 {
-                    titulo: "Julio 2025 - Isomería, Esterificación y Puntos de Ebullición 3B",
-                    enunciado: "a) Formule y nombre un isómero de función del ácido etanoico.<br>b) Formule la reacción entre ácido benzoico y etanol e indique su tipo.<br>c) Escriba la polimerización del etenilbenceno y nombre el polímero.<br>d) Las temperaturas de ebullición de etano, cloroetano y etanol son -88,6 °C, 12,3 °C y 78,5 °C, respectivamente. Justifique las diferencias.",
+                    titulo: "Julio 2025 - Isomería y Puntos de Ebullición 3B",
+                    enunciado: "a) Formule y nombre un isómero de función del ácido etanoico.<br>d) Las temperaturas de ebullición de etano, cloroetano y etanol son -88,6 °C, 12,3 °C y 78,5 °C, respectivamente. Justifique las diferencias.",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Isómero de función del ácido etanoico (\\(\\ce{C2H4O2}\\)):</strong><br>
                             - <strong>Metanoato de metilo:</strong> \\(\\ce{H-COO-CH3}\\) (éster).
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Reacción entre ácido benzoico y etanol:</strong><br>
-                            Reacción de <strong>esterificación (condensación)</strong>:<br><br>
-                            \\[\\ce{C6H5-COOH + CH3-CH2-OH <=> C6H5-COO-CH2-CH3 + H2O}\\]<br>
-                            Productos: <strong>benzoato de etilo</strong> y agua.
-                        </div>
-                        <div class='paso'>
-                            <strong>c) Polimerización del etenilbenceno (estireno):</strong><br>
-                            Reacción de <strong>polimerización por adición</strong>:<br><br>
-                            \\[\\ce{n C6H5-CH=CH2 -> -[CH(C6H5)-CH2]_n-}\\]<br>
-                            Nombre del polímero: <strong>Poliestireno (PS)</strong>.
                         </div>
                         <div class='paso'>
                             <strong>d) Justificación de las temperaturas de ebullición:</strong><br>
@@ -304,7 +204,7 @@ baseDatosTemas["tema3"] = {
                 },
                 {
                     titulo: "Julio 2026 - Isomería 3A",
-                    enunciado: "Responda a las siguientes cuestiones: <br>a) Nombre los siguientes compuestos y escriba su fórmula molecular. Justifique si son isómeros y, en su caso, el tipo de isomería que presentan:<br> \\( \\ce{CH2Br-CH2-COO-CH2-CH3 \\quad y \\quad CH3-(CH2)2-CHBr-COOH}\\)",
+                    enunciado: "Responda a las siguientes cuestiones: <br>a) Nombre los siguientes compuestos y escriba su fórmula molecular. Justifique si son isómeros y, en su caso, el tipo de isomería que presentan:<br> &emsp;&emsp; \\( \\ce{CH2Br-CH2-COO-CH2-CH3 \\quad y \\quad CH3-(CH2)2-CHBr-COOH}\\)",
                     solucion: `
                         <div class='paso'>
                         </div>
@@ -515,6 +415,26 @@ baseDatosTemas["tema3"] = {
                     `
                 },
                 {
+                    titulo: "Julio 2021 - Cuestiones V/F en Orgánica A.4",
+                    enunciado: "Justifique si las siguientes afirmaciones son verdaderas o falsas:<br>a) El propanoato de metilo se obtiene mediante una reacción de esterificación a partir de ácido propanoico y etanol.<br>b) En la reacción de eliminación del compuesto butan-2-ol se obtiene como producto mayoritario but-1-eno.<br>c) El compuesto prop-2-en-1-ol es un isómero de función de la propanona.<br>d) El compuesto pent-2-eno en presencia de \\(\\ce{Br2}\\) da lugar a 2,3-dibromopentano.",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Falso.</strong> El propanoato de metilo se obtiene a partir de ácido propanoico y <strong>metanol</strong> (\\(\\ce{CH3OH}\\)). La reacción con etanol produciría propanoato de etilo.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Falso.</strong> Según la regla de Zaítsev, en la deshidratación del butan-2-ol se abstrae preferentemente el hidrógeno del carbono adyacente menos hidrogenado (C3), dando como producto mayoritario el <strong>but-2-eno</strong>.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Verdadero.</strong> Ambos poseen la misma fórmula molecular (\\(\\ce{C3H6O}\\)). El prop-2-en-1-ol (\\(\\ce{CH2=CH-CH2OH}\\)) es un alcohol insaturado y la propanona (\\(\\ce{CH3-CO-CH3}\\)) una cetona, por lo que son isómeros de función.
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Verdadero.</strong> Es una reacción de adición de halógeno al doble enlace:<br><br>
+                            \\[\\ce{CH3-CH=CH-CH2-CH3 + Br2 -> CH3-CH(Br)-CH(Br)-CH2-CH3}\\]<br>
+                            Obteniéndose 2,3-dibromopentano.
+                        </div>
+                    `
+                },
+                {
                     titulo: "Junio 2022 - Reacciones Orgánicas Generales B.2",
                     enunciado: "Complete y ajuste las siguientes reacciones, formule y nombre todos los compuestos orgánicos que intervienen e indique el tipo de reacción:<br>a) Propano + oxígeno →<br>b) Ácido butanoico + propan-1-amina →<br>c) n \\(\\ce{CH2=CH2}\\) + catalizador →<br>d) \\(\\ce{CH3-CHOH-CH3 + H2SO4 \\text{ (concentrado)} ->}\\)",
                     solucion: `
@@ -568,8 +488,8 @@ baseDatosTemas["tema3"] = {
                     `
                 },
                 {
-                    titulo: "Junio 2023 - Deducción de Esquema Reaccional A.2",
-                    enunciado: "A, B, C, D y E son compuestos orgánicos que reaccionan de acuerdo a los siguientes procesos:<br>i) A + HBr → 2-bromopropano<br>ii) B + C → propanoato de etilo + agua<br>iii) D + oxidante → propanona<br>iv) E + \\(\\ce{H2SO4}\\) (concentrado) → but-2-eno<br>a) Escriba las fórmulas semidesarrolladas de los productos orgánicos de cada reacción.<br>b) Identifique, con sus fórmulas semidesarrolladas y su nombre, los compuestos A, B, C, D y E.<br>c) Indique de qué tipo es cada reacción.<br>d) Diga si en alguna de estas reacciones se puede obtener más de un producto.",
+                    titulo: "Junio 2023 - Deducción de esquema reaccional A.2",
+                    enunciado: "A, B, C, D y E son compuestos orgánicos que reaccionan de acuerdo a los siguientes procesos:<br>&emsp;&emsp;i) A + HBr → 2-bromopropano<br>&emsp;&emsp;ii) B + C → propanoato de etilo + agua<br>&emsp;&emsp;iii) D + oxidante → propanona<br>&emsp;&emsp;iv) E + \\(\\ce{H2SO4}\\) (concentrado) → but-2-eno<br>a) Escriba las fórmulas semidesarrolladas de los productos orgánicos de cada reacción.<br>b) Identifique, con sus fórmulas semidesarrolladas y su nombre, los compuestos A, B, C, D y E.<br>c) Indique de qué tipo es cada reacción.<br>d) Diga si en alguna de estas reacciones se puede obtener más de un producto.",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Productos orgánicos:</strong><br>
