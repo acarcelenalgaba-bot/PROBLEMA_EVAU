@@ -25,7 +25,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Trabajo de expansión",
-                    enunciado: "Considera la reacción entre disoluciones acuosas de bicarbonato de sodio, \\(\\ce{NaHCO3(aq)}\\) y ácido acético, \\(\\ce{HC2H3O2(aq)}\\): \\[\\ce{NaHCO3(aq) + HC2H3O2(aq) -> NaC2H3O2(aq) + H2O(l) + CO2(g)}\\] Si esta reacción ocurre a la presión constante de 1 atm, calcula el trabajo que hace el sistema para empujar a la atmósfera cuando un mol de \\(\\ce{NaHCO3}\\) reacciona a 25 ºC. <br> Dato: \\(1\\ \\text{atm · l} = 101,3\\ \\text{J}\\). <br> <strong>Solución: \\(-2475\\ \\text{J}\\).</strong>",
+                    enunciado: "Considera la reacción entre disoluciones acuosas de bicarbonato de sodio, \\(\\ce{NaHCO3(aq)}\\) y ácido acético, \\(\\ce{HC2H3O2(aq)}\\): \\[\\ce{NaHCO3 (aq) + C2H4O2 (aq) -> NaC2H3O2 (aq) + H2O (l) + CO2 (g)}\\] Si esta reacción ocurre a la presión constante de 1 atm, calcula el trabajo que hace el sistema para empujar a la atmósfera cuando un mol de \\(\\ce{NaHCO3}\\) reacciona a 25 ºC. <br> Dato: \\(1\\ \\text{atm · l} = 101,3\\ \\text{J}\\). <br> <strong>Solución: \\(-2475\\ \\text{J}\\).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>Resolución:</strong><br>
