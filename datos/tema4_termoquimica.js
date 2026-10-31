@@ -65,7 +65,7 @@ baseDatosTemas["tema4"] = {
             problemas: [
                 {
                     titulo: "Reacciones endotérmicas",
-                    enunciado: "Señala cuáles de las siguientes reacciones son endotérmicas: <br>a) \\(\\ce{H2(g) + 1/2O2(g) -> H2O(g)}\\ \\Delta H = -57,8\\ \\text{kcal}\\) <br>b) \\(\\ce{1/2N2(g) + 1/2O2(g) -> NO(g)}\\ \\Delta H = 21,6\\ \\text{kcal}\\) <br>c) \\(\\ce{1/2N2(g) + O2(g) + 8,1 kcal -> NO2(g)}\\) <br>d) \\(\\ce{1/2N2(g) + 3/2H2(g) -> NH3(g) + 11 kcal}\\) <br>e) \\(\\ce{NH3(g) -> 1/2N2(g) + 3/2H2(g)}\\ \\Delta H = 11\\ \\text{kcal}\\)",
+                    enunciado: "Señala cuáles de las siguientes reacciones son endotérmicas: <br>a) \\(\\ce{H2(g) + 1/2O2(g) -> H2O(g)}\\ \\quad \\Delta H = -57,8\\ \\text{kcal}\\) <br>b) \\(\\ce{1/2N2(g) + 1/2O2(g) -> NO(g)}\\ \\quad \\Delta H = 21,6\\ \\text{kcal}\\) <br>c) \\(\\ce{1/2N2(g) + O2(g) + 8,1 kcal -> NO2(g)}\\) <br>d) \\(\\ce{1/2N2(g) + 3/2H2(g) -> NH3(g) + 11 kcal}\\) <br>e) \\(\\ce{NH3(g) -> 1/2N2(g) + 3/2H2(g)}\\ \\quad \\Delta H = 11\\ \\text{kcal}\\)",
                     solucion: `
                         <div class='paso'>
                             Son endotérmicas aquellas en las que \\(\\Delta H > 0\\) o que absorben calor.<br>
@@ -75,7 +75,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Calor desprendido",
-                    enunciado: "Utilizando el diagrama de entalpía, calcula el calor desprendido cuando el peróxido de hidrógeno se descompone, a presión constante, en agua y oxígeno según: \\[\\ce{H2O2(l) -> H2O(l) + 1/2O2(g)}\\]",
+                    enunciado: "Utilizando el diagrama de entalpía, calcula el calor desprendido cuando el peróxido de hidrógeno se descompone, a presión constante, en agua y oxígeno según: \\[\\ce{H2O2(l) -> H2O(l) + 1/2O2(g)}\\] <div style='text-align: center; margin-bottom: 20px;'> <img src='img/entalpia_agua.png' style='width: 25rem; max-width: 100%;height: auto; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);'> </div>",
                     solucion: `
                         <div class='paso'>
                             A partir del diagrama de entalpía y de las entalpías de formación:<br>
@@ -110,7 +110,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Variación de entalpía estándar",
-                    enunciado: "Calcula la variación de entalpía estándar de las reacciones: \\[\\ce{2SO2(g) + O2(g) -> 2SO3(g)}\\] y \\[\\ce{N2O4(g) -> 2NO2(g)}\\] Datos: \\(\\Delta H_f^\\circ \\ce{SO2(g)} = -296,8\\ \\text{kJ/mol}\\); \\(\\Delta H_f^\\circ \\ce{SO3(g)} = -395,6\\ \\text{kJ/mol}\\); \\(\\Delta H_f^\\circ \\ce{NO2(g)} = 33,2\\ \\text{kJ/mol}\\); \\(\\Delta H_f^\\circ \\ce{N2O4(g)} = 9,2\\ \\text{kJ/mol}\\).",
+                    enunciado: "Calcula la variación de entalpía estándar de las reacciones: <br> a) \\(\\ce{2SO2(g) + O2(g) -> 2SO3(g)}\\) <br> b) \\(\\ce{N2O4(g) -> 2NO2(g)}\\) <br><br> Datos: \\(\\Delta H_f^\\circ \\ce{SO2(g)} = -296,8\\ \\text{kJ/mol}\\); \\(\\Delta H_f^\\circ \\ce{SO3(g)} = -395,6\\ \\text{kJ/mol}\\); \\(\\Delta H_f^\\circ \\ce{NO2(g)} = 33,2\\ \\text{kJ/mol}\\); \\(\\Delta H_f^\\circ \\ce{N2O4(g)} = 9,2\\ \\text{kJ/mol}\\).",
                     solucion: `
                         <div class='paso'>
                             \\[\\Delta H_1 = 2(-395,6) - 2(-296,8) = -197,6\\ \\text{kJ}\\]
@@ -134,6 +134,15 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Entalpía de combustión",
+                    enunciado: "A 298 K y 1,00 atm, la entalpía estándar de combustión del propano, \\(\\ce{C3H8 (g)}\\), es \\(\\ce{- 2219,2 kJ/mol}\\). <br> a) Escribe y ajusta la ecuación termoquímica de la combustión del propano expresando el estado de agregación de reactivos y productos.<br> b) Calcula la cantidad de calor que se desprende al quemar 15,0 L de propano medidos a 25 \\(\\ce{^\\circ C}\\) y 1,20 atm.<br> Dato: \\(\\ce{R = 0,082 \\ atm \\cdot L \\cdot mol^{-1} \\cdot K^{-1} } \\).",
+                    solucion: `
+                        <div class='paso'>
+                        </div>
+                    `
+
+                },
+                {
+                    titulo: "Entalpía de combustión",
                     enunciado: "A partir de: \\(\\Delta H_f^\\circ \\ce{H2O(l)} = -285,8\\); \\(\\Delta H_f^\\circ \\ce{CO2(g)} = -393,5\\); \\(\\Delta H_f^\\circ \\ce{C4H10(l)} = -125\\ \\text{kJ/mol}\\). <br>a) Determina la entalpía de combustión del gas butano. <br>b) Calcula la energía desprendida al quemar el butano de una bombona de 20 litros a 25 ºC y 7,4 atm.",
                     solucion: `
                         <div class='paso'>
@@ -147,7 +156,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Variación de entalpía estándar",
-                    enunciado: "a) Calcula la variación de entalpía estándar de la reacción del carburo de calcio \\(\\ce{CaC2(s)}\\) con agua líquida para dar hidróxido de calcio sólido y acetileno \\(\\ce{C2H2(g)}\\). <br>b) Calcula la energía que se desprende mediante calor durante la combustión, a presión constante, de 50 dm³ de acetileno a 25 ºC y \\(1,01\\cdot10^5\\ \\text{Pa}\\). Datos: \\(\\Delta H_f^\\circ \\ce{CaC2(s)}=-62,7\\); \\(\\ce{H2O(l)}=-285,6\\); \\(\\ce{Ca(OH)2(s)}=-76,1\\); \\(\\ce{C2H2(g)}=-84,6\\); \\(\\ce{CO2(g)}=-393,5\\ \\text{kJ/mol}\\).",
+                    enunciado: "a) Calcula la variación de entalpía estándar de la reacción del carburo de calcio \\(\\ce{CaC2(s)}\\) con agua líquida para dar hidróxido de calcio sólido y acetileno \\(\\ce{C2H2(g)}\\). <br>b) Calcula la energía que se desprende mediante calor durante la combustión, a presión constante, de 50 dm³ de acetileno a 25 ºC y \\(1,01\\cdot10^5\\ \\text{Pa}\\). <br><br> Datos: \\(\\Delta H_f^\\circ \\ce{CaC2(s)}=-62,7\\); \\(\\ce{H2O(l)}=-285,6\\); \\(\\ce{Ca(OH)2(s)}=-76,1\\); \\(\\ce{C2H2(g)}=-84,6\\); \\(\\ce{CO2(g)}=-393,5\\ \\text{kJ/mol}\\).",
                     solucion: `
                         <div class='paso'>
                             <strong>a)</strong> \\[\\ce{CaC2(s) + 2H2O(l) -> Ca(OH)2(s) + C2H2(g)}\\]
@@ -162,7 +171,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Calor de combustión y composición molar",
-                    enunciado: "Un proceso necesita 36200 kJ, que se obtienen quemando a 25 ºC y 1 atm, 422 L de una mezcla de etano y propano. Calcula: <br>a) El calor de combustión de ambos. <br>b) La composición molar del gas. Datos: \\(\\Delta H_f^\\circ \\ce{C2H6(g)}=-85\\); \\(\\ce{H2O(l)}=-285,6\\); \\(\\ce{C3H8(g)}=-104\\); \\(\\ce{CO2(g)}=-393,5\\).",
+                    enunciado: "Un proceso necesita 36200 kJ, que se obtienen quemando a 25 ºC y 1 atm, 422 L de una mezcla de etano y propano. Calcula: <br>a) El calor de combustión de ambos. <br>b) La composición molar del gas. <br><br> Datos: \\(\\Delta H_f^\\circ \\ce{C2H6(g)}=-85\\); \\(\\ce{H2O(l)}=-285,6\\); \\(\\ce{C3H8(g)}=-104\\); \\(\\ce{CO2(g)}=-393,5\\).",
                     solucion: `
                         <div class='paso'>
                             <strong>a)</strong> Etano:<br>
@@ -183,7 +192,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Entalpía de formación",
-                    enunciado: "La entalpía de combustión de la sacarosa \\(\\ce{C12H22O11}\\) es \\(\\Delta H_r = -5644\\ \\text{kJ/mol}\\). Calcula su entalpía de formación. Datos: \\(\\Delta H_f^\\circ \\ce{H2O(l)}=-285,8\\); \\(\\ce{CO2(g)}=-393,5\\).",
+                    enunciado: "La entalpía de combustión de la sacarosa \\(\\ce{C12H22O11}\\) es \\(\\Delta H_r = -5644\\ \\text{kJ/mol}\\). Calcula su entalpía de formación. <br><br> Datos: \\(\\Delta H_f^\\circ \\ce{H2O(l)}=-285,8\\); \\(\\ce{CO2(g)}=-393,5\\).",
                     solucion: `
                         <div class='paso'>
                             \\[\\ce{C12H22O11(s) + 12O2(g) -> 12CO2(g) + 11H2O(l)}\\]
@@ -210,7 +219,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Entalpía de combustión",
-                    enunciado: "Compara las características energéticas de la miel (80% glucosa \\(\\ce{C6H12O6}\\)) y la ginebra (45% etanol \\(\\ce{C2H5OH}\\)). <br>a) Reacciones de combustión. <br>b) Entalpías estándar de combustión en kJ/mol. <br>c) Energía desprendida por kg de cada una. Datos: \\(\\Delta H_f^\\circ\\): \\(\\ce{C6H12O6(s)}=-1260\\); \\(\\ce{C2H5OH(l)}=-277,6\\); \\(\\ce{CO2(g)}=-393,5\\); \\(\\ce{H2O(l)}=-285,8\\).",
+                    enunciado: "Compara las características energéticas de la miel (80% glucosa \\(\\ce{C6H12O6}\\)) y la ginebra (45% etanol \\(\\ce{C2H5OH}\\)). <br>a) Reacciones de combustión. <br>b) Entalpías estándar de combustión en kJ/mol. <br>c) Energía desprendida por kg de cada una. <br><br> Datos: \\(\\Delta H_f^\\circ\\): \\(\\ce{C6H12O6(s)}=-1260\\); \\(\\ce{C2H5OH(l)}=-277,6\\); \\(\\ce{CO2(g)}=-393,5\\); \\(\\ce{H2O(l)}=-285,8\\).",
                     solucion: `
                         <div class='paso'>
                             <strong>a)</strong> Glucosa:<br>
@@ -230,17 +239,6 @@ baseDatosTemas["tema4"] = {
                     `
                 },
                 {
-                    titulo: "Entalpía de reacción",
-                    enunciado: "La reacción termita: \\[\\ce{2Al + Fe2O3 -> 2Fe + Al2O3}\\qquad \\Delta H = -200\\ \\text{kcal}\\] <br>a) ¿Cuál es la entalpía de \\(\\ce{2Fe + Al2O3 -> 2Al + Fe2O3}\\)? <br>b) ¿Cuánto calor se desprende en la formación de 5 moles de \\(\\ce{Al2O3}\\)?",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a)</strong> Proceso inverso: \\(\\Delta H = +200\\ \\text{kcal} = 836\\ \\text{kJ}\\).<br>
-                            <strong>b)</strong> Por mol de \\(\\ce{Al2O3}\\): \\(-200\\ \\text{kcal}\\). Para 5 mol: \\(-1000\\ \\text{kcal} = -4180\\ \\text{kJ}\\).<br>
-                            <strong>Solución: a) \\(+836\\ \\text{kJ}\\); b) \\(-4180\\ \\text{kJ}\\).</strong>
-                        </div>
-                    `
-                },
-                {
                     titulo: "Entalpía de formación",
                     enunciado: "Calcula la entalpía de formación del \\(\\ce{CO(g)}\\): \\[\\ce{C(s) + 1/2O2(g) -> CO(g)}\\] a partir de: <br>(1) \\(\\ce{C(s) + O2 -> CO2(g)}\\ \\Delta H_1 = -393,5\\ \\text{kJ}\\) <br>(2) \\(\\ce{2CO(g) + O2(g) -> 2CO2(g)}\\ \\Delta H_2 = -566\\ \\text{kJ}\\)",
                     solucion: `
@@ -252,8 +250,8 @@ baseDatosTemas["tema4"] = {
                     `
                 },
                 {
-                    titulo: "Entalpía de formación",
-                    enunciado: "Con los datos a 298 K: \\[\\ce{C(grafito) + O2(g) -> CO2(g)}\\ \\Delta H = -376,2\\ \\text{kJ}\\] \\[\\ce{H2(g) + 1/2O2(g) -> H2O(l)}\\ \\Delta H = -273,28\\ \\text{kJ}\\] \\[\\ce{C6H6(l) + 15/2O2(g) -> 3H2O(l) + 6CO2(g)}\\ \\Delta H = -3124\\ \\text{kJ}\\] Calcula el calor de formación del benceno (kJ/mol).",
+                    titulo: "Entalpía de formación. Ley de Hess",
+                    enunciado: "Con los datos a 298 K: \\[\\ce{C(grafito) + O2(g) -> CO2(g)}\\ \\quad\\quad \\Delta H = -376,2\\ \\text{kJ}\\] \\[\\ce{H2(g) + 1/2O2(g) -> H2O(l)}\\ \\quad\\quad \\Delta H = -273,28\\ \\text{kJ}\\] \\[\\ce{C6H6(l) + 15/2O2(g) -> 3H2O(l) + 6CO2(g)}\\ \\quad\\quad \\Delta H = -3124\\ \\text{kJ}\\] Calcula el calor de formación del benceno (kJ/mol).",
                     solucion: `
                         <div class='paso'>
                             \\[\\Delta H_f^\\circ(\\ce{C6H6}) = 6(-376,2)+3(-273,28)-(-3124) = 46,96\\ \\text{kJ/mol}\\]
@@ -262,8 +260,8 @@ baseDatosTemas["tema4"] = {
                     `
                 },
                 {
-                    titulo: "Entalpía de reacción",
-                    enunciado: "\\(\\ce{PbO(s) + C(grafito) -> Pb(s) + CO(g)}\\ \\Delta H^\\circ = 107\\ \\text{kJ/mol}\\). Por otra parte: \\(\\ce{C(grafito) + 1/2O2(g) -> CO(g)}\\ \\Delta H^\\circ = 155\\ \\text{kJ/mol}\\). <br>a) Calcula la entalpía de formación del \\(\\ce{PbO}\\). <br>b) ¿Cuánta energía se necesita para que 414 g de \\(\\ce{Pb}\\) reaccionen con \\(\\ce{O2}\\)? <br>c) Dibuja el diagrama entálpico.",
+                    titulo: "Entalpía de reacción. Ley de Hess",
+                    enunciado: "El monóxido de plomo, PbO, reacciona con carbono según la siguiente ecuación termoquímica: \\(\\ce{PbO(s) + C(grafito) -> Pb(s) + CO(g)}\\ \\Delta H^\\circ = 107\\ \\text{kJ/mol}\\). Por otra parte, el monóxido de carbono se puede obtener por oxidación del carbono, mediante la reacción: \\(\\ce{C(grafito) + 1/2O2(g) -> CO(g)}\\ \\Delta H^\\circ = 155\\ \\text{kJ/mol}\\). <br>a) Calcula la entalpía de formación del \\(\\ce{PbO}\\). <br>b) ¿Cuánta energía se necesita para que 414 g de \\(\\ce{Pb}\\) reaccionen con \\(\\ce{O2}\\)? <br>c) Dibuja el diagrama entálpico.",
                     solucion: `
                         <div class='paso'>
                             <strong>a)</strong> Invirtiendo la primera y sumando la segunda:<br>
@@ -272,16 +270,6 @@ baseDatosTemas["tema4"] = {
                             \\[E = 2 \\cdot 48 = 96\\ \\text{kJ}\\]
                             <strong>c)</strong> Diagrama: reactivos \\(\\ce{Pb + 1/2O2}\\) a mayor entalpía que \\(\\ce{PbO}\\), con diferencia \\(48\\ \\text{kJ/mol}\\).<br>
                             <strong>Solución: a) \\(48\\ \\text{kJ/mol}\\); b) \\(96\\ \\text{kJ}\\).</strong>
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Entalpía de reacción",
-                    enunciado: "En \\[\\ce{H2(g) + F(g) -> HF(g) + H(g)}\\qquad \\Delta H < 0\\] ¿Qué enlace es más fuerte, \\(\\ce{H-H}\\) o \\(\\ce{H-F}\\)?",
-                    solucion: `
-                        <div class='paso'>
-                            Se rompe un enlace \\(\\ce{H-H}\\) y se forma un enlace \\(\\ce{H-F}\\). Como el proceso es exotérmico, la energía liberada al formar \\(\\ce{H-F}\\) es mayor que la necesaria para romper \\(\\ce{H-H}\\).<br>
-                            <strong>El enlace \\(\\ce{H-F}\\) es más fuerte que el \\(\\ce{H-H}\\).</strong>
                         </div>
                     `
                 },
@@ -297,7 +285,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Entalpía de hidrogenación",
-                    enunciado: "Calcula la entalpía de hidrogenación del 1,3-butadieno a butano. Datos: \\(E(\\ce{C=C})=613\\); \\(E(\\ce{H-H})=436\\); \\(E(\\ce{C-H})=414\\); \\(E(\\ce{C-C})=347\\ \\text{kJ/mol}\\). Compara con el ejercicio 42.",
+                    enunciado: "Calcula la entalpía de hidrogenación del 1,3-butadieno a butano. <br><br> Datos: \\(E(\\ce{C=C})=613\\); \\(E(\\ce{H-H})=436\\); \\(E(\\ce{C-H})=414\\); \\(E(\\ce{C-C})=347\\ \\text{kJ/mol}\\).",
                     solucion: `
                         <div class='paso'>
                             \\[\\ce{CH2=CH-CH=CH2 + 2H2 -> CH3-CH2-CH2-CH3}\\]
@@ -325,7 +313,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Entropía y desorden",
-                    enunciado: "Calcula \\(\\Delta S^\\circ\\) para la descomposición del amoniaco. Datos: \\(S^\\circ(\\ce{NH3})=192,3\\); \\(S^\\circ(\\ce{N2})=191,5\\); \\(S^\\circ(\\ce{H2})=130,7\\ \\text{J/K}\\).",
+                    enunciado: "Calcula \\(\\Delta S^\\circ\\) para la descomposición del amoniaco. <br><br> Datos: \\(S^\\circ(\\ce{NH3})=192,3\\); \\(S^\\circ(\\ce{N2})=191,5\\); \\(S^\\circ(\\ce{H2})=130,7\\ \\text{J/K}\\).",
                     solucion: `
                         <div class='paso'>
                             \\[\\ce{2NH3(g) -> N2(g) + 3H2(g)}\\]
@@ -336,7 +324,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Entropía y desorden",
-                    enunciado: "Indica el signo de \\(\\Delta S\\): <br>a) \\(\\ce{CaCO3(s)->CaO(s)+CO2(g)}\\) <br>b) \\(\\ce{HCl(g)+NH3(g)->NH4Cl(s)}\\) <br>c) \\(\\ce{2HCl(aq)+Zn(s)->ZnCl2(aq)+H2(g)}\\) <br>d) \\(\\ce{CuSO4·5H2O(s)->CuSO4(s)+5H2O(l)}\\)",
+                    enunciado: "Indica el signo de \\(\\Delta S\\): <br>a) \\(\\ce{CaCO3 (s) -> CaO (s) + CO2 (g)}\\) <br>b) \\(\\ce{HCl (g) + NH3 (g) -> NH4Cl (s)}\\) <br>c) \\(\\ce{2 HCl (aq) + Zn (s) -> ZnCl2 (aq) + H2 (g)}\\) <br>d) \\(\\ce{CuSO4·5H2O (s) -> CuSO4 (s) + 5 H2O (l)}\\)",
                     solucion: `
                         <div class='paso'>
                             <strong>a)</strong> sólido → sólido + gas: \\(\\Delta S > 0\\).<br>
@@ -354,7 +342,7 @@ baseDatosTemas["tema4"] = {
             problemas: [
                 {
                     titulo: "Efecto de la temperatura en la espontaneidad",
-                    enunciado: "Discute el efecto de la temperatura en la espontaneidad: <br>a) \\(\\ce{2PbO(s)+2SO2(g)->2PbS(s)+3O2(g)}\\ (\\Delta H^\\circ=830,8\\ \\text{kJ}; \\Delta S^\\circ=168\\ \\text{J/K})\\) <br>b) \\(\\ce{2As(s)+3F2(g)->2AsF3(l)}\\ (\\Delta H^\\circ=-1643\\ \\text{kJ}; \\Delta S^\\circ=-0,316\\ \\text{kJ/K})\\) <br>c) \\(\\ce{CO(g)->C(s)+1/2O2(g)}\\ (\\Delta H^\\circ=110,5\\ \\text{kJ}; \\Delta S^\\circ=-89,4\\ \\text{J/K})\\)",
+                    enunciado: "Discute el efecto de la temperatura en la espontaneidad: <br>a) \\(\\ce{2 PbO (s) + 2 SO2 (g) -> 2 PbS (s) + 3 O2 (g)}\\ \\quad\\quad (\\Delta H^\\circ = 830,8\\ \\text{kJ}; \\Delta S^\\circ = 168\\ \\text{J/K})\\) <br>b) \\(\\ce{2 As (s) + 3 F2 (g) -> 2 AsF3 (l)}\\ \\quad\\quad (\\Delta H^\\circ = - 1643\\ \\text{kJ}; \\Delta S^\\circ = - 0,316\\ \\text{kJ/K})\\) <br>c) \\(\\ce{CO (g) -> C (s) + 1/2 O2 (g)}\\ \\quad\\quad (\\Delta H^\\circ = 110,5\\ \\text{kJ}; \\Delta S^\\circ = - 89,4\\ \\text{J/K})\\)",
                     solucion: `
                         <div class='paso'>
                             <strong>a)</strong> \\(\\Delta H>0\\), \\(\\Delta S>0\\): espontánea a temperaturas altas, \\(T>\\Delta H/\\Delta S \\approx 4945\\ \\text{K}\\).<br>
@@ -365,7 +353,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Entalpía y energía libre de Gibbs",
-                    enunciado: "A 298 K: \\(\\ce{NO(g)}\\): \\(\\Delta H^\\circ=90,25\\), \\(\\Delta G^\\circ=86,57\\); \\(\\ce{NO2(g)}\\): \\(\\Delta H^\\circ=33,18\\), \\(\\Delta G^\\circ=51,30\\ \\text{kJ/mol}\\). Razona si la formación de \\(\\ce{NO2}\\) a partir de \\(\\ce{NO}\\) y \\(\\ce{O2}\\) es: a) Exotérmica; b) Espontánea.",
+                    enunciado: "A 298 K: \\(\\ce{NO(g)}\\): \\(\\Delta H^\\circ=90,25\\), \\(\\Delta G^\\circ=86,57\\); \\(\\ce{NO2(g)}\\): \\(\\Delta H^\\circ=33,18\\), \\(\\Delta G^\\circ=51,30\\ \\text{kJ/mol}\\). Razona si la formación de \\(\\ce{NO2}\\) a partir de \\(\\ce{NO}\\) y \\(\\ce{O2}\\) es: <br> a) Exotérmica; b) Espontánea.",
                     solucion: `
                         <div class='paso'>
                             \\[\\ce{2NO(g) + O2(g) -> 2NO2(g)}\\]
@@ -378,7 +366,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Entalpía y energía libre de Gibbs",
-                    enunciado: "\\(\\ce{N2O(g) -> N2(g) + 1/2O2(g)}\\). Siendo \\(\\Delta H^\\circ=43,9\\ \\text{kJ}\\); \\(\\Delta S^\\circ=75,2\\ \\text{J/K}\\). <br>a) ¿Es espontánea en condiciones estándar? <br>b) ¿A partir de qué temperatura será espontánea?",
+                    enunciado: "El óxido de dinitrógeno se descompone según la reacción: \\(\\ce{N2O(g) -> N2(g) + 1/2O2(g)}\\). Siendo \\(\\Delta H^\\circ=43,9\\ \\text{kJ}\\); \\(\\Delta S^\\circ=75,2\\ \\text{J/K}\\). <br>a) ¿Es espontánea la reacción en condiciones estándar? <br>b) ¿A partir de qué temperatura será espontánea?",
                     solucion: `
                         <div class='paso'>
                             <strong>a)</strong> \\[\\Delta G^\\circ = 43,9 - 298(0,0752) \\approx 21,5\\ \\text{kJ}\\]
@@ -391,7 +379,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Espontaneidad de reacciones",
-                    enunciado: "\"Peste del estaño\": \\(\\ce{Sn(blanco) -> Sn(gris)}\\). Datos: \\(\\ce{Sn(blanco)}\\): \\(\\Delta H_f^\\circ=0\\), \\(S^\\circ=51,55\\); \\(\\ce{Sn(gris)}\\): \\(\\Delta H_f^\\circ=-2,09\\ \\text{kJ/mol}\\), \\(S^\\circ=44,14\\ \\text{J/mol·K}\\). Determina por debajo de qué temperatura se produce.",
+                    enunciado: "La peste del estaño es un fenómeno químico real. A temperaturas bajas, el estaño blanco se transforma en estaño gris, quebradizo y pulverulento según la reacción:  \\(\\quad \\ce{Sn(blanco) -> Sn(gris)}\\). <br> Determina por debajo de qué temperatura se produce. <br><br> Datos: \\(\\ce{Sn(blanco)}\\): \\(\\Delta H_f^\\circ=0\\), \\(S^\\circ=51,55\\); \\(\\ce{Sn(gris)}\\): \\(\\Delta H_f^\\circ=-2,09\\ \\text{kJ/mol}\\), \\(S^\\circ=44,14\\ \\text{J/mol·K}\\).",
                     solucion: `
                         <div class='paso'>
                             \\[\\Delta H = -2,09 - 0 = -2,09\\ \\text{kJ}\\]
@@ -404,7 +392,7 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Entalpía y energía libre de Gibbs",
-                    enunciado: "Datos: \\(\\ce{H2S(g)}\\): \\(\\Delta H^\\circ=-22,1\\); \\(S^\\circ=205,4\\) | \\(\\ce{SO2(g)}\\): \\(\\Delta H^\\circ=-296,4\\); \\(S^\\circ=247,6\\) | \\(\\ce{H2O(g)}\\): \\(\\Delta H^\\circ=-285,5\\); \\(S^\\circ=70,0\\) | \\(\\ce{S(g)}\\): \\(\\Delta H^\\circ=0\\); \\(S^\\circ=31,8\\). <br>a) Calcula \\(\\Delta H^\\circ\\) de: \\[\\ce{2H2S(g) + SO2(g) -> 2H2O(l) + 3S(s)}\\] <br>b) Calcula \\(\\Delta G^\\circ\\) y determina si es espontánea a 25 ºC. <br>c) Explica si se verá favorecida a altas temperaturas.",
+                    enunciado: "a) Calcula la \\(\\Delta H^\\circ\\) de la siguiente reacción: \\(\\quad \\ce{2H2S(g) + SO2(g) -> 2H2O(l) + 3S(s)}\\) <br>b) Calcula la \\(\\Delta G^\\circ\\) de la reación anterior y determina si es espontánea a 25 ºC. <br>c) Explica si se verá favorecida a altas temperaturas. <br><br>Datos: \\(\\ce{H2S (g)}\\): \\(\\Delta H^\\circ = - 22,1\\); \\(S^\\circ = 205,4 \\quad\\) | \\(\\quad \\ce{SO2 (g)}\\): \\(\\Delta H^\\circ = - 296,4\\); \\(S^\\circ = 247,6 \\quad \\) | \\(\\quad \\ce{H2O (l)}\\): \\(\\Delta H^\\circ = - 285,5\\); \\(S^\\circ = 70,0 \\quad \\) | \\(\\quad \\ce{S (s)}\\): \\(\\Delta H^\\circ = 0\\); \\(S^\\circ = 31,8\\). ",
                     solucion: `
                         <div class='paso'>
                             <strong>a)</strong> Usando los datos del enunciado:<br>
