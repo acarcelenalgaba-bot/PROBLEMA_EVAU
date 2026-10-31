@@ -5,7 +5,7 @@ if (typeof baseDatosTemas === 'undefined') {
 baseDatosTemas["tema3"] = {
     id: "tema3",
     titulo: "Tema 3: Química Orgánica",
-    deshabilitado: false,
+    deshabilitado: true,
     secciones: {
         "formulacion_isomeria": {
             nombre: "Formulación, Nomenclatura e Isomería",
