@@ -2,9 +2,9 @@ if (typeof baseDatosTemas === 'undefined') {
     var baseDatosTemas = {};
 }
 
-baseDatosTemas["tema5_equilibrio"] = {
-    id: "tema5_equilibrio",
-    titulo: "Tema 5: Equilibrio Químico y Solubilidad",
+baseDatosTemas["tema6_equilibrio"] = {
+    id: "tema6_equilibrio",
+    titulo: "Tema 6: Equilibrio Químico y Solubilidad",
     deshabilitado: false,
     secciones: {
         "equilibrio_homogeneo": {

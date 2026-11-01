@@ -2,9 +2,9 @@ if (typeof baseDatosTemas === 'undefined') {
     var baseDatosTemas = {};
 }
 
-baseDatosTemas["tema6_acidobase"] = {
-    id: "tema6_acidobase",
-    titulo: "Tema 6: Equilibrio Ácido-Base",
+baseDatosTemas["tema7_acidobase"] = {
+    id: "tema7_acidobase",
+    titulo: "Tema 7: Equilibrio Ácido-Base",
     deshabilitado: false,
     secciones: {
         "equilibrio_acidobase": {
