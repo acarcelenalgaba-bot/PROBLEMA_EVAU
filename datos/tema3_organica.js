@@ -8,7 +8,7 @@ baseDatosTemas["tema3"] = {
     deshabilitado: false,
     secciones: {
         "formulacion_isomeria": {
-            nombre: "Formulación, Nomenclatura e Isomería",
+            nombre: "1. Formulación, Nomenclatura e Isomería",
             problemas: [
                 {
                     titulo: "Julio 2019 - Isomería de Diversas Familias",
@@ -213,7 +213,7 @@ baseDatosTemas["tema3"] = {
             ]
         },
         "reacciones_organicas": {
-            nombre: "Reacciones Orgánicas y Síntesis",
+            nombre: "2. Reacciones Orgánicas y Síntesis",
             problemas: [
                 {
                     titulo: "Julio 2020 - Reacciones Orgánicas B.2",
@@ -526,7 +526,7 @@ baseDatosTemas["tema3"] = {
             ]
         },
         "polimeros_propiedades": {
-            nombre: "Polímeros y Propiedades Físicas",
+            nombre: "3. Polímeros y Propiedades Físicas",
             problemas: [
                 {
                     titulo: "Junio 2019 - Polímeros e Hidrocarburos",

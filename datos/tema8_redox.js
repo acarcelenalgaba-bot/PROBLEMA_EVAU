@@ -8,7 +8,7 @@ baseDatosTemas["tema8_redox"] = {
     deshabilitado: false,
     secciones: {
         "ajuste_redox": {
-            nombre: "Ajuste de reacciones redox (ion-electrón)",
+            nombre: "1. Ajuste de reacciones redox (ion-electrón)",
             problemas: [
                 {
                     titulo: "Junio 2019 - Oxidación del estaño con ácido nítrico",
@@ -322,8 +322,8 @@ baseDatosTemas["tema8_redox"] = {
                 }
             ]
         },
-        "pilas_electrolisis": {
-            nombre: "Pilas galvánicas y Electrólisis",
+        "pilas": {
+            nombre: "2. Pilas galvánicas",
             problemas: [
                 {
                     titulo: "Junio 2019 - Pila de hierro y plata",
@@ -422,6 +422,48 @@ baseDatosTemas["tema8_redox"] = {
                     `
                 },
                 {
+                    titulo: "Junio 2022 - Pila de cadmio y plata",
+                    enunciado: "Responda las siguientes cuestiones:<br>a) Dibuje el esquema de una pila utilizando como electrodos una barra de cadmio y otra de plata. Identifique todos los elementos que la forman, e indique el sentido del movimiento de los electrones.<br>b) Escriba las reacciones que tienen lugar en el cátodo y en el ánodo, y calcule el potencial de la pila.<br>Datos: E⁰(V): Cd²⁺/Cd = −0,40; Ag⁺/Ag = 0,80.",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Esquema y movimiento de electrones:</strong><br>
+                            (Esquema: Electrodo de Cd en disolución de Cd²⁺ como ánodo; electrodo de Ag en disolución de Ag⁺ como cátodo; puente salino; voltímetro).
+                            Los electrones circulan del ánodo (Cd) al cátodo (Ag) por el conductor externo.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Reacciones y potencial:</strong><br>
+                            Ánodo (oxidación): \\[\\ce{Cd -> Cd^{2+} + 2 e-}\\]
+                            Cátodo (reducción): \\[\\ce{2 Ag+ + 2 e- -> 2 Ag}\\]
+                            \\[E^0_{pila} = 0,80 - (-0,40) = \\boxed{1,20\\ \\text{V}}\\]
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2024 - Pila con potencial más positivo y desplazamiento",
+                    enunciado: "Considere los potenciales de reducción que se indican y conteste razonadamente:<br>a) Combinando dos electrodos de los especificados, justifique cuáles forman la pila con el potencial más positivo. Escriba las reacciones que tienen lugar en el ánodo y en el cátodo, y calcule el potencial de dicha pila.<br>b) Se dispone de dos recipientes con disoluciones de nitrato de plata y nitrato de manganeso(II) y en cada uno se introduce una barra de hierro. ¿En cuál de ellos se formará una capa del otro metal sobre la barra de hierro? Razone la respuesta.<br>Datos: E⁰(V): Mn²⁺/Mn = −1,18; Fe²⁺/Fe = −0,44; Pb²⁺/Pb = −0,125; Ag⁺/Ag = 0,80; Au³⁺/Au = 1,52.",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Pila con potencial más positivo:</strong><br>
+                            Se elige el cátodo con mayor E⁰ (Au³⁺/Au = 1,52 V) y el ánodo con menor E⁰ (Mn²⁺/Mn = −1,18 V).<br>
+                            Ánodo: \\[\\ce{Mn -> Mn^{2+} + 2 e-}\\]
+                            Cátodo: \\[\\ce{Au^{3+} + 3 e- -> Au}\\]
+                            \\[E^0_{pila} = 1,52 - (-1,18) = \\boxed{2,70\\ \\text{V}}\\]
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Barra de hierro en disoluciones:</strong><br>
+                            Para que se deposite el otro metal, el hierro debe oxidarse (ánodo) y el catión del otro metal reducirse. Esto ocurre si el potencial de reducción del catión es mayor que el del Fe²⁺/Fe.<br>
+                            - Ag⁺/Ag (0,80 V) > Fe²⁺/Fe (−0,44 V): Sí se deposita plata.<br>
+                            - Mn²⁺/Mn (−1,18 V) < Fe²⁺/Fe (−0,44 V): No se deposita manganeso.<br>
+                            Por tanto, se formará una capa de <strong>plata</strong> en la disolución de nitrato de plata.
+                        </div>
+                    `
+                }
+            ]
+        },
+        "electrolisis": {
+            nombre: "3. Electrólisis",
+            problemas: [            
+                {
                     titulo: "Julio 2021 - Electrólisis de Cu²⁺ y espontaneidad",
                     enunciado: "Responda las siguientes cuestiones a partir de la reacción de oxidación-reducción (no ajustada): Cu²⁺(ac) + H₂O → Cu(s) + O₂(g).<br>a) Razone si la reacción se produce de forma espontánea.<br>b) Escriba las semirreacciones de oxidación y reducción, indicando en qué electrodo se deposita el cobre y en cuál se desprende oxígeno.<br>c) Determine cuánto cobre se deposita si se hace pasar una corriente de 0,50 amperios a través de 1,0 L de disolución de CuSO₄ 0,2 M durante 4 horas.<br>Datos: E⁰(V): Cu²⁺/Cu = 0,34; O₂/H₂O = 1,23. F = 96485 C. Masa atómica: Cu = 63,5.",
                     solucion: `
@@ -442,23 +484,6 @@ baseDatosTemas["tema8_redox"] = {
                             Moles de electrones: \\(n_e = \\frac{7200}{96485} = 0,0746\\ \\text{mol}\\)<br>
                             Moles de Cu (2 e⁻ por Cu): \\(n_{Cu} = \\frac{0,0746}{2} = 0,0373\\ \\text{mol}\\)<br>
                             Masa: \\(m = 0,0373 \\cdot 63,5 = \\boxed{2,37\\ \\text{g}}\\) (aprox. 2,5 g según la solución, que redondea).
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Junio 2022 - Pila de cadmio y plata",
-                    enunciado: "Responda las siguientes cuestiones:<br>a) Dibuje el esquema de una pila utilizando como electrodos una barra de cadmio y otra de plata. Identifique todos los elementos que la forman, e indique el sentido del movimiento de los electrones.<br>b) Escriba las reacciones que tienen lugar en el cátodo y en el ánodo, y calcule el potencial de la pila.<br>Datos: E⁰(V): Cd²⁺/Cd = −0,40; Ag⁺/Ag = 0,80.",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Esquema y movimiento de electrones:</strong><br>
-                            (Esquema: Electrodo de Cd en disolución de Cd²⁺ como ánodo; electrodo de Ag en disolución de Ag⁺ como cátodo; puente salino; voltímetro).
-                            Los electrones circulan del ánodo (Cd) al cátodo (Ag) por el conductor externo.
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Reacciones y potencial:</strong><br>
-                            Ánodo (oxidación): \\[\\ce{Cd -> Cd^{2+} + 2 e-}\\]
-                            Cátodo (reducción): \\[\\ce{2 Ag+ + 2 e- -> 2 Ag}\\]
-                            \\[E^0_{pila} = 0,80 - (-0,40) = \\boxed{1,20\\ \\text{V}}\\]
                         </div>
                     `
                 },
@@ -514,26 +539,6 @@ baseDatosTemas["tema8_redox"] = {
                             Moles de e⁻: \\(n_e = \\frac{13500}{96485} = 0,1399\\ \\text{mol}\\)<br>
                             Moles de Cd: \\(n = \\frac{0,1399}{2} = 0,06995\\ \\text{mol}\\)<br>
                             Masa: \\(m = 0,06995 \\cdot 112,4 = \\boxed{7,86\\ \\text{g}}\\)
-                        </div>
-                    `
-                },
-                {
-                    titulo: "Julio 2024 - Pila con potencial más positivo y desplazamiento",
-                    enunciado: "Considere los potenciales de reducción que se indican y conteste razonadamente:<br>a) Combinando dos electrodos de los especificados, justifique cuáles forman la pila con el potencial más positivo. Escriba las reacciones que tienen lugar en el ánodo y en el cátodo, y calcule el potencial de dicha pila.<br>b) Se dispone de dos recipientes con disoluciones de nitrato de plata y nitrato de manganeso(II) y en cada uno se introduce una barra de hierro. ¿En cuál de ellos se formará una capa del otro metal sobre la barra de hierro? Razone la respuesta.<br>Datos: E⁰(V): Mn²⁺/Mn = −1,18; Fe²⁺/Fe = −0,44; Pb²⁺/Pb = −0,125; Ag⁺/Ag = 0,80; Au³⁺/Au = 1,52.",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Pila con potencial más positivo:</strong><br>
-                            Se elige el cátodo con mayor E⁰ (Au³⁺/Au = 1,52 V) y el ánodo con menor E⁰ (Mn²⁺/Mn = −1,18 V).<br>
-                            Ánodo: \\[\\ce{Mn -> Mn^{2+} + 2 e-}\\]
-                            Cátodo: \\[\\ce{Au^{3+} + 3 e- -> Au}\\]
-                            \\[E^0_{pila} = 1,52 - (-1,18) = \\boxed{2,70\\ \\text{V}}\\]
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Barra de hierro en disoluciones:</strong><br>
-                            Para que se deposite el otro metal, el hierro debe oxidarse (ánodo) y el catión del otro metal reducirse. Esto ocurre si el potencial de reducción del catión es mayor que el del Fe²⁺/Fe.<br>
-                            - Ag⁺/Ag (0,80 V) > Fe²⁺/Fe (−0,44 V): Sí se deposita plata.<br>
-                            - Mn²⁺/Mn (−1,18 V) < Fe²⁺/Fe (−0,44 V): No se deposita manganeso.<br>
-                            Por tanto, se formará una capa de <strong>plata</strong> en la disolución de nitrato de plata.
                         </div>
                     `
                 },

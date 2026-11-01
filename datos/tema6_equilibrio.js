@@ -8,7 +8,7 @@ baseDatosTemas["tema6_equilibrio"] = {
     deshabilitado: false,
     secciones: {
         "equilibrio_homogeneo": {
-            nombre: "Equilibrio Químico (Kp, Kc, grado de disociación)",
+            nombre: "1. Equilibrio Químico (Kp, Kc, grado de disociación)",
             problemas: [
                 {
                     titulo: "Junio 2019 - Disociación del SbCl₅",
@@ -327,7 +327,7 @@ baseDatosTemas["tema6_equilibrio"] = {
             ]
         },
         "equilibrio_solubilidad": {
-            nombre: "Equilibrio de Solubilidad (Kps)",
+            nombre: "2. Equilibrio de Solubilidad (Kps)",
             problemas: [
                 {
                     titulo: "Julio 2019 - Cromato de plata",

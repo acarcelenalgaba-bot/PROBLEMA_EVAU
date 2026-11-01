@@ -8,7 +8,7 @@ baseDatosTemas["tema2"] = {
     deshabilitado: true,
     secciones: {
         "enlace_ionico": {
-            nombre: "Enlace iónico",
+            nombre: "1. Enlace iónico",
             problemas: [
                 {
                     titulo: "Ciclo de Born-Haber para el CaCl₂",
@@ -134,7 +134,7 @@ baseDatosTemas["tema2"] = {
             ]
         },
         "covalente": {
-            nombre: "Enlace Covalente",
+            nombre: "2. Enlace Covalente",
             problemas: [
                 {
                     titulo: "Septiembre 2017",
@@ -253,7 +253,7 @@ baseDatosTemas["tema2"] = {
             ]
         },
         "intermoleculares": {
-            nombre: "Fuerzas intermoleculares",
+            nombre: "3. Fuerzas intermoleculares",
             problemas: [
                 {
                     titulo: "Junio 2014",
@@ -315,7 +315,7 @@ baseDatosTemas["tema2"] = {
             ]
         },
         "tipos_enlace": {
-            nombre: "Tipos de enlace ",
+            nombre: "4. Tipos de enlace ",
             problemas: [
                 {
                     titulo: "Junio 2013",

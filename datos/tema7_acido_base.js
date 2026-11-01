@@ -8,7 +8,7 @@ baseDatosTemas["tema7_acidobase"] = {
     deshabilitado: false,
     secciones: {
         "equilibrio_acidobase": {
-            nombre: "Equilibrio ácido-base, pH, hidrólisis y disoluciones reguladoras",
+            nombre: "1. Equilibrio ácido-base, pH, hidrólisis y disoluciones reguladoras",
             problemas: [
                 {
                     titulo: "Junio 2018 - Ácido débil HA",
