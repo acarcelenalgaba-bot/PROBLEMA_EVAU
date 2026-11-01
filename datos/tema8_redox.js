@@ -4,7 +4,7 @@ if (typeof baseDatosTemas === 'undefined') {
 
 baseDatosTemas["tema8_redox"] = {
     id: "tema8_redox",
-    titulo: "Tema 8: Reacciones de Transferencia de Electrones (Redox)",
+    titulo: "Tema 8: Reacciones Redox",
     deshabilitado: false,
     secciones: {
         "ajuste_redox": {
