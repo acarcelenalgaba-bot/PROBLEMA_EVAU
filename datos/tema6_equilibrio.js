@@ -4,7 +4,7 @@ if (typeof baseDatosTemas === 'undefined') {
 
 baseDatosTemas["tema6_equilibrio"] = {
     id: "tema6_equilibrio",
-    titulo: "Tema 6: Equilibrio Químico y Solubilidad",
+    titulo: "Tema 6: Equilibrio Químico",
     deshabilitado: false,
     secciones: {
         "equilibrio_homogeneo": {
