@@ -936,22 +936,22 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2026",
-                    enunciado: "La configuración electrónica de un elemento X es [Ne]ns<sup>1</sup>. <br>a) Indique el valor de "n", el nombre y símbolo del elemento X, así como el grupo y el período a los que pertenece. Razone cómo varía la energía de ionización a lo largo de un grupo de la tabla periódica. <br> b) Justifique cuál es el catión más estable que puede formar el elemento X. Indique un catión divalente, un elemento neutro y un anión monovalente que sean isoelectrónicos con el catión más estable del elemento X. <br> <strong>Solución: a) n = 3, X = Sodio (Na), grupo 1, periodo 3; la EI disminuye al bajar en un grupo; b) el catión más estable es Na⁺; isoelectrónicos: Mg²⁺, Ne y F⁻.</strong>",
+                    enunciado: "La configuración electrónica de un elemento X es [Ne]ns<sup>1</sup>. <br>a) Indique el valor de n, el nombre y símbolo del elemento X, así como el grupo y el período a los que pertenece. Razone cómo varía la energía de ionización a lo largo de un grupo de la tabla periódica. <br> b) Justifique cuál es el catión más estable que puede formar el elemento X. Indique un catión divalente, un elemento neutro y un anión monovalente que sean isoelectrónicos con el catión más estable del elemento X. <br> <strong>Solución: a) n = 3, X = Sodio (Na), grupo 1, periodo 3; la EI disminuye al bajar en un grupo; b) el catión más estable es Na⁺; isoelectrónicos: Mg²⁺, Ne y F⁻.</strong>",
                     solucion: `
-                <div class='paso'>
-                    <strong>a) Identificación del elemento X y variación de la energía de ionización:</strong><br>
-                    La configuración electrónica [Ne]ns<sup>1</sup> indica que el elemento X tiene un electrón de valencia en el orbital ns. Como la configuración del gas noble anterior es [Ne] (Z = 10), el elemento X tiene Z = 11, que corresponde al Sodio (Na). El valor de "n" es 3, ya que el electrón de valencia está en el orbital 3s. El sodio pertenece al Grupo 1 (metales alcalinos) y al Periodo 3.<br>
-                    La energía de ionización disminuye a lo largo de un grupo de arriba hacia abajo, ya que el electrón de valencia está más alejado del núcleo y la carga nuclear efectiva sobre él es menor, lo que facilita su remoción.
-                </div>
-                <div class='paso'>
-                    <strong>b) Catión más estable y especies isoelectrónicas:</strong><br>
-                    El catión más estable del sodio es Na⁺, ya que pierde su único electrón de valencia para alcanzar la configuración electrónica del neón ([Ne]).<br>
-                    Especies isoelectrónicas con Na⁺ (10 electrones):<br>
-                    - Catión divalente: Mg²⁺ (Z = 12, pierde 2 e⁻ → 10 e⁻)<br>
-                    - Elemento neutro: Ne (Z = 10, 10 e⁻)<br>
-                    - Anión monovalente: F⁻ (Z = 9, gana 1 e⁻ → 10 e⁻)
-                </div>
-            `
+                        <div class='paso'>
+                            <strong>a) Identificación del elemento X y variación de la energía de ionización:</strong><br>
+                            La configuración electrónica [Ne]ns<sup>1</sup> indica que el elemento X tiene un electrón de valencia en el orbital ns. Como la configuración del gas noble anterior es [Ne] (Z = 10), el elemento X tiene Z = 11, que corresponde al Sodio (Na). El valor de "n" es 3, ya que el electrón de valencia está en el orbital 3s. El sodio pertenece al Grupo 1 (metales alcalinos) y al Periodo 3.<br>
+                            La energía de ionización disminuye a lo largo de un grupo de arriba hacia abajo, ya que el electrón de valencia está más alejado del núcleo y la carga nuclear efectiva sobre él es menor, lo que facilita su remoción.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Catión más estable y especies isoelectrónicas:</strong><br>
+                            El catión más estable del sodio es Na⁺, ya que pierde su único electrón de valencia para alcanzar la configuración electrónica del neón ([Ne]).<br>
+                            Especies isoelectrónicas con Na⁺ (10 electrones):<br>
+                            - Catión divalente: Mg²⁺ (Z = 12, pierde 2 e⁻ → 10 e⁻)<br>
+                            - Elemento neutro: Ne (Z = 10, 10 e⁻)<br>
+                            - Anión monovalente: F⁻ (Z = 9, gana 1 e⁻ → 10 e⁻)
+                        </div>
+                    `
                 }
             ]
         }
