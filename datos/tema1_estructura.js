@@ -6,14 +6,14 @@ if (typeof baseDatosTemas === 'undefined') {
 baseDatosTemas["tema1"] = {
     id: "tema1",
     titulo: "Tema 1: Estructura de la Materia",
-    deshabilitado: true,
+    deshabilitado: false,
     secciones: {
         "estructura": {
             nombre: "1. Estructura de la materia",
             problemas: [
                 {
                     titulo: "Cuántica de Planck y Energía de Ionización",
-                    enunciado: "La primera energía de ionización de un elemento gaseoso es de \\(450 \\text{ kJ}\\cdot\\text{mol}^{-1}\\). <br>a) Calcule la energía mínima (en Julios) que se requiere para ionizar un único átomo de este elemento. <br>b) Determine si un fotón de radiación ultravioleta con una longitud de onda de \\(\\lambda = 200 \\text{ nm}\\) posee energía suficiente para provocar la ionización de dicho átomo. <br>c) Explique brevemente en qué consiste la hipótesis de cuantización de la energía propuesta por Max Planck.<br>Datos: Número de Avogadro, N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>-1</sup>; Constante de Planck, h = 6,63·10<sup>-34</sup> J · s; Velocidad de la luz, c = 3,0 · 10<sup>8</sup> m/s.",
+                    enunciado: "La primera energía de ionización de un elemento gaseoso es de \\(450 \\text{ kJ}\\cdot\\text{mol}^{-1}\\). <br>a) Calcule la energía mínima (en Julios) que se requiere para ionizar un único átomo de este elemento. <br>b) Determine si un fotón de radiación ultravioleta con una longitud de onda de \\(\\lambda = 200 \\text{ nm}\\) posee energía suficiente para provocar la ionización de dicho átomo. <br>c) Explique brevemente en qué consiste la hipótesis de cuantización de la energía propuesta por Max Planck.<br>Datos: Número de Avogadro, N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>-1</sup>; Constante de Planck, h = 6,63·10<sup>-34</sup> J · s; Velocidad de la luz, c = 3,0 · 10<sup>8</sup> m/s. <br> <strong>Solución: a) E = 7,48·10⁻¹⁹ J/átomo; b) E_fotón = 9,945·10⁻¹⁹ J > E_ionización, sí es suficiente; c) la energía se emite/absorbe en cuantos discretos.</strong>",
                     solucion: `
                 <div class='paso'>
                     <strong>a) Energía mínima para ionizar un átomo:</strong><br>
@@ -34,7 +34,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Efecto Fotoeléctrico I",
-                    enunciado: "Al iluminar la superficie de un metal con radiación de longitud de onda \\(\\lambda = 300 \\text{ nm}\\), los electrones son emitidos con una energía cinética máxima de 1,2·10<sup>-19</sup> J. <br>a) Calcule el trabajo de extracción (o función de trabajo) de dicho metal en Julios y en eV. <br> b) Determine la frecuencia umbral por debajo de la cual no se producirá efecto fotoeléctrico.<br> Datos: h = 6,63·10<sup>-34</sup> J·s; c = 3,0·10<sup>8</sup> m/s; 1 eV = 1,6 · 10<sup>-19</sup> J.",
+                    enunciado: "Al iluminar la superficie de un metal con radiación de longitud de onda \\(\\lambda = 300 \\text{ nm}\\), los electrones son emitidos con una energía cinética máxima de 1,2·10<sup>-19</sup> J. <br>a) Calcule el trabajo de extracción (o función de trabajo) de dicho metal en Julios y en eV. <br> b) Determine la frecuencia umbral por debajo de la cual no se producirá efecto fotoeléctrico.<br> Datos: h = 6,63·10<sup>-34</sup> J·s; c = 3,0·10<sup>8</sup> m/s; 1 eV = 1,6 · 10<sup>-19</sup> J. <br> <strong>Solución: a) W₀ = 5,43·10⁻¹⁹ J = 3,39 eV; b) f₀ = 8,19·10¹⁴ Hz.</strong>",
                     solucion: `
                 <div class='paso'>
                 <strong>a) Trabajo de extracción:</strong><br>
@@ -58,7 +58,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Efecto Fotoeléctrico II",
-                    enunciado: "Un fotocátodo de potasio tiene un trabajo de extracción (o función de trabajo) de W<sub>0</sub> = 2,2 eV. Sobre su superficie incide un haz de luz monocromática de longitud de onda \\(\\lambda = 380 \\ nm\\).<br>a) Determine si se produce efecto fotoeléctrico. En caso afirmativo, calcule la energía cinética máxima de los fotoelectrones emitidos (expresada en eV) y el potencial de frenado (V<sub>s</sub>) necesario para anular la corriente eléctrica. <br> b) Calcule la velocidad máxima (v<sub>máx</sub>) con la que son expulsados dichos electrones.<br> c) Justifique razonadamente qué ocurriría con la energía cinética máxima de los electrones y con el número de electrones emitidos por segundo si se duplica la intensidad de la luz incidente sin modificar su frecuencia. <br>Datos: Constante de Planck: h = 6,63 · 10<sup>-34</sup> J·s; Velocidad de la luz: c = 3,0 · 10<sup>8</sup> m/s; Carga del electrón: e = 1,6 · 10<sup>-19</sup> C; Masa del electrón: m<sub>e</sub> = 9,1 · 10<sup>-31</sup> kg; 1 eV = 1,6 · 10<sup>-19</sup> J.",
+                    enunciado: "Un fotocátodo de potasio tiene un trabajo de extracción (o función de trabajo) de W<sub>0</sub> = 2,2 eV. Sobre su superficie incide un haz de luz monocromática de longitud de onda \\(\\lambda = 380 \\ nm\\).<br>a) Determine si se produce efecto fotoeléctrico. En caso afirmativo, calcule la energía cinética máxima de los fotoelectrones emitidos (expresada en eV) y el potencial de frenado (V<sub>s</sub>) necesario para anular la corriente eléctrica. <br> b) Calcule la velocidad máxima (v<sub>máx</sub>) con la que son expulsados dichos electrones.<br> c) Justifique razonadamente qué ocurriría con la energía cinética máxima de los electrones y con el número de electrones emitidos por segundo si se duplica la intensidad de la luz incidente sin modificar su frecuencia. <br>Datos: Constante de Planck: h = 6,63 · 10<sup>-34</sup> J·s; Velocidad de la luz: c = 3,0 · 10<sup>8</sup> m/s; Carga del electrón: e = 1,6 · 10<sup>-19</sup> C; Masa del electrón: m<sub>e</sub> = 9,1 · 10<sup>-31</sup> kg; 1 eV = 1,6 · 10<sup>-19</sup> J. <br> <strong>Solución: a) sí hay efecto fotoeléctrico; E_c = 1,07 eV, V_s = 1,07 V; b) v_máx = 6,12·10⁵ m/s; c) la E_c no cambia y el número de electrones se duplica.</strong>",
                     solucion: `
                 <div class='paso'>
                 <strong>a) Determinación del efecto fotoeléctrico y energía cinética máxima:</strong><br>
@@ -83,7 +83,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Modelo de Bohr",
-                    enunciado: "Según el modelo atómico de Bohr, la energía de un electrón en una órbita n del átomo de hidrógeno se puede calcular mediante la expresión \\(\\ce{ E_n = \\frac{- 2,18 \\cdot 10^{-18}}{n^2} \\text{ J}} \\). <br> a) Calcule la energía (en Julios) que debe absorber un electrón para realizar la transición desde el estado fundamental n = 1 hasta el nivel de energía n = 3. <br>b) Determine la frecuencia y la longitud de onda de la radiación electromagnética que causaría dicha transición. <br>c) Explique razonadamente cuál fue la principal limitación del modelo de Bohr que impulsó el desarrollo del modelo mecano-cuántico actual. <br> Datos: Constante de Planck, h = 6,63 · 10<sup>-34</sup> J · s; Velocidad de la luz, c = 3,0·10<sup>8</sup> m/s",
+                    enunciado: "Según el modelo atómico de Bohr, la energía de un electrón en una órbita n del átomo de hidrógeno se puede calcular mediante la expresión \\(\\ce{ E_n = \\frac{- 2,18 \\cdot 10^{-18}}{n^2} \\text{ J}} \\). <br> a) Calcule la energía (en Julios) que debe absorber un electrón para realizar la transición desde el estado fundamental n = 1 hasta el nivel de energía n = 3. <br>b) Determine la frecuencia y la longitud de onda de la radiación electromagnética que causaría dicha transición. <br>c) Explique razonadamente cuál fue la principal limitación del modelo de Bohr que impulsó el desarrollo del modelo mecano-cuántico actual. <br> Datos: Constante de Planck, h = 6,63 · 10<sup>-34</sup> J · s; Velocidad de la luz, c = 3,0·10<sup>8</sup> m/s <br> <strong>Solución: a) ΔE = 1,94·10⁻¹⁸ J; b) f = 2,93·10¹⁵ Hz, λ = 102 nm; c) solo explica el H y no considera la naturaleza ondulatoria del electrón.</strong>",
                     solucion: `
             <div class='paso'>
                 <strong>a) Energía absorbida para la transición de n = 1 a n = 3:</strong><br>
@@ -109,7 +109,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Espectro de Emisión del Hidrógeno y Modelo de Bohr",
-                    enunciado: "En el átomo de hidrógeno, un electrón experimenta una transición electrónica descendente desde el nivel de energía de la órbita n = 4 hasta el nivel n = 2. <br>a) Calcule la energía emitida en este proceso de relajación cuántica. <br>b) Determine la longitud de onda (en nm) de la radiación emitida. <br>c) Indique razonadamente a qué región del espectro electromagnético pertenece la radiación y si será visible para el ojo humano. <br> Datos: Constante de Planck, \\(h = 6,63 \\cdot 10^{-34} \\text{ J}\\cdot\\text{s}\\); Velocidad de la luz, \\(c = 3,0 \\cdot 10^8 \\text{ m/s}\\); Expresión de la energía de las órbitas de Bohr para el hidrógeno: \\(E_n = \\frac{-2,18 \\cdot 10^{-18}}{n^2} \\text{ J}\\).",
+                    enunciado: "En el átomo de hidrógeno, un electrón experimenta una transición electrónica descendente desde el nivel de energía de la órbita n = 4 hasta el nivel n = 2. <br>a) Calcule la energía emitida en este proceso de relajación cuántica. <br>b) Determine la longitud de onda (en nm) de la radiación emitida. <br>c) Indique razonadamente a qué región del espectro electromagnético pertenece la radiación y si será visible para el ojo humano. <br> Datos: Constante de Planck, \\(h = 6,63 \\cdot 10^{-34} \\text{ J}\\cdot\\text{s}\\); Velocidad de la luz, \\(c = 3,0 \\cdot 10^8 \\text{ m/s}\\); Expresión de la energía de las órbitas de Bohr para el hidrógeno: \\(E_n = \\frac{-2,18 \\cdot 10^{-18}}{n^2} \\text{ J}\\). <br> <strong>Solución: a) ΔE = -4,09·10⁻¹⁹ J (emitida); b) λ = 486 nm; c) visible (azul-verde).</strong>",
                     solucion: `
             <div class='paso'>
                 <strong>a) Energía emitida en la transición de n=4 a n=2:</strong><br>
@@ -133,7 +133,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2016",
-                    enunciado: "Conteste cada una de las siguientes preguntas, justificando la respuesta.<br> a) Determine para el átomo de hidrógeno, según el modelo de Bohr, qué transición electrónica requiere una mayor absorción de energía, la de n = 2 a n = 3, la de n = 5 a n = 6 o la de n = 9 a n = 2.",
+                    enunciado: "Conteste cada una de las siguientes preguntas, justificando la respuesta.<br> a) Determine para el átomo de hidrógeno, según el modelo de Bohr, qué transición electrónica requiere una mayor absorción de energía, la de n = 2 a n = 3, la de n = 5 a n = 6 o la de n = 9 a n = 2. <br> <strong>Solución: la transición de n = 9 a n = 2 requiere la mayor absorción de energía (5,18·10⁻¹⁹ J).</strong>",
                     solucion: `
                 <div class='paso'>
                     <strong>a) Transición electrónica con mayor absorción de energía:</strong><br>
@@ -156,7 +156,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Julio 2018",
-                    enunciado: "Responda justificadamente a las siguientes preguntas:<br>c) Calcule la menor longitud de onda en nm de la radiación absorbida del espectro de hidrógeno.<br> Datos. R<sub>H</sub> = 1,097 · 10<sup>7</sup> m<sup>&minus;1</sup> .",
+                    enunciado: "Responda justificadamente a las siguientes preguntas:<br>c) Calcule la menor longitud de onda en nm de la radiación absorbida del espectro de hidrógeno.<br> Datos. R<sub>H</sub> = 1,097 · 10<sup>7</sup> m<sup>&minus;1</sup> . <br> <strong>Solución: λ = 91,1 nm (transición n=∞ a n=1).</strong>",
                     solucion: `
                 <div class='paso'>
                     <strong>c) Menor longitud de onda en el espectro de hidrógeno:</strong><br>
@@ -171,7 +171,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Dualidad Onda-Corpúsculo de de Broglie",
-                    enunciado: "Para estudiar la naturaleza ondulatoria de la materia propuesta por de Broglie, un laboratorio compara dos sistemas en movimiento:<br><ul><li>Sistema A: &nbsp; Un electrón (\\(m_e = 9.11 \\cdot 10^{-31} \\text{ kg}\\)) que se desplaza a una velocidad de \\(1,5 \\cdot 10^6 \\text{ m/s}\\).<br></li><li>Sistema B: &nbsp; Una pelota de tenis (\\(m = 60 \\text{ g}\\)) servida a una velocidad de \\(150 \\text{ km/h}\\).<br></li></ul>a) Calcule la longitud de onda asociada (en metros) para ambos sistemas. <br> b) Justifique razonadamente, a partir de los resultados obtenidos, por qué las propiedades ondulatorias son determinantes en el estudio de los electrones pero pasan totalmente desapercibidas en los objetos de nuestra vida cotidiana.<br>Dato: Constante de Planck, \\(h = 6,63 \\cdot 10^{-34} \\text{ J}\\cdot\\text{s}\\).",
+                    enunciado: "Para estudiar la naturaleza ondulatoria de la materia propuesta por de Broglie, un laboratorio compara dos sistemas en movimiento:<br><ul><li>Sistema A: &nbsp; Un electrón (\\(m_e = 9.11 \\cdot 10^{-31} \\text{ kg}\\)) que se desplaza a una velocidad de \\(1,5 \\cdot 10^6 \\text{ m/s}\\).<br></li><li>Sistema B: &nbsp; Una pelota de tenis (\\(m = 60 \\text{ g}\\)) servida a una velocidad de \\(150 \\text{ km/h}\\).<br></li></ul>a) Calcule la longitud de onda asociada (en metros) para ambos sistemas. <br> b) Justifique razonadamente, a partir de los resultados obtenidos, por qué las propiedades ondulatorias son determinantes en el estudio de los electrones pero pasan totalmente desapercibidas en los objetos de nuestra vida cotidiana.<br>Dato: Constante de Planck, \\(h = 6,63 \\cdot 10^{-34} \\text{ J}\\cdot\\text{s}\\). <br> <strong>Solución: a) λ_electrón = 4,84·10⁻¹⁰ m, λ_pelota = 2,65·10⁻³⁴ m; b) la λ del electrón es comparable al tamaño atómico, la de la pelota es despreciable.</strong>",
                     solucion: `
                 <div class='paso'>
                     <strong>a) Cálculo de la longitud de onda asociada:</strong><br>
@@ -193,7 +193,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Dualidad de de Broglie y Principio de Incertidumbre",
-                    enunciado: "Un electrón en un microscopio electrónico de alta resolución se desplaza a una velocidad de \\( 2,0 \\cdot 10^6 \\text{ m/s} \\). <br>a) Calcule la longitud de onda asociada a dicho electrón según la hipótesis de de Broglie. <br>b) Si la incertidumbre en la determinación de la posición de este electrón es de \\( 1,0 \\cdot 10^{-10} \\text{ m} \\) (aproximadamente el tamaño de un átomo de hidrógeno), determine la incertidumbre mínima en la medida de su velocidad. <br> Datos: Masa del electrón, \\( m_e = 9.1 \\cdot 10^{-31} \\text{ kg} \\); Constante de Planck, \\( h = 6.63 \\cdot 10^{-34} \\text{ J}\\cdot\\text{s} \\).",
+                    enunciado: "Un electrón en un microscopio electrónico de alta resolución se desplaza a una velocidad de \\( 2,0 \\cdot 10^6 \\text{ m/s} \\). <br>a) Calcule la longitud de onda asociada a dicho electrón según la hipótesis de de Broglie. <br>b) Si la incertidumbre en la determinación de la posición de este electrón es de \\( 1,0 \\cdot 10^{-10} \\text{ m} \\) (aproximadamente el tamaño de un átomo de hidrógeno), determine la incertidumbre mínima en la medida de su velocidad. <br> Datos: Masa del electrón, \\( m_e = 9.1 \\cdot 10^{-31} \\text{ kg} \\); Constante de Planck, \\( h = 6.63 \\cdot 10^{-34} \\text{ J}\\cdot\\text{s} \\). <br> <strong>Solución: a) λ = 3,64·10⁻¹⁰ m; b) Δv ≈ 5,78·10⁵ m/s.</strong>",
                     solucion: `
             <div class='paso'>
                 <strong>a) Cálculo de la longitud de onda asociada al electrón:</strong><br>
@@ -213,10 +213,10 @@ baseDatosTemas["tema1"] = {
                 \\[ \\Delta v = \\frac{6,63 \\cdot 10^{-34}}{4\\pi (9,1 \\cdot 10^{-31}) (1,0 \\cdot 10^{-10})} \\approx 5,78 \\cdot 10^5 \\, \\text{m/s} \\]
             </div>
             `
-                },
+                },   
                 {
                     titulo: "Principio de Incertidumbre de Heisenberg y Orbitales",
-                    enunciado: "En física de partículas se acelera un protón (\\(m_p = 1,67 \\cdot 10^{-27} \\text{ kg}\\)) hasta que se conoce su velocidad con una incertidumbre de apenas \\(1,0 \\text{ m/s}\\).<br> a) Calcule la incertidumbre mínima en la determinación de la posición de dicho protón. <br> b) Justifique detalladamente cómo este principio físico de indeterminación obligó a sustituir el concepto determinista de \"órbita\" del modelo de Bohr por el concepto probabilístico de \"orbital\" en el modelo mecano-cuántico actual. <br>Dato: Constante de Planck, \\(h = 6,63 \\cdot 10^{-34} \\text{ J}\\cdot\\text{s}\\).",
+                    enunciado: "En física de partículas se acelera un protón (\\(m_p = 1,67 \\cdot 10^{-27} \\text{ kg}\\)) hasta que se conoce su velocidad con una incertidumbre de apenas \\(1,0 \\text{ m/s}\\).<br> a) Calcule la incertidumbre mínima en la determinación de la posición de dicho protón. <br> b) Justifique detalladamente cómo este principio físico de indeterminación obligó a sustituir el concepto determinista de \"órbita\" del modelo de Bohr por el concepto probabilístico de \"orbital\" en el modelo mecano-cuántico actual. <br>Dato: Constante de Planck, \\(h = 6,63 \\cdot 10^{-34} \\text{ J}\\cdot\\text{s}\\). <br> <strong>Solución: a) Δx ≈ 3,18·10⁻⁸ m; b) el principio de indeterminación impide trayectorias definidas, sustituyéndose por orbitales probabilísticos.</strong>",
                     solucion: `
             <div class='paso'>
                 <strong>a) Cálculo de la incertidumbre mínima en la posición:</strong><br>
@@ -235,7 +235,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Anomalías en Configuraciones Electrónicas y Números Cuánticos",
-                    enunciado: "Considere los elementos químicos Cromo (\\(Z = 24\\)) y Cobre (\\(Z = 29\\)). <br>a) Escriba su configuración electrónica fundamental, justificando detalladamente por qué se desvían del orden teórico establecido por el diagrama de Moeller. <br>b) Indique los números cuánticos posibles para el electrón más externo (electrón de valencia) de cada átomo en su estado fundamental. <br>c) Justifique la estabilidad adicional asociada a las capas y subcapas semillenas.<br>d) Enuncie el Principio de Exclusión de Pauli y utilícelo para justificar por qué un orbital atómico tipo d no puede albergar más de 10 electrones.",
+                    enunciado: "Considere los elementos químicos Cromo (\\(Z = 24\\)) y Cobre (\\(Z = 29\\)). <br>a) Escriba su configuración electrónica fundamental, justificando detalladamente por qué se desvían del orden teórico establecido por el diagrama de Moeller. <br>b) Indique los números cuánticos posibles para el electrón más externo (electrón de valencia) de cada átomo en su estado fundamental. <br>c) Justifique la estabilidad adicional asociada a las capas y subcapas semillenas.<br>d) Enuncie el Principio de Exclusión de Pauli y utilícelo para justificar por qué un orbital atómico tipo d no puede albergar más de 10 electrones. <br> <strong>Solución: a) Cr: [Ar]4s¹3d⁵, Cu: [Ar]4s¹3d¹⁰ (estabilidad de subcapas semillenas/llenas); b) n=4, l=0, m_l=0, m_s=±½; c) simetría y mínimo de repulsión; d) no puede haber dos electrones con los cuatro números cuánticos iguales, y un subnivel d tiene 5 orbitales × 2 e⁻ = 10 e⁻.</strong>",
                     solucion: `
                 <div class='paso'>
                     <strong>a) Configuración electrónica fundamental:</strong><br>
@@ -264,7 +264,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2015",
-                    enunciado: "El uranio es un elemento con Z = 92. En la naturaleza se encuentra mayoritariamente como <sup>238</sup>U, con una pequeña cantidad de <sup>235</sup>U,que es el que se emplea en reactores nucleares. <br>  a) Explique la diferencia entre las configuraciones electrónicas del <sup>238</sup>U y el <sup>235</sup>U. <br> b) Calcule el número de neutrones en un núcleo de <sup>235</sup>U. <br>  c) Escriba la configuración electrónica del <sup>235</sup>U. <br> d) Escriba los números cuánticos posibles para los electrones más externos del <sup>235</sup>U.",
+                    enunciado: "El uranio es un elemento con Z = 92. En la naturaleza se encuentra mayoritariamente como <sup>238</sup>U, con una pequeña cantidad de <sup>235</sup>U,que es el que se emplea en reactores nucleares. <br>  a) Explique la diferencia entre las configuraciones electrónicas del <sup>238</sup>U y el <sup>235</sup>U. <br> b) Calcule el número de neutrones en un núcleo de <sup>235</sup>U. <br>  c) Escriba la configuración electrónica del <sup>235</sup>U. <br> d) Escriba los números cuánticos posibles para los electrones más externos del <sup>235</sup>U. <br> <strong>Solución: a) misma configuración electrónica (isótopos), difieren en neutrones; b) N = 143; c) [Rn]7s²5f³6d¹; d) n=5, l=3, m_l=-3,-2,-1, m_s=+½.</strong>",
                     solucion: `
                 <div class='paso'> 
                     <strong>a) Diferencia entre <sup>238</sup>U y <sup>235</sup>U:</strong><br>
@@ -294,7 +294,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2017",
-                    enunciado: "Responda justificadamente las siguientes preguntas:<br> a) Para el elemento con Z = 7 indique cuántos electrones tiene con número cuántico m = 0 y detalle en qué orbitales.",
+                    enunciado: "Responda justificadamente las siguientes preguntas:<br> a) Para el elemento con Z = 7 indique cuántos electrones tiene con número cuántico m = 0 y detalle en qué orbitales. <br> <strong>Solución: 5 electrones con m=0: 2 en 1s, 2 en 2s y 1 en 2p.</strong>",
                     solucion: `<div class='paso'>
                 <strong>a) Número de electrones con m = 0 para el elemento con Z = 7:</strong><br>
                 El elemento con Z = 7 es el nitrógeno (N). Su configuración electrónica es \\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^3} \\).<br>
@@ -308,7 +308,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2018",
-                    enunciado: "Un elemento químico posee una configuración electrónica \\( \\mathrm{1s^2 \\: 2s^2 \\:  2p^6 \\: 3s^2 \\: 3p^6 \\: 4s^2 \\: 3d^6} \\) . Justifique si son verdaderas o falsas las siguientes afirmaciones:<br>c) Los números cuánticos (3, 1, &minus;2, +½) corresponden a un electrón de este elemento.",
+                    enunciado: "Un elemento químico posee una configuración electrónica \\( \\mathrm{1s^2 \\: 2s^2 \\:  2p^6 \\: 3s^2 \\: 3p^6 \\: 4s^2 \\: 3d^6} \\) . Justifique si son verdaderas o falsas las siguientes afirmaciones:<br>c) Los números cuánticos (3, 1, &minus;2, +½) corresponden a un electrón de este elemento. <br> <strong>Solución: falso, m=-2 no es válido para un orbital p (l=1).</strong>",
                     solucion: `
             <div class='paso'>
                 <strong>c) Veracidad de los números cuánticos (3, 1, &minus;2, +½):</strong><br>
@@ -319,7 +319,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Julio 2018",
-                    enunciado: "Responda justificadamente a las siguientes preguntas:<br>a) Para los átomos A (Z = 7) y B (Z = 26) escriba la configuración electrónica, indique el número de electrones desapareados y los<br>orbitales en los que se encuentran.",
+                    enunciado: "Responda justificadamente a las siguientes preguntas:<br>a) Para los átomos A (Z = 7) y B (Z = 26) escriba la configuración electrónica, indique el número de electrones desapareados y los<br>orbitales en los que se encuentran. <br> <strong>Solución: A (N): 1s²2s²2p³, 3 e⁻ desapareados en 2p; B (Fe): [Ar]4s²3d⁶, 4 e⁻ desapareados en 3d.</strong>",
                     solucion: `
             <div class='paso'>
                 <strong>a) Configuración electrónica, número de electrones desapareados y orbitales:</strong><br>
@@ -336,7 +336,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2025",
-                    enunciado: "2A. Dadas las configuraciones electrónicas de tres elementos en estado fundamental X: \\( \\mathrm{[Ar] \\: 4s^2 }\\), Y: \\( \\mathrm{[Ne] \\: 3s^2 \\: 3p^2 }\\) y Z: \\( \\mathrm{[He] \\: 2s^2 \\: 2p^5 }\\):<br> a) Determine su posición en la tabla periódica (periodo y grupo).<br> b) Indique nombre y símbolo de los elementos Y y Z. <br>c) Justifique si es posible o no cada una de las siguientes combinaciones de números cuánticos. En los casos afirmativos, razone si puede corresponder al electrón más externo de alguno de los elementos del enunciado, indicando a cuál: (2, 1, 0, +1/2); (3, 0, 1, &minus;1/2); (3, 2, 0, +1/2); (4, 4, 0, +1/2).",
+                    enunciado: "2A. Dadas las configuraciones electrónicas de tres elementos en estado fundamental X: \\( \\mathrm{[Ar] \\: 4s^2 }\\), Y: \\( \\mathrm{[Ne] \\: 3s^2 \\: 3p^2 }\\) y Z: \\( \\mathrm{[He] \\: 2s^2 \\: 2p^5 }\\):<br> a) Determine su posición en la tabla periódica (periodo y grupo).<br> b) Indique nombre y símbolo de los elementos Y y Z. <br>c) Justifique si es posible o no cada una de las siguientes combinaciones de números cuánticos. En los casos afirmativos, razone si puede corresponder al electrón más externo de alguno de los elementos del enunciado, indicando a cuál: (2, 1, 0, +1/2); (3, 0, 1, &minus;1/2); (3, 2, 0, +1/2); (4, 4, 0, +1/2). <br> <strong>Solución: a) X (Ca): periodo 4, grupo 2; Y (Si): periodo 3, grupo 14; Z (F): periodo 2, grupo 17; b) Y = Silicio (Si), Z = Flúor (F); c) (2,1,0,+½) posible y corresponde a Z; (3,0,1,−½) no posible (m≠0 para l=0); (3,2,0,+½) posible pero no es el electrón más externo en estado fundamental; (4,4,0,+½) no posible (l=4 no existe en estos elementos).</strong>",
                     solucion: `
                 <div class='paso'>
                     <strong>a) Posición en la tabla periódica:</strong><br>
@@ -360,7 +360,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Teoria: Orbita frente a orbital",
-                    enunciado: "¿Cuál es la diferencia fundamental entre el concepto de 'órbita' en el modelo de Bohr y el de 'orbital' en el modelo mecano-cuántico actual? <br> a) Una órbita es una región tridimensional de alta probabilidad, mientras que un orbital es la trayectoria elíptica exacta que describe el electrón. <br> b) Una órbita define una trayectoria circular exacta y predecible para el electrón, mientras que un orbital es una zona del espacio donde existe una probabilidad muy alta (superior al 90 %) de encontrarlo. <br> c) No existe ninguna diferencia física; ambos términos describen exactamente el mismo comportamiento matemático del electrón.",
+                    enunciado: "¿Cuál es la diferencia fundamental entre el concepto de 'órbita' en el modelo de Bohr y el de 'orbital' en el modelo mecano-cuántico actual? <br> a) Una órbita es una región tridimensional de alta probabilidad, mientras que un orbital es la trayectoria elíptica exacta que describe el electrón. <br> b) Una órbita define una trayectoria circular exacta y predecible para el electrón, mientras que un orbital es una zona del espacio donde existe una probabilidad muy alta (superior al 90 %) de encontrarlo. <br> c) No existe ninguna diferencia física; ambos términos describen exactamente el mismo comportamiento matemático del electrón. <br> <strong>Solución: b).</strong>",
                     solucion: `
             <div class='paso'>
                 b) En el modelo de Bohr, el electrón se describe como una partícula que sigue una trayectoria circular fija alrededor del núcleo, lo que implica que su posición y velocidad pueden conocerse simultáneamente con precisión. En cambio, en el modelo mecano-cuántico, el electrón se describe mediante funciones de onda que generan orbitales, los cuales representan regiones tridimensionales donde es más probable encontrar al electrón. Esto refleja la naturaleza probabilística de la mecánica cuántica y la imposibilidad de determinar con exactitud la posición y el momento del electrón al mismo tiempo.
@@ -369,8 +369,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Teoria: Cuantización de la Energía",
-                    enunciado: "¿Qué fenómeno físico sirvió como prueba experimental directa para que Max Planck y Niels Bohr propusieran que la energía en los átomos está cuantizada? <br>a) El descubrimiento de que los electrones tienen carga eléctrica negativa y masa.<br> b) La existencia de espectros atómicos de líneas discontinuas en lugar de espectros continuos de luz. <br> c) El comportamiento de los gases nobles, que no reaccionan con ningún otro elemento de la tabla periódica. ",
-
+                    enunciado: "¿Qué fenómeno físico sirvió como prueba experimental directa para que Max Planck y Niels Bohr propusieran que la energía en los átomos está cuantizada? <br>a) El descubrimiento de que los electrones tienen carga eléctrica negativa y masa.<br> b) La existencia de espectros atómicos de líneas discontinuas en lugar de espectros continuos de luz. <br> c) El comportamiento de los gases nobles, que no reaccionan con ningún otro elemento de la tabla periódica. <br> <strong>Solución: b).</strong>",
                     solucion: `
                 <div class='paso'> 
                 b) Si la energía de los átomos fuera continua, al excitar un gas este emitiría luz en todas las longitudes de onda posibles (un espectro continuo como el arcoíris). Al observarse únicamente líneas de colores muy concretas y separadas (espectros de líneas), se demostró que los electrones solo realizan saltos entre niveles de energía específicos y discretos.
@@ -379,8 +378,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Teoria: Principios de Configuración Electrónica",
-                    enunciado: "Al escribir la configuración electrónica del átomo de carbono (\\(Z = 6\\)), distribuimos sus dos últimos electrones en los orbitales 2p colocándolos en orbitales separados con espines paralelos ( \\(1s^2 \\ 2s^2 \\ 2p_x^1 \\ 2p_y^1 \\) ). ¿Qué principio o regla justifica esta distribución? <br>a) El Principio de Exclusión de Pauli. <br>b) El Principio de Construcción Progresiva (Aufbau).<br> c) La Regla de Máxima Multiplicidad de Hund. ",
-
+                    enunciado: "Al escribir la configuración electrónica del átomo de carbono (\\(Z = 6\\)), distribuimos sus dos últimos electrones en los orbitales 2p colocándolos en orbitales separados con espines paralelos ( \\(1s^2 \\ 2s^2 \\ 2p_x^1 \\ 2p_y^1 \\) ). ¿Qué principio o regla justifica esta distribución? <br>a) El Principio de Exclusión de Pauli. <br>b) El Principio de Construcción Progresiva (Aufbau).<br> c) La Regla de Máxima Multiplicidad de Hund. <br> <strong>Solución: c).</strong>",
                     solucion: `
                 <div class='paso'> 
                 c) La Regla de Hund establece que, para orbitales de la misma energía (degenerados, como los $2p$), la configuración más estable es aquella que maximiza el número de electrones desapareados con espines paralelos (el mismo sentido de giro), ya que esto reduce las repulsiones interelectrónicas.
@@ -389,7 +387,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2026",
-                    enunciado: "La configuración electrónica de un elemento X es [Ne]ns<sup>1</sup>. <br> c) Si el electrón más externo del elemento X es excitado del orbital ns al orbital np, ¿cómo cambian sus números cuánticos? Explique si se trata de una absorción o de una emisión. <br> d) Calcule la energía, en electronvoltios, asociada a la transición electrónica anterior, sabiendo que la longitud de onda de la radiación implicada es de 766,5 nm. <br> Datos. h = 6,626·10<sup>-34</sup> J·s<sup>-1</sup>; c = 3,00·10<sup>8</sup> m·s<sup>-1</sup>; 1 eV = 1,602·10<sup>-19</sup> J.",
+                    enunciado: "La configuración electrónica de un elemento X es [Ne]ns<sup>1</sup>. <br> c) Si el electrón más externo del elemento X es excitado del orbital ns al orbital np, ¿cómo cambian sus números cuánticos? Explique si se trata de una absorción o de una emisión. <br> d) Calcule la energía, en electronvoltios, asociada a la transición electrónica anterior, sabiendo que la longitud de onda de la radiación implicada es de 766,5 nm. <br> Datos. h = 6,626·10<sup>-34</sup> J·s<sup>-1</sup>; c = 3,00·10<sup>8</sup> m·s<sup>-1</sup>; 1 eV = 1,602·10<sup>-19</sup> J. <br> <strong>Solución: c) n no cambia, l pasa de 0 a 1, m_l puede ser −1, 0 o +1, m_s no cambia; es una absorción; d) E ≈ 1,62 eV.</strong>",
                     solucion: `
                 <div class='paso'>
                     <strong>c) Cambio en los números cuánticos y tipo de transición:</strong><br>
@@ -422,7 +420,7 @@ baseDatosTemas["tema1"] = {
             problemas: [
                 {
                     titulo: "Junio 2015",
-                    enunciado: "Considere los átomos X e Y, cuyas configuraciones electrónicas fundamentales terminan en 3s<sup>1</sup> y 4p<sup>4</sup>, respectivamente: <br> a) Escriba sus configuraciones electrónicas y razone cuáles son sus iones más estables. <br> b) Determine la longitud de onda máxima (en nm) de la radiación necesaria para ionizar un átomo del elemento X, sabiendo que su primer potencial de ionización es 419 kJ · mol<sup>-1</sup>. <br> Datos. h = 6,626 · 10 <sup>-34</sup>J · s; c = 3 · 10 <sup>8</sup> m · s<sup>-1</sup>; 1 nm = 10<sup>-9</sup> m; N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>-1</sup> .",
+                    enunciado: "Considere los átomos X e Y, cuyas configuraciones electrónicas fundamentales terminan en 3s<sup>1</sup> y 4p<sup>4</sup>, respectivamente: <br> a) Escriba sus configuraciones electrónicas y razone cuáles son sus iones más estables. <br> b) Determine la longitud de onda máxima (en nm) de la radiación necesaria para ionizar un átomo del elemento X, sabiendo que su primer potencial de ionización es 419 kJ · mol<sup>-1</sup>. <br> Datos. h = 6,626 · 10 <sup>-34</sup>J · s; c = 3 · 10 <sup>8</sup> m · s<sup>-1</sup>; 1 nm = 10<sup>-9</sup> m; N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>-1</sup> . <br> <strong>Solución: a) X (Na): 1s²2s²2p⁶3s¹ → Na⁺; Y (Se): 1s²2s²2p⁶3s²3p⁶4s²3d¹⁰4p⁴ → Se²⁻; b) λ = 285 nm.</strong>",
                     solucion: `               
                     <div class='paso'>
                         <strong>a) Configuraciones electrónicas y iones más estables:</strong><br>
@@ -442,7 +440,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Septiembre 2015",
-                    enunciado: "Un elemento tiene como número atómico Z = 26.<br> a) Escriba su configuración electrónica.<br> b) Indique el grupo y el periodo al que pertenece.<br> c) Se sabe que una muestra de 7,00 g de este elemento puro contiene 7,55 · 10<sup>22</sup> átomos de dicho elemento. Calcule su masa atómica. <br> Dato: N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>-1</sup>.",
+                    enunciado: "Un elemento tiene como número atómico Z = 26.<br> a) Escriba su configuración electrónica.<br> b) Indique el grupo y el periodo al que pertenece.<br> c) Se sabe que una muestra de 7,00 g de este elemento puro contiene 7,55 · 10<sup>22</sup> átomos de dicho elemento. Calcule su masa atómica. <br> Dato: N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>-1</sup>. <br> <strong>Solución: a) Fe: [Ar]4s²3d⁶; b) periodo 4, grupo 8; c) M ≈ 55,83 g/mol.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuración electrónica:</strong><br>
@@ -463,7 +461,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2016",
-                    enunciado: "Conteste cada una de las siguientes preguntas, justificando la respuesta.<br> b) Indique el grupo al que pertenece el elemento X si la especie X<sup>2&minus;</sup> tiene 8 electrones externos. <br> d) En el sistema periódico los elementos Z = 25 y Z = 30 se encuentran en el mismo periodo. Explique cuál de ellos tiene un proceso de ionización más endotérmico.",
+                    enunciado: "Conteste cada una de las siguientes preguntas, justificando la respuesta.<br> b) Indique el grupo al que pertenece el elemento X si la especie X<sup>2&minus;</sup> tiene 8 electrones externos. <br> d) En el sistema periódico los elementos Z = 25 y Z = 30 se encuentran en el mismo periodo. Explique cuál de ellos tiene un proceso de ionización más endotérmico. <br> <strong>Solución: b) grupo 16; d) Z = 30 (Zn, 3d¹⁰ estable) tiene mayor energía de ionización que Z = 25 (Mn, 3d⁵4s²).</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>b) Grupo del elemento X:</strong><br>
@@ -477,7 +475,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2016",
-                    enunciado: "Para los elementos A (Z = 6), B (Z = 10), C (Z = 16), D (Z = 20) y E (Z = 26), conteste razonadamente:<br> a) ¿Cuál de ellos presenta electrones desapareados?<br> b) De los elementos B, C y D, ¿cuál da lugar a un ion estable con menor radio?<br> c) ¿Es la energía de ionización de C mayor que la de D?",
+                    enunciado: "Para los elementos A (Z = 6), B (Z = 10), C (Z = 16), D (Z = 20) y E (Z = 26), conteste razonadamente:<br> a) ¿Cuál de ellos presenta electrones desapareados?<br> b) De los elementos B, C y D, ¿cuál da lugar a un ion estable con menor radio?<br> c) ¿Es la energía de ionización de C mayor que la de D? <br> <strong>Solución: a) A (C) y E (Fe); b) D (Ca²⁺); c) sí, la EI de C (S) es mayor que la de D (Ca).</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Elemento con electrones desapareados:</strong><br>
@@ -495,30 +493,30 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Septiembre 2016",
-                    enunciado: "Los números atómicos de los elementos A, B y C son Z, Z+1 y Z+2, respectivamente. Si B es el gas noble que se encuentra en el tercer<br>periodo, conteste razonadamente a las siguientes cuestiones:<br> a) Identifique dichos elementos con el nombre y el símbolo.<br> b) Escriba sus configuraciones electrónicas e indique en qué grupo y periodo se encuentran A y C.<br> c) ¿Cuál es el elemento más electronegativo de los tres y cuál es el ion más estable que forma cada uno de ellos?",
+                    enunciado: "Los números atómicos de los elementos A, B y C son Z, Z+1 y Z+2, respectivamente. Si B es el gas noble que se encuentra en el tercer<br>periodo, conteste razonadamente a las siguientes cuestiones:<br> a) Identifique dichos elementos con el nombre y el símbolo.<br> b) Escriba sus configuraciones electrónicas e indique en qué grupo y periodo se encuentran A y C.<br> c) ¿Cuál es el elemento más electronegativo de los tres y cuál es el ion más estable que forma cada uno de ellos? <br> <strong>Solución: a) A = Cl (Z=17), B = Ar (Z=18), C = K (Z=19); b) A: [Ne]3s²3p⁵ (grupo 17, periodo 3), C: [Ar]4s¹ (grupo 1, periodo 4); c) el más electronegativo es el Cl; iones: Cl⁻, Ar (no forma), K⁺.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Identificación de los elementos:</strong><br> 
-                        A: Carbono (C)<br> 
-                        B: Neón (Ne)<br> 
-                        C: Oxígeno (O) 
-
+                        A: Cloro (Cl)<br> 
+                        B: Argón (Ar)<br> 
+                        C: Potasio (K)
                     </div>
                     <div class='paso'>
                         <strong>b) Configuraciones electrónicas:</strong><br>
-                        A: 1s² 2s² 2p²<br> 
-                        C: 1s² 2s² 2p⁴ 
+                        A: \\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 \\: 3p^5} \\) (grupo 17, periodo 3)<br> 
+                        B: \\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 \\: 3p^6} \\) (grupo 18, periodo 3)<br>
+                        C: \\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 \\: 3p^6 \\: 4s^1} \\) (grupo 1, periodo 4)
                     </div>
                     <div class='paso'>
                         <strong>c) Elemento más electronegativo y iones más estables:</strong><br>
-                        El elemento más electronegativo es C (oxígeno).<br>
-                        Los iones más estables son: A⁻ (carbono), B (neón) y C²⁻ (oxígeno).     
+                        El elemento más electronegativo es A (cloro).<br>
+                        Los iones más estables son: A⁻ (Cl⁻), B (Ar no forma iones) y C⁺ (K⁺).     
                     </div>
                 `
                 },
                 {
                     titulo: "Junio 2017",
-                    enunciado: "Responda justificadamente las siguientes preguntas:<br>b) Para cada uno de los elementos X (Z = 17), Y (Z = 19) y Z (Z = 35) indique cuál es su ion más estable y explique cuál de esos iones tiene menor radio.",
+                    enunciado: "Responda justificadamente las siguientes preguntas:<br>b) Para cada uno de los elementos X (Z = 17), Y (Z = 19) y Z (Z = 35) indique cuál es su ion más estable y explique cuál de esos iones tiene menor radio. <br> <strong>Solución: X = Cl → Cl⁻; Y = K → K⁺; Z = Br → Br⁻; el de menor radio es el K⁺.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>b) Iones más estables y radio:</strong><br>
@@ -529,7 +527,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2017",
-                    enunciado: "Considere los elementos X (Z = 12), Y (Z = 13) y Z (Z = 16).<br>a) Escriba sus configuraciones electrónicas e identifique los tres elementos (nombre y símbolo).<br>b) Formule y razone cuál es el ion más estable para cada uno de estos elementos. ¿Cuáles son isoelectrónicos?<br>c) Razone cuál de los iones del apartado b) presenta el menor radio.",
+                    enunciado: "Considere los elementos X (Z = 12), Y (Z = 13) y Z (Z = 16).<br>a) Escriba sus configuraciones electrónicas e identifique los tres elementos (nombre y símbolo).<br>b) Formule y razone cuál es el ion más estable para cada uno de estos elementos. ¿Cuáles son isoelectrónicos?<br>c) Razone cuál de los iones del apartado b) presenta el menor radio. <br> <strong>Solución: a) X = Mg, Y = Al, Z = S; b) Mg²⁺, Al³⁺ y S²⁻ son isoelectrónicos (10 e⁻); c) el Al³⁺ tiene el menor radio.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuraciones electrónicas e identificación de los elementos:</strong><br>
@@ -549,7 +547,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Septiembre 2017",
-                    enunciado: "Dados los siguientes elementos: A (Z = 11), B (Z = 17) y C (Z = 20).<br>a) Para cada uno de ellos, escriba su configuración electrónica e indique el nombre y el símbolo del elemento que está situado en el mismo<br>grupo y en el periodo anterior.<br>b) Justifique qué ion, B<sup>&minus;</sup> o C<sup>2+</sup> , tiene menor radio.<br>c) Indique razonadamente cuántos electrones con m = 0 (número cuántico magnético) tiene el elemento A.<br>d) ¿Cuál de los elementos dados necesita más energía para convertirse en un ion monopositivo? Razone su respuesta.",
+                    enunciado: "Dados los siguientes elementos: A (Z = 11), B (Z = 17) y C (Z = 20).<br>a) Para cada uno de ellos, escriba su configuración electrónica e indique el nombre y el símbolo del elemento que está situado en el mismo<br>grupo y en el periodo anterior.<br>b) Justifique qué ion, B<sup>&minus;</sup> o C<sup>2+</sup> , tiene menor radio.<br>c) Indique razonadamente cuántos electrones con m = 0 (número cuántico magnético) tiene el elemento A.<br>d) ¿Cuál de los elementos dados necesita más energía para convertirse en un ion monopositivo? Razone su respuesta. <br> <strong>Solución: a) A = Na (Li), B = Cl (F), C = Ca (Mg); b) C²⁺ tiene menor radio; c) 7 electrones con m=0 en Na; d) el C (Ca) necesita más energía para formar Ca⁺.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuraciones electrónicas e identificación de elementos:</strong><br>
@@ -571,7 +569,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Septiembre 2017",
-                    enunciado: "Para los tres elementos con números atómicos Z = 6, Z = 11 y Z = 14:<br>a) Escriba sus configuraciones electrónicas e identifíquelos con su nombre y su símbolo.<br>b) Determine el grupo y el periodo de cada elemento.<br>c) Para el elemento con Z = 14 detalle los posibles números cuánticos de su último electrón.<br>d) Justifique cómo varía en la tabla periódica el radio atómico y ordene los elementos del enunciado en orden decreciente de radio<br>atómico.",
+                    enunciado: "Para los tres elementos con números atómicos Z = 6, Z = 11 y Z = 14:<br>a) Escriba sus configuraciones electrónicas e identifíquelos con su nombre y su símbolo.<br>b) Determine el grupo y el periodo de cada elemento.<br>c) Para el elemento con Z = 14 detalle los posibles números cuánticos de su último electrón.<br>d) Justifique cómo varía en la tabla periódica el radio atómico y ordene los elementos del enunciado en orden decreciente de radio<br>atómico. <br> <strong>Solución: a) C, Na y Si; b) C (grupo 14, periodo 2), Na (grupo 1, periodo 3), Si (grupo 14, periodo 3); c) n=3, l=1, m=−1,0,+1, m_s=±½; d) Na > Si > C.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuraciones electrónicas e identificación de elementos:</strong><br>
@@ -601,7 +599,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2018",
-                    enunciado: "Un elemento químico posee una configuración electrónica \\( \\mathrm{1s^2 \\: 2s^2 \\:  2p^6 \\: 3s^2 \\: 3p^6 \\: 4s^2 \\: 3d^6} \\). Justifique si son verdaderas o falsas las<br>siguientes afirmaciones:<br>a) Pertenece al grupo 17 del Sistema Periódico.<br>b) Se encuentra situado en el tercer periodo.",
+                    enunciado: "Un elemento químico posee una configuración electrónica \\( \\mathrm{1s^2 \\: 2s^2 \\:  2p^6 \\: 3s^2 \\: 3p^6 \\: 4s^2 \\: 3d^6} \\). Justifique si son verdaderas o falsas las<br>siguientes afirmaciones:<br>a) Pertenece al grupo 17 del Sistema Periódico.<br>b) Se encuentra situado en el tercer periodo. <br> <strong>Solución: a) falso (pertenece al grupo 8); b) falso (está en el periodo 4).</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Pertenece al grupo 17:</strong><br>
@@ -615,7 +613,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2018",
-                    enunciado: "Considere los elementos Mg y Cl:<br>a) Escriba la configuración electrónica de Mg<sup>2+</sup> y Cl<sup>&minus;</sup>.<br>b) Indique los números cuánticos del electrón más externo del Mg.<br>c) Ordene los elementos por orden creciente de tamaño y justifique la respuesta.<br>d) Ordene los elementos por orden creciente de primera energía de ionización y justifique la respuesta.",
+                    enunciado: "Considere los elementos Mg y Cl:<br>a) Escriba la configuración electrónica de Mg<sup>2+</sup> y Cl<sup>&minus;</sup>.<br>b) Indique los números cuánticos del electrón más externo del Mg.<br>c) Ordene los elementos por orden creciente de tamaño y justifique la respuesta.<br>d) Ordene los elementos por orden creciente de primera energía de ionización y justifique la respuesta. <br> <strong>Solución: a) Mg²⁺: 1s²2s²2p⁶; Cl⁻: 1s²2s²2p⁶3s²3p⁶; b) n=3, l=0, m=0, m_s=±½; c) Mg²⁺ < Cl⁻ < Mg; d) Cl < Mg.</strong>",
                     solucion: `
                 <div class='paso'>
                     <strong>a) Configuración electrónica de Mg<sup>2+</sup>y Cl<sup>&minus;</sup>:</strong><br>
@@ -642,7 +640,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Julio 2018",
-                    enunciado: "Responda justificadamente a las siguientes preguntas:<br>a) Para los átomos A (Z = 7) y B (Z = 26) escriba la configuración electrónica, indique el número de electrones desapareados y los<br>orbitales en los que se encuentran.<br>b) Los iones K<sup>+</sup> y Cl<sup>&minus;</sup> tienen aproximadamente el mismo valor de sus radios iónicos, alrededor de 0,134 nm. Justifique si sus radios atómicos serán mayores, menores o iguales a 0,134 nm. <br> Datos. R<sub>H</sub> = 1,097 · 10<sup>7</sup> m<sup>&minus;1</sup> .",
+                    enunciado: "Responda justificadamente a las siguientes preguntas:<br>a) Para los átomos A (Z = 7) y B (Z = 26) escriba la configuración electrónica, indique el número de electrones desapareados y los<br>orbitales en los que se encuentran.<br>b) Los iones K<sup>+</sup> y Cl<sup>&minus;</sup> tienen aproximadamente el mismo valor de sus radios iónicos, alrededor de 0,134 nm. Justifique si sus radios atómicos serán mayores, menores o iguales a 0,134 nm. <br> Datos. R<sub>H</sub> = 1,097 · 10<sup>7</sup> m<sup>&minus;1</sup> . <br> <strong>Solución: a) N: 1s²2s²2p³ (3 e⁻ desapareados en 2p); Fe: [Ar]4s²3d⁶ (4 e⁻ desapareados en 3d); b) ambos radios atómicos serán mayores que 0,134 nm.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuración electrónica y electrones desapareados:</strong><br>
@@ -657,7 +655,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2019",
-                    enunciado: "Considere los átomos: A (Z = 11), B (Z = 14) y C (Z = 17) y responda las siguientes preguntas:<br>a) Para cada uno de ellos, escriba la configuración electrónica, especifique el grupo y periodo del sistema periódico al que pertenece e<br>identifique con nombre y símbolo cada elemento.<br>b) Ordene los elementos en orden creciente de su afinidad electrónica. Razone la respuesta.<br>c) ¿Por qué los átomos presentan espectros de líneas y no continuos?",
+                    enunciado: "Considere los átomos: A (Z = 11), B (Z = 14) y C (Z = 17) y responda las siguientes preguntas:<br>a) Para cada uno de ellos, escriba la configuración electrónica, especifique el grupo y periodo del sistema periódico al que pertenece e<br>identifique con nombre y símbolo cada elemento.<br>b) Ordene los elementos en orden creciente de su afinidad electrónica. Razone la respuesta.<br>c) ¿Por qué los átomos presentan espectros de líneas y no continuos? <br> <strong>Solución: a) Na (grupo 1, periodo 3), Si (grupo 14, periodo 3), Cl (grupo 17, periodo 3); b) Na < Si < Cl; c) porque los electrones solo pueden ocupar niveles de energía discretos.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuración electrónica, grupo y periodo:</strong><br>
@@ -675,9 +673,9 @@ baseDatosTemas["tema1"] = {
                     </div>
                 `
                 },
-                {
+               {
                     titulo: "Julio 2019",
-                    enunciado: "Considere los elementos con números atómicos: Z = 4, Z = 8 y Z = 13. <br> a) Escriba sus configuraciones electrónicas e identifíquelos con su nombre y su símbolo. <br> b) Razone para cada uno de los elementos cuál es su ion más estable. <br> c) Justifique si el ion más estable del elemento Z = 4 tendrá mayor o menor radio que el de su átomo.",
+                    enunciado: "Considere los elementos con números atómicos: Z = 4, Z = 8 y Z = 13. <br> a) Escriba sus configuraciones electrónicas e identifíquelos con su nombre y su símbolo. <br> b) Razone para cada uno de los elementos cuál es su ion más estable. <br> c) Justifique si el ion más estable del elemento Z = 4 tendrá mayor o menor radio que el de su átomo. <br> <strong>Solución: a) Be, O, Al; b) Be²⁺, O²⁻, Al³⁺; c) el Be²⁺ tiene menor radio que el átomo de Be.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuraciones electrónicas e identificación de elementos:</strong><br>
@@ -699,7 +697,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2020",
-                    enunciado: "Considere los elementos aluminio y magnesio.<br> a) Escriba la configuración electrónica de cada elemento.<br> b) Justifique qué elemento presenta mayor radio atómico. <br> c) Explique si la segunda energía de ionización del aluminio es mayor, igual o menor que la primera. <br> d) Sabiendo que la primera energía de ionización del magnesio es 738,1 kJ · mol<sup>&minus;1</sup> , razone si es posible ionizar un mol de átomos de magnesio gaseosos con una energía de 500 kJ.",
+                    enunciado: "Considere los elementos aluminio y magnesio.<br> a) Escriba la configuración electrónica de cada elemento.<br> b) Justifique qué elemento presenta mayor radio atómico. <br> c) Explique si la segunda energía de ionización del aluminio es mayor, igual o menor que la primera. <br> d) Sabiendo que la primera energía de ionización del magnesio es 738,1 kJ · mol<sup>&minus;1</sup> , razone si es posible ionizar un mol de átomos de magnesio gaseosos con una energía de 500 kJ. <br> <strong>Solución: a) Al: [Ne]3s²3p¹; Mg: [Ne]3s²; b) el Mg tiene mayor radio atómico; c) la segunda EI del Al es mayor que la primera; d) no es posible (500 kJ < 738,1 kJ).</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuración electrónica:</strong><br>
@@ -722,7 +720,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Septiembre 2020",
-                    enunciado: "Considere los siguientes elementos: A (nitrogenoide del periodo 3), B (Z = 11), C (subnivel 3p con solo dos electrones) y D (periodo 2, grupo 15).<br>a) Identifique cada elemento con su nombre y símbolo.<br>b) Determine la configuración electrónica de cada elemento. <br>c) Justifique si la segunda energía de ionización del elemento A es menor que la del B.",
+                    enunciado: "Considere los siguientes elementos: A (nitrogenoide del periodo 3), B (Z = 11), C (subnivel 3p con solo dos electrones) y D (periodo 2, grupo 15).<br>a) Identifique cada elemento con su nombre y símbolo.<br>b) Determine la configuración electrónica de cada elemento. <br>c) Justifique si la segunda energía de ionización del elemento A es menor que la del B. <br> <strong>Solución: a) A = P, B = Na, C = S, D = N; b) P: [Ne]3s²3p³; Na: [Ne]3s¹; S: [Ne]3s²3p⁴; N: [He]2s²2p³; c) la segunda EI del P es menor que la del Na.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Identificación de los elementos:</strong><br>
@@ -746,7 +744,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2021",
-                    enunciado: "A.1. Dados los elementos A (Z = 17), B (Z = 35), C (Z = 19) y D (Z = 11):<br>a) Escriba la configuración electrónica de cada uno de ellos.<br>b) Justifique cuáles se encuentran en el mismo periodo.<br>c) Razone si el elemento D (Z = 11) presenta mayor afinidad electrónica que el A (Z = 17).",
+                    enunciado: "A.1. Dados los elementos A (Z = 17), B (Z = 35), C (Z = 19) y D (Z = 11):<br>a) Escriba la configuración electrónica de cada uno de ellos.<br>b) Justifique cuáles se encuentran en el mismo periodo.<br>c) Razone si el elemento D (Z = 11) presenta mayor afinidad electrónica que el A (Z = 17). <br> <strong>Solución: a) Cl: [Ne]3s²3p⁵; Br: [Ar]3d¹⁰4s²4p⁵; K: [Ar]4s¹; Na: [Ne]3s¹; b) A (Cl) y C (K) están en el periodo 3, D (Na) también; c) no, el A (Cl) tiene mayor afinidad electrónica que el D (Na).</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuración electrónica:</strong><br>
@@ -767,7 +765,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Julio 2021",
-                    enunciado: "A.1. Responda las siguientes cuestiones:<br>a) Considere los elementos: A (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 }\\)), B (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^2}\\)  ) y C (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 \\: 3p^4}\\) ). Identifique cada elemento y especifique el grupo y el periodo al que pertenece.<br> b) Considere los elementos D (\\( \\mathrm{1s^2 \\: 2s^1 }\\) ) y E (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6}\\) ). La primera energía de ionización de uno de ellos es 2080,7 kJ · mol<sup>&minus;1</sup> y la del otro 520,2 kJ · mol<sup>&minus;1</sup> . Justifique qué valor de la energía de ionización corresponde a cada uno.<br>c) ¿Cuántos electrones desapareados existen en los átomos de Na, N y Ne?",
+                    enunciado: "A.1. Responda las siguientes cuestiones:<br>a) Considere los elementos: A (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 }\\)), B (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^2}\\)  ) y C (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 \\: 3p^4}\\) ). Identifique cada elemento y especifique el grupo y el periodo al que pertenece.<br> b) Considere los elementos D (\\( \\mathrm{1s^2 \\: 2s^1 }\\) ) y E (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6}\\) ). La primera energía de ionización de uno de ellos es 2080,7 kJ · mol<sup>&minus;1</sup> y la del otro 520,2 kJ · mol<sup>&minus;1</sup> . Justifique qué valor de la energía de ionización corresponde a cada uno.<br>c) ¿Cuántos electrones desapareados existen en los átomos de Na, N y Ne? <br> <strong>Solución: a) A = Mg (grupo 2, periodo 3), B = C (grupo 14, periodo 2), C = S (grupo 16, periodo 3); b) D (Li) = 520,2 kJ/mol, E (Ne) = 2080,7 kJ/mol; c) Na: 1, N: 3, Ne: 0.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Identificación de elementos, grupo y periodo:</strong><br>
@@ -791,7 +789,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2022",
-                    enunciado: "A.1. Considere los elementos: A (Z = 9) y B (Z = 13).<br> a) Escriba la configuración electrónica de cada uno. <br>b) Identifique el nombre, símbolo, grupo y periodo de cada elemento. <br>c) Justifique cuál es el elemento de menor energía de ionización.",
+                    enunciado: "A.1. Considere los elementos: A (Z = 9) y B (Z = 13).<br> a) Escriba la configuración electrónica de cada uno. <br>b) Identifique el nombre, símbolo, grupo y periodo de cada elemento. <br>c) Justifique cuál es el elemento de menor energía de ionización. <br> <strong>Solución: a) F: [He]2s²2p⁵; Al: [Ne]3s²3p¹; b) F (grupo 17, periodo 2), Al (grupo 13, periodo 3); c) el Al tiene menor energía de ionización.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuración electrónica:</strong><br>
@@ -808,11 +806,10 @@ baseDatosTemas["tema1"] = {
                         El elemento B (Aluminio) tiene menor energía de ionización que el elemento A (Flúor). Esto se debe a que el aluminio es un metal con un electrón de valencia más alejado del núcleo y menos fuertemente atraído, lo que facilita su remoción. En cambio, el flúor es un no metal con una alta afinidad electrónica y una fuerte atracción nuclear sobre sus electrones, lo que hace que sea más difícil remover un electrón de él.
                     </div>
                 `
-
                 },
                 {
                     titulo: "Julio 2022",
-                    enunciado: "A.1. Considere los elementos A (un halógeno cuyo anión contiene 18 e<sup>&minus;</sup> ), B (un metal alcalinotérreo del tercer periodo) y C (un elemento del grupo 16 que contiene 16 e<sup>&minus;</sup> ). <br> a) Identifique los elementos A, B y C con su nombre y símbolo, y escriba la configuración electrónica de cada uno de ellos en su estado fundamental. <br>b) Justifique si las siguientes afirmaciones son verdaderas o falsas: <br> &nbsp; &nbsp; b.1. El elemento C es el que presenta una mayor energía de ionización. <br> &nbsp; &nbsp; b.2. El elemento con mayor radio atómico es el B.",
+                    enunciado: "A.1. Considere los elementos A (un halógeno cuyo anión contiene 18 e<sup>&minus;</sup> ), B (un metal alcalinotérreo del tercer periodo) y C (un elemento del grupo 16 que contiene 16 e<sup>&minus;</sup> ). <br> a) Identifique los elementos A, B y C con su nombre y símbolo, y escriba la configuración electrónica de cada uno de ellos en su estado fundamental. <br>b) Justifique si las siguientes afirmaciones son verdaderas o falsas: <br> &nbsp; &nbsp; b.1. El elemento C es el que presenta una mayor energía de ionización. <br> &nbsp; &nbsp; b.2. El elemento con mayor radio atómico es el B. <br> <strong>Solución: a) A = Cl, B = Mg, C = S; b.1) verdadero; b.2) verdadero.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Identificación de elementos y configuración electrónica:</strong><br>
@@ -829,7 +826,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2023",
-                    enunciado: "A.1. Los iones X<sup>2+</sup> e Y<sup>-</sup> presentan las siguientes configuraciones electrónicas: X<sup>2+</sup> (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 \\: 3p^6 }\\) ) e Y<sup>&minus;</sup> (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 \\: 3p^6 }\\) ). Responda a las siguientes cuestiones. <br>a) Justifique el número atómico de los elementos X e Y, e indique su posición (periodo y grupo) en el sistema periódico. <br>b) Razone qué elemento, X o Y, tiene mayor radio atómico.",
+                    enunciado: "A.1. Los iones X<sup>2+</sup> e Y<sup>-</sup> presentan las siguientes configuraciones electrónicas: X<sup>2+</sup> (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 \\: 3p^6 }\\) ) e Y<sup>&minus;</sup> (\\( \\mathrm{1s^2 \\: 2s^2 \\: 2p^6 \\: 3s^2 \\: 3p^6 }\\) ). Responda a las siguientes cuestiones. <br>a) Justifique el número atómico de los elementos X e Y, e indique su posición (periodo y grupo) en el sistema periódico. <br>b) Razone qué elemento, X o Y, tiene mayor radio atómico. <br> <strong>Solución: a) X = Ca (Z=20, grupo 2, periodo 4), Y = Cl (Z=17, grupo 17, periodo 3); b) el Ca (X) tiene mayor radio atómico.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Número atómico y posición en el sistema periódico:</strong><br>
@@ -838,13 +835,13 @@ baseDatosTemas["tema1"] = {
                     </div>
                     <div class='paso'>
                         <strong>b) Comparación de radios atómicos:</strong><br>
-                        El elemento Y (Cloro) tiene un mayor radio atómico que el elemento X (Calcio). Esto se debe a que el calcio es un metal alcalinotérreo con una mayor carga nuclear efectiva, lo que atrae más fuertemente a sus electrones y reduce su tamaño. En cambio, el cloro es un no metal con menos protones en su núcleo, lo que resulta en una menor atracción sobre sus electrones y, por lo tanto, un radio atómico más grande.
+                        El elemento X (Calcio) tiene un mayor radio atómico que el elemento Y (Cloro). Esto se debe a que el calcio es un metal alcalinotérreo con una menor carga nuclear efectiva sobre sus electrones de valencia (que están en el nivel n=4) en comparación con el cloro, cuyos electrones de valencia están en el nivel n=3 y sufren una mayor atracción nuclear. Por tanto, el átomo de calcio es más grande.
                     </div>
                 `
                 },
                 {
                     titulo: "Julio 2023",
-                    enunciado: "A.1. Considere los elementos: A (Z = 17) y B (Z = 12). <br>a) Escriba la configuración electrónica e indique el nombre, símbolo, grupo y periodo de ambos. <br>b) Justifique cuál es el elemento de mayor energía de ionización. <br>c) Justifique cuál es el ion más estable de cada elemento y escriba sus configuraciones electrónicas. <br>d) Explique si el radio del ion más estable de cada elemento es mayor o menor que el de su respectivo átomo neutro.",
+                    enunciado: "A.1. Considere los elementos: A (Z = 17) y B (Z = 12). <br>a) Escriba la configuración electrónica e indique el nombre, símbolo, grupo y periodo de ambos. <br>b) Justifique cuál es el elemento de mayor energía de ionización. <br>c) Justifique cuál es el ion más estable de cada elemento y escriba sus configuraciones electrónicas. <br>d) Explique si el radio del ion más estable de cada elemento es mayor o menor que el de su respectivo átomo neutro. <br> <strong>Solución: a) Cl (grupo 17, periodo 3), Mg (grupo 2, periodo 3); b) el Cl tiene mayor energía de ionización; c) Cl⁻ ([Ne]3s²3p⁶) y Mg²⁺ ([Ne]); d) el Cl⁻ es mayor que el Cl y el Mg²⁺ es menor que el Mg.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Configuración electrónica e identificación de elementos:</strong><br>
@@ -870,7 +867,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2024",
-                    enunciado: "A.1. Considere los elementos A, B y C, con números atómicos Z, Z+1 y Z+2, respectivamente. Sabiendo que B es el gas noble del segundo periodo, responda a las siguientes preguntas: <br>a) Para cada elemento identifique su nombre y símbolo, escriba su configuración electrónica, e indique cuántos electrones desapareados tiene. <br>b) Justifique cuál es el ion más estable de los elementos A y C, indicando el tipo de ion y el símbolo. <br>c) Razone cuál de ellos tiene el mayor radio iónico.",
+                    enunciado: "A.1. Considere los elementos A, B y C, con números atómicos Z, Z+1 y Z+2, respectivamente. Sabiendo que B es el gas noble del segundo periodo, responda a las siguientes preguntas: <br>a) Para cada elemento identifique su nombre y símbolo, escriba su configuración electrónica, e indique cuántos electrones desapareados tiene. <br>b) Justifique cuál es el ion más estable de los elementos A y C, indicando el tipo de ion y el símbolo. <br>c) Razone cuál de ellos tiene el mayor radio iónico. <br> <strong>Solución: a) A = O (2 e⁻ desapareados), B = F (1 e⁻ desapareado), C = Ne (0 e⁻ desapareados); b) A → O²⁻, C → Ne (no forma iones); c) el O²⁻ tiene el mayor radio iónico.</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Identificación de elementos, configuración electrónica y electrones desapareados:</strong><br>
@@ -892,7 +889,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Julio 2024",
-                    enunciado: "A.1. Dados cuatro elementos: A, B, C y D, cuyos electrones de mayor energía poseen una configuración en su estado fundamental de: \\( \\mathrm{3s^1 }\\), \\( \\mathrm{3p^1 }\\), \\( \\mathrm{3p^4 }\\) y \\( \\mathrm{3p^5 }\\), respectivamente: <br>a) Identifique cada elemento con su configuración electrónica, nombre, símbolo, grupo y periodo. <br>b) Justifique cuál presenta mayor energía de ionización. <br>c) Escriba el símbolo de sus iones más estables y ordene esos iones en orden decreciente de su tamaño, justificando la respuesta. <br>d) Indique qué tipo de enlace se establece entre A y C y entre D con D. Escriba las fórmulas de las especies formadas.",
+                    enunciado: "A.1. Dados cuatro elementos: A, B, C y D, cuyos electrones de mayor energía poseen una configuración en su estado fundamental de: \\( \\mathrm{3s^1 }\\), \\( \\mathrm{3p^1 }\\), \\( \\mathrm{3p^4 }\\) y \\( \\mathrm{3p^5 }\\), respectivamente: <br>a) Identifique cada elemento con su configuración electrónica, nombre, símbolo, grupo y periodo. <br>b) Justifique cuál presenta mayor energía de ionización. <br>c) Escriba el símbolo de sus iones más estables y ordene esos iones en orden decreciente de su tamaño, justificando la respuesta. <br>d) Indique qué tipo de enlace se establece entre A y C y entre D con D. Escriba las fórmulas de las especies formadas. <br> <strong>Solución: a) A = Na, B = Al, C = S, D = Cl; b) el Cl (D) tiene mayor energía de ionización; c) S²⁻ > Cl⁻ > Na⁺ > Al³⁺; d) enlace iónico (Na₂S) y covalente (Cl₂).</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Identificación de elementos:</strong><br>
@@ -922,7 +919,7 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Julio 2025",
-                    enunciado: "2A. Considere los elementos X (el metal alcalino cuyo monocatión contiene 10 e<sup>&minus;</sup>), Y (el elemento del grupo 14 del segundo periodo) y Z (el halógeno del tercer periodo). Responda a las siguientes cuestiones: <br>a) Identifique los elementos X, Y y Z con nombre y símbolo, y escriba la configuración electrónica de cada uno de ellos en su estado fundamental. <br>b) Razone si las siguientes afirmaciones son verdaderas o falsas: <br> &nbsp; &nbsp; i) El elemento Z es el que presenta el mayor radio atómico. <br> &nbsp; &nbsp; ii) El elemento X es el que posee una menor afinidad electrónica.",
+                    enunciado: "2A. Considere los elementos X (el metal alcalino cuyo monocatión contiene 10 e<sup>&minus;</sup>), Y (el elemento del grupo 14 del segundo periodo) y Z (el halógeno del tercer periodo). Responda a las siguientes cuestiones: <br>a) Identifique los elementos X, Y y Z con nombre y símbolo, y escriba la configuración electrónica de cada uno de ellos en su estado fundamental. <br>b) Razone si las siguientes afirmaciones son verdaderas o falsas: <br> &nbsp; &nbsp; i) El elemento Z es el que presenta el mayor radio atómico. <br> &nbsp; &nbsp; ii) El elemento X es el que posee una menor afinidad electrónica. <br> <strong>Solución: a) X = Na, Y = C, Z = Cl; b) i) FALSA (el Na tiene mayor radio atómico); ii) VERDADERA (el Na tiene menor afinidad electrónica).</strong>",
                     solucion: `
                     <div class='paso'>
                         <strong>a) Identificación de elementos y configuración electrónica:</strong><br>
@@ -939,12 +936,24 @@ baseDatosTemas["tema1"] = {
                 },
                 {
                     titulo: "Junio 2026",
-                    enunciado: "La configuración electrónica de un elemento X es [Ne]ns<sup>1</sup>. <br>a) Indique el valor de “n”, el nombre y símbolo del elemento X, así como el grupo y el período a los que pertenece. Razone cómo varía la energía de ionización a lo largo de un grupo de la tabla periódica. <br> b) Justifique cuál es el catión más estable que puede formar el elemento X. Indique un catión divalente, un elemento neutro y un anión monovalente que sean isoelectrónicos con el catión más estable del elemento X.",
+                    enunciado: "La configuración electrónica de un elemento X es [Ne]ns<sup>1</sup>. <br>a) Indique el valor de "n", el nombre y símbolo del elemento X, así como el grupo y el período a los que pertenece. Razone cómo varía la energía de ionización a lo largo de un grupo de la tabla periódica. <br> b) Justifique cuál es el catión más estable que puede formar el elemento X. Indique un catión divalente, un elemento neutro y un anión monovalente que sean isoelectrónicos con el catión más estable del elemento X. <br> <strong>Solución: a) n = 3, X = Sodio (Na), grupo 1, periodo 3; la EI disminuye al bajar en un grupo; b) el catión más estable es Na⁺; isoelectrónicos: Mg²⁺, Ne y F⁻.</strong>",
                     solucion: `
-                
+                <div class='paso'>
+                    <strong>a) Identificación del elemento X y variación de la energía de ionización:</strong><br>
+                    La configuración electrónica [Ne]ns<sup>1</sup> indica que el elemento X tiene un electrón de valencia en el orbital ns. Como la configuración del gas noble anterior es [Ne] (Z = 10), el elemento X tiene Z = 11, que corresponde al Sodio (Na). El valor de "n" es 3, ya que el electrón de valencia está en el orbital 3s. El sodio pertenece al Grupo 1 (metales alcalinos) y al Periodo 3.<br>
+                    La energía de ionización disminuye a lo largo de un grupo de arriba hacia abajo, ya que el electrón de valencia está más alejado del núcleo y la carga nuclear efectiva sobre él es menor, lo que facilita su remoción.
+                </div>
+                <div class='paso'>
+                    <strong>b) Catión más estable y especies isoelectrónicas:</strong><br>
+                    El catión más estable del sodio es Na⁺, ya que pierde su único electrón de valencia para alcanzar la configuración electrónica del neón ([Ne]).<br>
+                    Especies isoelectrónicas con Na⁺ (10 electrones):<br>
+                    - Catión divalente: Mg²⁺ (Z = 12, pierde 2 e⁻ → 10 e⁻)<br>
+                    - Elemento neutro: Ne (Z = 10, 10 e⁻)<br>
+                    - Anión monovalente: F⁻ (Z = 9, gana 1 e⁻ → 10 e⁻)
+                </div>
             `
                 }
             ]
         }
     }
-};
+};                    
