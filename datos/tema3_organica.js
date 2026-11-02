@@ -1,3 +1,221 @@
+if (typeof baseDatosTemas === 'undefined') {
+    var baseDatosTemas = {};
+}
+
+baseDatosTemas["tema3"] = {
+    id: "tema3",
+    titulo: "Tema 3: Química Orgánica",
+    deshabilitado: false,
+    secciones: {
+        "formulacion_isomeria": {
+            nombre: "1. Formulación, Nomenclatura e Isomería",
+            problemas: [
+                {
+                    titulo: "Julio 2019 - Isomería de Diversas Familias",
+                    enunciado: "Formule y nombre los siguientes compuestos orgánicos:<br>a) Dos hidrocarburos saturados, isómeros de cadena, de fórmula molecular \\(\\ce{C4H10}\\).<br>b) Dos aminas primarias, isómeras de posición, de fórmula molecular \\(\\ce{C3H9N}\\).<br>c) Dos compuestos, isómeros de función (monofuncional), de fórmula molecular \\(\\ce{C3H6O2}\\).<br>d) Un hidrocarburo aromático de fórmula molecular \\(\\ce{C7H8}\\). <br> <strong>Solución: a) butano y 2-metilpropano; b) propan-1-amina y propan-2-amina; c) ácido propanoico y etanoato de metilo; d) metilbenceno (tolueno).</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Isómeros de cadena de \\(\\ce{C4H10}\\):</strong><br>
+                            - <strong>Butano:</strong> \\(\\ce{CH3-CH2-CH2-CH3}\\)<br>
+                            - <strong>2-metilpropano:</strong> \\(\\ce{CH3-CH(CH3)-CH3}\\)
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Aminas primarias isómeras de posición de \\(\\ce{C3H9N}\\):</strong><br>
+                            - <strong>Propan-1-amina:</strong> \\(\\ce{CH3-CH2-CH2-NH2}\\)<br>
+                            - <strong>Propan-2-amina:</strong> \\(\\ce{CH3-CH(NH2)-CH3}\\)
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Isómeros de función de \\(\\ce{C3H6O2}\\):</strong><br>
+                            - <strong>Ácido propanoico:</strong> \\(\\ce{CH3-CH2-COOH}\\) (ácido carboxílico)<br>
+                            - <strong>Etanoato de metilo:</strong> \\(\\ce{CH3-COO-CH3}\\) (éster)
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Hidrocarburo aromático de \\(\\ce{C7H8}\\):</strong><br>
+                            - <strong>Metilbenceno</strong> (tolueno): \\(\\ce{C6H5-CH3}\\)
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2021 - Síntesis de Tolueno y Formulación B.2",
+                    enunciado: "a) Formule la reacción que permite obtener metilbenceno (tolueno) a partir de clorometano e indique de qué tipo es.<br>b) Formule: penta-2,4-dien-1,4-diol, but-3-in-2-ona y 4-fenil-2-metilpentan-1-ol.<br>c) Nombre y formule dos compuestos, isómeros de función, de fórmula molecular \\(\\ce{C3H6O}\\). <br> <strong>Solución: a) alquilación de Friedel-Crafts: C₆H₆ + CH₃Cl → C₆H₅-CH₃ + HCl; b) HO-CH₂-CH=CH-C(OH)=CH₂; CH₃-CO-C≡CH; HO-CH₂-CH(CH₃)-CH₂-CH(C₆H₅)-CH₃; c) propanal (CH₃-CH₂-CHO) y propanona (CH₃-CO-CH₃).</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Obtención de metilbenceno (tolueno):</strong><br>
+                            Reacción de <strong>Alquilación de Friedel-Crafts (Sustitución electrofílica aromática)</strong> entre benceno y clorometano catalizada por un ácido de Lewis:<br><br>
+                            \\[\\ce{C6H6 + CH3Cl ->[AlCl3] C6H5-CH3 + HCl}\\]
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Formulación:</strong><br>
+                            - penta-2,4-dien-1,4-diol: \\(\\ce{HO-CH2-CH=CH-C(OH)=CH2}\\)<br>
+                            - but-3-in-2-ona: \\(\\ce{CH3-CO-C\\equiv CH}\\)<br>
+                            - 4-fenil-2-metilpentan-1-ol: \\(\\ce{HO-CH2-CH(CH3)-CH2-CH(C6H5)-CH3}\\)
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Isómeros de función de \\(\\ce{C3H6O}\\):</strong><br>
+                            - <strong>Propanal</strong> (aldehído): \\(\\ce{CH3-CH2-CHO}\\)<br>
+                            - <strong>Propanona</strong> (cetona): \\(\\ce{CH3-CO-CH3}\\)
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2022 - Isomería y Síntesis de 3-bromohexano A.2",
+                    enunciado: "a) Nombre los compuestos, escriba su fórmula molecular e indique los tipos de isomería entre ellos:<br>a1) \\(\\ce{CH3-CO-CH2-CH(CH3)2}\\)<br>a2) \\(\\ce{CH3-CHOH-CH(CH3)-CH2-CH3}\\)<br>a3) \\(\\ce{CH3-C(CH3)2-CH2-CHO}\\)<br>a4) \\(\\ce{CH3-(CH2)2-O-(CH2)2-CH3}\\) <br> <strong>Solución: a1) 4-metilpentan-2-ona (C₆H₁₂O); a2) 3-metilpentan-2-ol (C₆H₁₄O); a3) 3,3-dimetilbutanal (C₆H₁₂O); a4) dipropil éter (C₆H₁₄O); a1 y a3 isómeros de función (cetona/aldehído); a2 y a4 isómeros de función (alcohol/éter).</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Nomenclatura e Isomería:</strong><br>
+                            - <strong>a1:</strong> 4-metilpentan-2-ona (\\(\\ce{C6H12O}\\)).<br>
+                            - <strong>a2:</strong> 3-metilpentan-2-ol (\\(\\ce{C6H14O}\\)).<br>
+                            - <strong>a3:</strong> 3,3-dimetilbutanal (\\(\\ce{C6H12O}\\)).<br>
+                            - <strong>a4:</strong> dipropil éter (\\(\\ce{C6H14O}\\)).<br>
+                            <strong>Relaciones de isomería:</strong><br>
+                            - <strong>a1 y a3</strong> son <strong>isómeros de función</strong> (cetona y aldehído) y de cadena.<br>
+                            - <strong>a2 y a4</strong> son <strong>isómeros de función</strong> (alcohol y éter).
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2023 - Pares de Compuestos e Isomería B.2",
+                    enunciado: "Considere los pares de compuestos siguientes:<br>&emsp; &emsp; (i) etanoato de etilo y ácido butanoico;&emsp;&emsp;&emsp; (ii) pent-1-eno y ciclopentano;&emsp; &emsp; &emsp; (iii) but-1-eno y but-2-ino.<br>a) Escriba sus fórmulas semidesarrolladas.<br>b) Razone si corresponden a compuestos isómeros e indique el tipo. <br> <strong>Solución: a) CH₃-COO-CH₂-CH₃ y CH₃-CH₂-CH₂-COOH; CH₂=CH-CH₂-CH₂-CH₃ y C₅H₁₀ (anillo); CH₂=CH-CH₂-CH₃ y CH₃-C≡C-CH₃; b) (i) isómeros de función (C₄H₈O₂); (ii) isómeros de función (C₅H₁₀); (iii) NO son isómeros (C₄H₈ vs C₄H₆).</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Fórmulas semidesarrolladas:</strong><br>
+                            - (i) etanoato de etilo: \\(\\ce{CH3-COO-CH2-CH3}\\); ácido butanoico: \\(\\ce{CH3-CH2-CH2-COOH}\\).<br>
+                            - (ii) pent-1-eno: \\(\\ce{CH2=CH-CH2-CH2-CH3}\\); ciclopentano: \\(\\ce{C5H10}\\) (anillo pentagonal).<br>
+                            - (iii) but-1-eno: \\(\\ce{CH2=CH-CH2-CH3}\\); but-2-ino: \\(\\ce{CH3-C\\equiv C-CH3}\\).
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Análisis de isomería:</strong><br>
+                            - <strong>Par (i):</strong> Ambos corresponden a \\(\\ce{C4H8O2}\\). Son <strong>isómeros de función</strong> (éster y ácido carboxílico).<br>
+                            - <strong>Par (ii):</strong> Ambos corresponden a \\(\\ce{C5H10}\\). Son <strong>isómeros de función</strong> (alqueno y cicloalcano).<br>
+                            - <strong>Par (iii):</strong> But-1-eno (\\(\\ce{C4H8}\\)) y but-2-ino (\\(\\ce{C4H6}\\)). <strong>No son isómeros</strong> (tienen distinta fórmula molecular).
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2023 - Isomería, Éteres y Combustión A.2",
+                    enunciado: "a) Formule el 3-bromo-4-metilpentanal y un isómero de función.<br>b) Formule y nombre dos isómeros de posición del éter con fórmula \\(\\ce{C4H10O}\\).<br>c) Escriba y ajuste la reacción de combustión del etino. <br> <strong>Solución: a) CH₃-CH(CH₃)-CH(Br)-CH₂-CHO; isómero cetona: 4-bromo-5-metilhexan-2-ona; b) 1-metoxipropano (CH₃-O-CH₂-CH₂-CH₃) y 2-metoxipropano (CH₃-O-CH(CH₃)₂); c) 2 C₂H₂ + 5 O₂ → 4 CO₂ + 2 H₂O.</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) 3-bromo-4-metilpentanal e isómero de función:</strong><br>
+                            - Estructura: \\(\\ce{CH3-CH(CH3)-CH(Br)-CH2-CHO}\\) (\\(\\ce{C6H11BrO}\\)).<br>
+                            - Isómero de función (cetona): <strong>4-bromo-5-metilhexan-2-ona</strong> (\\(\\ce{CH3-CO-CH2-CH(Br)-CH(CH3)-CH3}\\)).
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Isómeros de posición de éter (\\(\\ce{C4H10O}\\)):</strong><br>
+                            - <strong>1-metoxipropano:</strong> \\(\\ce{CH3-O-CH2-CH2-CH3}\\)<br>
+                            - <strong>2-metoxipropano:</strong> \\(\\ce{CH3-O-CH(CH3)2}\\)
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Combustión del etino:</strong><br>
+                            \\[\\ce{2 C2H2 + 5 O2 -> 4 CO2 + 2 H2O}\\]
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2024 - Isomería Geométrica y Reacciones A.2",
+                    enunciado: "a) Indique cuál de los compuestos presenta isomería geométrica y dibuje los isómeros: <br>&emsp; i) Propeno &emsp;ii) But-1-eno &emsp;iii) Pent-2-eno &emsp;iv) Propen-2-ol.<br>c) Nombre e indique el grupo principal de: <br> &emsp; i) \\(\\ce{CH3-CH=CH-CHO}\\) &emsp;&emsp;ii) \\(\\ce{H-COO-CH(CH3)-CH2-CH3}\\) <br> <strong>Solución: a) solo el pent-2-eno presenta isomería geométrica (cis y trans); c) i) but-2-enal, grupo aldehído; ii) metanoato de sec-butilo, grupo éster.</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Isomería geométrica:</strong><br>
+                            Sólo el <strong>pent-2-eno</strong> (\\(\\ce{CH3-CH=CH-CH2-CH3}\\)) presenta isomería geométrica, al tener dos sustituyentes distintos en cada carbono del doble enlace (H y metilo en C2; H y etilo en C3):<br>
+                            - <strong><em>cis</em>-pent-2-eno</strong> (o (Z)-pent-2-eno)<br>
+                            - <strong><em>trans</em>-pent-2-eno</strong> (o (E)-pent-2-eno)<br>
+                            <em>(Los demás tienen dos hidrógenos sobre el C1 terminal, impidiendo esta isomería).</em>
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Nomenclatura y grupos funcionales:</strong><br>
+                            - i) \\(\\ce{CH3-CH=CH-CHO}\\): <strong>but-2-enal</strong>. Grupo principal: <strong>aldehído</strong> (\\(\\ce{-CHO}\\)).<br>
+                            - ii) \\(\\ce{H-COO-CH(CH3)-CH2-CH3}\\): <strong>metanoato de sec-butilo</strong> (o metanoato de 1-metilpropilo). Grupo principal: <strong>éster</strong> (\\(\\ce{-COO-}\\)).
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2024 - Isómeros C₂H₆O, Cis/Trans y Derivados del Eteno B.2",
+                    enunciado: "a) Formule y nombre los isómeros de fórmula \\(\\ce{C2H6O}\\).<br>b) De los compuestos 1,2-dicloroeteno y 1,1-dicloroeteno, indique cuál presenta isomería geométrica e identifíquelos. <br> <strong>Solución: a) etanol (CH₃-CH₂-OH) y metoximetano (CH₃-O-CH₃); b) el 1,2-dicloroeteno presenta isomería cis/trans; el 1,1-dicloroeteno no.</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Isómeros de fórmula \\(\\ce{C2H6O}\\):</strong><br>
+                            - <strong>Etanol:</strong> \\(\\ce{CH3-CH2-OH}\\) (alcohol)<br>
+                            - <strong>Metoximetano:</strong> \\(\\ce{CH3-O-CH3}\\) (dimetil éter, éter)<br>
+                            Son isómeros de función.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Isomería geométrica:</strong><br>
+                            - <strong>1,1-dicloroeteno (\\(\\ce{CCl2=CH2}\\)):</strong> No presenta isomería geométrica (dos sustituyentes iguales en C1 y C2).<br>
+                            - <strong>1,2-dicloroeteno (\\(\\ce{CHCl=CHCl}\\)):</strong> Sí presenta isomería geométrica al poseer un H y un Cl en cada carbono del doble enlace:<br>
+                              - <strong><em>cis</em>-1,2-dicloroeteno</strong> (o (Z)-1,2-dicloroeteno)<br>
+                              - <strong><em>trans</em>-1,2-dicloroeteno</strong> (o (E)-1,2-dicloroeteno)
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2025 - Formulación, Nomenclatura e Isomería 3A",
+                    enunciado: "a) Nombre los compuestos y tipo: <br> \\(\\quad\\) i) \\(\\ce{CH3-CH(CH3)-CH2-C(CH2CH3)(CH3)-CH2-CHO}\\) <br> \\(\\quad\\) ii) \\(\\ce{CH2=CH-O-CH2-CH3}\\)<br>b) Escriba la fórmula semidesarrollada e indique el grupo funcional de: <br> \\(\\quad\\) i) 3-etil-3,5-dimetilhexan-2-ol <br> \\(\\quad\\) ii) ácido 4-etenilhept-2-enoico iii) 4-etilhexan-3-ona iv) 3-etil-4-metilheptanamida.<br>c) Formule y nombre dos isómeros de cadena no cíclicos del hexano. <br> <strong>Solución: a) i) 3-etil-3,5-dimetilhexanal (aldehído); ii) etoxieteno (éter); b) i) CH₃-CH(OH)-C(CH₂CH₃)(CH₃)-CH₂-CH(CH₃)-CH₃ (alcohol); ii) HOOC-CH=CH-CH(CH=CH₂)-CH₂-CH₂-CH₃ (ácido + alqueno); iii) CH₃-CH₂-CO-CH(CH₂CH₃)-CH₂-CH₃ (cetona); iv) H₂N-CO-CH₂-CH(CH₂CH₃)-CH(CH₃)-CH₂-CH₂-CH₃ (amida); c) 2-metilpentano y 2,3-dimetilbutano.</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Nomenclatura y tipo de compuesto:</strong><br>
+                            - i) <strong>3-etil-3,5-dimetilhexanal</strong> (Aldehído).<br>
+                            - ii) <strong>etoxieteno</strong> o etil vinil éter (Éter insaturado).
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Formulación y grupos funcionales:</strong><br>
+                            - i) 3-etil-3,5-dimetilhexan-2-ol: \\(\\ce{CH3-CH(OH)-C(CH2CH3)(CH3)-CH2-CH(CH3)-CH3}\\) (Grupo: Alcohol, \\(\\ce{-OH}\\)).<br>
+                            - ii) ácido 4-etenilhept-2-enoico: \\(\\ce{HOOC-CH=CH-CH(CH=CH2)-CH2-CH2-CH3}\\) (Grupos: Ácido carboxílico, \\(\\ce{-COOH}\\) y Alqueno, \\(\\ce{=C=}\\)).<br>
+                            - iii) 4-etilhexan-3-ona: \\(\\ce{CH3-CH2-CO-CH(CH2CH3)-CH2-CH3}\\) (Grupo: Cetona, \\(\\ce{-CO-}\\)).<br>
+                            - iv) 3-etil-4-metilheptanamida: \\(\\ce{H2N-CO-CH2-CH(CH2CH3)-CH(CH3)-CH2-CH2-CH3}\\) (Grupo: Amida, \\(\\ce{-CONH2}\\)).
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Isómeros de cadena del hexano (\\(\\ce{C6H14}\\)):</strong><br>
+                            - <strong>2-metilpentano:</strong> \\(\\ce{CH3-CH(CH3)-CH2-CH2-CH3}\\)<br>
+                            - <strong>2,3-dimetilbutano:</strong> \\(\\ce{CH3-CH(CH3)-CH(CH3)-CH3}\\)
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Junio 2025 - Propiedades e Hibridación",
+                    enunciado: "b) Formule: <br> &emsp; i) Aldehído de 3 carbonos con hibridación sp. <br> &emsp; ii) Amina secundaria de 3 carbonos unida a carbonos \\(\\ce{sp^3}\\) y \\(\\ce{sp^2}\\).<br>c) Dados propan-2-ol y propano: <br> &emsp;i) Justifique cuál tiene mayor T<sub>fusión</sub>. <br> <strong>Solución: b) i) prop-2-inal (HC≡C-CHO); ii) N-metiletenamina (CH₃-NH-CH=CH₂); c) i) el propan-2-ol tiene mayor T_fusión por los enlaces de hidrógeno.</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>b) Formulación según hibridación:</strong><br>
+                            - i) <strong>Propinanal</strong> (o prop-2-inal): \\(\\ce{HC\\equiv C-CHO}\\) (3 carbonos, grupo aldehído y carbonos del triple enlace con hibridación \\(sp\\)).<br>
+                            - ii) <strong>N-metiletenamina</strong>: \\(\\ce{CH3-NH-CH=CH2}\\) (nitrógeno unido a metilo con \\(sp^3\\) y a carbono vinílico con \\(sp^2\\)).
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Propiedades y síntesis de propan-2-ol:</strong><br>
+                            - i) El <strong>propan-2-ol</strong> tiene mayor temperatura de fusión que el propano. Presenta enlaces de hidrógeno intermoleculares por su grupo \\(\\ce{-OH}\\), mientras que el propano sólo interactúa por fuerzas de dispersión de London débiles.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2025 - Isomería y Puntos de Ebullición 3B",
+                    enunciado: "a) Formule y nombre un isómero de función del ácido etanoico.<br>d) Las temperaturas de ebullición de etano, cloroetano y etanol son -88,6 °C, 12,3 °C y 78,5 °C, respectivamente. Justifique las diferencias. <br> <strong>Solución: a) metanoato de metilo (H-COO-CH₃); d) etano (London) < cloroetano (dipolo-dipolo) < etanol (enlaces de hidrógeno).</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Isómero de función del ácido etanoico (\\(\\ce{C2H4O2}\\)):</strong><br>
+                            - <strong>Metanoato de metilo:</strong> \\(\\ce{H-COO-CH3}\\) (éster).
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Justificación de las temperaturas de ebullición:</strong><br>
+                            - <strong>Etano (\\(\\ce{CH3-CH3}\\), -88,6 °C):</strong> Molécula apolar; únicamente presenta fuerzas de dispersión de London muy débiles.<br>
+                            - <strong>Cloroetano (\\(\\ce{CH3-CH2-Cl}\\), 12,3 °C):</strong> Molécula polar; presenta interacciones dipolo permanente-dipolo permanente superiores a las de London.<br>
+                            - <strong>Etanol (\\(\\ce{CH3-CH2-OH}\\), 78,5 °C):</strong> Molécula polar con un enlace \\(\\ce{O-H}\\) capaz de formar intensos <strong>enlaces de hidrógeno</strong> intermoleculares, requiriendo mucha más energía térmica para pasar al estado gaseoso.
+                        </div>
+                    `
+                },
+                {
+                    titulo: "Julio 2026 - Isomería 3A",
+                    enunciado: "Responda a las siguientes cuestiones: <br>a) Nombre los siguientes compuestos y escriba su fórmula molecular. Justifique si son isómeros y, en su caso, el tipo de isomería que presentan:<br> &emsp;&emsp; \\( \\ce{CH2Br-CH2-COO-CH2-CH3 \\quad y \\quad CH3-(CH2)2-CHBr-COOH}\\) <br> <strong>Solución: a) 3-bromopropanoato de etilo (C₅H₉BrO₂) y ácido 2-bromopentanoico (C₅H₉BrO₂); son isómeros de función (éster vs ácido carboxílico).</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Nomenclatura, fórmula molecular y tipo de isomería:</strong><br>
+                            - Primer compuesto: \\(\\ce{CH2Br-CH2-COO-CH2-CH3}\\) es el <strong>3-bromopropanoato de etilo</strong>. Fórmula molecular: \\(\\ce{C5H9BrO2}\\).<br>
+                            - Segundo compuesto: \\(\\ce{CH3-(CH2)2-CHBr-COOH}\\) es el <strong>ácido 2-bromopentanoico</strong>. Fórmula molecular: \\(\\ce{C5H9BrO2}\\).<br>
+                            Ambos tienen la misma fórmula molecular, por lo que son <strong>isómeros</strong>. Como el primero es un éster y el segundo un ácido carboxílico, se trata de <strong>isómeros de función</strong>.
+                        </div>
+                    `
+                }
+            ]
+        },
         "reacciones_organicas": {
             nombre: "2. Reacciones Orgánicas y Síntesis",
             problemas: [
