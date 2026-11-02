@@ -327,7 +327,7 @@ baseDatosTemas["tema8_redox"] = {
             problemas: [
                 {
                     titulo: "Junio 2019 - Pila de hierro y plata",
-                    enunciado: "Se forma una pila galvánica con un electrodo de hierro y otro de plata. Teniendo en cuenta los potenciales de reducción estándar que se adjuntan:<br>a) Escriba las semirreacciones que tienen lugar en el ánodo y en el cátodo de la pila galvánica e indique el sentido del movimiento de los iones metálicos de las disoluciones con respecto a los electrodos metálicos.<br>b) Calcule el potencial de la pila formada.<br>c) Dibuje un esquema de la pila indicando sus componentes.<br>d) Razone qué ocurriría si introdujéramos una cuchara de plata en una disolución de Fe²⁺.<br>Datos: E⁰(V): Ag⁺/Ag = 0,80 V; Fe²⁺/Fe = −0,44 V. <br> <strong>Solución: a) ánodo: Fe → Fe²⁺ + 2 e⁻; cátodo: Ag⁺ + e⁻ → Ag; los iones Fe²⁺ pasan a la disolución y los Ag⁺ se depositan como Ag; b) E⁰ = 1,24 V; c) esquema con puente salino y voltímetro; d) no ocurre nada, la reacción no es espontánea (E⁰ = −1,24 V).</strong>",
+                    enunciado: "Se forma una pila galvánica con un electrodo de hierro y otro de plata. Teniendo en cuenta los potenciales de reducción estándar que se adjuntan:<br>a) Escriba las semirreacciones que tienen lugar en el ánodo y en el cátodo de la pila galvánica e indique el sentido del movimiento de los iones metálicos de las disoluciones con respecto a los electrodos metálicos.<br>b) Calcule el potencial de la pila formada.<br>c) Dibuje un esquema de la pila indicando sus componentes.<br>d) Razone qué ocurriría si introdujéramos una cuchara de plata en una disolución de Fe²⁺.<br>Datos: E⁰(V): Ag⁺/Ag = 0,80 V; Fe²⁺/Fe = -0,44 V. <br> <strong>Solución: a) ánodo: Fe → Fe²⁺ + 2 e⁻; cátodo: Ag⁺ + e⁻ → Ag; los iones Fe²⁺ pasan a la disolución y los Ag⁺ se depositan como Ag; b) E⁰ = 1,24 V; c) esquema con puente salino y voltímetro; d) no ocurre nada, la reacción no es espontánea (E⁰ = -1,24 V).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Semirreacciones y movimiento de iones:</strong><br>
@@ -353,7 +353,7 @@ baseDatosTemas["tema8_redox"] = {
                 },
                 {
                     titulo: "Julio 2020 - Pila Zn/Fe y obtención de H₂",
-                    enunciado: "Responda las siguientes cuestiones:<br>a) Se construye una pila galvánica con los electrodos Zn²⁺/Zn y Fe²⁺/Fe. Escriba las semirreacciones que tienen lugar en el ánodo y en el cátodo y calcule el potencial.<br>b) Se tratan 317,5 g de zinc, de 90 % de riqueza en masa, con una disolución de ácido nítrico diluido. Ajuste la reacción y calcule los litros de hidrógeno que se obtienen a 25 °C y 1 atm, si el rendimiento es del 80 %.<br>Datos: E⁰(V): Zn²⁺/Zn = −0,76; Fe²⁺/Fe = −0,44; R = 0,082 atm·L·mol⁻¹·K⁻¹; Masa atómica: Zn = 65,4. <br> <strong>Solución: a) ánodo: Zn → Zn²⁺ + 2 e⁻; cátodo: Fe²⁺ + 2 e⁻ → Fe; E⁰ = 0,32 V; b) Zn + 2 HNO₃ → Zn(NO₃)₂ + H₂; V(H₂) ≈ 85,5 L.</strong>",
+                    enunciado: "Responda las siguientes cuestiones:<br>a) Se construye una pila galvánica con los electrodos Zn²⁺/Zn y Fe²⁺/Fe. Escriba las semirreacciones que tienen lugar en el ánodo y en el cátodo y calcule el potencial.<br>b) Se tratan 317,5 g de zinc, de 90 % de riqueza en masa, con una disolución de ácido nítrico diluido. Ajuste la reacción y calcule los litros de hidrógeno que se obtienen a 25 °C y 1 atm, si el rendimiento es del 80 %.<br>Datos: E⁰(V): Zn²⁺/Zn = -0,76; Fe²⁺/Fe = -0,44; R = 0,082 atm·L·mol⁻¹·K⁻¹; Masa atómica: Zn = 65,4. <br> <strong>Solución: a) ánodo: Zn → Zn²⁺ + 2 e⁻; cátodo: Fe²⁺ + 2 e⁻ → Fe; E⁰ = 0,32 V; b) Zn + 2 HNO₃ → Zn(NO₃)₂ + H₂; V(H₂) ≈ 85,5 L.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Pila Zn/Fe:</strong><br>
@@ -374,11 +374,11 @@ baseDatosTemas["tema8_redox"] = {
                 },
                 {
                     titulo: "Septiembre 2020 - Elección de pila y corrosión del Zn",
-                    enunciado: "Considere los electrodos: Sn²⁺/Sn, MnO₄⁻/Mn²⁺ (en medio ácido clorhídrico), Zn²⁺/Zn y Ce⁴⁺/Ce³⁺.<br>a) Razone qué dos electrodos forman la pila que corresponde al proceso con menor ΔG⁰.<br>b) Haga los cálculos pertinentes que le permitan razonar si un recipiente de zinc se deteriora al almacenar en él una disolución de KMnO₄ en medio ácido.<br>c) Ajuste por el método del ion-electrón la ecuación iónica y molecular del proceso redox del apartado b).<br>Datos: E⁰(V): Zn²⁺/Zn = −0,76; Sn²⁺/Sn = −0,14; MnO₄⁻/Mn²⁺ = 1,51; Ce⁴⁺/Ce³⁺ = 1,61. <br> <strong>Solución: a) cátodo Ce⁴⁺/Ce³⁺ y ánodo Zn²⁺/Zn, E⁰ = 2,37 V; b) sí se deteriora, E⁰ = 2,27 V > 0; c) iónica: 2 MnO₄⁻ + 16 H⁺ + 5 Zn → 2 Mn²⁺ + 8 H₂O + 5 Zn²⁺; molecular: 2 KMnO₄ + 16 HCl + 5 Zn → 2 MnCl₂ + 2 KCl + 8 H₂O + 5 ZnCl₂.</strong>",
+                    enunciado: "Considere los electrodos: Sn²⁺/Sn, MnO₄⁻/Mn²⁺ (en medio ácido clorhídrico), Zn²⁺/Zn y Ce⁴⁺/Ce³⁺.<br>a) Razone qué dos electrodos forman la pila que corresponde al proceso con menor ΔG⁰.<br>b) Haga los cálculos pertinentes que le permitan razonar si un recipiente de zinc se deteriora al almacenar en él una disolución de KMnO₄ en medio ácido.<br>c) Ajuste por el método del ion-electrón la ecuación iónica y molecular del proceso redox del apartado b).<br>Datos: E⁰(V): Zn²⁺/Zn = -0,76; Sn²⁺/Sn = -0,14; MnO₄⁻/Mn²⁺ = 1,51; Ce⁴⁺/Ce³⁺ = 1,61. <br> <strong>Solución: a) cátodo Ce⁴⁺/Ce³⁺ y ánodo Zn²⁺/Zn, E⁰ = 2,37 V; b) sí se deteriora, E⁰ = 2,27 V > 0; c) iónica: 2 MnO₄⁻ + 16 H⁺ + 5 Zn → 2 Mn²⁺ + 8 H₂O + 5 Zn²⁺; molecular: 2 KMnO₄ + 16 HCl + 5 Zn → 2 MnCl₂ + 2 KCl + 8 H₂O + 5 ZnCl₂.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Pila con menor ΔG⁰:</strong><br>
-                            El menor ΔG⁰ corresponde al mayor potencial de pila positivo. Se elige el cátodo con mayor E⁰ (Ce⁴⁺/Ce³⁺ = 1,61 V) y el ánodo con menor E⁰ (Zn²⁺/Zn = −0,76 V).<br>
+                            El menor ΔG⁰ corresponde al mayor potencial de pila positivo. Se elige el cátodo con mayor E⁰ (Ce⁴⁺/Ce³⁺ = 1,61 V) y el ánodo con menor E⁰ (Zn²⁺/Zn = -0,76 V).<br>
                             \\[E^0 = 1,61 - (-0,76) = \\boxed{2,37\\ \\text{V}}\\]
                         </div>
                         <div class='paso'>
@@ -398,7 +398,7 @@ baseDatosTemas["tema8_redox"] = {
                 },
                 {
                     titulo: "Junio 2021 - Pila de Zn y Cu",
-                    enunciado: "Se construye una pila formada por un electrodo de zinc, sumergido en una disolución 1 M de Zn(NO₃)₂ y conectado por un puente salino con un electrodo de cobre, sumergido en una disolución 1 M de Cu(NO₃)₂.<br>a) Ajuste las reacciones que tienen lugar en el ánodo y en el cátodo, y la reacción iónica global.<br>b) Escriba la notación de la pila y detalle para qué sirve el puente salino.<br>c) Indique en qué sentido circula la corriente en el conductor eléctrico.<br>d) Indique en qué electrodo se deposita cobre.<br>Datos: E⁰(V): Zn²⁺/Zn = −0,76; Cu²⁺/Cu = 0,34. <br> <strong>Solución: a) ánodo: Zn → Zn²⁺ + 2 e⁻; cátodo: Cu²⁺ + 2 e⁻ → Cu; global: Zn + Cu²⁺ → Zn²⁺ + Cu; b) Zn(s)|Zn²⁺(1 M)||Cu²⁺(1 M)|Cu(s); el puente salino mantiene la electroneutralidad; c) del cátodo (Cu) al ánodo (Zn) por el conductor externo; d) en el cátodo (electrodo de Cu).</strong>",
+                    enunciado: "Se construye una pila formada por un electrodo de zinc, sumergido en una disolución 1 M de Zn(NO₃)₂ y conectado por un puente salino con un electrodo de cobre, sumergido en una disolución 1 M de Cu(NO₃)₂.<br>a) Ajuste las reacciones que tienen lugar en el ánodo y en el cátodo, y la reacción iónica global.<br>b) Escriba la notación de la pila y detalle para qué sirve el puente salino.<br>c) Indique en qué sentido circula la corriente en el conductor eléctrico.<br>d) Indique en qué electrodo se deposita cobre.<br>Datos: E⁰(V): Zn²⁺/Zn = -0,76; Cu²⁺/Cu = 0,34. <br> <strong>Solución: a) ánodo: Zn → Zn²⁺ + 2 e⁻; cátodo: Cu²⁺ + 2 e⁻ → Cu; global: Zn + Cu²⁺ → Zn²⁺ + Cu; b) Zn(s)|Zn²⁺(1 M)||Cu²⁺(1 M)|Cu(s); el puente salino mantiene la electroneutralidad; c) del cátodo (Cu) al ánodo (Zn) por el conductor externo; d) en el cátodo (electrodo de Cu).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Reacciones:</strong><br>
@@ -423,7 +423,7 @@ baseDatosTemas["tema8_redox"] = {
                 },
                 {
                     titulo: "Junio 2022 - Pila de cadmio y plata",
-                    enunciado: "Responda las siguientes cuestiones:<br>a) Dibuje el esquema de una pila utilizando como electrodos una barra de cadmio y otra de plata. Identifique todos los elementos que la forman, e indique el sentido del movimiento de los electrones.<br>b) Escriba las reacciones que tienen lugar en el cátodo y en el ánodo, y calcule el potencial de la pila.<br>Datos: E⁰(V): Cd²⁺/Cd = −0,40; Ag⁺/Ag = 0,80. <br> <strong>Solución: a) esquema con ánodo de Cd, cátodo de Ag, puente salino y voltímetro; electrones del Cd al Ag; b) ánodo: Cd → Cd²⁺ + 2 e⁻; cátodo: 2 Ag⁺ + 2 e⁻ → 2 Ag; E⁰ = 1,20 V.</strong>",
+                    enunciado: "Responda las siguientes cuestiones:<br>a) Dibuje el esquema de una pila utilizando como electrodos una barra de cadmio y otra de plata. Identifique todos los elementos que la forman, e indique el sentido del movimiento de los electrones.<br>b) Escriba las reacciones que tienen lugar en el cátodo y en el ánodo, y calcule el potencial de la pila.<br>Datos: E⁰(V): Cd²⁺/Cd = -0,40; Ag⁺/Ag = 0,80. <br> <strong>Solución: a) esquema con ánodo de Cd, cátodo de Ag, puente salino y voltímetro; electrones del Cd al Ag; b) ánodo: Cd → Cd²⁺ + 2 e⁻; cátodo: 2 Ag⁺ + 2 e⁻ → 2 Ag; E⁰ = 1,20 V.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Esquema y movimiento de electrones:</strong><br>
@@ -440,11 +440,11 @@ baseDatosTemas["tema8_redox"] = {
                 },
                 {
                     titulo: "Julio 2024 - Pila con potencial más positivo y desplazamiento",
-                    enunciado: "Considere los potenciales de reducción que se indican y conteste razonadamente:<br>a) Combinando dos electrodos de los especificados, justifique cuáles forman la pila con el potencial más positivo. Escriba las reacciones que tienen lugar en el ánodo y en el cátodo, y calcule el potencial de dicha pila.<br>b) Se dispone de dos recipientes con disoluciones de nitrato de plata y nitrato de manganeso(II) y en cada uno se introduce una barra de hierro. ¿En cuál de ellos se formará una capa del otro metal sobre la barra de hierro? Razone la respuesta.<br>Datos: E⁰(V): Mn²⁺/Mn = −1,18; Fe²⁺/Fe = −0,44; Pb²⁺/Pb = −0,125; Ag⁺/Ag = 0,80; Au³⁺/Au = 1,52. <br> <strong>Solución: a) cátodo Au³⁺/Au y ánodo Mn²⁺/Mn; ánodo: Mn → Mn²⁺ + 2 e⁻; cátodo: Au³⁺ + 3 e⁻ → Au; E⁰ = 2,70 V; b) en la disolución de nitrato de plata (Ag⁺/Ag > Fe²⁺/Fe).</strong>",
+                    enunciado: "Considere los potenciales de reducción que se indican y conteste razonadamente:<br>a) Combinando dos electrodos de los especificados, justifique cuáles forman la pila con el potencial más positivo. Escriba las reacciones que tienen lugar en el ánodo y en el cátodo, y calcule el potencial de dicha pila.<br>b) Se dispone de dos recipientes con disoluciones de nitrato de plata y nitrato de manganeso(II) y en cada uno se introduce una barra de hierro. ¿En cuál de ellos se formará una capa del otro metal sobre la barra de hierro? Razone la respuesta.<br>Datos: E⁰(V): Mn²⁺/Mn = -1,18; Fe²⁺/Fe = -0,44; Pb²⁺/Pb = -0,125; Ag⁺/Ag = 0,80; Au³⁺/Au = 1,52. <br> <strong>Solución: a) cátodo Au³⁺/Au y ánodo Mn²⁺/Mn; ánodo: Mn → Mn²⁺ + 2 e⁻; cátodo: Au³⁺ + 3 e⁻ → Au; E⁰ = 2,70 V; b) en la disolución de nitrato de plata (Ag⁺/Ag > Fe²⁺/Fe).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Pila con potencial más positivo:</strong><br>
-                            Se elige el cátodo con mayor E⁰ (Au³⁺/Au = 1,52 V) y el ánodo con menor E⁰ (Mn²⁺/Mn = −1,18 V).<br>
+                            Se elige el cátodo con mayor E⁰ (Au³⁺/Au = 1,52 V) y el ánodo con menor E⁰ (Mn²⁺/Mn = -1,18 V).<br>
                             Ánodo: \\[\\ce{Mn -> Mn^{2+} + 2 e-}\\]
                             Cátodo: \\[\\ce{Au^{3+} + 3 e- -> Au}\\]
                             \\[E^0_{pila} = 1,52 - (-1,18) = \\boxed{2,70\\ \\text{V}}\\]
@@ -452,8 +452,8 @@ baseDatosTemas["tema8_redox"] = {
                         <div class='paso'>
                             <strong>b) Barra de hierro en disoluciones:</strong><br>
                             Para que se deposite el otro metal, el hierro debe oxidarse (ánodo) y el catión del otro metal reducirse. Esto ocurre si el potencial de reducción del catión es mayor que el del Fe²⁺/Fe.<br>
-                            - Ag⁺/Ag (0,80 V) > Fe²⁺/Fe (−0,44 V): Sí se deposita plata.<br>
-                            - Mn²⁺/Mn (−1,18 V) < Fe²⁺/Fe (−0,44 V): No se deposita manganeso.<br>
+                            - Ag⁺/Ag (0,80 V) > Fe²⁺/Fe (-0,44 V): Sí se deposita plata.<br>
+                            - Mn²⁺/Mn (-1,18 V) < Fe²⁺/Fe (-0,44 V): No se deposita manganeso.<br>
                             Por tanto, se formará una capa de <strong>plata</strong> en la disolución de nitrato de plata.
                         </div>
                     `
@@ -465,11 +465,11 @@ baseDatosTemas["tema8_redox"] = {
             problemas: [            
                 {
                     titulo: "Julio 2021 - Electrólisis de Cu²⁺ y espontaneidad",
-                    enunciado: "Responda las siguientes cuestiones a partir de la reacción de oxidación-reducción (no ajustada): Cu²⁺(ac) + H₂O → Cu(s) + O₂(g).<br>a) Razone si la reacción se produce de forma espontánea.<br>b) Escriba las semirreacciones de oxidación y reducción, indicando en qué electrodo se deposita el cobre y en cuál se desprende oxígeno.<br>c) Determine cuánto cobre se deposita si se hace pasar una corriente de 0,50 amperios a través de 1,0 L de disolución de CuSO₄ 0,2 M durante 4 horas.<br>Datos: E⁰(V): Cu²⁺/Cu = 0,34; O₂/H₂O = 1,23. F = 96485 C. Masa atómica: Cu = 63,5. <br> <strong>Solución: a) no espontánea (E⁰ = −0,89 V); b) cátodo: Cu²⁺ + 2 e⁻ → Cu (se deposita Cu); ánodo: 2 H₂O → O₂ + 4 H⁺ + 4 e⁻ (se desprende O₂); c) m(Cu) ≈ 2,37 g.</strong>",
+                    enunciado: "Responda las siguientes cuestiones a partir de la reacción de oxidación-reducción (no ajustada): Cu²⁺(ac) + H₂O → Cu(s) + O₂(g).<br>a) Razone si la reacción se produce de forma espontánea.<br>b) Escriba las semirreacciones de oxidación y reducción, indicando en qué electrodo se deposita el cobre y en cuál se desprende oxígeno.<br>c) Determine cuánto cobre se deposita si se hace pasar una corriente de 0,50 amperios a través de 1,0 L de disolución de CuSO₄ 0,2 M durante 4 horas.<br>Datos: E⁰(V): Cu²⁺/Cu = 0,34; O₂/H₂O = 1,23. F = 96485 C. Masa atómica: Cu = 63,5. <br> <strong>Solución: a) no espontánea (E⁰ = -0,89 V); b) cátodo: Cu²⁺ + 2 e⁻ → Cu (se deposita Cu); ánodo: 2 H₂O → O₂ + 4 H⁺ + 4 e⁻ (se desprende O₂); c) m(Cu) ≈ 2,37 g.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Espontaneidad:</strong><br>
-                            La reducción del Cu²⁺ tiene un potencial de 0,34 V, mientras que la oxidación del agua a O₂ tiene un potencial de reducción de 1,23 V (por lo que su oxidación es −1,23 V).<br>
+                            La reducción del Cu²⁺ tiene un potencial de 0,34 V, mientras que la oxidación del agua a O₂ tiene un potencial de reducción de 1,23 V (por lo que su oxidación es -1,23 V).<br>
                             \\[E^0_{reacción} = 0,34 - 1,23 = -0,89\\ \\text{V}\\]
                             Al ser negativo, la reacción <strong>no es espontánea</strong>; requiere una fuente externa (electrólisis).
                         </div>
@@ -523,7 +523,7 @@ baseDatosTemas["tema8_redox"] = {
                 },
                 {
                     titulo: "Julio 2023 - Electrólisis de CdSO₄",
-                    enunciado: "A través de una celda electrolítica que contiene una disolución acuosa de CdSO₄, se hace pasar una corriente de 2,50 A durante 90 minutos, observándose que se deposita Cd y se desprende oxígeno molecular.<br>a) Escriba las reacciones que se producen en el ánodo y en el cátodo, y la reacción iónica y molecular, ajustadas por el método del ion electrón, indicando el estado de las especies.<br>b) Calcule los gramos de Cd depositados.<br>Datos: E⁰(V): Cd²⁺/Cd = −0,40; O₂/H₂O = 1,23; F = 96485 C·mol⁻¹; Masa atómica (u): Cd = 112,4. <br> <strong>Solución: a) cátodo: Cd²⁺(ac) + 2 e⁻ → Cd(s); ánodo: 2 H₂O(l) → O₂(g) + 4 H⁺(ac) + 4 e⁻; iónica: 2 Cd²⁺(ac) + 2 H₂O(l) → 2 Cd(s) + O₂(g) + 4 H⁺(ac); molecular: 2 CdSO₄(ac) + 2 H₂O(l) → 2 Cd(s) + O₂(g) + 2 H₂SO₄(ac); b) m(Cd) ≈ 7,86 g.</strong>",
+                    enunciado: "A través de una celda electrolítica que contiene una disolución acuosa de CdSO₄, se hace pasar una corriente de 2,50 A durante 90 minutos, observándose que se deposita Cd y se desprende oxígeno molecular.<br>a) Escriba las reacciones que se producen en el ánodo y en el cátodo, y la reacción iónica y molecular, ajustadas por el método del ion electrón, indicando el estado de las especies.<br>b) Calcule los gramos de Cd depositados.<br>Datos: E⁰(V): Cd²⁺/Cd = -0,40; O₂/H₂O = 1,23; F = 96485 C·mol⁻¹; Masa atómica (u): Cd = 112,4. <br> <strong>Solución: a) cátodo: Cd²⁺(ac) + 2 e⁻ → Cd(s); ánodo: 2 H₂O(l) → O₂(g) + 4 H⁺(ac) + 4 e⁻; iónica: 2 Cd²⁺(ac) + 2 H₂O(l) → 2 Cd(s) + O₂(g) + 4 H⁺(ac); molecular: 2 CdSO₄(ac) + 2 H₂O(l) → 2 Cd(s) + O₂(g) + 2 H₂SO₄(ac); b) m(Cd) ≈ 7,86 g.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Reacciones:</strong><br>
