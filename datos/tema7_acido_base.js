@@ -12,7 +12,7 @@ baseDatosTemas["tema7_acidobase"] = {
             problemas: [
                 {
                     titulo: "Junio 2018 - Ácido débil HA",
-                    enunciado: "El pH de una disolución de concentración 0,5 M de un ácido débil HA es 3,0.<br>a) Calcule el valor de la constante Ka del ácido.<br>b) Calcule el grado de disociación de una disolución 0,1 M del mismo ácido.<br>c) Calcule los moles de una base fuerte, BOH, necesarios para neutralizar 250 mL de una disolución 0,1 M de un ácido fuerte monoprotótico.",
+                    enunciado: "El pH de una disolución de concentración 0,5 M de un ácido débil HA es 3,0.<br>a) Calcule el valor de la constante Ka del ácido.<br>b) Calcule el grado de disociación de una disolución 0,1 M del mismo ácido.<br>c) Calcule los moles de una base fuerte, BOH, necesarios para neutralizar 250 mL de una disolución 0,1 M de un ácido fuerte monoprotótico. <br> <strong>Solución: a) Ka ≈ 2·10⁻⁶; b) α = 3,16·10⁻³; c) n(BOH) = 2,5·10⁻² mol.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Constante Ka:</strong><br>
@@ -32,7 +32,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Junio 2018 - Ácidos y bases: HNO₂, NH₃ y HSO₄⁻",
-                    enunciado: "Responda a las siguientes cuestiones:<br>a) Escriba los equilibrios de disociación en agua de HNO₂, NH₃ y HSO₄⁻ e indique si actúan como ácido o como base.<br>b) Se dispone de una disolución de ácido acético 0,2 M y otra de igual concentración de ácido salicílico. Justifique cuál de las dos tiene menor pH.<br>c) Calcule el pH de una disolución de amoniaco 0,45 M.<br>Datos: Ka(HNO₂) = 5,6·10⁻⁴; Ka(HSO₄⁻) = 1,0·10⁻²; Ka(ácido acético) = 1,8·10⁻⁵; Ka(ácido salicílico) = 1,1·10⁻³; Kb(amoniaco) = 1,8·10⁻⁵.",
+                    enunciado: "Responda a las siguientes cuestiones:<br>a) Escriba los equilibrios de disociación en agua de HNO₂, NH₃ y HSO₄⁻ e indique si actúan como ácido o como base.<br>b) Se dispone de una disolución de ácido acético 0,2 M y otra de igual concentración de ácido salicílico. Justifique cuál de las dos tiene menor pH.<br>c) Calcule el pH de una disolución de amoniaco 0,45 M.<br>Datos: Ka(HNO₂) = 5,6·10⁻⁴; Ka(HSO₄⁻) = 1,0·10⁻²; Ka(ácido acético) = 1,8·10⁻⁵; Ka(ácido salicílico) = 1,1·10⁻³; Kb(amoniaco) = 1,8·10⁻⁵. <br> <strong>Solución: a) HNO₂ ácido, NH₃ base, HSO₄⁻ anfótero (predomina ácido); b) el ácido salicílico tiene menor pH; c) pH = 11,46.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Equilibrios de disociación:</strong><br>
@@ -58,7 +58,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2018 - Ácido cianhídrico",
-                    enunciado: "Se disuelven 0,675 gramos de ácido cianhídrico en agua hasta completar 500 mL de disolución.<br>a) Determine su concentración molar.<br>b) Calcule su pH.",
+                    enunciado: "Se disuelven 0,675 gramos de ácido cianhídrico en agua hasta completar 500 mL de disolución.<br>a) Determine su concentración molar.<br>b) Calcule su pH. <br> <strong>Solución: a) [HCN] = 0,05 M; b) pH = 5,31.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Concentración molar:</strong><br>
@@ -75,7 +75,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2019 - Ácido acético pH 2,9",
-                    enunciado: "Se preparan 250 mL de una disolución acuosa de ácido acético cuyo pH es 2,9.<br>a) Calcule la concentración inicial del ácido acético.<br>b) Obtenga el grado de disociación del ácido acético.<br>c) Determine el volumen de ácido acético de densidad 1,15 g·mL⁻¹ que se han necesitado para preparar 250 mL de la disolución inicial.<br>d) Si a la disolución inicialmente preparada se adicionan otros 250 mL de agua, calcule el nuevo valor de pH. Suponga volúmenes aditivos.<br>Datos: Masas atómicas: H = 1; C = 12; O = 16; Ka(CH₃COOH) = 1,8·10⁻⁵.",
+                    enunciado: "Se preparan 250 mL de una disolución acuosa de ácido acético cuyo pH es 2,9.<br>a) Calcule la concentración inicial del ácido acético.<br>b) Obtenga el grado de disociación del ácido acético.<br>c) Determine el volumen de ácido acético de densidad 1,15 g·mL⁻¹ que se han necesitado para preparar 250 mL de la disolución inicial.<br>d) Si a la disolución inicialmente preparada se adicionan otros 250 mL de agua, calcule el nuevo valor de pH. Suponga volúmenes aditivos.<br>Datos: Masas atómicas: H = 1; C = 12; O = 16; Ka(CH₃COOH) = 1,8·10⁻⁵. <br> <strong>Solución: a) c = 8,9·10⁻² M; b) α = 0,014; c) V = 1,16 mL; d) pH = 3,05.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Concentración inicial:</strong><br>
@@ -103,7 +103,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Junio 2021 - HNO₂, HF y HCN",
-                    enunciado: "Conteste razonadamente las siguientes preguntas para los siguientes ácidos: HNO₂, HF y HCN.<br>a) Suponiendo disoluciones acuosas de igual concentración de cada uno de ellos, explique cuál presenta menor pH.<br>b) Justifique y ordene de mayor a menor basicidad las bases conjugadas.<br>c) Obtenga el pH de una disolución acuosa 0,2 M de HCN.<br>Datos: Ka(HNO₂) = 4,5·10⁻⁴; Ka(HF) = 7,1·10⁻⁴; Ka(HCN) = 4,9·10⁻¹⁰.",
+                    enunciado: "Conteste razonadamente las siguientes preguntas para los siguientes ácidos: HNO₂, HF y HCN.<br>a) Suponiendo disoluciones acuosas de igual concentración de cada uno de ellos, explique cuál presenta menor pH.<br>b) Justifique y ordene de mayor a menor basicidad las bases conjugadas.<br>c) Obtenga el pH de una disolución acuosa 0,2 M de HCN.<br>Datos: Ka(HNO₂) = 4,5·10⁻⁴; Ka(HF) = 7,1·10⁻⁴; Ka(HCN) = 4,9·10⁻¹⁰. <br> <strong>Solución: a) el HF; b) CN⁻ > NO₂⁻ > F⁻; c) pH = 5,0.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Menor pH:</strong><br>
@@ -123,7 +123,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2021 - Ácido nitroso pH 2,42",
-                    enunciado: "Se prepara una disolución de ácido nitroso de pH = 2,42.<br>a) Determine la concentración inicial del ácido.<br>b) Calcule el grado de disociación del ácido.<br>c) A 200 mL de la disolución del enunciado se le adicionan 500 mg de NaOH. Escriba la reacción que transcurre y justifique si el pH de la disolución resultante es ácido, básico o neutro.<br>Datos: Ka(ácido nitroso) = 4,5·10⁻⁴. Masas atómicas: H = 1; O = 16; Na = 23.",
+                    enunciado: "Se prepara una disolución de ácido nitroso de pH = 2,42.<br>a) Determine la concentración inicial del ácido.<br>b) Calcule el grado de disociación del ácido.<br>c) A 200 mL de la disolución del enunciado se le adicionan 500 mg de NaOH. Escriba la reacción que transcurre y justifique si el pH de la disolución resultante es ácido, básico o neutro.<br>Datos: Ka(ácido nitroso) = 4,5·10⁻⁴. Masas atómicas: H = 1; O = 16; Na = 23. <br> <strong>Solución: a) c = 0,036 M; b) α = 0,11; c) pH básico (exceso de NaOH).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Concentración inicial:</strong><br>
@@ -146,7 +146,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2022 - Ácido benzoico",
-                    enunciado: "Una disolución acuosa de ácido benzoico (C₆H₅-COOH) 0,100 M tiene un grado de disociación del 2,5 %.<br>a) Determine la constante de disociación del ácido y la constante de basicidad de su base conjugada.<br>b) Calcule el pH de la disolución.<br>c) Determine el volumen de disolución de NaOH 0,0500 M que habría que añadir a 50,0 mL de la disolución del ácido para neutralizarlo completamente. Razone si el pH final será ácido, básico o neutro.",
+                    enunciado: "Una disolución acuosa de ácido benzoico (C₆H₅-COOH) 0,100 M tiene un grado de disociación del 2,5 %.<br>a) Determine la constante de disociación del ácido y la constante de basicidad de su base conjugada.<br>b) Calcule el pH de la disolución.<br>c) Determine el volumen de disolución de NaOH 0,0500 M que habría que añadir a 50,0 mL de la disolución del ácido para neutralizarlo completamente. Razone si el pH final será ácido, básico o neutro. <br> <strong>Solución: a) Ka = 6,45·10⁻⁵, Kb = 1,56·10⁻¹⁰; b) pH = 2,6; c) V = 100 mL, pH final básico.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Ka y Kb de la base conjugada:</strong><br>
@@ -171,7 +171,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2022 - Neutralización y ácido láctico",
-                    enunciado: "Responda razonadamente a las siguientes cuestiones:<br>a) Tras la adición de hidróxido de sodio 0,20 M a 100 mL de ácido nítrico 0,050 M se obtiene una disolución de pH neutro. Escriba la reacción que tiene lugar y calcule el volumen que se añade de la base.<br>b) El ácido láctico (HA) es un compuesto orgánico con una constante de acidez de 1,38·10⁻⁴ y masa molecular 90,0 g·mol⁻¹. Se preparan 100 mL de una disolución de ácido láctico cuyo pH es el mismo que el de otra disolución de HCl 0,0200 M. Determine los gramos de ácido láctico necesarios para preparar la disolución.",
+                    enunciado: "Responda razonadamente a las siguientes cuestiones:<br>a) Tras la adición de hidróxido de sodio 0,20 M a 100 mL de ácido nítrico 0,050 M se obtiene una disolución de pH neutro. Escriba la reacción que tiene lugar y calcule el volumen que se añade de la base.<br>b) El ácido láctico (HA) es un compuesto orgánico con una constante de acidez de 1,38·10⁻⁴ y masa molecular 90,0 g·mol⁻¹. Se preparan 100 mL de una disolución de ácido láctico cuyo pH es el mismo que el de otra disolución de HCl 0,0200 M. Determine los gramos de ácido láctico necesarios para preparar la disolución. <br> <strong>Solución: a) V(NaOH) = 25 mL; b) m = 26,26 g.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Reacción y volumen de NaOH:</strong><br>
@@ -193,7 +193,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2023 - Biotina",
-                    enunciado: "Responda a las siguientes cuestiones:<br>a) La biotina es un ácido monoprotóico, HA. Una disolución de biotina 0,010 M tiene un pH de 3,3. Determine la constante de disociación y el grado de disociación.<br>b) Determine el volumen de una disolución de hidróxido de sodio 0,050 M necesario para neutralizar 100 mL de la disolución de HA.",
+                    enunciado: "Responda a las siguientes cuestiones:<br>a) La biotina es un ácido monoprotóico, HA. Una disolución de biotina 0,010 M tiene un pH de 3,3. Determine la constante de disociación y el grado de disociación.<br>b) Determine el volumen de una disolución de hidróxido de sodio 0,050 M necesario para neutralizar 100 mL de la disolución de HA. <br> <strong>Solución: a) Ka = 2,6·10⁻⁵, α = 0,05; b) V = 20 mL.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Ka y grado de disociación:</strong><br>
@@ -210,7 +210,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Junio 2025 - Ácido butanoico y butanoato de sodio",
-                    enunciado: "El ácido butanoico (C₃H₇COOH) es un ácido monoprotóico débil que se utiliza en muchas aplicaciones de la vida cotidiana, por ejemplo para mantener la frescura del pan, como aromatizante en jarabes o para mejorar la jugosidad de la carne, entre otras. A 25 °C se preparan 250 mL de una disolución 0,250 M de este ácido con pH = 2,72.<br>a) Escriba ajustada la reacción de disociación en agua y calcule el porcentaje de disociación del ácido y el pKa.<br>b) A 25 °C se prepara una disolución de butanoato de sodio (C₃H₇COONa). Razone si su pH será mayor, menor o igual que el de la disolución del enunciado.<br>c) Justifique si se formaría una disolución reguladora al mezclar la disolución del enunciado con una disolución de butanoato de sodio.",
+                    enunciado: "El ácido butanoico (C₃H₇COOH) es un ácido monoprotóico débil que se utiliza en muchas aplicaciones de la vida cotidiana, por ejemplo para mantener la frescura del pan, como aromatizante en jarabes o para mejorar la jugosidad de la carne, entre otras. A 25 °C se preparan 250 mL de una disolución 0,250 M de este ácido con pH = 2,72.<br>a) Escriba ajustada la reacción de disociación en agua y calcule el porcentaje de disociación del ácido y el pKa.<br>b) A 25 °C se prepara una disolución de butanoato de sodio (C₃H₇COONa). Razone si su pH será mayor, menor o igual que el de la disolución del enunciado.<br>c) Justifique si se formaría una disolución reguladora al mezclar la disolución del enunciado con una disolución de butanoato de sodio. <br> <strong>Solución: a) % disociación = 0,762 %, pKa = 4,83; b) pH mayor (básico); c) sí, se forma una disolución reguladora.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Reacción de disociación, porcentaje de disociación y pKa:</strong><br>
@@ -239,7 +239,7 @@ baseDatosTemas["tema7_acidobase"] = {
             problemas: [
                 {
                     titulo: "Junio 2018 - H₂SO₄ comercial y neutralización",
-                    enunciado: "Se dispone de H₂SO₄ comercial de 96,4 % de riqueza en masa y densidad 1,84 g·mL⁻¹. Calcule:<br>a) El volumen de ácido comercial que se necesita para preparar 200 mL de disolución 0,5 M.<br>b) El pH de la disolución resultante de mezclar 25 mL de disolución 0,1 M de H₂SO₄ con 50 mL de disolución 0,5 M de NaOH. Suponga los volúmenes aditivos.<br>Datos: Masas atómicas: H = 1; O = 16; S = 32.",
+                    enunciado: "Se dispone de H₂SO₄ comercial de 96,4 % de riqueza en masa y densidad 1,84 g·mL⁻¹. Calcule:<br>a) El volumen de ácido comercial que se necesita para preparar 200 mL de disolución 0,5 M.<br>b) El pH de la disolución resultante de mezclar 25 mL de disolución 0,1 M de H₂SO₄ con 50 mL de disolución 0,5 M de NaOH. Suponga los volúmenes aditivos.<br>Datos: Masas atómicas: H = 1; O = 16; S = 32. <br> <strong>Solución: a) V = 5,5 mL; b) pH = 13,43.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Volumen de ácido comercial:</strong><br>
@@ -261,7 +261,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Junio 2018 - Ácido metanoico y base BOH",
-                    enunciado: "Se dispone de una disolución de ácido metanoico 0,5 M. Calcule:<br>a) El pH de la disolución.<br>b) El grado de disociación de la base BOH 0,3 M que presenta un pOH igual que el pH de la disolución de ácido metanoico.<br>c) El volumen de base BOH 0,3 M necesario para neutralizar una disolución de ácido metanoico obtenida al mezclar 50 mL de la disolución del enunciado con 150 mL de agua.<br>Dato: Ka = 1,85·10⁻⁵.",
+                    enunciado: "Se dispone de una disolución de ácido metanoico 0,5 M. Calcule:<br>a) El pH de la disolución.<br>b) El grado de disociación de la base BOH 0,3 M que presenta un pOH igual que el pH de la disolución de ácido metanoico.<br>c) El volumen de base BOH 0,3 M necesario para neutralizar una disolución de ácido metanoico obtenida al mezclar 50 mL de la disolución del enunciado con 150 mL de agua.<br>Dato: Ka = 1,85·10⁻⁵. <br> <strong>Solución: a) pH = 2,52; b) α = 0,01; c) V = 83 mL.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) pH de la disolución de ácido metanoico:</strong><br>
@@ -284,7 +284,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Junio 2019 - Amoniaco comercial",
-                    enunciado: "Se quiere preparar 500 mL de disolución acuosa de amoniaco 0,1 M a partir de 1 L de amoniaco comercial de 25 % de riqueza en masa con una densidad del 0,9 g·cm⁻³.<br>a) Determine el volumen de amoniaco comercial necesario para preparar dicha disolución.<br>b) Calcule el pH de la disolución de 500 mL de amoniaco 0,1 M inicial.<br>c) Justifique con las reacciones adecuadas el pH resultante (ácido, básico o neutro) al añadir 250 mL de ácido clorhídrico 0,2 M a la disolución de 500 mL de amoniaco 0,1 M. Considere volúmenes aditivos.<br>Datos: Kb(amoniaco) = 1,8·10⁻⁵. Masas atómicas: H = 1; N = 14.",
+                    enunciado: "Se quiere preparar 500 mL de disolución acuosa de amoniaco 0,1 M a partir de 1 L de amoniaco comercial de 25 % de riqueza en masa con una densidad del 0,9 g·cm⁻³.<br>a) Determine el volumen de amoniaco comercial necesario para preparar dicha disolución.<br>b) Calcule el pH de la disolución de 500 mL de amoniaco 0,1 M inicial.<br>c) Justifique con las reacciones adecuadas el pH resultante (ácido, básico o neutro) al añadir 250 mL de ácido clorhídrico 0,2 M a la disolución de 500 mL de amoniaco 0,1 M. Considere volúmenes aditivos.<br>Datos: Kb(amoniaco) = 1,8·10⁻⁵. Masas atómicas: H = 1; N = 14. <br> <strong>Solución: a) V = 3,78 mL; b) pH = 11,13; c) pH ácido (se forma NH₄Cl).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Volumen de amoniaco comercial:</strong><br>
@@ -312,7 +312,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2020 - Ácido peryódico",
-                    enunciado: "Se tiene una disolución de ácido peryódico 0,10 M.<br>a) Calcule el pH de la disolución.<br>b) Determine el volumen de la disolución del enunciado necesario para preparar 250 mL de disolución de ácido peryódico 0,02 M.<br>c) A 200 mL de la disolución del enunciado se le añaden 125 mL de hidróxido de sodio 0,16 M. Justifique si el pH resultante es ácido, básico o neutro.",
+                    enunciado: "Se tiene una disolución de ácido peryódico 0,10 M.<br>a) Calcule el pH de la disolución.<br>b) Determine el volumen de la disolución del enunciado necesario para preparar 250 mL de disolución de ácido peryódico 0,02 M.<br>c) A 200 mL de la disolución del enunciado se le añaden 125 mL de hidróxido de sodio 0,16 M. Justifique si el pH resultante es ácido, básico o neutro. <br> <strong>Solución: a) pH = 1,0; b) V = 50 mL; c) pH neutro (neutralización exacta).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) pH de la disolución 0,10 M:</strong><br>
@@ -333,7 +333,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2021 - Orden de pH y neutralización",
-                    enunciado: "Responda las siguientes cuestiones:<br>a) Ordene por orden creciente de pH las disoluciones acuosas de igual concentración de los siguientes compuestos: HF, NH₃, HCN y NaCl. Razone la respuesta.<br>b) Calcule la concentración de una disolución de ácido acético sabiendo que 75 mL de esta disolución se neutralizan con 100 mL de una disolución de hidróxido de potasio 0,15 M.<br>Datos: Ka(HF) = 1,4·10⁻⁴; Kb(NH₃) = 1,8·10⁻⁵; Ka(HCN) = 4,9·10⁻¹⁰.",
+                    enunciado: "Responda las siguientes cuestiones:<br>a) Ordene por orden creciente de pH las disoluciones acuosas de igual concentración de los siguientes compuestos: HF, NH₃, HCN y NaCl. Razone la respuesta.<br>b) Calcule la concentración de una disolución de ácido acético sabiendo que 75 mL de esta disolución se neutralizan con 100 mL de una disolución de hidróxido de potasio 0,15 M.<br>Datos: Ka(HF) = 1,4·10⁻⁴; Kb(NH₃) = 1,8·10⁻⁵; Ka(HCN) = 4,9·10⁻¹⁰. <br> <strong>Solución: a) HF < HCN < NaCl < NH₃; b) [CH₃COOH] = 0,20 M.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Orden creciente de pH:</strong><br>
@@ -353,7 +353,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2023 - HCl vs ácido acético",
-                    enunciado: "En un laboratorio se tiene un matraz A, que contiene 15 mL de una disolución acuosa de ácido clorhídrico 0,05 M, y otro matraz B, que contiene 15 mL de una disolución acuosa de ácido acético 0,05 M.<br>a) Determine el pH de cada disolución por separado.<br>b) Calcule la cantidad de agua que se debe añadir a la disolución más ácida para que el pH de las dos disoluciones sea el mismo. Suponga volúmenes aditivos.<br>Dato: Ka(ácido acético) = 1,8·10⁻⁵.",
+                    enunciado: "En un laboratorio se tiene un matraz A, que contiene 15 mL de una disolución acuosa de ácido clorhídrico 0,05 M, y otro matraz B, que contiene 15 mL de una disolución acuosa de ácido acético 0,05 M.<br>a) Determine el pH de cada disolución por separado.<br>b) Calcule la cantidad de agua que se debe añadir a la disolución más ácida para que el pH de las dos disoluciones sea el mismo. Suponga volúmenes aditivos.<br>Dato: Ka(ácido acético) = 1,8·10⁻⁵. <br> <strong>Solución: a) pH(HCl) = 1,3, pH(CH₃COOH) = 3,02; b) V(agua) = 771 mL.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) pH de cada disolución:</strong><br>
@@ -373,7 +373,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2024 - Ácido hipobromoso y H₂SO₄",
-                    enunciado: "Responda a las siguientes cuestiones:<br>a) Calcule el grado de disociación y el pH de una disolución 0,10 M de ácido hipobromoso, a 25 °C, si su constante de disociación, a dicha temperatura, vale 2,3·10⁻⁹.<br>b) Calcule la molaridad que debería tener una disolución de ácido sulfúrico para que su pH fuera igual al de la disolución anterior de ácido hipobromoso. Considere disociación completa del H₂SO₄.<br>c) Dados los siguientes ácidos: ácido hipobromoso (Ka = 2,3·10⁻⁹) y ácido fluorhídrico (Ka = 7·10⁻⁴), escriba la fórmula y el nombre de sus respectivas bases conjugadas, ordenándolas justificadamente según su fuerza creciente como bases.",
+                    enunciado: "Responda a las siguientes cuestiones:<br>a) Calcule el grado de disociación y el pH de una disolución 0,10 M de ácido hipobromoso, a 25 °C, si su constante de disociación, a dicha temperatura, vale 2,3·10⁻⁹.<br>b) Calcule la molaridad que debería tener una disolución de ácido sulfúrico para que su pH fuera igual al de la disolución anterior de ácido hipobromoso. Considere disociación completa del H₂SO₄.<br>c) Dados los siguientes ácidos: ácido hipobromoso (Ka = 2,3·10⁻⁹) y ácido fluorhídrico (Ka = 7·10⁻⁴), escriba la fórmula y el nombre de sus respectivas bases conjugadas, ordenándolas justificadamente según su fuerza creciente como bases. <br> <strong>Solución: a) pH = 4,82, α = 1,51·10⁻⁴; b) [H₂SO₄] = 7,5·10⁻⁶ M; c) F⁻ < BrO⁻.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Grado de disociación y pH del HBrO 0,10 M:</strong><br>
@@ -404,7 +404,7 @@ baseDatosTemas["tema7_acidobase"] = {
             problemas: [
                 {
                     titulo: "Julio 2018 - pH de mezclas",
-                    enunciado: "Razone si el pH que resulta al mezclar las disoluciones indicadas es ácido, básico o neutro.<br>a) 50 mL de ácido acético 0,1 M + 50 mL de hidróxido de sodio 0,1 M.<br>b) 50 mL de ácido clorhídrico 0,1 M + 100 mL de hidróxido de sodio 0,05 M.<br>c) 50 mL de ácido clorhídrico 0,1 M + 50 mL de hidróxido de sodio 0,05 M.<br>d) 50 mL de ácido clorhídrico 0,1 M + 50 mL de amoniaco 0,1 M.<br>Datos: pKa(ácido acético) = 5; pKb(amoniaco) = 5.",
+                    enunciado: "Razone si el pH que resulta al mezclar las disoluciones indicadas es ácido, básico o neutro.<br>a) 50 mL de ácido acético 0,1 M + 50 mL de hidróxido de sodio 0,1 M.<br>b) 50 mL de ácido clorhídrico 0,1 M + 100 mL de hidróxido de sodio 0,05 M.<br>c) 50 mL de ácido clorhídrico 0,1 M + 50 mL de hidróxido de sodio 0,05 M.<br>d) 50 mL de ácido clorhídrico 0,1 M + 50 mL de amoniaco 0,1 M.<br>Datos: pKa(ácido acético) = 5; pKb(amoniaco) = 5. <br> <strong>Solución: a) básico; b) neutro; c) ácido; d) ácido.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) CH₃COOH 0,1 M + NaOH 0,1 M (iguales volúmenes):</strong><br>
@@ -434,7 +434,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Junio 2019 - Carácter ácido/básico de disoluciones",
-                    enunciado: "Justifique si el pH de las siguientes disoluciones es ácido, básico o neutro:<br>a) Cloruro de amonio 0,1 M.<br>b) Acetato de sodio 0,1 M.<br>c) 50 mL de ácido clorhídrico 0,2 M + 200 mL de hidróxido de sodio 0,05 M.<br>d) Hidróxido de bario 0,1 M.<br>Datos: Ka(ácido acético) = 1,8·10⁻⁵; Kb(amoniaco) = 1,8·10⁻⁵.",
+                    enunciado: "Justifique si el pH de las siguientes disoluciones es ácido, básico o neutro:<br>a) Cloruro de amonio 0,1 M.<br>b) Acetato de sodio 0,1 M.<br>c) 50 mL de ácido clorhídrico 0,2 M + 200 mL de hidróxido de sodio 0,05 M.<br>d) Hidróxido de bario 0,1 M.<br>Datos: Ka(ácido acético) = 1,8·10⁻⁵; Kb(amoniaco) = 1,8·10⁻⁵. <br> <strong>Solución: a) ácido; b) básico; c) neutro; d) básico.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Cloruro de amonio 0,1 M:</strong><br>
@@ -461,7 +461,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2020 - Carácter ácido/básico (varias disoluciones)",
-                    enunciado: "Justifique si el pH de las siguientes disoluciones acuosas es ácido, básico o neutro. Escriba las reacciones correspondientes y realice cálculos sólo cuando lo considere necesario.<br>a) 100 mL de ácido acético 0,2 M + 200 mL de hidróxido de sodio 0,1 M.<br>b) Amoniaco.<br>c) 100 mL de ácido clorhídrico 0,2 M + 150 mL de hidróxido de sodio 0,2 M.<br>d) Hipobromito de sodio.<br>Datos: Ka(ácido acético) = 1,8·10⁻⁵; Ka(ácido hipobromoso) = 2,3·10⁻⁹; Kb(amoniaco) = 1,8·10⁻⁵.",
+                    enunciado: "Justifique si el pH de las siguientes disoluciones acuosas es ácido, básico o neutro. Escriba las reacciones correspondientes y realice cálculos sólo cuando lo considere necesario.<br>a) 100 mL de ácido acético 0,2 M + 200 mL de hidróxido de sodio 0,1 M.<br>b) Amoniaco.<br>c) 100 mL de ácido clorhídrico 0,2 M + 150 mL de hidróxido de sodio 0,2 M.<br>d) Hipobromito de sodio.<br>Datos: Ka(ácido acético) = 1,8·10⁻⁵; Ka(ácido hipobromoso) = 2,3·10⁻⁹; Kb(amoniaco) = 1,8·10⁻⁵. <br> <strong>Solución: a) básico; b) básico; c) básico; d) básico.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) CH₃COOH 0,2 M + NaOH 0,1 M:</strong><br>
@@ -491,7 +491,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Septiembre 2020 - NH₄⁺, CH₃COO⁻, HClO₄ y KCN",
-                    enunciado: "Se preparan las siguientes disoluciones acuosas: NH₄⁺, CH₃COO⁻, HClO₄ y KCN.<br>a) Escriba las reacciones de disociación en agua de cada una de las especies.<br>b) Justifique sin hacer cálculos si el pH de cada disolución es ácido, básico o neutro.<br>c) Si se parte de la misma concentración inicial, explique cuál de las disoluciones tiene mayor basicidad.<br>Datos: Ka(ácido acético) = 1,8·10⁻⁵; Ka(ácido cianhídrico) = 4,9·10⁻¹⁰; Kb(amoniaco) = 1,8·10⁻⁵.",
+                    enunciado: "Se preparan las siguientes disoluciones acuosas: NH₄⁺, CH₃COO⁻, HClO₄ y KCN.<br>a) Escriba las reacciones de disociación en agua de cada una de las especies.<br>b) Justifique sin hacer cálculos si el pH de cada disolución es ácido, básico o neutro.<br>c) Si se parte de la misma concentración inicial, explique cuál de las disoluciones tiene mayor basicidad.<br>Datos: Ka(ácido acético) = 1,8·10⁻⁵; Ka(ácido cianhídrico) = 4,9·10⁻¹⁰; Kb(amoniaco) = 1,8·10⁻⁵. <br> <strong>Solución: a) reacciones de disociación/hidrólisis; b) NH₄⁺ ácido, CH₃COO⁻ básico, HClO₄ ácido, KCN básico; c) KCN (CN⁻) tiene mayor basicidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Reacciones de disociación:</strong><br>
@@ -516,7 +516,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Junio 2022 - Ácido hipocloroso en piscina",
-                    enunciado: "El agua de una piscina a la que se ha añadido ácido hipocloroso tiene un pH = 7,5.<br>a) Escriba la reacción y calcule la concentración inicial del ácido hipocloroso en la piscina.<br>b) Si observamos que el pH de la piscina ha aumentado hasta 7,8, justifique con las reacciones adecuadas y sin hacer cálculos, cuál de los siguientes reactivos debemos añadir para restablecer el pH a 7,5: NaOH; HCl; NaCl.<br>Dato: Ka(ácido hipocloroso) = 3,2·10⁻⁸.",
+                    enunciado: "El agua de una piscina a la que se ha añadido ácido hipocloroso tiene un pH = 7,5.<br>a) Escriba la reacción y calcule la concentración inicial del ácido hipocloroso en la piscina.<br>b) Si observamos que el pH de la piscina ha aumentado hasta 7,8, justifique con las reacciones adecuadas y sin hacer cálculos, cuál de los siguientes reactivos debemos añadir para restablecer el pH a 7,5: NaOH; HCl; NaCl.<br>Dato: Ka(ácido hipocloroso) = 3,2·10⁻⁸. <br> <strong>Solución: a) c = 6,29·10⁻⁸ M; b) hay que añadir HCl.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Reacción y concentración inicial:</strong><br>
@@ -534,7 +534,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2023 - HNO₃, KCl, NH₄Cl y KOH",
-                    enunciado: "Se preparan disoluciones acuosas de igual concentración de las especies: ácido nítrico, cloruro de potasio, cloruro de amonio e hidróxido de potasio. Responda razonadamente a las siguientes cuestiones:<br>a) ¿Qué disolución tiene mayor pH?<br>b) ¿Qué disolución no cambia su pH al diluirla con agua?<br>c) ¿Qué reacción se producirá al mezclar volúmenes iguales de las disoluciones de cloruro de amonio y de hidróxido de potasio?<br>d) El pH de la disolución formada en el apartado c), ¿será ácido, básico o neutro?<br>Dato: Ka(NH₄⁺) = 6,7·10⁻¹⁰.",
+                    enunciado: "Se preparan disoluciones acuosas de igual concentración de las especies: ácido nítrico, cloruro de potasio, cloruro de amonio e hidróxido de potasio. Responda razonadamente a las siguientes cuestiones:<br>a) ¿Qué disolución tiene mayor pH?<br>b) ¿Qué disolución no cambia su pH al diluirla con agua?<br>c) ¿Qué reacción se producirá al mezclar volúmenes iguales de las disoluciones de cloruro de amonio y de hidróxido de potasio?<br>d) El pH de la disolución formada en el apartado c), ¿será ácido, básico o neutro?<br>Dato: Ka(NH₄⁺) = 6,7·10⁻¹⁰. <br> <strong>Solución: a) KOH; b) KCl; c) NH₄Cl + KOH → NH₃ + KCl + H₂O; d) básico.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Mayor pH:</strong><br>
@@ -557,7 +557,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2024 - NaOH, ácido propanoico, NH₄Cl, KCl y etanoato de sodio",
-                    enunciado: "Se han preparado disoluciones acuosas 0,20 M de los siguientes compuestos a 25 °C: hidróxido de sodio, ácido propanoico, cloruro de amonio, cloruro de potasio y etanoato de sodio.<br>a) Calcule el pH de las disoluciones de hidróxido de sodio y ácido propanoico.<br>b) Ordene las disoluciones de cloruro de amonio, cloruro de potasio y etanoato de sodio de mayor a menor carácter ácido. Justifique la respuesta formulando las reacciones de ionización de cada especie, y las de hidrólisis del ion que lo requiera.<br>Datos: pKa(ácido propanoico) = 4,9; pKa(ácido acético) = 4,75; pKb(amoniaco) = 4,75.",
+                    enunciado: "Se han preparado disoluciones acuosas 0,20 M de los siguientes compuestos a 25 °C: hidróxido de sodio, ácido propanoico, cloruro de amonio, cloruro de potasio y etanoato de sodio.<br>a) Calcule el pH de las disoluciones de hidróxido de sodio y ácido propanoico.<br>b) Ordene las disoluciones de cloruro de amonio, cloruro de potasio y etanoato de sodio de mayor a menor carácter ácido. Justifique la respuesta formulando las reacciones de ionización de cada especie, y las de hidrólisis del ion que lo requiera.<br>Datos: pKa(ácido propanoico) = 4,9; pKa(ácido acético) = 4,75; pKb(amoniaco) = 4,75. <br> <strong>Solución: a) pH(NaOH) = 13,3, pH(ác. propanoico) = 2,8; b) NH₄Cl > KCl > CH₃COONa.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) pH de NaOH y ácido propanoico:</strong><br>
@@ -577,7 +577,7 @@ baseDatosTemas["tema7_acidobase"] = {
                 },
                 {
                     titulo: "Julio 2025 - Verdadero o falso: HNO₂ + NaOH y fenilamina",
-                    enunciado: "Razone si las siguientes afirmaciones son verdaderas o falsas. Escriba las reacciones que tienen lugar para justificar su respuesta y realice, en su caso, los cálculos necesarios.<br>a) \"El pH a 25 °C de la disolución resultante de mezclar 50 mL de una disolución 0,5 M de ácido nitroso con 50 mL de una disolución de hidróxido de sodio de igual concentración es neutro\".<br>b) \"La cantidad de fenilamina (C₆H₅-NH₂) necesaria para preparar una disolución de 100 mL de pH = 9, es mayor de 1 g\".<br>Datos: pKa(ácido nitroso) = 3,3; pKb(fenilamina) = 9,13; Masas atómicas: H = 1; C = 12; N = 14.",
+                    enunciado: "Razone si las siguientes afirmaciones son verdaderas o falsas. Escriba las reacciones que tienen lugar para justificar su respuesta y realice, en su caso, los cálculos necesarios.<br>a) \"El pH a 25 °C de la disolución resultante de mezclar 50 mL de una disolución 0,5 M de ácido nitroso con 50 mL de una disolución de hidróxido de sodio de igual concentración es neutro\".<br>b) \"La cantidad de fenilamina (C₆H₅-NH₂) necesaria para preparar una disolución de 100 mL de pH = 9, es mayor de 1 g\".<br>Datos: pKa(ácido nitroso) = 3,3; pKb(fenilamina) = 9,13; Masas atómicas: H = 1; C = 12; N = 14. <br> <strong>Solución: a) FALSA (pH básico, se forma NaNO₂ que se hidroliza); b) VERDADERA (se necesitan 1,26 g).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Afirmación: el pH es neutro. FALSA.</strong><br>
