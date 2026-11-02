@@ -439,6 +439,23 @@ baseDatosTemas["tema8_redox"] = {
                     `
                 },
                 {
+                    titulo: "Julio 2022 - Pila en medio básico (Mn y Au)",
+                    enunciado: "Una pila en medio básico tiene la siguiente notación: Mn²⁺(ac, 1 M) | MnO₂(s) || Au³⁺(ac, 1 M) | Au(s)<br>a) Escriba ajustadas por el método ion-electrón las semirreacciones de oxidación y reducción, indicando el ánodo, el cátodo y qué especies actúan como oxidante y reductora.<br>b) Determine el potencial de la pila y prediga la espontaneidad del proceso redox.<br>Datos: E⁰(V): MnO₂/Mn²⁺ = 1,23; Au³⁺/Au = 1,50. <br> <strong>Solución: a) ánodo: Mn²⁺ + 2 H₂O → MnO₂ + 4 H⁺ + 2 e⁻; cátodo: Au³⁺ + 3 e⁻ → Au; oxidante Au³⁺, reductor Mn²⁺; b) E⁰ = 0,27 V, espontáneo.</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Semirreacciones, ánodo, cátodo, oxidante y reductor:</strong><br>
+                            Ánodo (oxidación): \\[\\ce{Mn^{2+} + 2 H2O -> MnO2 + 4 H+ + 2 e-}\\]
+                            Cátodo (reducción): \\[\\ce{Au^{3+} + 3 e- -> Au}\\]
+                            <strong>Oxidante:</strong> Au³⁺. <strong>Reductor:</strong> Mn²⁺.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Potencial y espontaneidad:</strong><br>
+                            \\[E^0_{pila} = E^0_{cátodo} - E^0_{ánodo} = 1,50 - 1,23 = \\boxed{0,27\\ \\text{V}}\\]
+                            Como \\(E^0 > 0\\), el proceso es <strong>espontáneo</strong>.
+                        </div>
+                    `
+                },
+                {
                     titulo: "Julio 2024 - Pila con potencial más positivo y desplazamiento",
                     enunciado: "Considere los potenciales de reducción que se indican y conteste razonadamente:<br>a) Combinando dos electrodos de los especificados, justifique cuáles forman la pila con el potencial más positivo. Escriba las reacciones que tienen lugar en el ánodo y en el cátodo, y calcule el potencial de dicha pila.<br>b) Se dispone de dos recipientes con disoluciones de nitrato de plata y nitrato de manganeso(II) y en cada uno se introduce una barra de hierro. ¿En cuál de ellos se formará una capa del otro metal sobre la barra de hierro? Razone la respuesta.<br>Datos: E⁰(V): Mn²⁺/Mn = -1,18; Fe²⁺/Fe = -0,44; Pb²⁺/Pb = -0,125; Ag⁺/Ag = 0,80; Au³⁺/Au = 1,52. <br> <strong>Solución: a) cátodo Au³⁺/Au y ánodo Mn²⁺/Mn; ánodo: Mn → Mn²⁺ + 2 e⁻; cátodo: Au³⁺ + 3 e⁻ → Au; E⁰ = 2,70 V; b) en la disolución de nitrato de plata (Ag⁺/Ag > Fe²⁺/Fe).</strong>",
                     solucion: `
@@ -486,24 +503,7 @@ baseDatosTemas["tema8_redox"] = {
                             Masa: \\(m = 0,0373 \\cdot 63,5 = \\boxed{2,37\\ \\text{g}}\\) (aprox. 2,5 g según la solución, que redondea).
                         </div>
                     `
-                },
-                {
-                    titulo: "Julio 2022 - Pila en medio básico (Mn y Au)",
-                    enunciado: "Una pila en medio básico tiene la siguiente notación: Mn²⁺(ac, 1 M) | MnO₂(s) || Au³⁺(ac, 1 M) | Au(s)<br>a) Escriba ajustadas por el método ion-electrón las semirreacciones de oxidación y reducción, indicando el ánodo, el cátodo y qué especies actúan como oxidante y reductora.<br>b) Determine el potencial de la pila y prediga la espontaneidad del proceso redox.<br>Datos: E⁰(V): MnO₂/Mn²⁺ = 1,23; Au³⁺/Au = 1,50. <br> <strong>Solución: a) ánodo: Mn²⁺ + 2 H₂O → MnO₂ + 4 H⁺ + 2 e⁻; cátodo: Au³⁺ + 3 e⁻ → Au; oxidante Au³⁺, reductor Mn²⁺; b) E⁰ = 0,27 V, espontáneo.</strong>",
-                    solucion: `
-                        <div class='paso'>
-                            <strong>a) Semirreacciones, ánodo, cátodo, oxidante y reductor:</strong><br>
-                            Ánodo (oxidación): \\[\\ce{Mn^{2+} + 2 H2O -> MnO2 + 4 H+ + 2 e-}\\]
-                            Cátodo (reducción): \\[\\ce{Au^{3+} + 3 e- -> Au}\\]
-                            <strong>Oxidante:</strong> Au³⁺. <strong>Reductor:</strong> Mn²⁺.
-                        </div>
-                        <div class='paso'>
-                            <strong>b) Potencial y espontaneidad:</strong><br>
-                            \\[E^0_{pila} = E^0_{cátodo} - E^0_{ánodo} = 1,50 - 1,23 = \\boxed{0,27\\ \\text{V}}\\]
-                            Como \\(E^0 > 0\\), el proceso es <strong>espontáneo</strong>.
-                        </div>
-                    `
-                },
+                },                
                 {
                     titulo: "Junio 2023 - Electrólisis de CuSO₄",
                     enunciado: "Para depositar totalmente el cobre en una célula electrolítica que contiene 800 mL de una disolución acuosa de sulfato de cobre(II), se hace pasar una corriente de 1,5 A durante 3 horas.<br>a) Escriba la reacción que tiene lugar en el cátodo.<br>b) Calcule la concentración inicial de la disolución de sulfato de cobre(II). Considere que la reacción global es: 2 Cu²⁺(ac) + 2 H₂O(l) → 2 Cu(s) + O₂(g) + 4 H⁺(ac). Suponga que al finalizar la electrólisis el volumen de la disolución se ha mantenido constante y que en el H₂SO₄ se disocian completamente los dos protones.<br>Datos: F = 96485 C·mol⁻¹. <br> <strong>Solución: a) Cu²⁺ + 2 e⁻ → Cu(s); b) [CuSO₄]₀ ≈ 0,105 M.</strong>",
