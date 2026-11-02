@@ -12,7 +12,7 @@ baseDatosTemas["tema2"] = {
             problemas: [
                 {
                     titulo: "Ciclo de Born-Haber para el CaCl₂",
-                    enunciado: "Haz un esquema del ciclo de Born-Haber para el cloruro de calcio y calcula \\(\\Delta H^0_f\\) por mol del cloruro de calcio utilizando los valores de las energías de los procesos:<br><br>- sublimación del calcio: \\(+178,2 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- disociación de la molécula de cloro: \\(+243,2 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- 1ª energía de ionización del calcio: \\(+590 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- 2ª energía de ionización del calcio: \\(+1145 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- afinidad electrónica del cloro: \\(-348,0 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- energía de red del \\(\\ce{CaCl2}\\): \\(-2223 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)",
+                    enunciado: "Haz un esquema del ciclo de Born-Haber para el cloruro de calcio y calcula \\(\\Delta H^0_f\\) por mol del cloruro de calcio utilizando los valores de las energías de los procesos:<br><br>- sublimación del calcio: \\(+178,2 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- disociación de la molécula de cloro: \\(+243,2 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- 1ª energía de ionización del calcio: \\(+590 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- 2ª energía de ionización del calcio: \\(+1145 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- afinidad electrónica del cloro: \\(-348,0 \\text{ kJ}\\cdot\\text{mol}^{-1}\\)<br>- energía de red del \\(\\ce{CaCl2}\\): \\(-2223 \\text{ kJ}\\cdot\\text{mol}^{-1}\\) <br> <strong>Solución: ΔH⁰f = −762,6 kJ·mol⁻¹.</strong>",
                     solucion: `
                         < div class= 'paso' >
 
@@ -30,7 +30,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Junio 2005 - Ciclo de Born-Haber del NaF",
-                    enunciado: "A partir del esquema del ciclo de Born-Haber para el fluoruro de sodio:<br><img src='img/Born_Haber_NaF.svg' style='display: block; margin: 0 auto;height: 15em; width: auto;'> <br>a) Nombre las energías implicadas en los procesos 1, 2 y 3.<br>b) Nombre las energías implicadas en los procesos 4, 5 y 6.<br>c) Justifique si son positivas las energías implicadas en los procesos 1, 2, 3, 4 y 5.<br>d) En función de los tamaños de los iones justifique si la energía reticular del fluoruro sódico será mayor o menor, en valor absoluto, que la del cloruro de sodio. Justifique la respuesta.",
+                    enunciado: "A partir del esquema del ciclo de Born-Haber para el fluoruro de sodio:<br><img src='img/Born_Haber_NaF.svg' style='display: block; margin: 0 auto;height: 15em; width: auto;'> <br>a) Nombre las energías implicadas en los procesos 1, 2 y 3.<br>b) Nombre las energías implicadas en los procesos 4, 5 y 6.<br>c) Justifique si son positivas las energías implicadas en los procesos 1, 2, 3, 4 y 5.<br>d) En función de los tamaños de los iones justifique si la energía reticular del fluoruro sódico será mayor o menor, en valor absoluto, que la del cloruro de sodio. Justifique la respuesta. <br> <strong>Solución: a) 1 sublimación Na, 2 disociación F₂, 3 1ª EI Na; b) 4 AE F, 5 U_R NaF, 6 ΔH⁰f NaF; c) 1,2,3 positivas, 4 y 5 negativas; d) |U_R(NaF)| > |U_R(NaCl)|.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Energías implicadas en los procesos 1, 2 y 3:</strong><br>
@@ -61,7 +61,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Energía Reticular (NaF vs NaCl)",
-                    enunciado: "En función del tamaño de los iones, justifica si la energía reticular del fluoruro de sodio será mayor o menor, en valor absoluto, que la del cloruro de sodio.",
+                    enunciado: "En función del tamaño de los iones, justifica si la energía reticular del fluoruro de sodio será mayor o menor, en valor absoluto, que la del cloruro de sodio. <br> <strong>Solución: |U_R(NaF)| > |U_R(NaCl)| porque r(F⁻) < r(Cl⁻).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>Justificación en función del tamaño iónico:</strong><br>
@@ -75,7 +75,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Propiedades de Compuestos Iónicos: Punto de Fusión, Dureza y Solubilidad",
-                    enunciado: "Dadas las energías reticulares de las siguientes sustancias en \\(\\text{kJ}\\cdot\\text{mol}^{-1}\\): &nbsp;&nbsp;&nbsp;&nbsp; \\(\\ce{NaF}: -914\\); &nbsp;&nbsp; \\(\\ce{NaCl}: -770\\); &nbsp;&nbsp; \\(\\ce{NaBr}: -728\\)<br>Razona cómo varían y ordena las sustancias según su punto de fusión, dureza y solubilidad en agua.",
+                    enunciado: "Dadas las energías reticulares de las siguientes sustancias en \\(\\text{kJ}\\cdot\\text{mol}^{-1}\\): &nbsp;&nbsp;&nbsp;&nbsp; \\(\\ce{NaF}: -914\\); &nbsp;&nbsp; \\(\\ce{NaCl}: -770\\); &nbsp;&nbsp; \\(\\ce{NaBr}: -728\\)<br>Razona cómo varían y ordena las sustancias según su punto de fusión, dureza y solubilidad en agua. <br> <strong>Solución: punto de fusión y dureza: NaF > NaCl > NaBr; solubilidad: NaBr > NaCl > NaF.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Punto de fusión:</strong><br>
@@ -99,7 +99,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Energía Reticular y Solubilidad de Haluros de Alcalinos",
-                    enunciado: "Supón que los sólidos cristalinos CsBr, NaBr y KBr cristalizan con el mismo tipo de red.<br>a) Ordénalos de mayor a menor según su energía reticular. Justifica tu respuesta.<br>b) Razona cuál de ellos será menos soluble.",
+                    enunciado: "Supón que los sólidos cristalinos CsBr, NaBr y KBr cristalizan con el mismo tipo de red.<br>a) Ordénalos de mayor a menor según su energía reticular. Justifica tu respuesta.<br>b) Razona cuál de ellos será menos soluble. <br> <strong>Solución: a) NaBr > KBr > CsBr; b) el NaBr es el menos soluble.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Orden de energía reticular (de mayor a menor):</strong><br>
@@ -119,7 +119,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Dureza Comparativa de Óxidos Alcalinotérreos (MgO vs CaO)",
-                    enunciado: "Sabiendo que en los compuestos iónicos la dureza depende de la energía reticular, ¿por qué la dureza del MgO es superior a la del CaO?",
+                    enunciado: "Sabiendo que en los compuestos iónicos la dureza depende de la energía reticular, ¿por qué la dureza del MgO es superior a la del CaO? <br> <strong>Solución: porque r(Mg²⁺) < r(Ca²⁺), por lo que |U_R(MgO)| > |U_R(CaO)|.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>Justificación de la mayor dureza del MgO:</strong><br>
@@ -138,7 +138,7 @@ baseDatosTemas["tema2"] = {
             problemas: [
                 {
                     titulo: "Septiembre 2017",
-                    enunciado: "Para las moléculas BF<sub>3</sub>, PF<sub>3</sub> y CF<sub>4</sub>:<br>a) Represente sus estructuras de Lewis.<br>b) Determine cuál es su geometría y la hibridación del átomo central.<br>c) Justifique si alguna de ellas es una molécula polar.",
+                    enunciado: "Para las moléculas BF<sub>3</sub>, PF<sub>3</sub> y CF<sub>4</sub>:<br>a) Represente sus estructuras de Lewis.<br>b) Determine cuál es su geometría y la hibridación del átomo central.<br>c) Justifique si alguna de ellas es una molécula polar. <br> <strong>Solución: b) BF₃ triangular plana (sp²), PF₃ piramidal trigonal (sp³), CF₄ tetraédrica (sp³); c) solo PF₃ es polar.</strong>",
                     solucion: `
                         <div class= 'paso'>
                             a) 
@@ -156,7 +156,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Junio 2018",
-                    enunciado: "Considerando las sustancias CO<sub>2</sub> y NH<sub>3</sub>.<br>a) Represente e indique la geometría molecular en base al modelo de repulsión entre los pares de electrones de la capa de valencia (RPECV).<br>b) Indique la hibridación del átomo central.<br>c) Indique qué tipo de fuerza intermolecular contribuye preferentemente a mantener las sustancias del enunciado en estado líquido.<br>d) Explique cuál tiene mayor punto de ebullición.",
+                    enunciado: "Considerando las sustancias CO<sub>2</sub> y NH<sub>3</sub>.<br>a) Represente e indique la geometría molecular en base al modelo de repulsión entre los pares de electrones de la capa de valencia (RPECV).<br>b) Indique la hibridación del átomo central.<br>c) Indique qué tipo de fuerza intermolecular contribuye preferentemente a mantener las sustancias del enunciado en estado líquido.<br>d) Explique cuál tiene mayor punto de ebullición. <br> <strong>Solución: a) CO₂ lineal, NH₃ piramidal trigonal; b) CO₂ sp, NH₃ sp³; c) CO₂ solo London, NH₃ puente de H, dipolo-dipolo y London; d) NH₃ tiene mayor punto de ebullición.</strong>",
                     solucion: `
                         <div class= 'paso'>
                         a) En NH<sub>3</sub> hay 4 pares de electrones en torno al átomo central (3 pares asociados a cada enlace simple N-H y 1 un par de electrones libres no enlazantes, ya que el átomo central N tiene 5 electrones de valencia y se han utilizado 3 en los 3 enlaces, quedando 2).<br> Según el modelo de repulsión de pares de electrones de la capa de valencia, esos 4 pares se disponen en la posición más alejada entre ellos que es en los vértices de un tetraedro estando el átomo central en el centro del tetraedro, por lo que la geometría molecular es piramidal triangular. <br> En CO<sub>2</sub> hay 2 grupos de electrones en torno al átomo central (2 pares asociados a cada enlace doble C=O) y no hay pares de electrones libres, ya que el átomo central C tiene 4 electrones de valencia y se han utilizado 4 en los 2 enlaces dobles, por lo que no queda ninguno. Según el modelo de repulsión de pares de electrones de la capa de valencia, esos 2 grupos se disponen en la posición más alejada entre ellos que es en posiciones opuestas, por lo que la geometría molecular es lineal.
@@ -177,78 +177,153 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Julio 2018",
-                    enunciado: "Para las moléculas NH<sub>3</sub> y CO<sub>2</sub>:<br>a) Justifique el número de pares de electrones enlazantes y los pares libres del átomo central.<br>b) Indique su geometría y la hibridación que presenta el átomo central.<br>c) Justifique las fuerzas intermoleculares que presentan.<br>d) Explique su polaridad.",
+                    enunciado: "Para las moléculas NH<sub>3</sub> y CO<sub>2</sub>:<br>a) Justifique el número de pares de electrones enlazantes y los pares libres del átomo central.<br>b) Indique su geometría y la hibridación que presenta el átomo central.<br>c) Justifique las fuerzas intermoleculares que presentan.<br>d) Explique su polaridad. <br> <strong>Solución: a) NH₃: 3 enlazantes + 1 libre; CO₂: 4 enlazantes + 0 libres; b) NH₃ piramidal (sp³), CO₂ lineal (sp); c) NH₃ puente de H, dipolo-dipolo y London; CO₂ solo London; d) NH₃ polar, CO₂ apolar.</strong>",
                     solucion: "a) En NH<sub>3</sub> hay 3 parejas de electrones enlazantes en torno al átomo central (una pareja asociada a cada enlace simple N-H) y una pareja de electrones libres no enlazantes, ya que el átomo central N tiene 5 electrones de valencia y se han utilizado 3 en los 3 enlaces, quedando 2.<br>En CO<sub>2</sub> hay 4 parejas de electrones enlazantes en torno al átomo central (2 parejas asociadas a cada enlace doble C=O) y no hay pares de electrones libres, ya que el átomo central C tiene 4 electrones de valencia y se han utilizado 4 en los 2 enlaces dobles, por lo que no queda ninguno.<br>b) En NH<sub>3</sub> la hibridación es sp<sup>3</sup> y presenta geometría piramidal triangular.<br>En CO<sub>2</sub> la hibridación es sp y presenta geometría lineal.<br>c) En NH<sub>3</sub> hay varios tipos de fuerzas intermoleculares, que de mayor a menor intensidad son: enlace de hidrógeno y fuerzas de Van Der Waals: Dipolo permanente-dipolo permanente al ser una molécula polar, dipolo instantáneo-dipolo inducido (\"de dispersión ó de London\").<br>En CO<sub>2</sub>, al ser una molécula apolar, solo hay dipolo instantáneo-dipolo inducido (\"de dispersión ó de London\").<br>d) El CO<sub>2</sub> es una molécula apolar porque aunque sus enlaces son polares su geometría lineal hace que se cancelen.<br>El NH<sub>3</sub> es una molécula polar porque sus enlaces son polares y su geometría piramidal triangular hace que no se cancelen."
                 },
                 {
                     titulo: "Junio 2019",
-                    enunciado: "Para las moléculas BCl<sub>3</sub> y PCl<sub>3</sub>:<br>a) Justifique el número de pares de electrones enlazantes y de pares libres del átomo central.<br>b) Indique su geometría molecular y la hibridación que presenta el átomo central.<br>c) Explique su polaridad.<br>d) Indique las fuerzas intermoleculares que presentan.",
+                    enunciado: "Para las moléculas BCl<sub>3</sub> y PCl<sub>3</sub>:<br>a) Justifique el número de pares de electrones enlazantes y de pares libres del átomo central.<br>b) Indique su geometría molecular y la hibridación que presenta el átomo central.<br>c) Explique su polaridad.<br>d) Indique las fuerzas intermoleculares que presentan. <br> <strong>Solución: a) BCl₃: 3 enlazantes + 0 libres; PCl₃: 3 enlazantes + 1 libre; b) BCl₃ triangular plana (sp²), PCl₃ piramidal (sp³); c) BCl₃ apolar, PCl₃ polar; d) BCl₃ solo London; PCl₃ dipolo-dipolo y London.</strong>",
                     solucion: "a) BCl<sub>3</sub> hay 3 parejas de electrones enlazantes en torno al átomo central (una pareja asociada a cada enlace simple B-Cl) y ninguna pareja de electrones libres no enlazantes, ya que el átomo central B tiene 3 electrones de valencia y se han utilizado 3 en los 3 enlaces.<br>PCl<sub>3</sub> hay 4 parejas de electrones enlazantes en torno al átomo central (una pareja asociada a cada enlace simple P-Cl) y una pareja de electrones libres no enlazantes, ya que el átomo central P tiene 5 electrones de valencia y se han utilizado 3 en los 3 enlaces.<br>b) BCl<sub>3</sub>: Hibridación sp<sup>2</sup> en el átomo central (B). Los tres orbitales híbridos forma un enlace σ con cada átomo de cloro, y el orbital p no hibridado queda vacío sin electrones. Geometría triangular plana, ángulos de 120°.<br>PCl<sub>3</sub>: Hibridación sp<sup>3</sup> en el átomo central (P). Los tres orbitales híbridos forma un enlace σ con cada átomo de cloro, y el orbital p no hibridado queda ocupado con 2 electrones. Geometría piramidal, ocupando el fosforo el vértice de la pirámide con el par de electrones no enlazantes encima.<br>c) BCl<sub>3</sub>: los enlaces son polares pero la geometría hace que la moléculas sea apolar.<br>PCl<sub>3</sub>: los enlaces son polares y la geometría hace que la molécula sea polar.<br>d) BCl<sub>3</sub>: al ser la moléculas apolar, las únicas fuerzas intermoleculares fuerzas de Van Der Waals: dipolo instantáneo-dipolo inducido (\"de dispersión ó de London\").<br>PCl<sub>3</sub>: hay varios tipos de fuerzas intermoleculares, que de mayor a menor intensidad son: fuerzas de Van Der Waals: dipolo permanente-dipolo permanente al ser una molécula polar, dipolo instantáneo-dipolo inducido (\"de dispersión ó de London\")."
                 },
                 {
                     titulo: "Julio 2019",
-                    enunciado: "Para cada una de las siguientes moléculas: BF<sub>3</sub> y CH<sub>3</sub>Cl.<br>a) Dibuje su estructura de Lewis.<br>b) Justifique el número de pares de electrones enlazantes y el de pares libres del átomo central.<br>c) Dibuje e indique su geometría molecular aplicando el método de repulsión de pares de electrones de la capa de valencia (RPECV).<br>d) Justifique su polaridad.",
+                    enunciado: "Para cada una de las siguientes moléculas: BF<sub>3</sub> y CH<sub>3</sub>Cl.<br>a) Dibuje su estructura de Lewis.<br>b) Justifique el número de pares de electrones enlazantes y el de pares libres del átomo central.<br>c) Dibuje e indique su geometría molecular aplicando el método de repulsión de pares de electrones de la capa de valencia (RPECV).<br>d) Justifique su polaridad. <br> <strong>Solución: b) BF₃: 3 enlazantes + 0 libres; CH₃Cl: 4 enlazantes + 0 libres; c) BF₃ triangular plana, CH₃Cl tetraédrica; d) BF₃ apolar, CH₃Cl polar.</strong>",
                     solucion: "a) BF<sub>3</sub>: ; CH<sub>3</sub>Cl: (Las estructuras de Lewis / geometrías se representaban gráficamente en el documento original; no se han podido reproducir en este formato.)<br>b) En BF<sub>3</sub> hay 3 parejas de electrones enlazantes en torno al átomo central (una pareja asociada a cada enlace simple B-F) y ninguna pareja de electrones libres no enlazantes, ya que el átomo central B tiene 3 electrones de valencia y se han utilizado 3 en los 3 enlaces.<br>En CH<sub>3</sub>Cl hay 4 parejas de electrones enlazantes en torno al átomo central (una pareja asociada a cada enlace simple C-H y otra pareja asociada al enlace C-Cl) y ninguna pareja de electrones libres no enlazantes, ya que el átomo central C tiene 4 electrones de valencia y se han utilizado 4 en los 4 enlaces.<br>c) Mediante el diagrama de Lewis y TRPECV se puede razonar:<br>BF<sub>3</sub> tiene 3 nubes electrónicas rodeando el átomo de B y se disponen en los vértices de un triángulo equilátero, por lo que la geometría es triangular plana (el ángulo F-B-F es de 120°).<br>CH<sub>3</sub>Cl tiene 4 nubes electrónicas rodeando el átomo de C y se disponen en los vértices de un tetraedro, por lo que la geometría es tetraédrica (el ángulo H-C-H es aproximadamente de 109°), aunque el mayor volumen de la nube electrónica del átomo de Cl repelerá más los H y el ángulo H-C-H será algo menor y el H-C-Cl algo mayor.<br>d) En BF<sub>3</sub> los enlaces son polares e idénticos, y la geometría hace que la polaridad global sea nula y sea un molécula apolar.<br>En CH<sub>3</sub>Cl los enlaces son polares, pero no son idénticos y la geometría no hace que se cancelen, por lo que la molécula será polar (momento dipolar dirigido hacia el átomo de cloro)"
                 },
                 {
                     titulo: "Junio 2020",
-                    enunciado: "B.1. Para las moléculas H<sub>2</sub>O y PF<sub>3</sub>.<br>a) Justifique el número de pares de electrones enlazantes y los pares libres del átomo central.<br>b) Indique la hibridación que presenta el átomo central y su geometría.<br>c) Explique su polaridad.<br>d) Indique el tipo de fuerzas intermoleculares.",
+                    enunciado: "B.1. Para las moléculas H<sub>2</sub>O y PF<sub>3</sub>.<br>a) Justifique el número de pares de electrones enlazantes y los pares libres del átomo central.<br>b) Indique la hibridación que presenta el átomo central y su geometría.<br>c) Explique su polaridad.<br>d) Indique el tipo de fuerzas intermoleculares. <br> <strong>Solución: a) H₂O: 2 enlazantes + 2 libres; PF₃: 3 enlazantes + 1 libre; b) ambas sp³; H₂O angular, PF₃ piramidal trigonal; c) ambas polares; d) H₂O puente de H, dipolo-dipolo y London; PF₃ dipolo-dipolo y London.</strong>",
                     solucion: "a) H<sub>2</sub>O tiene 2 pares enlazantes (uno por cada enlace simple H-O) y 2 pares libres porque el O de sus 6 e<sup>-</sup> externos ha utilizado sólo 2, uno por cada enlace;<br>PF<sub>3</sub> tiene 3 pares enlazantes (uno por cada enlace simple P-F) y 1 par libre, ya que el P de sus 5 e<sup>-</sup> externos ha utilizado sólo 3, uno por cada enlace.<br>b) En el H<sub>2</sub>O, geometría angular, el O presenta hibridación sp<sup>3</sup>.<br>En el PF<sub>3</sub>, geometría de pirámide trigonal, el P presenta hibridación sp<sup>3</sup>.<br>c) Ambas son polares porque tienen momentos dipolares de enlace que no están compensados por su geometría.<br>d) El H<sub>2</sub>O tiene enlace de hidrógeno, fuerzas dipolo-dipolo y fuerzas de dispersión (fuerzas de London).<br>El PF<sub>3</sub> tiene fuerzas dipolo-dipolo y fuerzas de dispersión."
                 },
                 {
                     titulo: "Septiembre 2020",
-                    enunciado: "B.1. Responda las siguientes cuestiones:<br>a) Para la molécula NF<sub>3</sub>, indique la hibridación del átomo central, número de orbitales híbridos y número de electrones en cada orbital híbrido.<br>b) Justifique si la molécula NF<sub>3</sub> es polar o apolar.<br>c) Explique la solubilidad del propan-2-ol en agua en función de las fuerzas intermoleculares existentes.",
+                    enunciado: "B.1. Responda las siguientes cuestiones:<br>a) Para la molécula NF<sub>3</sub>, indique la hibridación del átomo central, número de orbitales híbridos y número de electrones en cada orbital híbrido.<br>b) Justifique si la molécula NF<sub>3</sub> es polar o apolar.<br>c) Explique la solubilidad del propan-2-ol en agua en función de las fuerzas intermoleculares existentes. <br> <strong>Solución: a) N sp³, 4 orbitales híbridos (3 con 1 e⁻ para enlace y 1 con 2 e⁻ libres); b) polar (geometría piramidal, momentos no se cancelan); c) soluble por puentes de hidrógeno con el agua.</strong>",
                     solucion: "a) En la molécula NF<sub>3</sub> el átomo central es nitrógeno, que tiene 5 electrones en la capa de valencia. Presenta hibridación con cuatro orbitales sp<sup>3</sup> de los cuales tres forman enlaces simples con los átomos de cloro (en cada orbital híbrido hay un electrón del nitrógeno y uno del cloro), y un orbital con dos electrones no enlazantes.<br>b) El enlace N-F es polar ya que el flúor es más electronegativo, y la geometría molecular, que es piramidal triangular, hace que la molécula sea polar.<br>c) El propan-2-ol (CH<sub>3</sub>-CHOH-CH<sub>3</sub>) es una molécula polar (los átomos de carbono tienen orbitales híbridos sp<sup>3</sup> y la geometría de los enlaces de cada carbono es tetraédrica), y además presenta fuerzas intermoleculares de puente de hidrógeno por el H del grupo alcohol unido a O. Al ser el agua también una molécula polar y que presenta fuerzas intermoleculares de puente de hidrógeno, el propan2-ol sí será soluble en agua."
                 },
                 {
                     titulo: "Junio 2021",
-                    enunciado: "B.1. Responda las siguientes cuestiones:<br>a) Justifique si la molécula NH<sub>3</sub> es polar utilizando la teoría de hibridación y su geometría.<br>b) Explique si los siguientes compuestos presentan enlace de hidrógeno: H<sub>2</sub>O, CH<sub>4</sub> y HCl.<br>c) Justifique por qué el bromuro de sodio tiene un punto de fusión menor que el cloruro de sodio.",
+                    enunciado: "B.1. Responda las siguientes cuestiones:<br>a) Justifique si la molécula NH<sub>3</sub> es polar utilizando la teoría de hibridación y su geometría.<br>b) Explique si los siguientes compuestos presentan enlace de hidrógeno: H<sub>2</sub>O, CH<sub>4</sub> y HCl.<br>c) Justifique por qué el bromuro de sodio tiene un punto de fusión menor que el cloruro de sodio. <br> <strong>Solución: a) polar, N sp³, geometría piramidal; b) solo H₂O; c) |U_R(NaBr)| < |U_R(NaCl)| porque r(Br⁻) > r(Cl⁻).</strong>",
                     solucion: "a) NH<sub>3</sub> es una molécula polar. El átomo central N presenta hibridación sp<sup>3</sup>. La geometría es una pirámide trigonal. Los enlaces N-H son polares y sus momentos dipolares no se cancelan entre sí, ni con el momento dipolar debido a los dos electrones no enlazantes, por lo que su momento dipolar total no es nulo.<br>b) Solo el H<sub>2</sub>O, porque los H están unidos al O que es un átomo muy electronegativo y pequeño.<br>c) NaBr y NaCl presentan enlace iónico y forman redes cristalinas. La energía reticular que hay que vencer para fundir el sólido (punto de fusión) es mayor en NaCl. Ambos aniones tienen la misma carga, pero el tamaño del átomo de Cl es menor que el del Br, y la energía reticular depende de la relación carga/radio que es mayor para el NaCl."
                 },
                 {
                     titulo: "Julio 2021",
-                    enunciado: "B.1. Considere las moléculas NCl<sub>3</sub> y AlCl<sub>3</sub>.<br>a) Dibuje sus estructuras de Lewis.<br>b) Justifique las fuerzas intermoleculares presentes en el compuesto que forma cada molécula.<br>c) Indique la hibridación y el número de pares de electrones enlazantes y libres del átomo central de cada una de ellas.",
+                    enunciado: "B.1. Considere las moléculas NCl<sub>3</sub> y AlCl<sub>3</sub>.<br>a) Dibuje sus estructuras de Lewis.<br>b) Justifique las fuerzas intermoleculares presentes en el compuesto que forma cada molécula.<br>c) Indique la hibridación y el número de pares de electrones enlazantes y libres del átomo central de cada una de ellas. <br> <strong>Solución: b) NCl₃ dipolo-dipolo y London; AlCl₃ solo London; c) N: sp³, 3 enlazantes + 1 libre; Al: sp², 3 enlazantes + 0 libres.</strong>",
                     solucion: "a) NCl<sub>3</sub>: AlCl<sub>3</sub>: (Las estructuras de Lewis / geometrías se representaban gráficamente en el documento original; no se han podido reproducir en este formato.)<br>b) NCl<sub>3</sub>: fuerzas dipolo-dipolo, ya que tiene enlaces polares y sus momentos dipolares no se anulan por geometría y fuerzas de dispersión (fuerzas de London).<br>AlCl<sub>3</sub>: fuerzas de dispersión (fuerzas de London), ya que aunque tiene enlaces polares sus momentos dipolares se anulan por geometría.<br>c) N: sp<sup>3</sup>, 3 pares de electrones enlazantes y 1 par de electrones libres.<br>Al: sp<sup>2</sup>, 3 pares de electrones enlazantes y no tiene electrones libres."
                 },
                 {
                     titulo: "Julio 2022",
-                    enunciado: "B.1. Considere las moléculas NaBr, NH<sub>3</sub>, CH<sub>4</sub> y HCl.<br>a) Justifique, mediante el tipo de enlace y las distintas fuerzas intermoleculares presentes, qué punto de ebullición corresponde a cada molécula: - 33,3 °C, - 85,1 °C, 1396 °C y - 161,6 °C.<br>b) Indique la hibridación del átomo central y la geometría de las moléculas NH<sub>3</sub> y CH<sub>4</sub>.",
+                    enunciado: "B.1. Considere las moléculas NaBr, NH<sub>3</sub>, CH<sub>4</sub> y HCl.<br>a) Justifique, mediante el tipo de enlace y las distintas fuerzas intermoleculares presentes, qué punto de ebullición corresponde a cada molécula: - 33,3 °C, - 85,1 °C, 1396 °C y - 161,6 °C.<br>b) Indique la hibridación del átomo central y la geometría de las moléculas NH<sub>3</sub> y CH<sub>4</sub>. <br> <strong>Solución: a) NaBr: 1396 °C (iónico); NH₃: -33,3 °C (puente de H); HCl: -85,1 °C (dipolo-dipolo); CH₄: -161,6 °C (London); b) NH₃: sp³ piramidal; CH₄: sp³ tetraédrica.</strong>",
                     solucion: "a) NaBr: 1396 °C. Sólido con enlace iónico, formando una red tridimensional cristalina con intensas fuerzas electrostáticas entre sus iones, por lo que presenta alta temperatura de ebullición.<br>NH<sub>3</sub>: - 33,3 °C. Sustancia molecular con enlace covalente entre sus átomos y tiene fuerzas intermoleculares de enlaces de hidrógeno, de dipolo-dipolo (por ser polar) y de dispersión (o de London).<br>HCl: - 85,1 °C. Sustancia molecular con enlace covalente y fuerzas intermoleculares dipolo-dipolo (por ser polar) y de dispersión.<br>CH<sub>4</sub>: - 161,6 °C. Sustancia molecular con enlace covalente y sólo fuerzas intermoleculares de dispersión (por ser apolar).<br>b) NH<sub>3</sub>: N hibridación sp<sup>3</sup>, geometría pirámide trigonal (tetraédrica)<br>CH<sub>4</sub>: C hibridación sp<sup>3</sup>, geometría tetraédrica."
                 },
                 {
                     titulo: "Julio 2023",
-                    enunciado: "B.1. Para las moléculas: NH<sub>3</sub> y SH<sub>2</sub>.<br>a) Indique y represente la geometría molecular aplicando el método de repulsión de pares de electrones de la capa de valencia (RPECV).<br>b) Indique la hibridación del átomo central.<br>c) Justifique su polaridad.<br>d) Justifique la fuerza intermolecular más importante que presenta cada una de ellas.",
+                    enunciado: "B.1. Para las moléculas: NH<sub>3</sub> y SH<sub>2</sub>.<br>a) Indique y represente la geometría molecular aplicando el método de repulsión de pares de electrones de la capa de valencia (RPECV).<br>b) Indique la hibridación del átomo central.<br>c) Justifique su polaridad.<br>d) Justifique la fuerza intermolecular más importante que presenta cada una de ellas. <br> <strong>Solución: a) NH₃ piramidal trigonal, SH₂ angular; b) ambas sp³; c) ambas polares; d) NH₃ puente de H, SH₂ dipolo-dipolo.</strong>",
                     solucion: "a) NH<sub>3</sub>: pirámide trigonal. (Las estructuras de Lewis / geometrías se representaban gráficamente en el documento original; no se han podido reproducir en este formato.)<br>SH<sub>2</sub>: angular.<br>b) N: sp<sup>3</sup>. S: sp<sup>3</sup>.<br>c) NH<sub>3</sub>: polar. Los enlaces son muy polares y el par de electrones en el N también contribuye a la polaridad.<br>SH<sub>2</sub>: polar. Los enlaces son polares y los pares de electrones en el S también contribuyen a la polaridad. Los momentos dipolares no se anulan en ninguna de las dos moléculas.<br>d) NH<sub>3</sub>: La más importante es el enlace de hidrógeno. El nitrógeno, además de poseer un par de electrones no enlazados y tener un carácter muy electronegativo, es muy pequeño.<br>SH<sub>2</sub>: La más importante es la dipolo-dipolo, ya que tiene momento dipolar permanente."
                 },
                 {
                     titulo: "Junio 2024",
-                    enunciado: "B.1. Considere las moléculas: PF<sub>3</sub> y OCS, y responda a las siguientes cuestiones:<br>a) Represente sus estructuras de Lewis e indique cuántos pares de electrones no enlazantes tiene el átomo central.<br>b) Indique y represente sus geometrías moleculares de acuerdo con la teoría RPECV, y escriba la hibridación del átomo central.<br>c) Justifique la polaridad de cada una.",
+                    enunciado: "B.1. Considere las moléculas: PF<sub>3</sub> y OCS, y responda a las siguientes cuestiones:<br>a) Represente sus estructuras de Lewis e indique cuántos pares de electrones no enlazantes tiene el átomo central.<br>b) Indique y represente sus geometrías moleculares de acuerdo con la teoría RPECV, y escriba la hibridación del átomo central.<br>c) Justifique la polaridad de cada una. <br> <strong>Solución: a) PF₃: 1 par libre; OCS: 0 pares libres; b) PF₃ piramidal trigonal (sp³), OCS lineal (sp); c) ambas polares.</strong>",
                     solucion: "a) PF<sub>3</sub> el átomo central (P) tiene un par no enlazante. (Las estructuras de Lewis / geometrías se representaban gráficamente en el documento original; no se han podido reproducir en este formato.)<br>OCS: el átomo central (C) no tiene pares no enlazantes.<br>b) PF<sub>3</sub>: pirámide trigonal P: sp<sup>3</sup><br>OCS: lineal C: sp<br>c) PF<sub>3</sub> es polar porque los enlaces son polares, con momentos dipolares que no se cancelan por geometría, además de tener un par de electrones libres sobre el átomo central.<br>OCS es polar porque sus enlaces son polares, con momentos dipolares que no se cancelan por simetría ya que tienen distinta magnitud."
                 },
                 {
                     titulo: "Julio 2024",
-                    enunciado: "B.1. Para cada una de las moléculas PF<sub>3</sub> y BCl<sub>3</sub><br>a) Indique su geometría molecular según la teoría RPECV.<br>b) Indique la hibridación que presenta el átomo central.<br>c) Justifique su polaridad y escriba el tipo de fuerzas intermoleculares que presenta.<br>d) Razone cuál de ellas es más soluble en agua.",
+                    enunciado: "B.1. Para cada una de las moléculas PF<sub>3</sub> y BCl<sub>3</sub><br>a) Indique su geometría molecular según la teoría RPECV.<br>b) Indique la hibridación que presenta el átomo central.<br>c) Justifique su polaridad y escriba el tipo de fuerzas intermoleculares que presenta.<br>d) Razone cuál de ellas es más soluble en agua. <br> <strong>Solución: a) PF₃ piramidal trigonal, BCl₃ trigonal plana; b) P sp³, B sp²; c) PF₃ polar (dipolo-dipolo y London), BCl₃ apolar (solo London); d) PF₃ es más soluble en agua.</strong>",
                     solucion: "a) PF<sub>3</sub>: pirámide trigonal BCl<sub>3</sub>: trigonal plana (Las estructuras de Lewis / geometrías se representaban gráficamente en el documento original; no se han podido reproducir en este formato.)<br>b) P: sp<sup>3</sup><br>B: sp<sup>2</sup><br>c) PF<sub>3</sub> es polar porque los enlaces son polares, con momentos dipolares que no se cancelan por geometría, además de tener un par de electrones libres sobre el átomo central.<br>BCl<sub>3</sub> es apolar porque sus enlaces son polares, con momentos dipolares pero se cancelan por simetría.<br>d) La molécula de PF<sub>3</sub> es polar luego es más soluble en agua que la molécula de BCl<sub>3</sub> que es apolar."
                 },
                 {
                     titulo: "Junio 2025",
-                    enunciado: "2B) Considere las siguientes moléculas, cuyas temperaturas de ebullición se indican entre paréntesis:<br>CH<sub>3</sub>OH (338 K), HCHO (254 K) y CH<sub>4</sub> (111 K):<br>a) Dibuje la estructura de Lewis de los tres compuestos.<br>b) Indique la hibridación del átomo de carbono y la geometría de cada una de las moléculas del enunciado utilizando el modelo de RPECV.<br>c) Justifique los diferentes valores de las temperaturas de ebullición indicadas.<br>d) ¿Cuál/es es/son soluble/s en agua? Justifique la respuesta.",
-                    solucion: ``
+                    enunciado: "2B) Considere las siguientes moléculas, cuyas temperaturas de ebullición se indican entre paréntesis:<br>CH<sub>3</sub>OH (338 K), HCHO (254 K) y CH<sub>4</sub> (111 K):<br>a) Dibuje la estructura de Lewis de los tres compuestos.<br>b) Indique la hibridación del átomo de carbono y la geometría de cada una de las moléculas del enunciado utilizando el modelo de RPECV.<br>c) Justifique los diferentes valores de las temperaturas de ebullición indicadas.<br>d) ¿Cuál/es es/son soluble/s en agua? Justifique la respuesta. <br> <strong>Solución: b) CH₃OH: C sp³ tetraédrica; HCHO: C sp² trigonal plana; CH₄: C sp³ tetraédrica; c) CH₃OH > HCHO > CH₄ por puente de H > dipolo-dipolo > London; d) CH₃OH y HCHO son solubles en agua, CH₄ no.</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Estructuras de Lewis:</strong><br>
+                            (Las estructuras de Lewis se representaban gráficamente en el documento original; no se han podido reproducir en este formato.)
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Hibridación y geometría:</strong><br>
+                            - CH<sub>3</sub>OH: el carbono presenta hibridación sp<sup>3</sup> y geometría tetraédrica.<br>
+                            - HCHO: el carbono presenta hibridación sp<sup>2</sup> y geometría trigonal plana.<br>
+                            - CH<sub>4</sub>: el carbono presenta hibridación sp<sup>3</sup> y geometría tetraédrica.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Justificación de las temperaturas de ebullición:</strong><br>
+                            La temperatura de ebullición depende de la intensidad de las fuerzas intermoleculares. El CH<sub>3</sub>OH presenta enlaces de hidrógeno (el H está unido a un O muy electronegativo y pequeño), que son las fuerzas más intensas, por lo que tiene la mayor temperatura de ebullición (338 K). El HCHO es una molécula polar con fuerzas dipolo-dipolo, más débiles que los puentes de hidrógeno, por lo que su temperatura de ebullición es intermedia (254 K). El CH<sub>4</sub> es una molécula apolar con solo fuerzas de dispersión (London), las más débiles, por lo que tiene la menor temperatura de ebullición (111 K).
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Solubilidad en agua:</strong><br>
+                            El CH<sub>3</sub>OH y el HCHO son solubles en agua porque son moléculas polares capaces de formar interacciones favorables (puentes de hidrógeno en el caso del metanol y dipolo-dipolo en el caso del formaldehído) con las moléculas de agua. El CH<sub>4</sub> es apolar y no puede interaccionar favorablemente con el agua, por lo que es insoluble.
+                        </div>
+                    `
                 },
                 {
                     titulo: "Julio 2025",
-                    enunciado: "2B) Responda a las siguientes cuestiones relacionadas con las moléculas tricloruro de boro, ácido etanoico y clorometano.<br>a) Dibuje la estructura de Lewis de cada molécula.<br>b) Determine la geometría molecular a partir de la teoría de repulsión de pares electrónicos de la capa de valencia (RPECV) del tricloruro de boro y el clorometano. Indique la polaridad de esas moléculas y las fuerzas intermoleculares que se establecen.<br>c) Justifique cuál de las tres moléculas presenta mayor temperatura de ebullición.<br>d) Indique la hibridación de cada uno de los átomos de carbono de las moléculas dadas.",
-                    solucion: ``
+                    enunciado: "2B) Responda a las siguientes cuestiones relacionadas con las moléculas tricloruro de boro, ácido etanoico y clorometano.<br>a) Dibuje la estructura de Lewis de cada molécula.<br>b) Determine la geometría molecular a partir de la teoría de repulsión de pares electrónicos de la capa de valencia (RPECV) del tricloruro de boro y el clorometano. Indique la polaridad de esas moléculas y las fuerzas intermoleculares que se establecen.<br>c) Justifique cuál de las tres moléculas presenta mayor temperatura de ebullición.<br>d) Indique la hibridación de cada uno de los átomos de carbono de las moléculas dadas. <br> <strong>Solución: b) BCl₃ trigonal plana (apolar, London), CH₃Cl tetraédrica (polar, dipolo-dipolo y London); c) el ácido etanoico tiene mayor punto de ebullición (puentes de H); d) CH₃Cl: C sp³; CH₃COOH: C sp³ y C sp².</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Estructuras de Lewis:</strong><br>
+                            (Las estructuras de Lewis se representaban gráficamente en el documento original; no se han podido reproducir en este formato.)
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Geometría, polaridad y fuerzas intermoleculares:</strong><br>
+                            - BCl<sub>3</sub>: el boro tiene 3 pares de electrones enlazantes y ningún par libre, por lo que la geometría es trigonal plana (hibridación sp<sup>2</sup>). Aunque los enlaces B-Cl son polares, la simetría de la molécula hace que los momentos dipolares se cancelen, por lo que la molécula es apolar. Sus fuerzas intermoleculares son únicamente fuerzas de dispersión (London).<br>
+                            - CH<sub>3</sub>Cl: el carbono tiene 4 pares de electrones enlazantes y ningún par libre, por lo que la geometría es tetraédrica (hibridación sp<sup>3</sup>). Los enlaces C-H y C-Cl son polares y, al no ser idénticos, la molécula es polar. Sus fuerzas intermoleculares son dipolo-dipolo y de dispersión (London).
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Mayor temperatura de ebullición:</strong><br>
+                            El ácido etanoico (CH<sub>3</sub>COOH) presenta puentes de hidrógeno intermoleculares fuertes debido al grupo -COOH, lo que hace que su temperatura de ebullición sea mucho mayor que la del clorometano (fuerzas dipolo-dipolo) y que la del tricloruro de boro (solo fuerzas de dispersión). Por tanto, el ácido etanoico tiene la mayor temperatura de ebullición.
+                        </div>
+                        <div class='paso'>
+                            <strong>d) Hibridación de los carbonos:</strong><br>
+                            - CH<sub>3</sub>Cl: el único carbono presenta hibridación sp<sup>3</sup>.<br>
+                            - CH<sub>3</sub>COOH: el carbono del grupo metilo (CH<sub>3</sub>) presenta hibridación sp<sup>3</sup>, mientras que el carbono del grupo carboxilo (C=O) presenta hibridación sp<sup>2</sup>.
+                        </div>
+                    `
                 },
                 {
                     titulo: "Junio 2026",
-                    enunciado: "2A) Considere los siguientes compuestos: LiF, PCl<sub>3</sub>, CH<sub>3</sub>Br y LiI.<br>a) Para los compuestos covalentes, indique la geometría molecular según la teoría de repulsión de los pares de electrones de la capa de valencia (TRPECV), y la hibridación del átomo central.<br>Justifique la polaridad.<br>b) Justifique cuál de los sólidos iónicos tiene mayor energía de red, suponiendo que todos cristalizan con el mismo tipo de red.<br>c) Explique razonadamente qué tipo de interacciones hay que vencer en cada uno de los siguientes procesos:<br>i) ebullición del CH3Br, ii) fusión del LiF.",
-                    solucion: ``
+                    enunciado: "2A) Considere los siguientes compuestos: LiF, PCl<sub>3</sub>, CH<sub>3</sub>Br y LiI.<br>a) Para los compuestos covalentes, indique la geometría molecular según la teoría de repulsión de los pares de electrones de la capa de valencia (TRPECV), y la hibridación del átomo central.<br>Justifique la polaridad.<br>b) Justifique cuál de los sólidos iónicos tiene mayor energía de red, suponiendo que todos cristalizan con el mismo tipo de red.<br>c) Explique razonadamente qué tipo de interacciones hay que vencer en cada uno de los siguientes procesos:<br>i) ebullición del CH3Br, ii) fusión del LiF. <br> <strong>Solución: a) PCl₃ piramidal trigonal (sp³) polar; CH₃Br tetraédrica (sp³) polar; b) el LiF tiene mayor U_R que el LiI; c) i) fuerzas intermoleculares dipolo-dipolo y London; ii) enlaces iónicos de la red cristalina.</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Geometría, hibridación y polaridad de los compuestos covalentes:</strong><br>
+                            - PCl<sub>3</sub>: el átomo central (P) tiene 3 pares enlazantes y 1 par libre, hibridación sp<sup>3</sup> y geometría piramidal trigonal. Es polar porque los momentos dipolares de los enlaces P-Cl no se cancelan por la geometría y además el par libre contribuye a la polaridad.<br>
+                            - CH<sub>3</sub>Br: el átomo central (C) tiene 4 pares enlazantes y ningún par libre, hibridación sp<sup>3</sup> y geometría tetraédrica. Es polar porque los enlaces C-H y C-Br son polares y no son idénticos, por lo que sus momentos dipolares no se cancelan.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Mayor energía de red (LiF vs LiI):</strong><br>
+                            Ambos compuestos son iónicos con las mismas cargas (+1 y -1). La energía reticular es inversamente proporcional a la distancia interiónica. Como el radio del F⁻ es menor que el del I⁻ (\\(r_{\\ce{F^-}} < r_{\\ce{I^-}}\\)), la distancia interiónica en el LiF es menor y, por tanto, su energía de red es mayor en valor absoluto: \\(|U_R(\\ce{LiF})| > |U_R(\\ce{LiI})|\\).
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Interacciones a vencer:</strong><br>
+                            i) En la ebullición del CH<sub>3</sub>Br (sustancia molecular polar) hay que vencer las fuerzas intermoleculares: principalmente fuerzas dipolo-dipolo y fuerzas de dispersión (London).<br>
+                            ii) En la fusión del LiF (sólido iónico) hay que vencer los enlaces iónicos de la red cristalina, es decir, las fuerzas electrostáticas entre los iones Li⁺ y F⁻.
+                        </div>
+                    `
                 },
                 {
                     titulo: "Julio 2026",
-                    enunciado: "2B) Considere las moléculas BCl<sub>3</sub>, NH<sub>3</sub>, SCl<sub>2</sub>, CO<sub>2</sub> y HCHO, y conteste a las siguientes cuestiones:<br>a) Indique su geometría molecular, según la teoría de repulsión de pares de electrones de la capa de valencia (TRPECV), y la hibridación que presenta el átomo central de cada una de ellas.<br>b) Justifique su polaridad y escriba el tipo de fuerzas intermoleculares que presentan.<br>c) Explique si el BCl<sub>3</sub> y el NH<sub>3</sub> se comportan como ácidos o bases de Lewis.",
-                    solucion: ``
+                    enunciado: "2B) Considere las moléculas BCl<sub>3</sub>, NH<sub>3</sub>, SCl<sub>2</sub>, CO<sub>2</sub> y HCHO, y conteste a las siguientes cuestiones:<br>a) Indique su geometría molecular, según la teoría de repulsión de pares de electrones de la capa de valencia (TRPECV), y la hibridación que presenta el átomo central de cada una de ellas.<br>b) Justifique su polaridad y escriba el tipo de fuerzas intermoleculares que presentan.<br>c) Explique si el BCl<sub>3</sub> y el NH<sub>3</sub> se comportan como ácidos o bases de Lewis. <br> <strong>Solución: a) BCl₃ trigonal plana (sp²), NH₃ piramidal trigonal (sp³), SCl₂ angular (sp³), CO₂ lineal (sp), HCHO trigonal plana (sp²); b) apolar (BCl₃, CO₂) → London; polares (NH₃, SCl₂, HCHO) → dipolo-dipolo y London (NH₃ además puente de H); c) BCl₃ ácido de Lewis (orbital vacío), NH₃ base de Lewis (par libre).</strong>",
+                    solucion: `
+                        <div class='paso'>
+                            <strong>a) Geometría e hibridación:</strong><br>
+                            - BCl<sub>3</sub>: 3 pares enlazantes, 0 libres → geometría trigonal plana, hibridación sp<sup>2</sup>.<br>
+                            - NH<sub>3</sub>: 3 pares enlazantes, 1 libre → geometría piramidal trigonal, hibridación sp<sup>3</sup>.<br>
+                            - SCl<sub>2</sub>: 2 pares enlazantes, 2 libres → geometría angular, hibridación sp<sup>3</sup>.<br>
+                            - CO<sub>2</sub>: 2 pares enlazantes (dobles), 0 libres → geometría lineal, hibridación sp.<br>
+                            - HCHO: 3 pares enlazantes (uno doble), 0 libres → geometría trigonal plana, hibridación sp<sup>2</sup>.
+                        </div>
+                        <div class='paso'>
+                            <strong>b) Polaridad y fuerzas intermoleculares:</strong><br>
+                            - BCl<sub>3</sub>: apolar (momentos dipolares se cancelan por simetría) → solo fuerzas de dispersión (London).<br>
+                            - NH<sub>3</sub>: polar (momentos no se cancelan y par libre) → puente de hidrógeno, dipolo-dipolo y London.<br>
+                            - SCl<sub>2</sub>: polar (momentos no se cancelan y pares libres) → dipolo-dipolo y London.<br>
+                            - CO<sub>2</sub>: apolar (momentos se cancelan) → solo London.<br>
+                            - HCHO: polar (enlace C=O polar y geometría no cancela) → dipolo-dipolo y London.
+                        </div>
+                        <div class='paso'>
+                            <strong>c) Comportamiento ácido/base de Lewis:</strong><br>
+                            - BCl<sub>3</sub>: actúa como ácido de Lewis porque el boro tiene un orbital p vacío que puede aceptar un par de electrones.<br>
+                            - NH<sub>3</sub>: actúa como base de Lewis porque el nitrógeno tiene un par de electrones libres que puede ceder.
+                        </div>
+                    `
                 }
             ]
         },
@@ -257,7 +332,7 @@ baseDatosTemas["tema2"] = {
             problemas: [
                 {
                     titulo: "Junio 2014",
-                    enunciado: "Con los datos recogidos en la tabla adjunta conteste razonadamente a las siguientes preguntas:<br><table border='1' style='border-collapse: collapse; text-align: center; margin: 10px auto; width: fit-content;'><tr><th style='padding: 6px 12px;'>Sustancia</th><th style='padding: 6px 12px;'>H<sub>2</sub>O</th> <th style='padding: 6px 12px;'>HF</th> <th style='padding: 6px 12px;'>HCl</th> <th style='padding: 6px 12px;'>Cl<sub>2</sub></th> </tr> <tr> <td style='padding: 6px 12px;'><strong>T. ebullición (°C)</strong></td> <td style='padding: 6px 12px;'>100</td><td style='padding: 6px 12px;'>20</td><td style='padding: 6px 12px;'>-85</td><td style='padding: 6px 12px;'>-34</td></tr> </table>a) ¿Por qué la temperatura de ebullición normal de HF es mayor que la del HCl?<br> b) ¿Por qué la temperatura de ebullición normal de H<sub>2</sub>O es mayor que la del Cl<sub>2</sub>?<br> c) ¿Por qué la temperatura de ebullición normal de HCl es menor que la del Cl<sub>2</sub>?<br> d) ¿Cuál de las sustancias de la tabla presentará menor punto de fusión?",
+                    enunciado: "Con los datos recogidos en la tabla adjunta conteste razonadamente a las siguientes preguntas:<br><table border='1' style='border-collapse: collapse; text-align: center; margin: 10px auto; width: fit-content;'><tr><th style='padding: 6px 12px;'>Sustancia</th><th style='padding: 6px 12px;'>H<sub>2</sub>O</th> <th style='padding: 6px 12px;'>HF</th> <th style='padding: 6px 12px;'>HCl</th> <th style='padding: 6px 12px;'>Cl<sub>2</sub></th> </tr> <tr> <td style='padding: 6px 12px;'><strong>T. ebullición (°C)</strong></td> <td style='padding: 6px 12px;'>100</td><td style='padding: 6px 12px;'>20</td><td style='padding: 6px 12px;'>-85</td><td style='padding: 6px 12px;'>-34</td></tr> </table>a) ¿Por qué la temperatura de ebullición normal de HF es mayor que la del HCl?<br> b) ¿Por qué la temperatura de ebullición normal de H<sub>2</sub>O es mayor que la del Cl<sub>2</sub>?<br> c) ¿Por qué la temperatura de ebullición normal de HCl es menor que la del Cl<sub>2</sub>?<br> d) ¿Cuál de las sustancias de la tabla presentará menor punto de fusión? <br> <strong>Solución: a) HF tiene puente de H y HCl no; b) H₂O tiene puente de H y Cl₂ solo London; c) Cl₂ tiene más electrones y mayores fuerzas de London que HCl; d) el Cl₂ tendrá el menor punto de fusión (aunque la respuesta del documento original indica H₂O con mayor punto de fusión).</strong>",
                     solucion: `
                     <div class='paso'>a) El HF tiene mayor temperatura de ebullición que el HCl ya que las fuerzas intermoleculares son mayores al presentar enlace por puente de hidrógeno, que no está presente en HCl, que tiene fuerzas intermoleculares asociadas a ser una molécula polar.</div>
                     <div class='paso'>b) El H<sub>2</sub>O tiene mayor temperatura de ebullición que el Cl<sub>2</sub> ya que las fuerzas intermoleculares son mayores al presentar enlace por puente de hidrógeno, que no está presente en Cl<sub>2</sub>, que tiene fuerzas intermoleculares asociadas a ser una molécula apolar.</div>
@@ -267,7 +342,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Junio 2014",
-                    enunciado: "Considere las moléculas OF<sub>2</sub>, monóxido de carbono y metanol.<br>a) Escriba sus estructuras de Lewis.<br>b) Justifique su geometría.<br>c) Razone si son o no polares.<br>d) Indique razonadamente para cuál de ellas se espera mayor punto de ebullición.",
+                    enunciado: "Considere las moléculas OF<sub>2</sub>, monóxido de carbono y metanol.<br>a) Escriba sus estructuras de Lewis.<br>b) Justifique su geometría.<br>c) Razone si son o no polares.<br>d) Indique razonadamente para cuál de ellas se espera mayor punto de ebullición. <br> <strong>Solución: b) OF₂ angular, CO lineal, CH₃OH tetraédrica en el C y angular en el O; c) las tres son polares; d) el metanol tiene mayor punto de ebullición (puentes de H).</strong>",
                     solucion: `
                     <div class='paso'>a)<br>    <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 200px; margin-top: 5px; margin-left: 20px;">
                         <div style="display: inline-flex; align-items: center; gap: 30px;">
@@ -296,7 +371,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Septiembre 2017",
-                    enunciado: "Considere los compuestos NH<sub>3</sub>, CH<sub>4</sub> y HF e indique razonadamente:<br>a) Qué tipo de enlace presentan.<br>b) Cuál o cuáles son polares.<br>c) Aquéllos compuestos con enlace de hidrógeno.<br>d) Cuál de ellos es más ácido, basándose en criterios de electronegatividad.",
+                    enunciado: "Considere los compuestos NH<sub>3</sub>, CH<sub>4</sub> y HF e indique razonadamente:<br>a) Qué tipo de enlace presentan.<br>b) Cuál o cuáles son polares.<br>c) Aquéllos compuestos con enlace de hidrógeno.<br>d) Cuál de ellos es más ácido, basándose en criterios de electronegatividad. <br> <strong>Solución: a) los tres tienen enlace covalente; b) NH₃ y HF son polares, CH₄ apolar; c) solo HF presenta enlace de hidrógeno (aunque NH₃ también puede formarlos); d) el HF es el más ácido.</strong>",
                     solucion: `
                         <div class='paso'>
                             a) NH<sub>3</sub>: enlace covalente, N y H son no metales.<br>CH<sub>4</sub>: enlace covalente, C y H son no metales<br>HF: enlace covalente, H y F son no metales.
@@ -319,7 +394,7 @@ baseDatosTemas["tema2"] = {
             problemas: [
                 {
                     titulo: "Junio 2013",
-                    enunciado: "Considere los compuestos: óxido de estroncio, bromuro de hidrógeno, tetracloruro de carbono y yoduro de magnesio.<br>a) Formúlelos.<br>b) Razone el tipo de enlace que posee cada uno. <br>c) Explique la geometría de la molécula de tetracloruro de carbono. <br>d) Justifique la solubilidad en agua de los compuestos que tienen enlace covalente.",
+                    enunciado: "Considere los compuestos: óxido de estroncio, bromuro de hidrógeno, tetracloruro de carbono y yoduro de magnesio.<br>a) Formúlelos.<br>b) Razone el tipo de enlace que posee cada uno. <br>c) Explique la geometría de la molécula de tetracloruro de carbono. <br>d) Justifique la solubilidad en agua de los compuestos que tienen enlace covalente. <br> <strong>Solución: a) SrO, HBr, CCl₄, MgI₂; b) SrO y MgI₂ iónicos, HBr y CCl₄ covalentes; c) CCl₄ tetraédrica; d) HBr soluble (polar), CCl₄ insoluble (apolar).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Formulación de los compuestos:</strong><br>
@@ -348,7 +423,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Junio 2017",
-                    enunciado: "Considere las sustancias \\(\\ce{F2}\\), \\(\\ce{HCl}\\), \\(\\ce{Ni}\\) y \\(\\ce{KBr}\\).<br>a) Indique el tipo de enlace que presenta cada una de ellas.<br>b) Justifique si conducen la corriente eléctrica y en qué condiciones.",
+                    enunciado: "Considere las sustancias \\(\\ce{F2}\\), \\(\\ce{HCl}\\), \\(\\ce{Ni}\\) y \\(\\ce{KBr}\\).<br>a) Indique el tipo de enlace que presenta cada una de ellas.<br>b) Justifique si conducen la corriente eléctrica y en qué condiciones. <br> <strong>Solución: a) F₂ y HCl covalente, Ni metálico, KBr iónico; b) Ni conduce siempre, KBr fundido o disuelto, F₂ y HCl puros no conducen (HCl en disolución acuosa sí).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Tipo de enlace de cada sustancia:</strong><br>
@@ -367,7 +442,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Julio 2022",
-                    enunciado: "B.1. Considere las sustancias Cl<sub>2</sub>, HBr, Fe y KI.<br>a) Indique el tipo de enlace que presenta cada una de ellas.<br>b) Justifique si conducen la corriente eléctrica a temperatura ambiente.<br>c) Escriba las estructuras de Lewis de aquellas que sean covalentes.<br>d) Justifique si cada una de ellas es soluble en agua o no.",
+                    enunciado: "B.1. Considere las sustancias Cl<sub>2</sub>, HBr, Fe y KI.<br>a) Indique el tipo de enlace que presenta cada una de ellas.<br>b) Justifique si conducen la corriente eléctrica a temperatura ambiente.<br>c) Escriba las estructuras de Lewis de aquellas que sean covalentes.<br>d) Justifique si cada una de ellas es soluble en agua o no. <br> <strong>Solución: a) Cl₂ y HBr covalentes, Fe metálico, KI iónico; b) solo el Fe conduce a temperatura ambiente; c) estructuras de Lewis de Cl₂ y HBr; d) solubles: HBr (polar) y KI (iónico); insolubles: Cl₂ (apolar) y Fe (metálico).</strong>",
                     solucion: `
                         <div class='paso'>
                             a) Cl<sub>2</sub> y HBr presentan enlace covalente, Fe presenta enlace metálico y KI presenta enlace iónico. (Las estructuras de Lewis / geometrías se representaban gráficamente en el documento original; no se han podido reproducir en este formato.)
@@ -380,7 +455,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Septiembre 2015",
-                    enunciado: "Indique si las siguientes afirmaciones son verdaderas o falsas, justificando su respuesta:<br>a) En la molécula de etino, los dos átomos de carbono comparten entre sí dos pares de electrones.<br>b) La entalpía de vaporización del agua es mayor que la del sulfuro de hidrógeno.<br>c) El cloruro de sodio en disolución acuosa conduce la electricidad.<br>d) El carbono puro en forma de diamante presenta enlace metálico.",
+                    enunciado: "Indique si las siguientes afirmaciones son verdaderas o falsas, justificando su respuesta:<br>a) En la molécula de etino, los dos átomos de carbono comparten entre sí dos pares de electrones.<br>b) La entalpía de vaporización del agua es mayor que la del sulfuro de hidrógeno.<br>c) El cloruro de sodio en disolución acuosa conduce la electricidad.<br>d) El carbono puro en forma de diamante presenta enlace metálico. <br> <strong>Solución: a) falso (comparten 3 pares, enlace triple); b) verdadero (puentes de H en el agua); c) verdadero (iones libres en disolución); d) falso (enlace covalente en red tridimensional).</strong>",
                     solucion: `
                         <div class='paso'>
                             a) Falso. Etino (CH ≡ CH) tiene un enlace triple, formado por un enlace sigma y dos pi. En cada enlace se comparte un par de electrones, por lo que los átomos de carbono comparten 3 pares de electrones, no 2 pares.
@@ -398,7 +473,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Curva de Energía Potencial y Teoría de Bandas",
-                    enunciado: "a) Explique, ayudándose de un esquema de la curva de energía potencial frente a la distancia interatómica (E vs r), por qué se forma un enlace químico entre dos átomos y defina los conceptos de distancia de enlace y energía de enlace. <br> b)Utilizando la Teoría de Bandas, explique razonadamente por qué el magnesio es un buen conductor de la electricidad mientras que el azufre sólido es un aislante, haciendo referencia explícita a la banda de valencia, la banda de conducción y la banda prohibida (gap).",
+                    enunciado: "a) Explique, ayudándose de un esquema de la curva de energía potencial frente a la distancia interatómica (E vs r), por qué se forma un enlace químico entre dos átomos y defina los conceptos de distancia de enlace y energía de enlace. <br> b)Utilizando la Teoría de Bandas, explique razonadamente por qué el magnesio es un buen conductor de la electricidad mientras que el azufre sólido es un aislante, haciendo referencia explícita a la banda de valencia, la banda de conducción y la banda prohibida (gap). <br> <strong>Solución: a) el enlace se forma porque el sistema alcanza un mínimo de energía a la distancia de enlace r₀ (energía de enlace E₀); b) Mg tiene banda de valencia parcialmente llena y conduce; S tiene gap grande y es aislante.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a)Explicación del enlace químico mediante la curva de energía potencial:</strong><br>
@@ -417,7 +492,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Cuestiones de Enlace Químico y Propiedades",
-                    enunciado: "Contesta, de forma razonada, las siguientes cuestiones:<br>a) ¿Cuál de los siguientes compuestos: óxido de calcio y cloruro de cesio, será más soluble en agua?<br>b) ¿Qué metal tiene mayor punto de fusión, el potasio o el cobre?<br>c) ¿Quién conduce mejor la corriente eléctrica, un cristal de nitrato de cinc o una disolución de esta sustancia?",
+                    enunciado: "Contesta, de forma razonada, las siguientes cuestiones:<br>a) ¿Cuál de los siguientes compuestos: óxido de calcio y cloruro de cesio, será más soluble en agua?<br>b) ¿Qué metal tiene mayor punto de fusión, el potasio o el cobre?<br>c) ¿Quién conduce mejor la corriente eléctrica, un cristal de nitrato de cinc o una disolución de esta sustancia? <br> <strong>Solución: a) el CsCl es más soluble; b) el Cu tiene mayor punto de fusión; c) la disolución acuosa conduce mejor.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Solubilidad en agua (CaO vs CsCl):</strong><br>
@@ -438,7 +513,7 @@ baseDatosTemas["tema2"] = {
                 },
                 {
                     titulo: "Junio 2017",
-                    enunciado: "Conteste razonadamente las preguntas referidas a las sustancias: sulfuro de hidrógeno, diamante, etilamina, yodo molecular, platino y cloruro de calcio.<br>a) Cuál/cuáles presentan enlace de hidrógeno.<br>b) Cuál/cuáles son conductoras de la electricidad y en qué condiciones lo son.<br>c) ¿Hay alguna insoluble en agua?<br>d) ¿Es la temperatura de fusión del cloruro de calcio mayor o menor que la del yodo molecular?",
+                    enunciado: "Conteste razonadamente las preguntas referidas a las sustancias: sulfuro de hidrógeno, diamante, etilamina, yodo molecular, platino y cloruro de calcio.<br>a) Cuál/cuáles presentan enlace de hidrógeno.<br>b) Cuál/cuáles son conductoras de la electricidad y en qué condiciones lo son.<br>c) ¿Hay alguna insoluble en agua?<br>d) ¿Es la temperatura de fusión del cloruro de calcio mayor o menor que la del yodo molecular? <br> <strong>Solución: a) solo la etilamina; b) el platino (metal) y el CaCl₂ fundido o disuelto; c) insolubles: diamante, platino e yodo molecular; d) la del CaCl₂ es mayor.</strong>",
                     solucion: `
                         <div class='paso'>
                             Sulfuro de hidrógeno: \\(\\quad \\) H<sub>2</sub>S \\(\\quad \\) \\(\\quad \\) diamante: \\(\\quad \\) C \\(\\quad \\) \\(\\quad \\) etilamina: \\(\\quad \\) CH<sub>3</sub>-CH<sub>2</sub>-NH<sub>2</sub> \\(\\quad \\) \\(\\quad \\) yodo molecular: \\(\\quad \\) I<sub>2</sub> \\(\\quad \\)\\(\\quad \\) platino: \\(\\quad \\) Pt \\(\\quad \\)\\(\\quad \\) cloruro de calcio: \\(\\quad \\) CaCl<sub>2</sub>.
@@ -458,4 +533,4 @@ baseDatosTemas["tema2"] = {
             ]
         }
     }
-};
+};        
