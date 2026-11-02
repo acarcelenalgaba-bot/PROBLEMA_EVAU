@@ -12,7 +12,7 @@ baseDatosTemas["tema6_equilibrio"] = {
             problemas: [
                 {
                     titulo: "Junio 2019 - Disociación del SbCl₅",
-                    enunciado: "En un reactor químico a 182 °C y 1 atm de presión el SbCl₅ está disociado en un 29,2 % según la reacción: SbCl₅ (g) ⇌ SbCl₃ (g) + Cl₂ (g).<br>a) Calcule las presiones parciales de cada gas en el equilibrio.<br>b) Calcule las constantes de equilibrio Kp y Kc.<br>c) Justifique si se modifica el equilibrio al realizar la reacción a la misma temperatura y a una presión menor de 1 atm.<br>d) Indique si se modifica el equilibrio al añadir un catalizador. Justifique la respuesta.<br>Datos: R = 0,082 atm·L·mol⁻¹·K⁻¹.",
+                    enunciado: "En un reactor químico a 182 °C y 1 atm de presión el SbCl₅ está disociado en un 29,2 % según la reacción: SbCl₅ (g) ⇌ SbCl₃ (g) + Cl₂ (g).<br>a) Calcule las presiones parciales de cada gas en el equilibrio.<br>b) Calcule las constantes de equilibrio Kp y Kc.<br>c) Justifique si se modifica el equilibrio al realizar la reacción a la misma temperatura y a una presión menor de 1 atm.<br>d) Indique si se modifica el equilibrio al añadir un catalizador. Justifique la respuesta.<br>Datos: R = 0,082 atm·L·mol⁻¹·K⁻¹. <br> <strong>Solución: a) P(SbCl₅) = 0,547 atm, P(SbCl₃) = P(Cl₂) = 0,226 atm; b) Kp = 0,093, Kc = 2,49·10⁻³; c) se desplaza hacia productos; d) no se modifica.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Presiones parciales en el equilibrio:</strong><br>
@@ -44,7 +44,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Julio 2020 - Descomposición del agua",
-                    enunciado: "A 2600 K se introduce 1 mol de agua en un recipiente vacío de 100 L, alcanzándose el siguiente equilibrio: 2 H₂O (g) ⇌ 2 H₂ (g) + O₂ (g), con Kp = 4,2·10⁻⁵.<br>a) Calcule Kc.<br>b) Calcule el número de moles de O₂ en el equilibrio.<br>c) Justifique cómo se modifica el equilibrio al aumentar la presión total por disminución de volumen.<br>Dato: R = 0,082 atm·L·mol⁻¹·K⁻¹.",
+                    enunciado: "A 2600 K se introduce 1 mol de agua en un recipiente vacío de 100 L, alcanzándose el siguiente equilibrio: 2 H₂O (g) ⇌ 2 H₂ (g) + O₂ (g), con Kp = 4,2·10⁻⁵.<br>a) Calcule Kc.<br>b) Calcule el número de moles de O₂ en el equilibrio.<br>c) Justifique cómo se modifica el equilibrio al aumentar la presión total por disminución de volumen.<br>Dato: R = 0,082 atm·L·mol⁻¹·K⁻¹. <br> <strong>Solución: a) Kc = 2,0·10⁻⁷; b) n(O₂) ≈ 0,017 mol; c) se desplaza hacia reactivos.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Cálculo de Kc:</strong><br>
@@ -71,7 +71,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Septiembre 2020 - Disociación del N₂O₄",
-                    enunciado: "A 30 °C se introducen 138 g de N₂O₄ en un matraz de 50,0 L, transcurriendo la siguiente reacción: N₂O₄ (g) ⇌ 2 NO₂ (g), con Kp = 0,21.<br>a) Escriba el equilibrio y exprese el número de moles en equilibrio de cada compuesto en función del grado de disociación.<br>b) Obtenga el grado de disociación.<br>c) Justifique, sin realizar cálculos, si el grado de disociación aumenta, disminuye o permanece constante cuando la reacción tiene lugar a la misma temperatura, pero a menor presión.<br>Datos: Masas atómicas N = 14, O = 16; R = 0,082 atm·L·mol⁻¹·K⁻¹.",
+                    enunciado: "A 30 °C se introducen 138 g de N₂O₄ en un matraz de 50,0 L, transcurriendo la siguiente reacción: N₂O₄ (g) ⇌ 2 NO₂ (g), con Kp = 0,21.<br>a) Escriba el equilibrio y exprese el número de moles en equilibrio de cada compuesto en función del grado de disociación.<br>b) Obtenga el grado de disociación.<br>c) Justifique, sin realizar cálculos, si el grado de disociación aumenta, disminuye o permanece constante cuando la reacción tiene lugar a la misma temperatura, pero a menor presión.<br>Datos: Masas atómicas N = 14, O = 16; R = 0,082 atm·L·mol⁻¹·K⁻¹. <br> <strong>Solución: a) n(N₂O₄) = 1,50(1−α), n(NO₂) = 3α; b) α ≈ 0,23; c) aumenta.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Moles en equilibrio en función de \\(\\alpha\\):</strong><br>
@@ -94,7 +94,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Junio 2021 - Síntesis de amoniaco",
-                    enunciado: "En un reactor de 25,00 L a 440 °C, se introducen 5,00 mol de hidrógeno y 2,00 mol de nitrógeno, obteniendo 50,0 g de NH₃ (g) cuando se alcanza el equilibrio 3 H₂ (g) + N₂ (g) ⇌ 2 NH₃(g).<br>a) Exprese el número de moles en equilibrio de los reactivos y del producto, en función de x (cambio de concentración en mol), y calcule sus valores.<br>b) Obtenga Kc y Kp.<br>c) Razone cómo se modifica el equilibrio si la reacción transcurre a la misma temperatura, pero aumenta la presión total.<br>Datos: R = 0,082 atm·L·mol⁻¹·K⁻¹; Masas atómicas: H = 1,0; N = 14,0.",
+                    enunciado: "En un reactor de 25,00 L a 440 °C, se introducen 5,00 mol de hidrógeno y 2,00 mol de nitrógeno, obteniendo 50,0 g de NH₃ (g) cuando se alcanza el equilibrio 3 H₂ (g) + N₂ (g) ⇌ 2 NH₃(g).<br>a) Exprese el número de moles en equilibrio de los reactivos y del producto, en función de x (cambio de concentración en mol), y calcule sus valores.<br>b) Obtenga Kc y Kp.<br>c) Razone cómo se modifica el equilibrio si la reacción transcurre a la misma temperatura, pero aumenta la presión total.<br>Datos: R = 0,082 atm·L·mol⁻¹·K⁻¹; Masas atómicas: H = 1,0; N = 14,0. <br> <strong>Solución: a) n(N₂) = 0,53 mol, n(H₂) = 0,59 mol, n(NH₃) = 2,94 mol; b) Kc = 5,0·10⁻⁴, Kp = 15; c) se desplaza hacia productos.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Moles en equilibrio:</strong><br>
@@ -121,7 +121,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Julio 2021 - Disociación del PCl₅",
-                    enunciado: "En un recipiente de 1,0 L a 300 °C se introducen 5,0 g de PCl₅. La presión final cuando se alcanza el equilibrio PCl₅ (g) ⇌ PCl₃ (g) + Cl₂ (g) es de 2,0 atm.<br>a) Calcule el grado de disociación del PCl₅.<br>b) Determine la presión parcial de cada uno de los gases en el equilibrio.<br>c) Calcule Kc y Kp.<br>Datos: R = 0,082 atm·L·K⁻¹·mol⁻¹; Masas atómicas: P = 31,0; Cl = 35,5.",
+                    enunciado: "En un recipiente de 1,0 L a 300 °C se introducen 5,0 g de PCl₅. La presión final cuando se alcanza el equilibrio PCl₅ (g) ⇌ PCl₃ (g) + Cl₂ (g) es de 2,0 atm.<br>a) Calcule el grado de disociación del PCl₅.<br>b) Determine la presión parcial de cada uno de los gases en el equilibrio.<br>c) Calcule Kc y Kp.<br>Datos: R = 0,082 atm·L·K⁻¹·mol⁻¹; Masas atómicas: P = 31,0; Cl = 35,5. <br> <strong>Solución: a) α = 0,75; b) P(PCl₅) = 0,28 atm, P(PCl₃) = P(Cl₂) = 0,86 atm; c) Kp = 2,6, Kc = 0,055.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Grado de disociación:</strong><br>
@@ -145,7 +145,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Junio 2022 - Descomposición del NOBr",
-                    enunciado: "El compuesto NOBr (g) descompone según la reacción: 2 NOBr (g) ⇌ 2 NO (g) + Br₂ (g) (ΔH = +16,3 kJ/mol). En un matraz de 1,0 L se introducen 2,0 mol de NOBr. Cuando se alcanza el equilibrio a 25 °C, se observa que se han formado 0,050 mol de Br₂. Calcule:<br>a) Las concentraciones de cada especie en el equilibrio.<br>b) Kc y Kp.<br>c) La presión total.<br>d) Justifique dos formas de favorecer la descomposición del NOBr.<br>Dato: R = 0,082 atm·L·mol⁻¹·K⁻¹.",
+                    enunciado: "El compuesto NOBr (g) descompone según la reacción: 2 NOBr (g) ⇌ 2 NO (g) + Br₂ (g) (ΔH = +16,3 kJ/mol). En un matraz de 1,0 L se introducen 2,0 mol de NOBr. Cuando se alcanza el equilibrio a 25 °C, se observa que se han formado 0,050 mol de Br₂. Calcule:<br>a) Las concentraciones de cada especie en el equilibrio.<br>b) Kc y Kp.<br>c) La presión total.<br>d) Justifique dos formas de favorecer la descomposición del NOBr.<br>Dato: R = 0,082 atm·L·mol⁻¹·K⁻¹. <br> <strong>Solución: a) [NOBr] = 1,9 M, [NO] = 0,1 M, [Br₂] = 0,05 M; b) Kc = 1,385·10⁻⁴, Kp = 3,384·10⁻³; c) P_T = 50,1 atm; d) aumentar T y disminuir P.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Concentraciones en el equilibrio:</strong><br>
@@ -173,7 +173,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Julio 2022 - Síntesis de amoniaco a 800 K",
-                    enunciado: "En un reactor se introducen 0,46 mol de N₂ y 0,77 mol de H₂. Cuando se alcanza el equilibrio a 800 K: N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) (ΔH = -107,2 kJ), se han formado 0,012 mol de amoniaco y la presión total del recipiente es 13,1 atm.<br>a) Calcule el valor de Kc.<br>b) Determine el valor de Kp.<br>c) Razone cómo se modificaría el rendimiento de la reacción si se realiza a 1200 K.<br>Dato: R = 0,082 atm·L·K⁻¹·mol⁻¹.",
+                    enunciado: "En un reactor se introducen 0,46 mol de N₂ y 0,77 mol de H₂. Cuando se alcanza el equilibrio a 800 K: N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) (ΔH = -107,2 kJ), se han formado 0,012 mol de amoniaco y la presión total del recipiente es 13,1 atm.<br>a) Calcule el valor de Kc.<br>b) Determine el valor de Kp.<br>c) Razone cómo se modificaría el rendimiento de la reacción si se realiza a 1200 K.<br>Dato: R = 0,082 atm·L·K⁻¹·mol⁻¹. <br> <strong>Solución: a) Kc = 2,68·10⁻²; b) Kp = 6,22·10⁻⁶; c) el rendimiento disminuye.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Kc:</strong><br>
@@ -198,7 +198,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Junio 2023 - Descomposición del etano",
-                    enunciado: "En un matraz de 3 L se introducen 4,38 g de C₂H₆. Se calienta a 627 °C y se da el proceso: C₂H₆ (g) ⇌ C₂H₄ (g) + H₂ (g), cuya Kp vale 0,05. Calcule:<br>a) La presión inicial de C₂H₆.<br>b) El valor de Kc.<br>c) Las concentraciones de todos los gases en el equilibrio.<br>Datos: R = 0,082 atm·L·mol⁻¹·K⁻¹; Masas atómicas: H = 1,0; C = 12,0.",
+                    enunciado: "En un matraz de 3 L se introducen 4,38 g de C₂H₆. Se calienta a 627 °C y se da el proceso: C₂H₆ (g) ⇌ C₂H₄ (g) + H₂ (g), cuya Kp vale 0,05. Calcule:<br>a) La presión inicial de C₂H₆.<br>b) El valor de Kc.<br>c) Las concentraciones de todos los gases en el equilibrio.<br>Datos: R = 0,082 atm·L·mol⁻¹·K⁻¹; Masas atómicas: H = 1,0; C = 12,0. <br> <strong>Solución: a) P₀ = 3,59 atm; b) Kc = 6,77·10⁻⁴; c) [C₂H₆] = 0,0432 M, [C₂H₄] = [H₂] = 5,4·10⁻³ M.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Presión inicial de C₂H₆:</strong><br>
@@ -221,7 +221,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Julio 2023 - Descomposición de la formamida",
-                    enunciado: "Cuando se calientan 0,20 mol de HCONH₂ a 127 °C en un reactor de 5,0 L, tiene lugar la reacción: HCONH₂ (g) ⇌ NH₃ (g) + CO (g) (ΔH = +29,4 kJ·mol⁻¹), alcanzándose en el equilibrio una presión total de 1,6 atm.<br>a) Calcule las concentraciones de cada especie en el equilibrio.<br>b) Calcule Kc, Kp y la fracción molar del reactivo que queda sin descomponer.<br>c) Justifique lo que ocurrirá en el equilibrio al aumentar la temperatura.<br>Dato: R = 0,082 atm·L·mol⁻¹·K⁻¹.",
+                    enunciado: "Cuando se calientan 0,20 mol de HCONH₂ a 127 °C en un reactor de 5,0 L, tiene lugar la reacción: HCONH₂ (g) ⇌ NH₃ (g) + CO (g) (ΔH = +29,4 kJ·mol⁻¹), alcanzándose en el equilibrio una presión total de 1,6 atm.<br>a) Calcule las concentraciones de cada especie en el equilibrio.<br>b) Calcule Kc, Kp y la fracción molar del reactivo que queda sin descomponer.<br>c) Justifique lo que ocurrirá en el equilibrio al aumentar la temperatura.<br>Dato: R = 0,082 atm·L·mol⁻¹·K⁻¹. <br> <strong>Solución: a) [HCONH₂] = 0,032 M, [NH₃] = [CO] = 0,0080 M; b) Kc = 2,0·10⁻³, Kp = 0,066, χ(HCONH₂) = 0,67; c) se desplaza hacia productos.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Concentraciones en el equilibrio:</strong><br>
@@ -247,10 +247,10 @@ baseDatosTemas["tema6_equilibrio"] = {
                             La reacción es endotérmica (\\(\\Delta H > 0\\)). Al aumentar la temperatura, el equilibrio se desplaza hacia productos según Le Chatelier, favoreciendo la descomposición del HCONH₂.
                         </div>
                     `
-                },
+                }, 
                 {
                     titulo: "Junio 2024 - Descomposición del COCl₂",
-                    enunciado: "Se introduce cierta cantidad de COCl₂ en un recipiente de 1,0 L a 500 K y 0,94 atm, produciéndose su descomposición según la reacción: COCl₂ (g) ⇌ CO (g) + Cl₂ (g). Sabiendo que a dicha temperatura el valor de Kp es 0,19, calcule:<br>a) La concentración molar inicial de COCl₂.<br>b) Las concentraciones molares de cada especie en el equilibrio.<br>c) La presión parcial de cada uno de los gases en el equilibrio.<br>Dato: R = 0,082 atm·L·mol⁻¹·K⁻¹.",
+                    enunciado: "Se introduce cierta cantidad de COCl₂ en un recipiente de 1,0 L a 500 K y 0,94 atm, produciéndose su descomposición según la reacción: COCl₂ (g) ⇌ CO (g) + Cl₂ (g). Sabiendo que a dicha temperatura el valor de Kp es 0,19, calcule:<br>a) La concentración molar inicial de COCl₂.<br>b) Las concentraciones molares de cada especie en el equilibrio.<br>c) La presión parcial de cada uno de los gases en el equilibrio.<br>Dato: R = 0,082 atm·L·mol⁻¹·K⁻¹. <br> <strong>Solución: a) [COCl₂]₀ = 0,023 M; b) [COCl₂] = 0,015 M, [CO] = [Cl₂] = 8,2·10⁻³ M; c) P(COCl₂) = 0,62 atm, P(CO) = P(Cl₂) = 0,34 atm.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Concentración inicial de COCl₂:</strong><br>
@@ -275,7 +275,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Julio 2024 - Síntesis de metanol",
-                    enunciado: "La síntesis industrial del metanol viene dada por: CO (g) + 2 H₂ (g) ⇌ CH₃OH (g). La reacción tiene lugar en un recipiente de 5,0 L y a 510 °C se alcanza el equilibrio, obteniéndose 0,78 mol de metanol. Calcule:<br>a) Las concentraciones de cada especie en el equilibrio, si se ha partido de 1,0 mol de CO y 2,0 mol de H₂.<br>b) Las constantes de equilibrio, Kc y Kp.<br>Datos: R = 0,082 atm·L·mol⁻¹·K⁻¹. Entalpías de formación estándar a 25°C (kJ·mol⁻¹): CO (g) = −110,5; CH₃OH (g) = −238,7.",
+                    enunciado: "La síntesis industrial del metanol viene dada por: CO (g) + 2 H₂ (g) ⇌ CH₃OH (g). La reacción tiene lugar en un recipiente de 5,0 L y a 510 °C se alcanza el equilibrio, obteniéndose 0,78 mol de metanol. Calcule:<br>a) Las concentraciones de cada especie en el equilibrio, si se ha partido de 1,0 mol de CO y 2,0 mol de H₂.<br>b) Las constantes de equilibrio, Kc y Kp.<br>Datos: R = 0,082 atm·L·mol⁻¹·K⁻¹. Entalpías de formación estándar a 25°C (kJ·mol⁻¹): CO (g) = −110,5; CH₃OH (g) = −238,7. <br> <strong>Solución: a) [CO] = 0,044 M, [H₂] = 0,088 M, [CH₃OH] = 0,156 M; b) Kc = 4,57·10², Kp = 0,11.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Concentraciones en el equilibrio:</strong><br>
@@ -294,7 +294,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Junio 2025 - Equilibrio del amoniaco",
-                    enunciado: "En un recipiente de 2,50 L se introducen 0,0200 mol de N₂ y 0,0300 mol de H₂. Se eleva la temperatura hasta 400 °C, y la reacción N₂ (g) + 3 H₂ (g) ⇌ 2 NH₃ (g) alcanza el equilibrio, obteniéndose ΔH < 0 y una concentración de NH₃ (g) de 0,00375 mol·L⁻¹.<br>a) Calcule las presiones parciales de cada sustancia en el equilibrio y la presión total.<br>b) Obtenga Kp y Kc.<br>c) Justifique si el rendimiento del proceso aumenta realizándolo a menor temperatura.<br>d) Razone cómo varía la concentración de N₂ cuando se añade al equilibrio un gas inerte como el Ar a volumen y temperatura constantes.<br>Dato: R = 0,0820 atm·L·mol⁻¹·K⁻¹.",
+                    enunciado: "En un recipiente de 2,50 L se introducen 0,0200 mol de N₂ y 0,0300 mol de H₂. Se eleva la temperatura hasta 400 °C, y la reacción N₂ (g) + 3 H₂ (g) ⇌ 2 NH₃ (g) alcanza el equilibrio, obteniéndose ΔH < 0 y una concentración de NH₃ (g) de 0,00375 mol·L⁻¹.<br>a) Calcule las presiones parciales de cada sustancia en el equilibrio y la presión total.<br>b) Obtenga Kp y Kc.<br>c) Justifique si el rendimiento del proceso aumenta realizándolo a menor temperatura.<br>d) Razone cómo varía la concentración de N₂ cuando se añade al equilibrio un gas inerte como el Ar a volumen y temperatura constantes.<br>Dato: R = 0,0820 atm·L·mol⁻¹·K⁻¹. <br> <strong>Solución: a) P(N₂) = 0,338 atm, P(H₂) = 0,351 atm, P(NH₃) = 0,206 atm, P_T = 0,895 atm; b) Kp = 2,9, Kc = 8,83·10⁻³; c) sí, el rendimiento aumenta; d) no varía.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Presiones parciales y presión total:</strong><br>
@@ -331,7 +331,7 @@ baseDatosTemas["tema6_equilibrio"] = {
             problemas: [
                 {
                     titulo: "Julio 2019 - Cromato de plata",
-                    enunciado: "Se dispone de 100 mL de una disolución que contiene 0,194 g de K₂CrO₄ a la que se añade 100 mL de otra disolución que contiene iones Ag⁺. Considere que los volúmenes son aditivos.<br>a) Calcule la concentración inicial, expresada en molaridad, de iones cromato, presentes en la disolución antes de que se alcance el equilibrio de precipitación. Escriba el equilibrio de precipitación.<br>b) Determine la solubilidad de la sal formada en mol·L⁻¹ y g·L⁻¹.<br>c) Calcule la concentración mínima de iones Ag⁺ necesaria para que precipite la sal.<br>d) Si a una disolución que contiene la misma concentración de iones SO₄²⁻ e iones CrO₄²⁻ se le añaden iones Ag⁺, justifique, sin hacer cálculos, qué sal precipitará primero.<br>Datos: Ks(Ag₂CrO₄) = 1,9·10⁻¹²; Ks(Ag₂SO₄) = 1,6·10⁻⁵. Masas atómicas: O = 16; K = 39; Cr = 52; Ag = 108.",
+                    enunciado: "Se dispone de 100 mL de una disolución que contiene 0,194 g de K₂CrO₄ a la que se añade 100 mL de otra disolución que contiene iones Ag⁺. Considere que los volúmenes son aditivos.<br>a) Calcule la concentración inicial, expresada en molaridad, de iones cromato, presentes en la disolución antes de que se alcance el equilibrio de precipitación. Escriba el equilibrio de precipitación.<br>b) Determine la solubilidad de la sal formada en mol·L⁻¹ y g·L⁻¹.<br>c) Calcule la concentración mínima de iones Ag⁺ necesaria para que precipite la sal.<br>d) Si a una disolución que contiene la misma concentración de iones SO₄²⁻ e iones CrO₄²⁻ se le añaden iones Ag⁺, justifique, sin hacer cálculos, qué sal precipitará primero.<br>Datos: Ks(Ag₂CrO₄) = 1,9·10⁻¹²; Ks(Ag₂SO₄) = 1,6·10⁻⁵. Masas atómicas: O = 16; K = 39; Cr = 52; Ag = 108. <br> <strong>Solución: a) [CrO₄²⁻]₀ = 0,005 M; b) s = 7,8·10⁻⁵ mol·L⁻¹ = 0,0259 g·L⁻¹; c) [Ag⁺] = 1,95·10⁻⁵ M; d) precipita primero Ag₂CrO₄.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Concentración inicial de cromato y equilibrio de precipitación:</strong><br>
@@ -359,7 +359,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Julio 2020 - Hidróxido de calcio",
-                    enunciado: "Una disolución saturada de hidróxido de calcio presenta una solubilidad de 0,96 g·L⁻¹.<br>a) Formule el equilibrio de solubilidad, indicando el estado de cada especie.<br>b) Calcule el producto de solubilidad del hidróxido de calcio.<br>Datos: Masas atómicas: H = 1,0; O = 16,0; Ca = 40,1.",
+                    enunciado: "Una disolución saturada de hidróxido de calcio presenta una solubilidad de 0,96 g·L⁻¹.<br>a) Formule el equilibrio de solubilidad, indicando el estado de cada especie.<br>b) Calcule el producto de solubilidad del hidróxido de calcio.<br>Datos: Masas atómicas: H = 1,0; O = 16,0; Ca = 40,1. <br> <strong>Solución: a) Ca(OH)₂(s) ⇌ Ca²⁺(ac) + 2 OH⁻(ac); b) Kps = 8,8·10⁻⁶.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Equilibrio de solubilidad:</strong><br>
@@ -376,7 +376,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Septiembre 2020 - Sulfato de bario",
-                    enunciado: "Se mezclan 0,250 L de disolución de sulfato de potasio 3,00·10⁻² M con 0,250 L de disolución de nitrato de bario 2,00·10⁻³ M. Considere los volúmenes aditivos.<br>a) Escriba el equilibrio de solubilidad que tiene lugar.<br>b) Justifique numéricamente si se forma algún precipitado.<br>c) Explique cómo varía la solubilidad del sulfato de bario cuando se le añade una disolución de sulfato de amonio.<br>Dato: Ks(sulfato de bario) = 1,1·10⁻¹⁰.",
+                    enunciado: "Se mezclan 0,250 L de disolución de sulfato de potasio 3,00·10⁻² M con 0,250 L de disolución de nitrato de bario 2,00·10⁻³ M. Considere los volúmenes aditivos.<br>a) Escriba el equilibrio de solubilidad que tiene lugar.<br>b) Justifique numéricamente si se forma algún precipitado.<br>c) Explique cómo varía la solubilidad del sulfato de bario cuando se le añade una disolución de sulfato de amonio.<br>Dato: Ks(sulfato de bario) = 1,1·10⁻¹⁰. <br> <strong>Solución: a) BaSO₄(s) ⇌ Ba²⁺(ac) + SO₄²⁻(ac); b) Q = 1,50·10⁻⁵ > Ks, sí precipita; c) la solubilidad disminuye.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Equilibrio de solubilidad:</strong><br>
@@ -398,7 +398,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Junio 2021 - Fluoruro de bario",
-                    enunciado: "Se mezclan 0,200 L de disolución de nitrato de bario 0,100 M con 0,100 L de disolución de fluoruro de potasio 0,400 M. Considere los volúmenes aditivos.<br>a) Escriba el equilibrio de solubilidad que tiene lugar, detallando el estado de todas las especies.<br>b) Justifique numéricamente la precipitación del fluoruro de bario.<br>c) Explique si aumenta, disminuye o no varía la solubilidad del fluoruro de bario cuando se le añade una disolución de ácido fluorhídrico.<br>Dato: Ks(fluoruro de bario) = 1,0·10⁻⁶.",
+                    enunciado: "Se mezclan 0,200 L de disolución de nitrato de bario 0,100 M con 0,100 L de disolución de fluoruro de potasio 0,400 M. Considere los volúmenes aditivos.<br>a) Escriba el equilibrio de solubilidad que tiene lugar, detallando el estado de todas las especies.<br>b) Justifique numéricamente la precipitación del fluoruro de bario.<br>c) Explique si aumenta, disminuye o no varía la solubilidad del fluoruro de bario cuando se le añade una disolución de ácido fluorhídrico.<br>Dato: Ks(fluoruro de bario) = 1,0·10⁻⁶. <br> <strong>Solución: a) BaF₂(s) ⇌ Ba²⁺(ac) + 2 F⁻(ac); b) Q = 1,18·10⁻³ > Ks, sí precipita; c) la solubilidad disminuye.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Equilibrio de solubilidad:</strong><br>
@@ -420,7 +420,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Junio 2022 - Yodatos de mercurio y plata",
-                    enunciado: "Sobre una disolución que contiene iones Hg²⁺ 0,010 M y Ag⁺ 0,020 M se va añadiendo gota a gota otra disolución con iones IO₃⁻. Considere que la adición de las gotas de IO₃⁻ no produce cambio de volumen.<br>a) Escriba los equilibrios de solubilidad ajustados de las dos sales de IO₃⁻, detallando el estado de todas las especies.<br>b) Escriba la expresión de Ks en función de la solubilidad y calcule la solubilidad molar de Hg(IO₃)₂ y AgIO₃.<br>c) ¿Cómo varía la solubilidad de los yodatos de mercurio y plata al añadir un exceso de yodato a la disolución?<br>Datos: Ks(Hg(IO₃)₂) = 2,0·10⁻¹⁹; Ks(AgIO₃) = 3,0·10⁻⁸.",
+                    enunciado: "Sobre una disolución que contiene iones Hg²⁺ 0,010 M y Ag⁺ 0,020 M se va añadiendo gota a gota otra disolución con iones IO₃⁻. Considere que la adición de las gotas de IO₃⁻ no produce cambio de volumen.<br>a) Escriba los equilibrios de solubilidad ajustados de las dos sales de IO₃⁻, detallando el estado de todas las especies.<br>b) Escriba la expresión de Ks en función de la solubilidad y calcule la solubilidad molar de Hg(IO₃)₂ y AgIO₃.<br>c) ¿Cómo varía la solubilidad de los yodatos de mercurio y plata al añadir un exceso de yodato a la disolución?<br>Datos: Ks(Hg(IO₃)₂) = 2,0·10⁻¹⁹; Ks(AgIO₃) = 3,0·10⁻⁸. <br> <strong>Solución: a) Hg(IO₃)₂(s) ⇌ Hg²⁺(ac) + 2 IO₃⁻(ac); AgIO₃(s) ⇌ Ag⁺(ac) + IO₃⁻(ac); b) s(Hg(IO₃)₂) = 3,68·10⁻⁷ M, s(AgIO₃) = 1,73·10⁻⁹ M; c) la solubilidad disminuye.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Equilibrios de solubilidad:</strong><br>
@@ -442,7 +442,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Junio 2023 - Hidróxido de calcio (pH)",
-                    enunciado: "El pH de una disolución saturada de Ca(OH)₂ en agua pura, a una cierta temperatura, es 9,36.<br>a) Escriba el equilibrio de solubilidad ajustado, detallando el estado de todas las especies.<br>c) Si sobre la disolución saturada de Ca(OH)₂ en agua pura se adiciona nitrato de calcio, razone el efecto que produce sobre el equilibrio, la solubilidad y la cantidad de Ca(OH)₂.",
+                    enunciado: "El pH de una disolución saturada de Ca(OH)₂ en agua pura, a una cierta temperatura, es 9,36.<br>a) Escriba el equilibrio de solubilidad ajustado, detallando el estado de todas las especies.<br>c) Si sobre la disolución saturada de Ca(OH)₂ en agua pura se adiciona nitrato de calcio, razone el efecto que produce sobre el equilibrio, la solubilidad y la cantidad de Ca(OH)₂. <br> <strong>Solución: a) Ca(OH)₂(s) ⇌ Ca²⁺(ac) + 2 OH⁻(ac); c) el equilibrio se desplaza hacia reactivos, la solubilidad disminuye y aumenta la cantidad de Ca(OH)₂ sólido.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Equilibrio de solubilidad:</strong><br>
@@ -459,7 +459,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Julio 2023 - Fluoruro de magnesio",
-                    enunciado: "Responda a las siguientes cuestiones:<br>a) Formule el equilibrio de solubilidad del fluoruro de magnesio, indicando el estado de cada especie. Escriba la expresión para Ks en función de la solubilidad.<br>b) Determine el valor de la solubilidad del fluoruro de magnesio en mol·L⁻¹ y en g·L⁻¹.<br>c) Determine la concentración de ion fluoruro en una disolución saturada de fluoruro de magnesio.<br>d) Justifique cómo varía la solubilidad del fluoruro de magnesio al añadirle un exceso de ácido fluorhídrico.<br>Datos: Ks(fluoruro de magnesio) = 5,2·10⁻¹¹; Masas atómicas: F = 19,0; Mg = 24,3.",
+                    enunciado: "Responda a las siguientes cuestiones:<br>a) Formule el equilibrio de solubilidad del fluoruro de magnesio, indicando el estado de cada especie. Escriba la expresión para Ks en función de la solubilidad.<br>b) Determine el valor de la solubilidad del fluoruro de magnesio en mol·L⁻¹ y en g·L⁻¹.<br>c) Determine la concentración de ion fluoruro en una disolución saturada de fluoruro de magnesio.<br>d) Justifique cómo varía la solubilidad del fluoruro de magnesio al añadirle un exceso de ácido fluorhídrico.<br>Datos: Ks(fluoruro de magnesio) = 5,2·10⁻¹¹; Masas atómicas: F = 19,0; Mg = 24,3. <br> <strong>Solución: a) MgF₂(s) ⇌ Mg²⁺(ac) + 2 F⁻(ac), Ks = 4s³; b) s = 2,4·10⁻⁴ mol·L⁻¹ = 0,015 g·L⁻¹; c) [F⁻] = 4,8·10⁻⁴ M; d) la solubilidad disminuye.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Equilibrio de solubilidad y expresión de Ks:</strong><br>
@@ -484,7 +484,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Junio 2024 - Hidróxido de cadmio",
-                    enunciado: "Una muestra que está contaminada con 8,3·10⁻⁴ mg·L⁻¹ de Cd²⁺, se hace reaccionar con un hidróxido para eliminar parte del Cd²⁺, precipitándolo en forma de hidróxido de cadmio.<br>a) Formule el equilibrio de solubilidad del hidróxido de cadmio en agua, detallando el estado de agregación de cada especie. Escriba la expresión de la Ks.<br>b) Calcule el pH mínimo necesario para que se inicie la precipitación del hidróxido.<br>c) Tras la precipitación de cierta cantidad de hidróxido de cadmio, se añade cloruro de cadmio a la disolución. Razone qué efecto tiene lugar y cómo afecta a la solubilidad del hidróxido.<br>Datos: Ks(hidróxido de cadmio) = 1,2·10⁻¹⁴; Masa atómica: Cd = 112,4.",
+                    enunciado: "Una muestra que está contaminada con 8,3·10⁻⁴ mg·L⁻¹ de Cd²⁺, se hace reaccionar con un hidróxido para eliminar parte del Cd²⁺, precipitándolo en forma de hidróxido de cadmio.<br>a) Formule el equilibrio de solubilidad del hidróxido de cadmio en agua, detallando el estado de agregación de cada especie. Escriba la expresión de la Ks.<br>b) Calcule el pH mínimo necesario para que se inicie la precipitación del hidróxido.<br>c) Tras la precipitación de cierta cantidad de hidróxido de cadmio, se añade cloruro de cadmio a la disolución. Razone qué efecto tiene lugar y cómo afecta a la solubilidad del hidróxido.<br>Datos: Ks(hidróxido de cadmio) = 1,2·10⁻¹⁴; Masa atómica: Cd = 112,4. <br> <strong>Solución: a) Cd(OH)₂(s) ⇌ Cd²⁺(ac) + 2 OH⁻(ac), Ks = [Cd²⁺][OH⁻]²; b) pH = 11,1; c) efecto ion común, la solubilidad disminuye.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Equilibrio de solubilidad y Ks:</strong><br>
@@ -505,7 +505,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Julio 2024 - Sulfato de bario (precipitación)",
-                    enunciado: "Se mezclan 10 mL de cloruro de bario 0,10 M con 40 mL de sulfato de sodio 0,10 M.<br>a) Escriba la ecuación de la reacción entre ambas sales y la del equilibrio de solubilidad de la sal precipitante, detallando el estado de todas las especies. Calcule si precipitará sulfato de bario. Suponga volúmenes aditivos.<br>b) Calcule la concentración, en g·mL⁻¹, de SO₄²⁻, una vez alcanzado el equilibrio de precipitación.<br>c) Razone cómo varía la solubilidad de una disolución saturada de sulfato de bario en agua, si se le adicionan unas gotas de disolución acuosa diluida de ácido sulfúrico.<br>Datos: Ks(BaSO₄) = 1,5·10⁻⁹. Masas atómicas: O = 16,0; S = 32,0.",
+                    enunciado: "Se mezclan 10 mL de cloruro de bario 0,10 M con 40 mL de sulfato de sodio 0,10 M.<br>a) Escriba la ecuación de la reacción entre ambas sales y la del equilibrio de solubilidad de la sal precipitante, detallando el estado de todas las especies. Calcule si precipitará sulfato de bario. Suponga volúmenes aditivos.<br>b) Calcule la concentración, en g·mL⁻¹, de SO₄²⁻, una vez alcanzado el equilibrio de precipitación.<br>c) Razone cómo varía la solubilidad de una disolución saturada de sulfato de bario en agua, si se le adicionan unas gotas de disolución acuosa diluida de ácido sulfúrico.<br>Datos: Ks(BaSO₄) = 1,5·10⁻⁹. Masas atómicas: O = 16,0; S = 32,0. <br> <strong>Solución: a) BaCl₂ + Na₂SO₄ → BaSO₄(s) + 2 NaCl; BaSO₄(s) ⇌ Ba²⁺(ac) + SO₄²⁻(ac), Q = 1,6·10⁻³ > Ks, sí precipita; b) [SO₄²⁻] ≈ 0,060 M ≈ 5,76·10⁻³ g·mL⁻¹; c) la solubilidad disminuye.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Reacción y equilibrio de solubilidad:</strong><br>
@@ -532,7 +532,7 @@ baseDatosTemas["tema6_equilibrio"] = {
                 },
                 {
                     titulo: "Julio 2025 - Hidróxido de cromo(III)",
-                    enunciado: "El Cr³⁺ y otros cationes metálicos se pueden recuperar de los vertidos del proceso industrial mediante precipitación y decantación en medio básico, por ejemplo, como hidróxido de cromo(III). Sabiendo que a 25 °C la solubilidad de dicho hidróxido es 0,0013 mg·L⁻¹:<br>i) Formule el equilibrio de solubilidad del hidróxido de cromo(III) en agua, indicando el estado de agregación de cada especie.<br>ii) Determine su producto de solubilidad.<br>Datos: Masas atómicas: H = 1; O = 16; Cr = 52.",
+                    enunciado: "El Cr³⁺ y otros cationes metálicos se pueden recuperar de los vertidos del proceso industrial mediante precipitación y decantación en medio básico, por ejemplo, como hidróxido de cromo(III). Sabiendo que a 25 °C la solubilidad de dicho hidróxido es 0,0013 mg·L⁻¹:<br>i) Formule el equilibrio de solubilidad del hidróxido de cromo(III) en agua, indicando el estado de agregación de cada especie.<br>ii) Determine su producto de solubilidad.<br>Datos: Masas atómicas: H = 1; O = 16; Cr = 52. <br> <strong>Solución: i) Cr(OH)₃(s) ⇌ Cr³⁺(ac) + 3 OH⁻(ac); ii) Kps = 7,7·10⁻³¹.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>i) Equilibrio de solubilidad:</strong><br>

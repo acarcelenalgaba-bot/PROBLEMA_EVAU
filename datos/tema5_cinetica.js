@@ -12,7 +12,7 @@ baseDatosTemas["tema5"] = {
             problemas: [
                 {
                     titulo: "Junio 2017 - Órdenes de reacción y ley de velocidad",
-                    enunciado: "Se ha encontrado que la velocidad de la reacción A (g) + 2 B (g) → C (g) solo depende de la temperatura y de la concentración de A, de manera que si ésta se triplica, también se triplica la velocidad de reacción.<br>a) Indique los órdenes de reacción parciales respecto de A y B, así como el orden total.<br>b) Escriba la ley de velocidad.<br>c) Justifique si para el reactivo A cambia más deprisa la concentración que para el reactivo B.<br>d) Explique cómo afecta a la velocidad de reacción una disminución de volumen a temperatura constante.",
+                    enunciado: "Se ha encontrado que la velocidad de la reacción A (g) + 2 B (g) → C (g) solo depende de la temperatura y de la concentración de A, de manera que si ésta se triplica, también se triplica la velocidad de reacción.<br>a) Indique los órdenes de reacción parciales respecto de A y B, así como el orden total.<br>b) Escriba la ley de velocidad.<br>c) Justifique si para el reactivo A cambia más deprisa la concentración que para el reactivo B.<br>d) Explique cómo afecta a la velocidad de reacción una disminución de volumen a temperatura constante. <br> <strong>Solución: a) orden parcial A = 1, orden parcial B = 0, orden total = 1; b) \\(v = k \\cdot [A]\\); c) falso, B disminuye más rápidamente; d) aumenta la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Órdenes de reacción:</strong><br>
@@ -35,7 +35,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Junio 2017 - Verdadero o falso sobre ley de velocidad",
-                    enunciado: "A 28 °C, una reacción del tipo 3 A (g) + 2 B (g) → C (g) presenta la ley de velocidad: v = k · [A]. Justifique si los siguientes enunciados son verdaderos o falsos.<br>a) Se trata de una reacción elemental.<br>b) El reactivo A se consume a mayor velocidad que el reactivo B.<br>c) Las unidades de la constante cinética son L² · mol⁻² · s⁻¹.<br>d) Un aumento de la temperatura no afecta a la velocidad de la reacción.",
+                    enunciado: "A 28 °C, una reacción del tipo 3 A (g) + 2 B (g) → C (g) presenta la ley de velocidad: v = k · [A]. Justifique si los siguientes enunciados son verdaderos o falsos.<br>a) Se trata de una reacción elemental.<br>b) El reactivo A se consume a mayor velocidad que el reactivo B.<br>c) Las unidades de la constante cinética son L² · mol⁻² · s⁻¹.<br>d) Un aumento de la temperatura no afecta a la velocidad de la reacción. <br> <strong>Solución: a) falso; b) verdadero; c) falso, son s⁻¹; d) falso, aumenta la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Falso.</strong> En una reacción elemental, los órdenes parciales coinciden con los coeficientes estequiométricos. Aquí la ley de velocidad es v = k·[A], con orden 0 respecto de B, lo que no coincide con la estequiometría (3A + 2B).
@@ -53,7 +53,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Septiembre 2017 - Ley de velocidad v = k·[A]²",
-                    enunciado: "Sabiendo que la ecuación cinética v = k · [A]² corresponde a la reacción ajustada: A + 2 B → C + D, conteste razonadamente:<br>a) ¿Cuáles son los órdenes parciales de reacción respecto a ambos reactivos? ¿Se trata de una reacción elemental?<br>b) ¿Cuáles son las unidades de la constante cinética?<br>c) ¿Cómo se modifica la velocidad de la reacción al duplicar la concentración de B?<br>d) ¿Cómo afecta a la velocidad de la reacción una disminución de la temperatura?",
+                    enunciado: "Sabiendo que la ecuación cinética v = k · [A]² corresponde a la reacción ajustada: A + 2 B → C + D, conteste razonadamente:<br>a) ¿Cuáles son los órdenes parciales de reacción respecto a ambos reactivos? ¿Se trata de una reacción elemental?<br>b) ¿Cuáles son las unidades de la constante cinética?<br>c) ¿Cómo se modifica la velocidad de la reacción al duplicar la concentración de B?<br>d) ¿Cómo afecta a la velocidad de la reacción una disminución de la temperatura? <br> <strong>Solución: a) orden A = 2, orden B = 0, no elemental; b) mol⁻¹·L·s⁻¹; c) no se modifica; d) disminuye la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Órdenes parciales y tipo de reacción:</strong><br>
@@ -76,7 +76,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Junio 2018 - Orden 1 en A y orden 2 en B",
-                    enunciado: "La reacción 3 A (g) + B (g) → 2 C (g) + D (g) es de orden 1 respecto de A y de orden 2 respecto de B.<br>a) Escriba la velocidad de la reacción en función de cada especie y justifique si la velocidad de desaparición de B es doble de la velocidad de desaparición de A.<br>b) Obtenga las unidades de la constante de velocidad.<br>c) Razone si la reacción directa es endotérmica sabiendo que la energía de activación es 35 kJ y la de la reacción inversa es 62 kJ.<br>d) Explique cómo afecta a la velocidad de reacción un aumento de volumen a temperatura constante.",
+                    enunciado: "La reacción 3 A (g) + B (g) → 2 C (g) + D (g) es de orden 1 respecto de A y de orden 2 respecto de B.<br>a) Escriba la velocidad de la reacción en función de cada especie y justifique si la velocidad de desaparición de B es doble de la velocidad de desaparición de A.<br>b) Obtenga las unidades de la constante de velocidad.<br>c) Razone si la reacción directa es endotérmica sabiendo que la energía de activación es 35 kJ y la de la reacción inversa es 62 kJ.<br>d) Explique cómo afecta a la velocidad de reacción un aumento de volumen a temperatura constante. <br> <strong>Solución: a) \\(v = -\\frac{1}{3}\\frac{d[A]}{dt} = -\\frac{d[B]}{dt} = \\frac{1}{2}\\frac{d[C]}{dt} = \\frac{d[D]}{dt}\\), falso; b) mol⁻²·L²·s⁻¹; c) exotérmica (ΔH = -27 kJ); d) disminuye la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Velocidad en función de cada especie:</strong><br>
@@ -101,7 +101,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Junio 2018 - Reacción elemental 2 NO + O₂",
-                    enunciado: "A 25 °C, transcurre la reacción elemental 2 NO(g) + O₂(g) → 2 NO₂(g).<br>a) Escriba la expresión de velocidad de reacción referida tanto a reactivos como a productos.<br>b) Formule la ecuación de velocidad de la reacción e indique el orden global de reacción.<br>c) Calcule la constante de velocidad si la velocidad de reacción es de 0,024 mol·L⁻¹·s⁻¹ para [NO] = [O₂] = 0,1 M.",
+                    enunciado: "A 25 °C, transcurre la reacción elemental 2 NO(g) + O₂(g) → 2 NO₂(g).<br>a) Escriba la expresión de velocidad de reacción referida tanto a reactivos como a productos.<br>b) Formule la ecuación de velocidad de la reacción e indique el orden global de reacción.<br>c) Calcule la constante de velocidad si la velocidad de reacción es de 0,024 mol·L⁻¹·s⁻¹ para [NO] = [O₂] = 0,1 M. <br> <strong>Solución: a) \\(v = -\\frac{1}{2}\\frac{d[NO]}{dt} = -\\frac{d[O_2]}{dt} = \\frac{1}{2}\\frac{d[NO_2]}{dt}\\); b) \\(v = k[NO]^2[O_2]\\), orden 3; c) \\(k = 24\\ \\text{mol}^{-2}\\cdot\\text{L}^{2}\\cdot\\text{s}^{-1}\\).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Expresión de velocidad:</strong><br>
@@ -121,7 +121,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Junio 2019 - Descomposición de N₂O₅",
-                    enunciado: "Para la descomposición de N₂O₅ a una temperatura dada, la velocidad de reacción se duplica cuando la concentración de N₂O₅ se duplica.<br>a) Escriba la ley de velocidad e indique el orden de reacción.<br>b) Calcule la constante de velocidad sabiendo que cuando se introducen 3,5 g de N₂O₅ en un recipiente de 0,750 L sellado, la velocidad de reacción es 2,2·10⁻⁴ mol·L⁻¹·s⁻¹.",
+                    enunciado: "Para la descomposición de N₂O₅ a una temperatura dada, la velocidad de reacción se duplica cuando la concentración de N₂O₅ se duplica.<br>a) Escriba la ley de velocidad e indique el orden de reacción.<br>b) Calcule la constante de velocidad sabiendo que cuando se introducen 3,5 g de N₂O₅ en un recipiente de 0,750 L sellado, la velocidad de reacción es 2,2·10⁻⁴ mol·L⁻¹·s⁻¹. <br> <strong>Solución: a) \\(v = k[N_2O_5]\\), orden 1; b) \\(k = 5,09\\cdot10^{-3}\\ \\text{s}^{-1}\\).</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Ley de velocidad:</strong><br>
@@ -139,7 +139,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Julio 2019 - Ley de velocidad v = k·[A]²",
-                    enunciado: "Sabiendo que la ecuación de velocidad v = k · [A]² corresponde a la reacción ajustada: A + 2 B → C, conteste razonadamente.<br>a) ¿Cuáles son los órdenes parciales de reacción respecto a cada reactivo? ¿Y el orden total de la reacción?<br>b) Deduzca las unidades de la constante de velocidad.<br>c) Indique cómo se modifica la velocidad de la reacción al duplicar la concentración inicial de B.<br>d) Explique cómo afecta a la velocidad de la reacción una disminución de la temperatura.",
+                    enunciado: "Sabiendo que la ecuación de velocidad v = k · [A]² corresponde a la reacción ajustada: A + 2 B → C, conteste razonadamente.<br>a) ¿Cuáles son los órdenes parciales de reacción respecto a cada reactivo? ¿Y el orden total de la reacción?<br>b) Deduzca las unidades de la constante de velocidad.<br>c) Indique cómo se modifica la velocidad de la reacción al duplicar la concentración inicial de B.<br>d) Explique cómo afecta a la velocidad de la reacción una disminución de la temperatura. <br> <strong>Solución: a) orden A = 2, orden B = 0, orden total = 2; b) mol⁻¹·L·s⁻¹; c) no se modifica; d) disminuye la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Órdenes parciales y total:</strong><br>
@@ -161,7 +161,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Septiembre 2020 - Dos condiciones experimentales",
-                    enunciado: "Se ha llevado a cabo la reacción: A (g) + 2 B (g) → 2 C (g) en dos condiciones experimentales diferentes, obteniéndose la ecuación de velocidad v = k · [B] y los siguientes valores de energías:<br><table border='1' style='border-collapse: collapse; text-align: center; margin: 10px auto; width: fit-content;'><tr><th style='padding: 6px 12px;'>Experimento</th><th style='padding: 6px 12px;'>Ea / kJ·mol⁻¹</th><th style='padding: 6px 12px;'>ΔH / kJ·mol⁻¹</th></tr><tr><td style='padding: 6px 12px;'>1</td><td style='padding: 6px 12px;'>2</td><td style='padding: 6px 12px;'>-0,3</td></tr><tr><td style='padding: 6px 12px;'>2</td><td style='padding: 6px 12px;'>0,5</td><td style='padding: 6px 12px;'>-0,3</td></tr></table><br>a) Justifique en cuál de los experimentos la reacción es más lenta.<br>b) Explique cómo se modifica la velocidad de la reacción al duplicar la concentración inicial de A.<br>c) Determine el orden total de la reacción y las unidades de la constante de velocidad.<br>d) Justifique cómo afecta a la velocidad de reacción un aumento de temperatura.",
+                    enunciado: "Se ha llevado a cabo la reacción: A (g) + 2 B (g) → 2 C (g) en dos condiciones experimentales diferentes, obteniéndose la ecuación de velocidad v = k · [B] y los siguientes valores de energías:<br><table border='1' style='border-collapse: collapse; text-align: center; margin: 10px auto; width: fit-content;'><tr><th style='padding: 6px 12px;'>Experimento</th><th style='padding: 6px 12px;'>Ea / kJ·mol⁻¹</th><th style='padding: 6px 12px;'>ΔH / kJ·mol⁻¹</th></tr><tr><td style='padding: 6px 12px;'>1</td><td style='padding: 6px 12px;'>2</td><td style='padding: 6px 12px;'>-0,3</td></tr><tr><td style='padding: 6px 12px;'>2</td><td style='padding: 6px 12px;'>0,5</td><td style='padding: 6px 12px;'>-0,3</td></tr></table><br>a) Justifique en cuál de los experimentos la reacción es más lenta.<br>b) Explique cómo se modifica la velocidad de la reacción al duplicar la concentración inicial de A.<br>c) Determine el orden total de la reacción y las unidades de la constante de velocidad.<br>d) Justifique cómo afecta a la velocidad de reacción un aumento de temperatura. <br> <strong>Solución: a) experimento 1; b) no se modifica; c) orden total = 1, k en s⁻¹; d) aumenta la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Experimento más lento:</strong><br>
@@ -184,7 +184,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Junio 2021 - Verdadero o falso sobre v = k·[NO₂]²",
-                    enunciado: "La ecuación de velocidad de la reacción CO (g) + NO₂ (g) → CO₂ (g) + NO (g) es v = k · [NO₂]². Justifique si son verdaderas o falsas las siguientes afirmaciones:<br>a) La velocidad de desaparición de ambos reactivos es la misma.<br>b) Las unidades de la constante de velocidad son: mol·L·s⁻¹.<br>c) La velocidad de la reacción aumenta al duplicar la concentración inicial de CO (g).<br>d) En esta reacción en particular, la constante de velocidad no depende de la temperatura, porque la reacción se produce en fase gaseosa.",
+                    enunciado: "La ecuación de velocidad de la reacción CO (g) + NO₂ (g) → CO₂ (g) + NO (g) es v = k · [NO₂]². Justifique si son verdaderas o falsas las siguientes afirmaciones:<br>a) La velocidad de desaparición de ambos reactivos es la misma.<br>b) Las unidades de la constante de velocidad son: mol·L·s⁻¹.<br>c) La velocidad de la reacción aumenta al duplicar la concentración inicial de CO (g).<br>d) En esta reacción en particular, la constante de velocidad no depende de la temperatura, porque la reacción se produce en fase gaseosa. <br> <strong>Solución: a) verdadera; b) falsa, son mol⁻¹·L·s⁻¹; c) falsa, no se modifica; d) falsa, depende de T.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Verdadera.</strong> Por estequiometría, ambos reactivos tienen coeficiente 1, por lo que sus velocidades de desaparición son iguales: \\(-d[CO]/dt = -d[NO_2]/dt\\).
@@ -202,7 +202,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Julio 2021 - Reacción 2 NO₂ + F₂",
-                    enunciado: "Para la reacción en fase gaseosa 2 NO₂ (g) + F₂ (g) → 2 NO₂F (g) la ecuación de velocidad es v = k · [NO₂] · [F₂]. Responda las siguientes cuestiones:<br>a) Indique los órdenes parciales respecto de los reactivos y el orden total de la reacción.<br>b) Razone si es una reacción elemental.<br>c) Determine las unidades de la constante de velocidad.<br>d) Justifique, mediante la ecuación de Arrhenius, cómo afecta un aumento de temperatura a la velocidad de reacción.",
+                    enunciado: "Para la reacción en fase gaseosa 2 NO₂ (g) + F₂ (g) → 2 NO₂F (g) la ecuación de velocidad es v = k · [NO₂] · [F₂]. Responda las siguientes cuestiones:<br>a) Indique los órdenes parciales respecto de los reactivos y el orden total de la reacción.<br>b) Razone si es una reacción elemental.<br>c) Determine las unidades de la constante de velocidad.<br>d) Justifique, mediante la ecuación de Arrhenius, cómo afecta un aumento de temperatura a la velocidad de reacción. <br> <strong>Solución: a) orden NO₂ = 1, orden F₂ = 1, orden total = 2; b) no elemental; c) mol⁻¹·L·s⁻¹; d) aumenta la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Órdenes:</strong><br>
@@ -225,7 +225,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Junio 2022 - Orden 1 en CHCl₃ y orden 1/2 en Cl₂",
-                    enunciado: "La reacción CHCl₃ (g) + Cl₂ (g) → CCl₄ (g) + HCl (g) es de primer orden con respecto a CHCl₃ y de orden 1/2 con respecto a Cl₂.<br>a) Escriba la ecuación de velocidad y determine el orden total de la reacción.<br>b) Deduzca las unidades de la constante de velocidad.<br>c) Justifique cómo afecta a la velocidad de reacción un aumento de volumen a temperatura constante.<br>d) Justifique cómo afecta a la velocidad de reacción un aumento de temperatura.",
+                    enunciado: "La reacción CHCl₃ (g) + Cl₂ (g) → CCl₄ (g) + HCl (g) es de primer orden con respecto a CHCl₃ y de orden 1/2 con respecto a Cl₂.<br>a) Escriba la ecuación de velocidad y determine el orden total de la reacción.<br>b) Deduzca las unidades de la constante de velocidad.<br>c) Justifique cómo afecta a la velocidad de reacción un aumento de volumen a temperatura constante.<br>d) Justifique cómo afecta a la velocidad de reacción un aumento de temperatura. <br> <strong>Solución: a) \\(v = k[CHCl_3][Cl_2]^{1/2}\\), orden total = 1,5; b) mol⁻⁰·⁵·L⁰·⁵·s⁻¹; c) disminuye la velocidad; d) aumenta la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Ecuación de velocidad:</strong><br>
@@ -248,7 +248,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Julio 2022 - Reacción 2 NO + 2 H₂",
-                    enunciado: "Para la reacción 2 NO (g) + 2 H₂ (g) → N₂ (g) + 2 H₂O (g) el orden parcial de cada reactivo es uno.<br>a) Escriba una expresión para su ecuación de velocidad y calcule el orden total de la reacción.<br>b) Para un valor inicial de [NO] y [H₂] de 0,0025 mol·L⁻¹ y 0,075 mol·L⁻¹, respectivamente, la velocidad es 4,5·10⁻⁴ mol·L⁻¹·s⁻¹. Determine la constante de velocidad y sus unidades.<br>c) Razone cómo afectará la presencia de un catalizador a la velocidad de la reacción, la energía de activación, ΔH, ΔS y ΔG.",
+                    enunciado: "Para la reacción 2 NO (g) + 2 H₂ (g) → N₂ (g) + 2 H₂O (g) el orden parcial de cada reactivo es uno.<br>a) Escriba una expresión para su ecuación de velocidad y calcule el orden total de la reacción.<br>b) Para un valor inicial de [NO] y [H₂] de 0,0025 mol·L⁻¹ y 0,075 mol·L⁻¹, respectivamente, la velocidad es 4,5·10⁻⁴ mol·L⁻¹·s⁻¹. Determine la constante de velocidad y sus unidades.<br>c) Razone cómo afectará la presencia de un catalizador a la velocidad de la reacción, la energía de activación, ΔH, ΔS y ΔG. <br> <strong>Solución: a) \\(v = k[NO][H_2]\\), orden total = 2; b) \\(k = 2,4\\ \\text{mol}^{-1}\\cdot\\text{L}\\cdot\\text{s}^{-1}\\); c) aumenta la velocidad, disminuye Ea, ΔH, ΔS y ΔG no cambian.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Ecuación de velocidad:</strong><br>
@@ -269,7 +269,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Julio 2023 - Reacción de segundo orden 2 A → 2 B + C",
-                    enunciado: "La reacción en fase gaseosa 2 A → 2 B + C es de segundo orden. Cuando la concentración de A es 0,050 M presenta una velocidad de 7,8·10⁻⁴ mol·L⁻¹·s⁻¹.<br>a) Escriba la ecuación de velocidad y deduzca las unidades de la constante de velocidad.<br>b) Determine la constante de velocidad y calcule la velocidad cuando la concentración de A sea 0,090 M.<br>c) Justifique cómo afecta a la velocidad de la reacción la presencia de un catalizador.<br>d) Justifique, mediante la ecuación de Arrhenius, cómo afecta a la constante de velocidad un aumento de la temperatura.",
+                    enunciado: "La reacción en fase gaseosa 2 A → 2 B + C es de segundo orden. Cuando la concentración de A es 0,050 M presenta una velocidad de 7,8·10⁻⁴ mol·L⁻¹·s⁻¹.<br>a) Escriba la ecuación de velocidad y deduzca las unidades de la constante de velocidad.<br>b) Determine la constante de velocidad y calcule la velocidad cuando la concentración de A sea 0,090 M.<br>c) Justifique cómo afecta a la velocidad de la reacción la presencia de un catalizador.<br>d) Justifique, mediante la ecuación de Arrhenius, cómo afecta a la constante de velocidad un aumento de la temperatura. <br> <strong>Solución: a) \\(v = k[A]^2\\), k en mol⁻¹·L·s⁻¹; b) \\(k = 0,312\\ \\text{mol}^{-1}\\cdot\\text{L}\\cdot\\text{s}^{-1}\\), \\(v = 2,53\\cdot10^{-3}\\ \\text{mol}\\cdot\\text{L}^{-1}\\cdot\\text{s}^{-1}\\); c) aumenta la velocidad; d) aumenta k.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Ecuación de velocidad y unidades de k:</strong><br>
@@ -295,7 +295,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Junio 2024 - Orden 2 en NO y orden 1 en Cl₂",
-                    enunciado: "La siguiente reacción es de orden 2 respecto al monóxido de nitrógeno y de orden 1 respecto al cloro:<br>\\[2\\ \\text{NO (g)} + \\text{Cl}_2\\ \\text{(g)} \\rightarrow 2\\ \\text{NOCl (g)}\\]<br>a) Escriba la ecuación de velocidad para dicha reacción, y deduzca las unidades de la constante de velocidad si las concentraciones se miden en mol·L⁻¹ y el tiempo en s.<br>b) A partir de la ecuación de Arrhenius, explique cómo afecta a la velocidad de la reacción un aumento de temperatura.",
+                    enunciado: "La siguiente reacción es de orden 2 respecto al monóxido de nitrógeno y de orden 1 respecto al cloro:<br>\\[2\\ \\text{NO (g)} + \\text{Cl}_2\\ \\text{(g)} \\rightarrow 2\\ \\text{NOCl (g)}\\]<br>a) Escriba la ecuación de velocidad para dicha reacción, y deduzca las unidades de la constante de velocidad si las concentraciones se miden en mol·L⁻¹ y el tiempo en s.<br>b) A partir de la ecuación de Arrhenius, explique cómo afecta a la velocidad de la reacción un aumento de temperatura. <br> <strong>Solución: a) \\(v = k[NO]^2[Cl_2]\\), k en mol⁻²·L²·s⁻¹; b) aumenta la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Ecuación de velocidad y unidades de k:</strong><br>
@@ -312,7 +312,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Julio 2024 - Descomposición de N₂O₅ a 45 °C",
-                    enunciado: "A la temperatura de 45 °C se produce la reacción: 2 N₂O₅ (g) → 4 NO₂ (g) + O₂ (g), con una velocidad de descomposición del N₂O₅ de 2,5·10⁻⁶ mol·L⁻¹·s⁻¹.<br>a) Determine, en esas mismas condiciones, la velocidad a la que se forma el NO₂ y el O₂.<br>b) Sabiendo que la constante de velocidad a 45 °C es 6,08·10⁻⁴ s⁻¹, escriba justificadamente la ecuación de velocidad de la reacción y calcule la velocidad de reacción cuando la concentración de N₂O₅ es 0,10 mol·L⁻¹.<br>c) Utilizando la ecuación de Arrhenius, justifique si es verdadera la siguiente afirmación: \"La velocidad de una reacción puede aumentar si se lleva a cabo por un mecanismo diferente en el que se rebaje su energía de activación, por el uso de un catalizador adecuado\".",
+                    enunciado: "A la temperatura de 45 °C se produce la reacción: 2 N₂O₅ (g) → 4 NO₂ (g) + O₂ (g), con una velocidad de descomposición del N₂O₅ de 2,5·10⁻⁶ mol·L⁻¹·s⁻¹.<br>a) Determine, en esas mismas condiciones, la velocidad a la que se forma el NO₂ y el O₂.<br>b) Sabiendo que la constante de velocidad a 45 °C es 6,08·10⁻⁴ s⁻¹, escriba justificadamente la ecuación de velocidad de la reacción y calcule la velocidad de reacción cuando la concentración de N₂O₅ es 0,10 mol·L⁻¹.<br>c) Utilizando la ecuación de Arrhenius, justifique si es verdadera la siguiente afirmación: \"La velocidad de una reacción puede aumentar si se lleva a cabo por un mecanismo diferente en el que se rebaje su energía de activación, por el uso de un catalizador adecuado\". <br> <strong>Solución: a) v(NO₂) = 5·10⁻⁶ mol·L⁻¹·s⁻¹, v(O₂) = 1,25·10⁻⁶ mol·L⁻¹·s⁻¹; b) \\(v = k[N_2O_5]\\), \\(v = 6,08·10^{-5}\\ \\text{mol}\\cdot\\text{L}^{-1}\\cdot\\text{s}^{-1}\\); c) verdadera.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Velocidad de formación de NO₂ y O₂:</strong><br>
@@ -335,7 +335,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Junio 2025 - Nitrato de amonio: síntesis y descomposición",
-                    enunciado: "Responda a las siguientes preguntas:<br>a) El nitrato de amonio es un compuesto con muchas aplicaciones, cuya síntesis se realiza por reacción directa de ácido nítrico y amoniaco. Escriba la reacción ajustada que se produce y, haciendo uso de la Tabla, calcule ΔG⁰r a 300 K. Justifique la espontaneidad de la reacción.<br>b) Una de las aplicaciones del nitrato de amonio es como explosivo, ya que en ciertas condiciones (temperaturas por encima de 175 °C) se produce de forma explosiva la reacción de descomposición que da lugar a óxido de dinitrógeno y agua. Escriba la reacción ajustada y con los datos de la Tabla calcule ΔH⁰r y ΔS⁰r. Determine ΔG⁰r a 450 K para dicha reacción. Considere que ΔH⁰r y ΔS⁰r no cambian con la temperatura. Justifique si la reacción es exotérmica y espontánea.<br>c) Escriba la ley de velocidad de la reacción de descomposición del nitrato de amonio considerando que las unidades de su constante de velocidad son s⁻¹, e indique el orden de la reacción.<br>d) Explique cómo afecta a la velocidad de la reacción de descomposición del nitrato de amonio una disminución de la temperatura.<br><br><strong>Tabla. Datos termodinámicos a 300 K.</strong><br><table border='1' style='border-collapse: collapse; text-align: center; margin: 10px auto; width: fit-content;'><tr><th style='padding: 6px 12px;'>Compuesto</th><th style='padding: 6px 12px;'>ΔGf⁰ (kJ·mol⁻¹)</th><th style='padding: 6px 12px;'>ΔHf⁰ (kJ·mol⁻¹)</th><th style='padding: 6px 12px;'>S⁰ (J·K⁻¹·mol⁻¹)</th></tr><tr><td style='padding: 6px 12px;'>NH₄NO₃</td><td style='padding: 6px 12px;'>-184</td><td style='padding: 6px 12px;'>-366</td><td style='padding: 6px 12px;'>151</td></tr><tr><td style='padding: 6px 12px;'>HNO₃</td><td style='padding: 6px 12px;'>-81</td><td style='padding: 6px 12px;'>—</td><td style='padding: 6px 12px;'>—</td></tr><tr><td style='padding: 6px 12px;'>NH₃</td><td style='padding: 6px 12px;'>-17</td><td style='padding: 6px 12px;'>—</td><td style='padding: 6px 12px;'>—</td></tr><tr><td style='padding: 6px 12px;'>N₂O</td><td style='padding: 6px 12px;'>82</td><td style='padding: 6px 12px;'>22</td><td style='padding: 6px 12px;'>0</td></tr><tr><td style='padding: 6px 12px;'>H₂O</td><td style='padding: 6px 12px;'>—</td><td style='padding: 6px 12px;'>-241</td><td style='padding: 6px 12px;'>189</td></tr></table>",
+                    enunciado: "Responda a las siguientes preguntas:<br>a) El nitrato de amonio es un compuesto con muchas aplicaciones, cuya síntesis se realiza por reacción directa de ácido nítrico y amoniaco. Escriba la reacción ajustada que se produce y, haciendo uso de la Tabla, calcule ΔG⁰r a 300 K. Justifique la espontaneidad de la reacción.<br>b) Una de las aplicaciones del nitrato de amonio es como explosivo, ya que en ciertas condiciones (temperaturas por encima de 175 °C) se produce de forma explosiva la reacción de descomposición que da lugar a óxido de dinitrógeno y agua. Escriba la reacción ajustada y con los datos de la Tabla calcule ΔH⁰r y ΔS⁰r. Determine ΔG⁰r a 450 K para dicha reacción. Considere que ΔH⁰r y ΔS⁰r no cambian con la temperatura. Justifique si la reacción es exotérmica y espontánea.<br>c) Escriba la ley de velocidad de la reacción de descomposición del nitrato de amonio considerando que las unidades de su constante de velocidad son s⁻¹, e indique el orden de la reacción.<br>d) Explique cómo afecta a la velocidad de la reacción de descomposición del nitrato de amonio una disminución de la temperatura.<br><br><strong>Tabla. Datos termodinámicos a 300 K.</strong><br><table border='1' style='border-collapse: collapse; text-align: center; margin: 10px auto; width: fit-content;'><tr><th style='padding: 6px 12px;'>Compuesto</th><th style='padding: 6px 12px;'>ΔGf⁰ (kJ·mol⁻¹)</th><th style='padding: 6px 12px;'>ΔHf⁰ (kJ·mol⁻¹)</th><th style='padding: 6px 12px;'>S⁰ (J·K⁻¹·mol⁻¹)</th></tr><tr><td style='padding: 6px 12px;'>NH₄NO₃</td><td style='padding: 6px 12px;'>-184</td><td style='padding: 6px 12px;'>-366</td><td style='padding: 6px 12px;'>151</td></tr><tr><td style='padding: 6px 12px;'>HNO₃</td><td style='padding: 6px 12px;'>-81</td><td style='padding: 6px 12px;'>—</td><td style='padding: 6px 12px;'>—</td></tr><tr><td style='padding: 6px 12px;'>NH₃</td><td style='padding: 6px 12px;'>-17</td><td style='padding: 6px 12px;'>—</td><td style='padding: 6px 12px;'>—</td></tr><tr><td style='padding: 6px 12px;'>N₂O</td><td style='padding: 6px 12px;'>82</td><td style='padding: 6px 12px;'>22</td><td style='padding: 6px 12px;'>0</td></tr><tr><td style='padding: 6px 12px;'>H₂O</td><td style='padding: 6px 12px;'>—</td><td style='padding: 6px 12px;'>-241</td><td style='padding: 6px 12px;'>189</td></tr></table> <br> <strong>Solución: a) ΔG⁰r = -86 kJ·mol⁻¹, espontánea; b) ΔH⁰r = -34 kJ·mol⁻¹ (exotérmica), ΔS⁰r = 447 J·K⁻¹·mol⁻¹, ΔG⁰r(450 K) = -235 kJ·mol⁻¹ (espontánea); c) \\(v = k[NH_4NO_3]\\), orden 1; d) disminuye la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a) Síntesis del nitrato de amonio:</strong><br>
@@ -380,7 +380,7 @@ baseDatosTemas["tema5"] = {
             problemas: [
                 {
                     titulo: "Julio 2022 - Efecto de un catalizador sobre magnitudes termodinámicas",
-                    enunciado: "Para la reacción 2 NO (g) + 2 H₂ (g) → N₂ (g) + 2 H₂O (g) el orden parcial de cada reactivo es uno.<br>c) Razone cómo afectará la presencia de un catalizador a la velocidad de la reacción, la energía de activación, ΔH, ΔS y ΔG.",
+                    enunciado: "Para la reacción 2 NO (g) + 2 H₂ (g) → N₂ (g) + 2 H₂O (g) el orden parcial de cada reactivo es uno.<br>c) Razone cómo afectará la presencia de un catalizador a la velocidad de la reacción, la energía de activación, ΔH, ΔS y ΔG. <br> <strong>Solución: aumenta la velocidad, disminuye Ea, ΔH, ΔS y ΔG no cambian.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>Efecto de un catalizador:</strong><br>
@@ -392,7 +392,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Julio 2024 - Catalizador y ecuación de Arrhenius",
-                    enunciado: "Utilizando la ecuación de Arrhenius, justifique si es verdadera la siguiente afirmación: \"La velocidad de una reacción puede aumentar si se lleva a cabo por un mecanismo diferente en el que se rebaje su energía de activación, por el uso de un catalizador adecuado\".",
+                    enunciado: "Utilizando la ecuación de Arrhenius, justifique si es verdadera la siguiente afirmación: \"La velocidad de una reacción puede aumentar si se lleva a cabo por un mecanismo diferente en el que se rebaje su energía de activación, por el uso de un catalizador adecuado\". <br> <strong>Solución: verdadera.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>Justificación mediante la ecuación de Arrhenius:</strong><br>
@@ -410,7 +410,7 @@ baseDatosTemas["tema5"] = {
             problemas: [
                 {
                     titulo: "Julio 2021 - Efecto de la temperatura mediante Arrhenius",
-                    enunciado: "Para la reacción en fase gaseosa 2 NO₂ (g) + F₂ (g) → 2 NO₂F (g) la ecuación de velocidad es v = k · [NO₂] · [F₂].<br>d) Justifique, mediante la ecuación de Arrhenius, cómo afecta un aumento de temperatura a la velocidad de reacción.",
+                    enunciado: "Para la reacción en fase gaseosa 2 NO₂ (g) + F₂ (g) → 2 NO₂F (g) la ecuación de velocidad es v = k · [NO₂] · [F₂].<br>d) Justifique, mediante la ecuación de Arrhenius, cómo afecta un aumento de temperatura a la velocidad de reacción. <br> <strong>Solución: aumenta la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>Efecto de un aumento de temperatura (Arrhenius):</strong><br>
@@ -422,7 +422,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Julio 2023 - Efecto de la temperatura sobre k",
-                    enunciado: "La reacción en fase gaseosa 2 A → 2 B + C es de segundo orden. Cuando la concentración de A es 0,050 M presenta una velocidad de 7,8·10⁻⁴ mol·L⁻¹·s⁻¹.<br>d) Justifique, mediante la ecuación de Arrhenius, cómo afecta a la constante de velocidad un aumento de la temperatura.",
+                    enunciado: "La reacción en fase gaseosa 2 A → 2 B + C es de segundo orden. Cuando la concentración de A es 0,050 M presenta una velocidad de 7,8·10⁻⁴ mol·L⁻¹·s⁻¹.<br>d) Justifique, mediante la ecuación de Arrhenius, cómo afecta a la constante de velocidad un aumento de la temperatura. <br> <strong>Solución: aumenta k.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>Efecto de un aumento de temperatura sobre k (Arrhenius):</strong><br>
@@ -433,7 +433,7 @@ baseDatosTemas["tema5"] = {
                 },
                 {
                     titulo: "Junio 2024 - Efecto de la temperatura en 2 NO + Cl₂",
-                    enunciado: "La siguiente reacción es de orden 2 respecto al monóxido de nitrógeno y de orden 1 respecto al cloro:<br>\\[2\\ \\text{NO (g)} + \\text{Cl}_2\\ \\text{(g)} \\rightarrow 2\\ \\text{NOCl (g)}\\]<br>b) A partir de la ecuación de Arrhenius, explique cómo afecta a la velocidad de la reacción un aumento de temperatura.",
+                    enunciado: "La siguiente reacción es de orden 2 respecto al monóxido de nitrógeno y de orden 1 respecto al cloro:<br>\\[2\\ \\text{NO (g)} + \\text{Cl}_2\\ \\text{(g)} \\rightarrow 2\\ \\text{NOCl (g)}\\]<br>b) A partir de la ecuación de Arrhenius, explique cómo afecta a la velocidad de la reacción un aumento de temperatura. <br> <strong>Solución: aumenta la velocidad.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>Efecto de un aumento de temperatura (Arrhenius):</strong><br>
@@ -445,4 +445,4 @@ baseDatosTemas["tema5"] = {
             ]
         }
     }
-};
+};                            
