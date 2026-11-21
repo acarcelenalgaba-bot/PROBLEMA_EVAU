@@ -65,7 +65,7 @@ baseDatosTemas["tema4"] = {
             problemas: [
                 {
                     titulo: "Reacciones endotérmicas",
-                    enunciado: "Señala cuáles de las siguientes reacciones son endotérmicas: <br>a) \\(\\ce{H2(g) + 1/2O2(g) -> H2O(g)}\\ \\quad \\Delta H = -57,8\\ \\text{kcal}\\) <br>b) \\(\\ce{1/2N2(g) + 1/2O2(g) -> NO(g)}\\ \\quad \\Delta H = 21,6\\ \\text{kcal}\\) <br>c) \\(\\ce{1/2N2(g) + O2(g) + 8,1 kcal -> NO2(g)}\\) <br>d) \\(\\ce{1/2N2(g) + 3/2H2(g) -> NH3(g) + 11 kcal}\\) <br>e) \\(\\ce{NH3(g) -> 1/2N2(g) + 3/2H2(g)}\\ \\quad \\Delta H = 11\\ \\text{kcal}\\) <br> <strong>Solución: b), c), d) y e).</strong>",
+                    enunciado: "Señala cuáles de las siguientes reacciones son endotérmicas: <br>a) \\(\\ce{H2(g) + 1/2O2(g) -> H2O(g)}\\ \\quad \\Delta H = -57,8\\ \\text{kcal}\\) <br>b) \\(\\ce{1/2N2(g) + 1/2O2(g) -> NO(g)}\\ \\quad \\Delta H = 21,6\\ \\text{kcal}\\) <br>c) \\(\\ce{1/2N2(g) + O2(g) + 8,1 kcal -> NO2(g)}\\) <br>d) \\(\\ce{1/2N2(g) + 3/2H2(g) -> NH3(g) + 11 kcal}\\) <br>e) \\(\\ce{NH3(g) -> 1/2N2(g) + 3/2H2(g)}\\ \\quad \\Delta H = 11\\ \\text{kcal}\\) <br> <strong>Solución: b), c) y e).</strong>",
                     solucion: `
                         <div class='paso'>
                             Son endotérmicas aquellas en las que \\(\\Delta H > 0\\) o que absorben calor.<br>
