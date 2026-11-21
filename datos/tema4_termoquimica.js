@@ -69,7 +69,7 @@ baseDatosTemas["tema4"] = {
                     solucion: `
                         <div class='paso'>
                             Son endotérmicas aquellas en las que \\(\\Delta H > 0\\) o que absorben calor.<br>
-                            <strong>Solución: b), c), d) y e).</strong>
+                            <strong>Solución: b), c) y e).</strong>
                         </div>
                     `
                 },
