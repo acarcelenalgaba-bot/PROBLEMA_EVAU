@@ -279,11 +279,12 @@ baseDatosTemas["tema4"] = {
                 },
                 {
                     titulo: "Entalpía de reacción",
-                    enunciado: "Halla la entalpía de formación del amoniaco: \\[\\ce{N2 + 3H2 -> 2NH3}\\] Datos: \\(E(\\ce{N≡N})=941\\); \\(E(\\ce{H-H})=436\\); \\(E(\\ce{N-H})=393\\ \\text{kJ/mol}\\). <br> <strong>Solución: \\(-109\\ \\text{kJ}\\).</strong>",
+                    enunciado: "Halla la entalpía de formación del amoniaco: \\[\\ce{N2 + 3 H2 -> 2 NH3}\\] Datos: \\(E(\\ce{N≡N})=941\\); \\(E(\\ce{H-H})=436\\); \\(E(\\ce{N-H})=393\\ \\text{kJ/mol}\\). <br> <strong>Solución: \\(-54,5\\ \\text{kJ}\\).</strong>",
                     solucion: `
                         <div class='paso'>
                             \\[\\Delta H = [941+3(436)] - 6(393) = -109\\ \\text{kJ}\\]
-                            <strong>Solución: \\(-109\\ \\text{kJ}\\).</strong>
+                            \\[\\Delta H_f^\\circ(NH_3) = \\frac{-109\\text{ kJ}}{2\\text{ mol}} = -54,5\\text{ kJ/mol}\\]
+                            <strong>Solución: \\(-54,5\\ \\text{kJ}\\).</strong>
                         </div>
                     `
                 },
@@ -346,7 +347,7 @@ baseDatosTemas["tema4"] = {
             problemas: [
                 {
                     titulo: "Efecto de la temperatura en la espontaneidad",
-                    enunciado: "Discute el efecto de la temperatura en la espontaneidad: <br>a) \\(\\ce{2 PbO (s) + 2 SO2 (g) -> 2 PbS (s) + 3 O2 (g)}\\ \\quad\\quad (\\Delta H^\\circ = 830,8\\ \\text{kJ}; \\Delta S^\\circ = 168\\ \\text{J/K})\\) <br>b) \\(\\ce{2 As (s) + 3 F2 (g) -> 2 AsF3 (l)}\\ \\quad\\quad (\\Delta H^\\circ = - 1643\\ \\text{kJ}; \\Delta S^\\circ = - 0,316\\ \\text{kJ/K})\\) <br>c) \\(\\ce{CO (g) -> C (s) + 1/2 O2 (g)}\\ \\quad\\quad (\\Delta H^\\circ = 110,5\\ \\text{kJ}; \\Delta S^\\circ = - 89,4\\ \\text{J/K})\\)<br> <strong>Solución: a) > 0; b) < 0; c) < 0.</strong>",
+                    enunciado: "Discute el efecto de la temperatura en la espontaneidad: <br>a) \\(\\ce{2 PbO (s) + 2 SO2 (g) -> 2 PbS (s) + 3 O2 (g)}\\ \\quad\\quad (\\Delta H^\\circ = 830,8\\ \\text{kJ}; \\Delta S^\\circ = 168\\ \\text{J/K})\\) <br>b) \\(\\ce{2 As (s) + 3 F2 (g) -> 2 AsF3 (l)}\\ \\quad\\quad (\\Delta H^\\circ = - 1643\\ \\text{kJ}; \\Delta S^\\circ = - 0,316\\ \\text{kJ/K})\\) <br>c) \\(\\ce{CO (g) -> C (s) + 1/2 O2 (g)}\\ \\quad\\quad (\\Delta H^\\circ = 110,5\\ \\text{kJ}; \\Delta S^\\circ = - 89,4\\ \\text{J/K})\\)<br> <strong>Solución: a) espontánea a temperaturas altas (T > 4945 K); b) < 0; c) no espontánea a cualquier temperatura.</strong>",
                     solucion: `
                         <div class='paso'>
                             <strong>a)</strong> \\(\\Delta H>0\\), \\(\\Delta S>0\\): espontánea a temperaturas altas, \\(T>\\Delta H/\\Delta S \\approx 4945\\ \\text{K}\\).<br>
